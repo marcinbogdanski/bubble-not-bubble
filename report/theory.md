@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.4, 2026-10-17 · Synthesis of
+*Version 0.5, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -39,7 +39,7 @@ return.
 | Prices discounting rapid future appreciation | Forward P/E of 19 looks normal only because consensus has 2026 EPS growing 33%; AI-linked guidance assumes 2027-28 deployments that require labs to raise capital at an undemonstrated scale | 2 |
 | Broad bullish sentiment | AAII bears outnumber bulls; fund managers' top tail risk is bond yields. The one soft reading | 1 |
 | Purchases financed by leverage | FINRA margin debt $1.48T in September (record $1.50T in June); hyperscalers issuing bonds and equity; ~$81B of listed neocloud debt; Oracle $125B of borrowings | 2 |
-| Forward purchases | Oracle RPO $664B, Microsoft $678B, CoreWeave $104B, Broadcom $179B (company-wide); Nvidia supply commitments $279B; ASML says customers want to place 2029-30 orders | 2 |
+| Forward purchases | Oracle RPO $664B, Microsoft $678B, CoreWeave $104B, Broadcom $179B (company-wide); Nvidia supply commitments $279B; ASML expects planned 2027-28 output below customer demand and reports interest in 2029-30 orders, not accepted orders | 2 |
 | New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade C) | 1 |
 | Tightening policy | Fed hiked in September 2026, first since 2023; 10-year touched 5.31% on 5 October, highest since 2002, then fell to 5.09% by 16 October; CPI 3.7% | 2 |
 
@@ -59,28 +59,32 @@ more than this table.
 
 | Precedent | Financing | Drawdown | Recovery | Thesis right? |
 |---|---|---|---|---|
-| Railways 1845-50 | Retail equity | −55% to −80% | Decades (dividends) | Yes |
-| Electrification / 1929 | Margin, holding-company debt | Dow −89% | 25 years | Yes |
-| Telecom / fiber 1997-2002 | Junk bonds, vendor financing, loan trusts | Telecom index −84% | Never as a sector | Yes |
-| Dot-com 1995-2002 | IPO equity | Nasdaq −78% | 15 years | Yes |
-| Japan 1986-90 | Bank credit | Nikkei −82% | 34 years | No technology thesis |
-| Housing 2003-09 | Securitised mortgages | S&P 500 −57%; house prices −27% | S&P ~5.5 years; house prices 10.5 years | No technology thesis |
-| Crypto / SPAC 2020-22 | Retail equity | Bitcoin −77% | 2 years | Not demonstrated |
+| Railways 1845-50 | Retail equity, partly paid shares | Examples: −55% (major line), −83% (weaker line); no aggregate index | Not measured | Yes |
+| Electrification / 1929 | Margin, holding-company debt | Dow −89% over ~34 months; utilities −55% Sept-Nov 1929 | 25 years | Yes |
+| Telecom / fiber 1997-2002 | Bonds, vendor credit and guarantees, loan trusts | Nasdaq telecom ~−89% (Mar 2000 to May 2003) | Not established for the sector | Yes |
+| Dot-com 1995-2002 | IPO equity, venture | Nasdaq −78% over 31 months | 15 years | Yes |
+| Japan 1986-90 | Bank credit against land | Nikkei −82% | 34 years | No technology thesis |
+| Housing 2003-09 | Securitised mortgages | House prices −27% over 67 months; S&P 500 −57% | House prices 10.5 years | No technology thesis |
+| Crypto / SPAC 2020-22 | Tokens, retail equity | Bitcoin −77% over ~12 months | 2 years | Not demonstrated |
 
-Three regularities, with their limits. Financing shapes the damage:
-equity-funded booms gave deep equity losses with no banking crisis, credit-
-funded booms gave bank and vendor losses and the longest recoveries, though
-equity-funded recoveries were not fast (15 years for the Nasdaq). The
-closest analog to today's circular deals is telecom vendor financing: in
-September 2000 Lucent had $5.4B of undrawn and $1.3B of drawn customer
-credit commitments, and in December 2000 Nortel $4.1B unfunded; these were
-observed after the March 2000 equity peak, not before it. Nvidia's OpenAI
-guarantee is a cap of $105B on conditional residual-value support phased
-from 2028, a different instrument and an order of magnitude larger. Credit
-spreads lagged the top in 1929, 2000 and 2007 (Baa-Aaa 1.32, 0.69 and 0.82
-points), so today's 0.44 points and high-yield OAS of 3.2% are not evidence
-of safety; they are also not evidence of a top. Seven busts give no
-denominator of booms that did not bust.
+What the cases support, with their limits. Financing structure shapes how
+losses propagate: leverage, maturity mismatch, collateral and guarantees
+carried losses beyond equity holders in 1929, telecom, Japan and 2008, while
+the equity-funded cases did not produce fast recoveries either (15 years for
+the Nasdaq). The cases do not establish a universal recovery order, nor that
+equity-led booms cannot coincide with banking stress (the railway mania
+had concurrent financial stress). The closest analog to today's circular
+deals is telecom vendor financing: at September 2000 Lucent disclosed $5.4B
+of undrawn and $1.3B of drawn customer credit; Cisco's FY2001 allowance
+expense was $2.8B. These were observed after the March 2000 equity peak.
+Nvidia's OpenAI guarantee is a cap of $105B on conditional residual-value
+support phased from 2028, a different instrument and an order of magnitude
+larger; AMD's warrants and Amazon's $50B investment are different again.
+Broad credit spreads gave mixed timing evidence: Baa-Aaa was 1.32 points in
+September 1929 and 0.82 in October 2007, but mortgage and funding-market
+stress preceded the 2007 equity peak, so the broad spread alone (0.44 points
+in September 2026, high-yield OAS 3.2%) is not a sufficient warning either
+way. Seven selected busts give no denominator of booms that did not bust.
 
 Which layer matches which precedent: equipment resembles the railway
 contractors (sharp, short, little balance-sheet damage); foundry the

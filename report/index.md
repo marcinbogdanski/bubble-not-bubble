@@ -1,37 +1,42 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.4, 2026-10-17. Built by AI agents from primary sources, steered
+*Version 0.5, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after two
-independent red-team reviews ([v0.1](/reviews/2026-10-17-codex-redteam-report),
-[v0.2](/reviews/2026-10-17-codex-redteam-report-v02)). Rules:
+three independent red-team reviews ([v0.1](/reviews/2026-10-17-codex-redteam-report),
+[v0.2](/reviews/2026-10-17-codex-redteam-report-v02),
+[v0.4](/reviews/2026-10-17-codex-redteam-report-v04)). Rules:
 [Methodology](/report/methodology). Glossary at the end.*
 
 ## The short answer
 
 The question splits into three.
 
-**1. Are the signals that past bubbles showed present? Yes, most of them.**
-Twelve points of fourteen across seven indicators: CAPE 40.6 (September)
-against a 1999 peak of 44.2; margin debt $1.48T; record forward purchases
-(Oracle RPO $664B, Microsoft $678B, Nvidia supply commitments $279B); capex
-financing moving from cash flow to bonds, equity, SPVs and vendor credit; new
-classes of buyer; a central bank hiking into 3.7% inflation. Sentiment and
-new-buyer entry are the two partial readings. This is a resemblance test. It
-says the conditions past bubbles had are present; it does not establish that
-AI assets are broadly overpriced. [Theory](/report/theory)
+**1. Are the signals that past bubbles showed present? Several are.** On
+the report's own uncalibrated seven-indicator heuristic, 12 points of 14
+(September 2026 readings): CAPE 40.6 against a 1999 peak of 44.2 (Shiller,
+A); margin debt $1.48T (FINRA, A); record forward purchases (Oracle RPO
+$664B, Microsoft $678B, Nvidia supply commitments $279B; filings, A); capex
+financing moving from cash flow to bonds, equity, SPVs and vendor credit
+(filings, A); a central bank hiking into 3.7% inflation (Fed, BLS, A).
+Sentiment and new-buyer entry are partial. This is a resemblance test. It
+does not establish that AI assets are overpriced, and the strongest
+counter-argument is that the S&P 500 trades at a forward P/E of 19 because
+earnings surged; the live question is whether those earnings are the bubble,
+since GPU buyers' capex is suppliers' revenue. [Theory](/report/theory)
 
 **2. Is capital being deployed faster than returns can service it? Not
 established either way.** This is the question that matters, and public
-disclosures do not settle it. Our payback model is a scenario: a $750B
-cohort, two-thirds short-lived compute, needs about $295B of incremental
-annual revenue at a six-year GPU life, 50% owner EBITDA margin and 10% cost
-of capital, or $468B at a three-year life. The best available demand
-estimate, about $180B of deduplicated end-user AI revenue in 2026 (range
+disclosures do not settle it. Our payback model is a scenario (unit-economics
+note, model arithmetic): a $750B cohort, two-thirds short-lived compute at a
+six-year life and one-third buildings at 15 years, needs about $295B of
+incremental annual pre-tax owner EBITDA-level revenue at 50% margin and 10%
+cost of capital, or $468B at a three-year life. The best available demand
+figure, about $180B of deduplicated end-user AI revenue in 2026 (range
 $130-230B), is a grade-D working model, and the two are not like for like.
 What is missing is cohort-level cash returns: GPU economic life, utilisation,
-owner margins, residual values and how much customer spending reaches the
-infrastructure owner. Demand is real and growing fast; whether fast enough
-is open.
+owner margins, residual values and the share of customer spending that
+reaches the infrastructure owner. Demand is real and growing fast; whether
+fast enough is open.
 
 **3. Where is the fragility, and who bears it? Concentrated in the middle of
 the stack, and partly repriced already.** The strongest-supported finding.
@@ -47,28 +52,33 @@ equity holders first everywhere; beyond that, who loses depends on each
 borrower's collateral, guarantees and recoveries, not on a fixed order.
 [Stack](/report/stack)
 
-## Four observations that carry the answer
+## The four facts that carry the answer
 
 - **The incumbents still generate cash, with less margin than before.**
-  Microsoft FCF $67B (FY2026) with cash capex at 63% of operating cash flow;
-  Alphabet TTM FCF $53B though Q2 was −$5.9B; Amazon TTM FCF −$7.6B; Meta Q2
-  FCF $0.8B. Each has tens of billions of liquidity and discretionary
-  buybacks (filings, grade A). S&P's August 2026 forecast expects all six
+  Microsoft FCF $67B (FY to June 2026) with cash capex at 63% of operating
+  cash flow; Alphabet TTM FCF $53B though Q2 2026 was −$5.9B; Amazon TTM FCF
+  −$7.6B at June; Meta Q2 FCF $0.8B (10-K/10-Qs, A). Each holds tens of
+  billions of liquidity; dividends and buybacks paid in FY2026 (Microsoft
+  $48.7B) could be cut. S&P's 27 August 2026 forecast expects all six
   hyperscalers it rates to have negative free operating cash flow in 2026
-  and 2027, recovering only in 2029 (secondary, B).
-- **The hyperscalers are borrowing to build.** Amazon drew $67B of long-term
-  debt in H1 2026 and issued $25B in July and £4.25B in September; Meta's
-  full-year FCF is somewhere between −$17B and +$20B depending on H2 cash
-  flow; Alphabet's 2026 capex guidance exceeds its trailing operating cash
-  flow. (Filings, A.)
+  and 2027, recovering in 2029 (rating-agency report, B).
+- **The hyperscalers are borrowing to build.** Amazon received $67B of
+  long-term-debt proceeds in H1 2026 and issued $25B in July and £4.25B in
+  September (10-Q and releases, A); Meta's full-year FCF is between −$17B
+  and +$20B on two sensitivities (meta note, B); Alphabet's $195-205B 2026
+  capex guidance exceeds its $186B of trailing operating cash flow (10-Q,
+  A).
 - **The intermediaries are cash-strained now, not hypothetically.** CoreWeave:
-  H1 operating cash $3.7B against $14.1B of equipment purchases and $5.2B of
-  principal repayments, with $4.4B more principal due in the rest of 2026,
-  $6.2B in 2027 and $4.4B in 2028. Oracle: Q1 FY2027 operating cash flow
-  included $11.4B of customer advances. (10-Qs, grade A.)
-- **Demand is growing fast.** Azure +43%, Google Cloud +82%, 30M paid Copilot
-  seats, nearly 90% of Microsoft Cloud revenue from customers other than
-  frontier labs (filings and calls, A); Anthropic reporting $16.8B of Q3
+  H1 2026 operating cash $3.7B against $14.1B of equipment purchases and
+  $5.2B of principal repayments; the 30 June schedule has $4.4B more
+  principal due in the rest of 2026, $6.2B in 2027 and $4.4B in 2028 (10-Q,
+  A). Oracle: Q1 FY2027 (to August) operating cash flow included $11.4B of
+  customer advances with a financing component (10-Q, A).
+- **Demand is growing fast.** Azure +43% (June quarter), Google Cloud +82%
+  (Q2), 30M paid Copilot seats, and nearly 90% of FY2026 Microsoft Cloud
+  revenue from customers other than frontier labs, so the labs are one
+  concentrated channel rather than the whole market (filings and calls, A);
+  Anthropic reporting $16.8B of Q3
   revenue at an 11% adjusted operating margin, OpenAI about $50B of net
   annualised revenue and 1.2B weekly users, against its own February
   forecast of $25B of 2026 cash burn (reported, unverified, C).
@@ -86,11 +96,11 @@ Definitions and the full set of 18 questions plus layer estimates are in the
 
 | Event | 6m | 12m | 24m |
 |---|---|---|---|
-| M1: equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT closes 40% below its 16 October level | 12% | 25% | 38% |
+| M1: equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT closes at or below 60 (indexed to 100 at the 16 October close) | 12% | 25% | 38% |
 | F2: Oracle rated below investment grade by any major agency | 12% | 28% | 42% |
-| F1: CoreWeave distressed credit event, or sale below $40 a share | 10% | 20% | 35% |
-| F3: OpenAI cancels, cuts or defers a binding compute commitment by $10B+ | 20% | 40% | 60% |
-| Headline: M1 plus distressed credit events at two distinct obligor groups | 6% | 13% | 20% |
+| F1: CoreWeave distressed credit event, or an acquisition closing below $40 a share | 15% | 25% | 38% |
+| F3: OpenAI cancels, cuts, or defers by a year or more, a binding compute commitment, by $10B+ | 15% | 32% | 52% |
+| Headline: M1 plus distressed credit events at two distinct corporate or sponsor groups (one severe unwind, not every bad outcome) | 6% | 13% | 20% |
 
 ## What we do not know, and what would tell us
 
@@ -124,7 +134,7 @@ Definitions and the full set of 18 questions plus layer estimates are in the
 
 - CoreWeave needed covenant relief on its DDTL 3.0 facility; its converts are
   far out of the money; DDTL 5.5 lends five years against contracts averaging
-  three.
+  three; its unsecured issuance window is effectively shut at 14-16% yields.
 - Oracle's operating cash flow is supported by customer advances; $44B of
   lease liabilities and $288B of uncommenced leases sit on top of $125B of
   debt.
