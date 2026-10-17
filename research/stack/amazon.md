@@ -1,10 +1,10 @@
-# Amazon: profitable cloud, increasingly debt-funded AI expansion
+# Amazon: profitable cloud, increasingly externally funded expansion
 
 *Last updated: 2026-10-17 · Status: draft · Author: Codex / OpenAI · Reviewer: none*
 
 ## Summary
 
-- AWS is comfortably profitable at the segment level: latest quarterly revenue was $42.232bn, growing 36.7%, with a 39.4% operating margin. That does not establish the return on the newest AI infrastructure.
+- AWS is comfortably profitable at the segment level: latest quarterly revenue was $42.232bn, growing 37%, with a 39.4% operating margin. That does not establish the return on the newest AI infrastructure.
 - Amazon's consolidated build is no longer comfortably covered by operating cash flow. Trailing free cash flow fell from $38.219bn at end-2024 to $11.194bn at end-2025 and −$7.604bn in June 2026; including lease and financing-obligation principal gives −$9.511bn.
 - Management raised 2026 cash-capex guidance from approximately $200bn to $220bn, citing memory costs. Amazon has ample financing access, but issuing bonds and investing in labs are now material parts of the funding story.
 - Anthropic exposure is both commercial and financial: $18bn invested through June, a remaining $15bn financing facility, and a customer commitment exceeding $100bn over ten years. Exact ownership and customer concentration are undisclosed.
@@ -13,7 +13,7 @@
 
 ## Key claims
 
-Amounts are US dollars unless stated otherwise. All sources were accessed **2026-10-17**; publication dates and full URLs appear below. A means directly disclosed, including attributed management claims; B means arithmetic or corroborated secondary evidence; C means reported private-company information or an estimate. Analytical judgments are identified as such.
+Amounts are US dollars unless stated otherwise. All sources were accessed **2026-10-17**; publication dates and full URLs appear below. A means directly disclosed, including attributed management claims; B means arithmetic or corroborated secondary evidence; C means reported private-company information or an estimate. Analytical judgments are identified as such. Management speech in the externally hosted transcript is treated as primary testimony; its transcription is not independently authenticated.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -27,18 +27,18 @@ Amounts are US dollars unless stated otherwise. All sources were accessed **2026
 | 8 | Same | $53.076bn / $0.563bn | 2026-Q2 | [10-Q][Q226] | primary | B / A |
 | 9 | Annual operating cash flow / net cash capex / FCF | 2024: $115.877bn / $77.658bn / $38.219bn; 2025: $139.514bn / $128.320bn / $11.194bn | Fiscal years ended December | [Results][R425] | primary | A |
 | 10 | TTM operating cash flow / net cash capex / FCF | March: $148.531bn / $147.299bn / $1.232bn; June: $161.403bn / $169.007bn / −$7.604bn | 2026-Q1/Q2 | [Results][R226] | primary | A |
-| 11 | FCF less finance-lease principal; then less financing-obligation principal | End-2025: $9.637bn / $9.309bn; March: −$0.383bn / −$0.710bn; June: −$9.203bn / −$9.511bn | TTM, respective dates | [K25][K25], [Q126][Q126], [Q226][Q226] | primary, derived | B |
+| 11 | FCF less finance-lease principal; then less financing-obligation principal | End-2025: $9.637bn / $9.309bn; March: −$0.383bn / −$0.710bn; June: −$9.203bn / −$9.511bn | TTM, respective dates | [K25][K25], [Q126][Q126], [Q226][Q226] | primary | B |
 | 12 | First-half cash funding gap | OCF $71.419bn; net capex $96.310bn; FCF −$24.891bn; acquisitions/investments/other cash outflow $39.767bn | 2026-H1 | [10-Q][Q226] | primary | A / B |
-| 13 | Full-year capex guidance revision | Approximately $200bn → $220bn cash capex; increase attributed to memory costs | 2026-02-05 → 2026-07-30 | [Release][R425], [call transcript][CALL] | primary; transcript hosted by secondary outlet | A |
-| 14 | AWS revenue / growth / operating margin | Q4: $35.579bn / 24% / 35.0%; Q1: $37.587bn / 28% / 37.7%; Q2: $42.232bn / 36.7% / 39.4%; Q2 operating income $16.621bn | 2025-Q4 through 2026-Q2 | [Results][R226] | primary | A |
+| 13 | Full-year capex guidance revision | Approximately $200bn → $220bn cash capex; increase attributed to memory costs | 2026-02-05 → 2026-07-30 | [Release][R425], [call transcript][CALL] | primary | A |
+| 14 | AWS revenue / growth / operating margin | Q4: $35.579bn / 24% / 35.0%; Q1: $37.587bn / 28% / 37.7%; Q2: $42.232bn / 37% / 39.4%; Q2 operating income $16.621bn; prior-year sales $30.873bn imply 36.8% growth versus CEO quotation of 36.7% | 2025-Q4 through 2026-Q2 | [Results][R226] | primary | A; B for calculated growth |
 | 15 | Contract backlog, primarily AWS / weighted remaining life | $244bn / 4.1 years → $364bn / 5.5 years → $496bn / 6.4 years | Dec-2025, Mar-2026, Jun-2026 | [K25][K25], [Q126][Q126], [Q226][Q226] | primary | A |
 | 16 | Disclosed annualized revenue run rates | AI >$25bn; chips >$25bn; AWS approximately $169bn; categories overlap | 2026-07-30 | [Official call excerpt][AI] | primary | A |
 | 17 | Rainier / broader Anthropic deployment | Rainier nearly 500,000 Trainium2 chips; Anthropic using >1m Trainium2 overall by April | Oct-2025 / Apr-2026 | [Amazon][RAIN], [Anthropic][ANT] | primary | A |
-| 18 | Trainium deployment and price-performance claims | Trainium2 ~30% better than comparable GPUs; Trainium3 30–40% better than Trainium2, shipping from early 2026 and nearly fully subscribed | 2026-04-29 call | [Official excerpt][CHIPS] | primary, vendor claims | A |
+| 18 | Trainium deployment and price-performance claims | Trainium2 ~30% better than comparable GPUs; Trainium3 30–40% better than Trainium2, shipping from early 2026 and nearly fully subscribed | 2026-04-29 call | [Official excerpt][CHIPS] | primary | A |
 | 19 | Anthropic cash investment and remaining facility | Original $8bn + $5bn Series G + $5bn Series H = $18bn funded; $15bn facility remaining; ownership percentage undisclosed | 2026-06-30 | [10-Q][Q226] | primary | A / B |
 | 20 | Anthropic carrying values | Preferred stock $92.5bn + convertible notes $97.9bn = $190.4bn; not cash invested or realizable proceeds | 2026-06-30 | [10-Q][Q226] | primary | A / B |
-| 21 | Anthropic-related accounting gains | 2025: $5.6bn conversion-related gains, primarily Anthropic; notes' unrealized gain $39.5bn in OCI. Q2-2026: $53.4bn total other income, primarily Anthropic; H1 conversion gains $4.5bn | 2025 / 2026-H1 | [10-K][K25], [10-Q][Q226], [release][R226] | primary | A |
-| 22 | Anthropic AWS commitment | >$100bn over ten years; up to 5GW; nearly 1GW Trainium2/3 capacity expected by end-2026 | 2026-04-20 | [Anthropic][ANT] | primary, forward-looking | A |
+| 21 | Anthropic-related accounting gains | 2025: $5.6bn conversion-related gains, primarily Anthropic; notes' unrealized gain $39.5bn in OCI. Q2-2026: preferred-stock repricing gain $50.5bn within $53.4bn total other income, primarily Anthropic; H1 conversion gains $4.5bn; June notes' unrealized gain $92.0bn in OCI | 2025 / 2026-H1 | [10-K][K25], [10-Q][Q226], [release][R226] | primary | A |
+| 22 | Anthropic AWS commitment | >$100bn over ten years; up to 5GW; nearly 1GW Trainium2/3 capacity expected by end-2026 | 2026-04-20 | [Anthropic][ANT] | primary | A |
 | 23 | Anthropic quarterly revenue and adjusted profitability | Q3 $16.8bn versus Q2 $11.6bn; adjusted quarterly profit, **reported, unverified** | Reported 2026-10-14 | [Reuters syndication][REUT] | secondary | C |
 | 24 | OpenAI AWS agreement | Original $38bn over seven years; expansion adds $100bn over eight years, including ~2GW Trainium | 2025-11-03 / 2026-02-27 | [Original announcement][OA0], [Amazon][OA] | primary | A |
 | 25 | Amazon investment in OpenAI | $28.7bn paid through June plus $21.3bn subsequently = $50bn funded | Latest 2026-Q2 filing | [10-Q][Q226] | primary | A / B |
@@ -47,9 +47,10 @@ Amounts are US dollars unless stated otherwise. All sources were accessed **2026
 | 28 | Debt issuance, original currencies | March $37bn and €14.5bn; May CHF2.8bn; June C$14bn; H1 long-term-debt cash proceeds $66.998bn | 2026-H1 | [10-Q][Q226] | primary | A |
 | 29 | Further debt issuance | July $25bn principal, approximately $24.867bn proceeds before offering expenses; fixed coupons 4.60–6.25%; maturities 2029–2066 | 2026-07-09 | [8-K][DEBT] | primary | A |
 | 30 | Liquidity and debt | Cash/equivalents/marketable securities $123.0bn; long-term debt face value including current portion $132.995bn; uncommenced leases $137.214bn | 2026-06-30 | [10-Q][Q226] | primary | A |
-| 31 | Stock-price reference and valuation arithmetic | Close $250.00; June shares 10.783bn imply ~$2.696tn equity value, ~16.7× TTM OCF; illustrative 4% FCF yield requires ~$107.8bn annual FCF | Price 2026-10-16; June accounts | [Price history][PRICE], [results][R226]; scenario assumption | secondary / primary | B; C for scenario |
-| 32 | Demand statement and next check | July call: capacity insufficient in 2026 and likely 2027, strong demand for 2028; next results October 29 | 2026-07-30 / 2026-10-15 | [Transcript][CALL], [announcement][NEXT] | primary; transcript hosted externally | A |
-| 33 | Anthropic external funding counterevidence | $65bn Series H, led by financial investors; includes Amazon's Series H investment, not wholly incremental to it | 2026-05-28 | [Anthropic][H] | primary, company disclosure | A |
+| 31 | Stock-price reference and valuation arithmetic | Close $250.00; June shares 10.783bn imply ~$2.696tn equity value, ~16.7× TTM OCF; illustrative 4% FCF yield requires ~$107.8bn annual FCF | Price 2026-10-16; June accounts | [Price history][PRICE], [results][R226]; scenario assumption | secondary | B; C for scenario |
+| 32 | Demand statement and next check | July call: capacity insufficient in 2026 and likely 2027, strong demand for 2028; next results October 29 | 2026-07-30 / 2026-10-15 | [Transcript][CALL], [announcement][NEXT] | primary | A |
+| 33 | Anthropic external funding counterevidence | $65bn Series H, led by financial investors; includes Amazon's Series H investment, not wholly incremental to it | 2026-05-28 | [Anthropic][H] | primary | A |
+| 34 | Equipment purchases not yet paid: change, not ending balance | Increase $20.620bn in H1; $29.267bn TTM | 2026-06-30 | [10-Q][Q226] | primary | A |
 
 ## Analysis
 
@@ -69,6 +70,8 @@ The trajectory is clear even after allowing for retail seasonality: trailing OCF
 
 **Funding and loss allocation.** The bond sequence confirms a shift toward external funding. Long maturities reduce immediate refinancing pressure; the July issuance also proves access after the balance-sheet date. The substantial liquid-asset balance provides a cushion. However, equity investments in private labs are not substitutes for liquid cash, and uncommenced leases represent additional future fixed commitments. The latest verified issuance here is July; the June balance sheet is not presented as an October debt balance. [Debt filing][DEBT]; [liquidity disclosure][Q226].
 
+Equipment already acquired but not yet paid adds supplier financing beyond bonds and leases. The disclosed increase is not the ending payable balance and must not be subtracted from cash FCF as though already paid. Consolidated funding is fungible: the filings do not allocate particular bond proceeds between AI infrastructure, lab investments and other uses. [Supplemental cash-flow disclosure][Q226].
+
 Amazon shareholders initially absorb lower distributions, infrastructure impairments and investment losses. Corporate creditors have claims on the diversified enterprise, not merely successful AI projects. Construction, power and lease obligations can persist when customer demand weakens. The risk is therefore a lower return on an increasingly committed capital base before it becomes a solvency question.
 
 **Anthropic: customer, asset and financing counterparty.** The original investment is no longer the current cash total. The later Series H subscription reduced the still-available facility; adding the full facility to funded capital would overstate cash already paid. Access to that facility is linked to AWS compute-delivery milestones. This explicitly connects financing and infrastructure delivery, although it does not show that every AWS invoice is paid with Amazon-originated funds. [Investment note][Q226].
@@ -87,18 +90,19 @@ The original OpenAI agreement was real and primarily involved NVIDIA infrastruct
 
 ## Conflicts and open questions
 
+- **Growth precision:** the release headlines 37% AWS growth, while its CEO quotation says 36.7%; the published revenue amounts calculate to 36.8%. This small discrepancy does not affect the thesis; the note uses the headline figure. [Results][R226].
 - **Funding strain versus operating strength:** declining FCF and heavy borrowing support caution; accelerating AWS sales, margins and contractual demand oppose an immediate collapse thesis. Segment cash flow and capex by AI versus core workloads would resolve more than consolidated spending ratios.
 - **Backlog versus collectability:** contracted demand supports construction, but longer durations and performance conditions weaken any claim that backlog is guaranteed cash. Customer-level commitments, cancellation rights, collateral and prepayments are unavailable.
 - **Anthropic concentration versus outside validation:** Amazon's customer/investee exposure is substantial, while external funding and reported revenue growth strengthen the payment case. Neither reveals Amazon's recognized Anthropic revenue, credit exposure or customer margin. Do not infer market share from investment carrying values.
 - **Accounting conservatism versus obsolescence:** shortening server lives counters a blanket allegation of profit inflation through longer depreciation. It simultaneously demonstrates rapid hardware change. AWS margins also include disclosed energy-contract valuation effects, so the latest margin is not pure underlying operating improvement. [10-Q][Q226].
-- **Unverified items:** exact Anthropic stake; audited quarterly Anthropic revenue and adjusted-profit reconciliation; deployed Trainium3 count; independently measured chip advantage; post-filing lab funding and a complete October debt balance. No unsupported figure fills these gaps. A same-vendor read-only cross-check was used, but this draft has not received the project's different-vendor independent review.
+- **Unverified items:** exact Anthropic stake; audited quarterly Anthropic revenue and adjusted-profit reconciliation; deployed Trainium3 count; independently measured chip advantage; post-filing lab funding and a complete October debt balance. No unsupported figure fills these gaps. Same-vendor read-only research and fresh-context red-team checks were used, but this draft has not received the project's different-vendor independent review.
 
 ## Signals to watch
 
 | Signal | Current value | As of | Source | Why it matters |
 |--------|---------------|-------|--------|----------------|
 | Cash-capex guidance | ~$220bn, up from ~$200bn | July 2026 | [Call][CALL] | Separate capacity additions from input inflation. |
-| AWS growth and margin | 36.7%; 39.4% | 2026-Q2 | [Results][R226] | Demand conversion and operating returns. |
+| AWS growth and margin | 37%; 39.4% | 2026-Q2 | [Results][R226] | Demand conversion and operating returns. |
 | Backlog and duration | $496bn; 6.4 years | June 2026 | [10-Q][Q226] | Growth accompanied by longer collection horizon. |
 | Trailing cash generation | OCF $161.403bn; FCF −$7.604bn | June 2026 | [Results][R226] | Whether internal funding catches spending. |
 | FCF after lease/financing principal | −$9.511bn, derived | June 2026 TTM | [10-Q][Q226] | Fuller recurring cash burden. |

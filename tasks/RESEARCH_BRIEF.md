@@ -36,6 +36,8 @@ come from a page you fetched during this task**, with its URL and access date.
    price index), save it as CSV in `data/<topic>-<series>.csv` with a leading
    `# source: URL, accessed YYYY-MM-DD, units` comment line.
 9. Write only your note and your CSV files. Do not edit other files. Do not
-   run git commands. Do not start servers.
+   run git commands. Do not start servers. **Do not spawn subagents**: do the
+   work in your own context. If search budget runs out, fetch primary URLs
+   directly (SEC EDGAR, company IR pages).
 10. Finish by reporting: the files you wrote, a 10-line summary of findings,
     the three biggest uncertainties, and any claims you could not verify.

@@ -1,0 +1,7 @@
+# source: https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx, accessed 2026-10-17, USD millions; standalone fiscal quarters; capex positive cash outflow; FCF=operating_cash_flow-capex; all actuals
+fiscal_year,fiscal_quarter,period_end,capex_usd_m,operating_cash_flow_usd_m,free_cash_flow_usd_m
+2026,1,2025-08-31,8502,8140,-362
+2026,2,2025-11-30,12033,2066,-9967
+2026,3,2026-02-28,18635,7151,-11484
+2026,4,2026-05-31,16493,14620,-1873
+2027,1,2026-08-31,28499,23103,-5396

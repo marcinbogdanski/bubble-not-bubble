@@ -23,16 +23,16 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
 | P1-S11 | Stack: CoreWeave | Claude subagent | resumed after rate limit | research/stack/coreweave.md |
 | P1-S12 | Stack: other neoclouds | Claude subagent | resumed after rate limit | research/stack/neoclouds-other.md |
-| P1-S13 | Stack: OpenAI | Claude subagent | pending (agent cap) | research/stack/openai.md |
-| P1-S14 | Stack: Anthropic | Claude subagent | pending (agent cap) | research/stack/anthropic.md |
-| P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Claude subagent | pending (agent cap) | research/stack/labs-other.md |
+| P1-S13 | Stack: OpenAI | Codex gpt-6.1-sol | running | research/stack/openai.md |
+| P1-S14 | Stack: Anthropic | Codex gpt-6.1-sol | running | research/stack/anthropic.md |
+| P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Codex gpt-6.1-sol | running | research/stack/labs-other.md |
 | P1-G1 | Grok live scan of x.com, last 7 days | Grok CLI | done, verifying | signals/2026-10-17.md (after verification) |
 | P1-M2 | Macro: power and datacenters | Claude subagent | pending | research/macro/power-and-datacenters.md |
-| P1-M3 | Macro: debt markets and private credit | Claude subagent | pending | research/macro/debt-markets.md |
+| P1-M3 | Macro: debt markets and private credit | Codex gpt-6.1-sol | running | research/macro/debt-markets.md |
 | P1-M4 | Macro: public-market valuation and concentration | Claude subagent | pending | research/macro/public-markets.md |
-| P1-M5 | Macro: circular financing map | Claude subagent | pending | research/macro/circular-financing.md |
-| P1-M6 | Macro: demand side, adoption, revenue | Claude subagent | pending | research/macro/demand-side.md |
-| P1-M7 | Macro: China | Claude subagent | pending | research/macro/china.md |
+| P1-M5 | Macro: circular financing map | Codex gpt-6.1-sol | running | research/macro/circular-financing.md |
+| P1-M6 | Macro: demand side, adoption, revenue | Codex gpt-6.1-sol | running | research/macro/demand-side.md |
+| P1-M7 | Macro: China | Codex gpt-6.1-sol | running | research/macro/china.md |
 | P1-M8 | Macro: rates, sovereign money, geopolitics | Claude subagent | pending | research/macro/rates-sovereign-geopolitics.md |
 
 

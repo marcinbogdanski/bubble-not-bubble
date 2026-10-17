@@ -49,10 +49,16 @@ All three CLIs are installed. Each has a non-interactive mode:
 Use subagents generously. Play to each agent's strengths, and especially use
 them to double-check work for blind spots.
 
-- **Model choice:** research notes, synthesis and reviews need judgement, so
-  run them on the strongest model available (the lead's own model for Claude
-  subagents, `gpt-6` at high reasoning for Codex). Cheaper models are for
-  mechanical work (extraction, formatting, link checks).
+- **Model choice (Claude):** the account has a 5-hour usage window that a
+  wide fan-out on the lead's own model exhausts in under an hour. Tier it:
+  Opus for research notes, Sonnet for mechanical work (extraction, link and
+  lead verification, formatting), the lead's own model only for synthesis,
+  forecasts and red-team reviews. Subagents must not spawn subagents.
+- **Model choice (Codex):** no 5-hour window. First-pass research notes on
+  the current workhorse (`gpt-6.1-sol`, high reasoning); cross-checks and
+  reviews on the frontier model (`gpt-6-astra`). Run with
+  `codex exec --skip-git-repo-check -C <repo> -m <model> "<prompt>"` in the
+  background, one process per note.
 - **Cross-checks:** contentious notes get an independent re-research by a
   different vendor's model, written to `reviews/`. Conclusions get a red-team
   pass by a fresh-context agent asked to break the argument.
