@@ -37,3 +37,9 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 
 
 Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropic account session limit at ~16:55 and all were terminated; one note and nine CSVs survived. Work is now paced: ~6 Claude agents resumed at a time, four notes moved to Codex.
+| P2-1 | Report v0.1: stack, theory, forecasts, index | Claude (lead) | done (v0.1) | report/*.md, forecasts/register.md |
+| P2-2 | Red-team review of report v0.1 | Codex gpt-6-astra | running | reviews/2026-10-17-codex-redteam-report.md |
+| P2-3 | Cross-check: Nvidia note | Codex gpt-6-astra | running | reviews/nvidia-codex-xcheck.md |
+| P2-4 | Cross-check: CoreWeave note | Codex gpt-6-astra | running | reviews/coreweave-codex-xcheck.md |
+| P2-5 | Cross-check: Microsoft note | Codex gpt-6-astra | running | reviews/microsoft-codex-xcheck.md |
+| P2-6 | Cross-check: AI unit economics note | Codex gpt-6-astra | running | reviews/ai-unit-economics-codex-xcheck.md |
