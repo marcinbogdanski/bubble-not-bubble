@@ -22,7 +22,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S9 | Stack: Meta | Codex gpt-6-astra | done (draft) | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex gpt-6-astra | done (draft) | research/stack/oracle.md |
 | P1-S11 | Stack: CoreWeave | Claude subagent | done (draft) | research/stack/coreweave.md |
-| P1-S12 | Stack: other neoclouds | Claude subagent | resumed | research/stack/neoclouds-other.md |
+| P1-S12 | Stack: other neoclouds | Claude subagent | done (draft) | research/stack/neoclouds-other.md |
 | P1-S13 | Stack: OpenAI | Codex gpt-6.1-sol | running | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Codex gpt-6.1-sol | running | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Codex gpt-6.1-sol | running | research/stack/labs-other.md |
