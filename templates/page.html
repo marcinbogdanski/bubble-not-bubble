@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} · Bubble or Not Bubble{% endblock %}
+{% block content %}
+  <article class="page">{{ body | markdown }}</article>
+  <p class="muted"><small>
+    Updated {{ page.updated.strftime("%Y-%m-%d %H:%M UTC") }} ·
+    <a href="{{ page.raw_url }}">raw markdown</a> ·
+    <a href="https://github.com/marcinbogdanski/bubble-not-bubble/blob/main/{{ page.section }}/{{ page.rel }}.md">source</a>
+  </small></p>
+{% endblock %}

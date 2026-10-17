@@ -32,6 +32,10 @@
     nav a { display: block; padding: 0.3rem 0.5rem; border-radius: 6px; color: var(--fg);
             white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     nav a.active { background: var(--active); font-weight: 600; }
+    nav .group { font-size: 0.7rem; color: var(--muted); margin: 0.4rem 0.5rem 0.1rem; }
+    .page h1 { margin-top: 0; }
+    .page blockquote { border-left: 3px solid var(--border); margin: 0; padding: 0 1rem; color: var(--muted); }
+    .page img { max-width: 100%; }
     nav a:hover { background: var(--active); text-decoration: none; }
     main { flex: 1; min-width: 0; padding: 1.5rem 2rem; max-width: 56rem; }
     .muted { color: var(--muted); }
@@ -53,17 +57,32 @@
 <div class="layout">
   <nav>
     <div class="brand">Bubble or Not Bubble</div>
-    <h2>Report</h2>
-    <a href="/" class="{{ 'active' if path == '/' }}">Main Report</a>
-    <h2><a href="/claude" style="padding:0;color:inherit">Claude</a></h2>
-    {% for s in sessions %}
+    {% for section, label in sections.items() %}
+      {% set pages = nav[section] %}
+      {% if pages %}
+        <h2>{{ label }}</h2>
+        {% set ns = namespace(group=None) %}
+        {% for p in pages %}
+          {% if section == 'research' and p.group != ns.group %}
+            {% set ns.group = p.group %}
+            <div class="group">{{ p.group or 'general' }}</div>
+          {% endif %}
+          <a href="{{ p.url }}" title="{{ p.title }}"
+             class="{{ 'active' if path in (p.url, p.url ~ '.md') }}">{{ p.title }}</a>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    <h2><a href="/claude" style="padding:0;color:inherit">Claude chats</a></h2>
+    {% for s in sessions[:5] %}
       <a href="/claude/{{ s.id }}" title="{{ s.title }}"
          class="{{ 'active' if path == '/claude/' ~ s.id }}">{{ s.title }}</a>
     {% else %}
       <span class="muted" style="padding:0 0.5rem">No chats yet</span>
     {% endfor %}
+    {% if sessions | length > 5 %}<a href="/claude" class="muted">all {{ sessions | length }} chats…</a>{% endif %}
     <h2>Project</h2>
     <a href="https://github.com/marcinbogdanski/bubble-not-bubble">Source on GitHub</a>
+    <a href="/llms.txt">llms.txt (for agents)</a>
   </nav>
   <main>
     {% block content %}{% endblock %}
