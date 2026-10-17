@@ -1,20 +1,20 @@
 # Rates, sovereign capital and geopolitics: outside triggers for the AI cycle
 
-*Last updated: 2026-10-17 · Status: draft · Author: Codex / GPT-6 · Reviewer: none*
+*Last updated: 2026-10-17 · Author: Codex / GPT-6 · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
 
 ## Summary
 
-- The external financing backdrop has tightened: the Fed has raised rates, inflation has reaccelerated, and long Treasury yields challenge distant AI profits.
-- Floating-rate neocloud and construction borrowing transmits this directly into cash interest; profitable incumbents have more room to absorb it.
-- Oil is a supply and shipping shock centered on the Gulf. Futures and physical spot quotes differ materially; they cannot be substituted.
-- Sovereign investors support labs, chips and infrastructure for strategic as well as financial reasons. Announced project sizes substantially overstate attributable sovereign cash.
-- The auditable direct sovereign lab-investment floor here is $3bn. A broader selected AI/semiconductor commitment subtotal is $11.9bn plus ¥250bn; neither is a global estimate.
-- SoftBank is private strategic capital, with $60bn of OpenAI funding during the covered period. Its bond and collateral financing reconnects that apparently patient capital to markets.
-- Taiwan disruption, Gulf escalation, export restrictions or sovereign retrenchment can interrupt the build without disproving AI's usefulness. The biggest unknown is the amount of unconditional, funded capital behind announced capacity.
+- On September 16, 2026 the Fed raised its target 25 bp to 3.75–4.00%; September CPI was 3.7% y/y and the ten-year Treasury yielded 5.10% on October 15. These raise financing and discount-rate hurdles; the Fed minutes still describe supportive financial conditions. [S2], [S4], [S7], [S50]
+- A 25 bp repricing adds $2.5m annual interest per $1bn of unhedged floating debt (B-grade sensitivity). CoreWeave's June 30, 2026 disclosure includes fixed and floating borrowing; aggregate October exposure after hedges is unverified. [S19]; claim 41
+- Physical Brent was $126.55/bbl on October 14, 2026 amid Gulf shipping disruption; EIA estimates September shut-ins declined to 4.8m b/d. The separately dated, C-grade futures quote does not establish a directly comparable spot basis. [S12], [S14]
+- The December 9, 2025 Brookfield–Qai announcement concerns a $20bn joint venture without disclosing QIA's own check. Joint-project totals, acquisition enterprise values and mobilization targets cannot be attributed wholesale to sovereign investors. [S29]
+- Through October 17, 2026, the selected historical sovereign lab investment is HUMAIN's $3bn xAI check, subsequently converted into SpaceX equity; adding Intel's $8.9bn commitment and executed IPA equity yields $11.9bn plus ¥250bn. This mixes commitments and executions and is not a global total. [S24], [S39], [S40]; claim 39
+- SoftBank supplied $60bn to OpenAI in 2025–October 1, 2026 as non-sovereign strategic capital; its September notes alone carry $941.25m plus €75.625m in gross annual coupons before hedging, fees or tax. [S33], [S34], [S38]; claim 48
+- China imposed pre-export registration on October 16, 2026 while consulting on 23 AI technology categories; TSMC expects Arizona fab two volume production in Q3 2027. Export friction and Taiwan dependence can constrain deployment; unconditional funding behind announced capacity remains unquantified. [S44], [S52]
 
 ## Key claims
 
-All sources accessed **2026-10-17**. A confirms the disclosed reading or announcement, not fulfillment of a forecast or investment ambition. B identifies arithmetic. C marks the futures quote's limited verification. Monthly sequences below run chronologically; currency amounts are nominal.
+All sources accessed **2026-10-17**. A confirms the disclosed reading or announcement, not fulfillment of a forecast or investment ambition. B identifies arithmetic; directly disclosed components retain A where specified. C marks the futures quote's limited verification and the reported, unverified sovereign-funding lead. Monthly sequences below run chronologically; currency amounts are nominal.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -35,8 +35,8 @@ All sources accessed **2026-10-17**. A confirms the disclosed reading or announc
 | 15 | EIA oil outlook | Q4 Brent spot forecast $105/bbl; Q2 following year $87/bbl | 2026-10-06 | [S14] | primary | A |
 | 16 | Fiscal deficit | FY2026 estimated $2.0tn; $218bn above FY2025 | 2026-10-08 | [S15] | primary | A |
 | 17 | Treasury financing | Q3 estimated net borrowing $739bn; Q4 $628bn; Q4 cash assumption $850bn | 2026-08-03 | [S16], [S17] | primary | A |
-| 18 | CoreWeave capex debt pricing | DDTL 4.0 SOFR+2.25%; DDTL 5.0 SOFR+4.50%; subsequent DDTL 5.5 SOFR+5.50% | 2026-08 filing | [S19] | primary | A |
-| 19 | CoreWeave hedge qualification | DDTL 4.0 requires ≥95% anticipated floating borrowing hedged after specified milestones; majority of credit-facility floating debt currently unhedged | 2026-06-30 / filing | [S19] | primary | A |
+| 18 | CoreWeave capex debt pricing | DDTL 4.0 floating SOFR+2.25%, fixed blended Treasury+2.00%; June 30 balances $1.4bn floating/$1.5bn fixed; DDTL 5.0 SOFR+4.50%; subsequent DDTL 5.5 Term SOFR+5.50% | 2026-08 filing | [S19] | primary | A |
+| 19 | CoreWeave hedge qualification | DDTL 4.0 requires ≥95% anticipated floating borrowing hedged after specified milestones; majority of credit-facility floating debt unhedged per filing risk disclosure, not an Oct 17 hedge census | 2026-06-30 / filing | [S19] | primary | A |
 | 20 | BOJ tightening precedent | Discount rate 2.5%→3.25% May 1989; 6.0% August 1990 | 1989–1990 | [S20] | primary | A |
 | 21 | Fed technology-cycle precedent | +50 bp to 6.5% | 2000-05-16 | [S21] | primary | A |
 | 22 | Saudi state link | HUMAIN launched as PIF-owned company | 2025-05-12 | [S22] | primary | A |
@@ -47,31 +47,46 @@ All sources accessed **2026-10-17**. A confirms the disclosed reading or announc
 | 27 | Qatar infrastructure | $20bn Brookfield–Qai JV; QIA contribution undisclosed | 2025-12-09 | [S29] | primary | A |
 | 28 | Qatar and other sovereign round participants | QIA in Anthropic $65bn Series H and Crusoe $3.9bn Series F; individual allocations undisclosed; GIC in both; Mubadala Capital co-led Crusoe | 2026-05 / 09 | [S30], [S31] | primary | A |
 | 29 | US Stargate ambition | $500bn over four years; initial $100bn; MGX is equity partner, no disclosed allocation | 2025-01-22 | [S32] | primary | A |
-| 30 | SoftBank OpenAI cash/exposure | $30bn funded in 2025 plus $30bn in 2026 = $60bn; cumulative since earlier investments $64.6bn; approximately 13% ownership | 2026-10-01 | [S33], [S34] | primary | B |
+| 30 | SoftBank OpenAI cash/exposure | $30bn funded in 2025 plus $30bn in 2026 = $60bn; cumulative since earlier investments $64.6bn; approximately 13% ownership | 2026-10-01 | [S33], [S34] | primary | B for $60bn sum; A for disclosed $64.6bn and ownership |
 | 31 | SoftBank bridge status | $40bn unsecured capacity; $30bn drawn; $25.9bn outstanding scheduled repaid Sep 15; fully repaid and undrawn capacity canceled by Sep 30 | 2026-10-01 | [S34], [S35], [S36] | primary | A |
-| 32 | SoftBank collateral financing | Arm loan increased $20bn→$25bn; incremental $5bn drawn Sep 10; $10bn OpenAI-share borrowing guaranteed by parent | 2026-09-23 | [S37] | primary | A |
-| 33 | SoftBank bond financing | $10bn USD plus €1bn notes; USD coupons 8.625–9.750%; final $10bn OpenAI tranche funded by notes | 2026-09 / 10 | [S38], [S34] | primary | A |
+| 32 | SoftBank collateral financing | Arm loan increased $20bn→$25bn; $5bn drawn Sep 10; non-recourse to parent; $10bn OpenAI-linked loan has cash-account collateral and parent guarantee, with valuation-linked collateral/prepayment provisions | 2026-09-23 | [S37] | primary | A |
+| 33 | SoftBank bond financing | $10bn USD: $1bn at 8.625%, $4.5bn at 9.250%, $4.5bn at 9.750%; €1bn: €0.5bn each at 7.125%/8.000%; final $10bn OpenAI tranche funded by notes | 2026-09 / 10 | [S38], [S34] | primary | A |
 | 34 | US Intel equity commitment | $8.9bn for 9.9%; funded from $5.7bn unpaid CHIPS grants plus $3.2bn Secure Enclave allocation | 2025-08-22 | [S39] | primary | A |
 | 35 | Japan executed state equity | Rapidus IPA ¥100bn plus ¥150bn = ¥250bn | 2026-06-05 | [S40] | primary | B |
 | 36 | European ambition | InvestAI €200bn mobilization target including €20bn gigafactory fund | 2025-02-11 | [S41] | primary | A |
 | 37 | Chip-export state take | MI308 15% revenue expectation still uncodified in AMD filing; licensed H200/MI325 inspection imports face 25% tariff | 2026-08 filings | [S42], [S43] | primary | A |
-| 38 | China draft and immediate obligation | 23 AI technology categories; consultation Oct 16–Nov 15; temporary pre-export registration effective immediately; public-domain carve-out | 2026-10-16 | [S44] | primary | A |
-| 39 | Selected attributable funding sums | Direct sovereign lab floor $3bn; including Intel commitment $11.9bn plus ¥250bn Japan; adding private SoftBank $60bn gives $71.9bn plus ¥250bn, not a sovereign total | 2025–2026 through cutoff | [S24], [S33], [S34], [S39], [S40] | primary | B |
+| 38 | China draft and immediate obligation | 23 AI technology categories; consultation Oct 16–Nov 15; temporary pre-export registration effective immediately, including unfinished exports, offshore licensing and foreign ownership/control changes; public-domain carve-out | 2026-10-16 | [S44] | primary | A |
+| 39 | Selected attributable funding sums | Direct sovereign lab floor $3bn; including Intel commitment $11.9bn plus ¥250bn Japan; adding non-sovereign SoftBank $60bn gives $71.9bn plus ¥250bn, not a sovereign total | 2025–2026 through cutoff | [S24], [S33], [S34], [S39], [S40] | primary | B |
 | 40 | Profitable incumbent counterexample | Microsoft FY net income $133.749bn; Nvidia quarterly net income $59.688bn | year ended 2026-06-30 / quarter ended 2026-07-26 | [S47], [S43] | primary | A |
+| 41 | Unhedged floating-interest sensitivity | $1bn × 0.0025 = $2.5m additional annual interest for a 25 bp increase, assuming full repricing and unchanged principal; not company-wide exposure | 2026-10-17 calculation | [S2], [S19]; arithmetic | primary | B |
+| 42 | Fed assessments of conditions and AI feedback | Supportive financial conditions; broadly available credit; AI investment contributes to inflation and financing demand; most participants expected another hike by year-end; several judged policy not restrictive or only mildly restrictive | 2026-09-15–16 meeting; minutes released 2026-10-07 | [S50] | primary | A for recorded assessments |
+| 43 | PCE inflation and consumption | August headline/core 3.4%/3.0% y/y and 0.3%/0.2% m/m; real PCE +0.6% m/m; annual revisions begin January 2021 | August 2026; release 2026-09-30 | [S51] | primary | A |
+| 44 | Observed oil-supply recovery | EIA estimates Middle East shut-ins 5.8m b/d in August→4.8m in September; East–West pipeline partially resumed September 22 | 2026-10-06 assessment | [S14] | primary | A for EIA estimates/account |
+| 45 | Energy-price differentiation | September gasoline accounted for over half of monthly CPI increase; commercial electric power PPI −0.6% m/m | September 2026; releases 2026-10-14 / 15 | [S4], [S5] | primary | A |
+| 46 | CoreWeave hedge and recourse distinctions | DDTL 5.0 requires swaps covering ≥95% anticipated floating loans after specified deadlines; DDTL 4.0 non-recourse except carve-outs; DDTL 5.0 parent-guaranteed | 2026-06-30 / August filing | [S19] | primary | A |
+| 47 | SoftBank residual maturities | $11.9bn senior term facility fully drawn in September, two-year maturity; OpenAI-linked loan principal repayable August 2028 | 2026-09-23 memorandum | [S37], PDF pp. 31, 112 (viewer numbering) | primary | A |
+| 48 | SoftBank September notes' annual coupon calculation | USD: $1bn×8.625% + $4.5bn×9.250% + $4.5bn×9.750% = $941.25m; EUR: €0.5bn×7.125% + €0.5bn×8.000% = €75.625m; gross before hedging, fees or tax | 2026-09-24 terms; calculated 2026-10-17 | [S38]; claim 33 inputs | primary | B |
+| 49 | TSMC diversification and Taiwan build | Arizona fab two volume production scheduled Q3 2027; 13 leading-edge/advanced-packaging fabs being built in Taiwan over coming years, five to six overseas | 2026-10-15 management plans | [S52], transcript p. 5 | primary | A for announced plans |
+| 50 | Profitable upstream counterweight | TSMC Q3 revenue $46.72bn; operating margin 58.7% | Q3 2026; release 2026-10-15 | [S53] | primary | A |
+| 51 | Sovereign-capital watch lead; excluded from sums | UAE funds including MGX reportedly discussed up to $10bn collectively in OpenAI; not a funded check; reported, unverified | 2026-10-06 | [S54], Bloomberg republished by Moneycontrol | secondary | C |
 
 ## Analysis
 
 ### Rates, inflation and financing
 
-The Fed held through summer and raised in September. BLS confirms the requested October releases. CPI and PPI measure different prices; neither is the Fed's PCE inflation objective. [S1], [S2], [S4], [S5]
+The Fed held through summer and raised in September. CPI and PPI measure different prices; neither is the Fed's PCE inflation objective. BEA's September 30 release reports August PCE inflation of 3.4% headline and 3.0% core y/y, with monthly increases of 0.3% and 0.2%; real PCE rose 0.6% m/m. The release incorporates annual revisions beginning January 2021. Persistent inflation coexists with consumption growth, rather than demonstrated aggregate contraction from the energy shock. [S1], [S2], [S4], [S5], [S51]
 
-CME's browser-rendered October distribution favors a hold. Futures-implied probabilities change with prices; the inflation surprise has not made a hike the base case. [S6]
+The minutes released October 7 describe supportive financial conditions and broadly available credit, while identifying AI investment as an inflation and financing-demand driver. Most participants expected another hike by year-end; several judged policy not restrictive or only mildly restrictive. These are recorded assessments (A), not measured causal attribution: rates can respond to the AI boom as well as constrain it. [S50]
 
-Duration links higher discount rates to lower present values, especially where distributable cash lies far ahead. This is an inference, not a measured AI-index duration. SOFR reprices floating debt; Treasury yields and spreads affect new fixed debt. CoreWeave demonstrates the contractual channel. Future hedge requirements do not establish that current exposure is hedged. [S9], [S19]
+CME's browser-rendered October distribution favors a hold. Futures-implied probabilities change with prices; a hike is not the October base case in that snapshot. This does not answer the separate year-end policy question in the September minutes. [S6], [S50]
 
-Profitable incumbents withstand funding shocks better than projects requiring repeated raises. Microsoft's and Nvidia's profits do not isolate incremental AI returns. Overextension combines construction delays, fixed customer pricing, floating debt and equipment obsolescence. Equity loses first; creditor, landlord and vendor losses depend on collateral, guarantees and recourse. [S19], [S43], [S47]
+Duration links higher discount rates to lower present values, especially where distributable cash lies far ahead. This is an inference, not a measured AI-index duration. SOFR reprices floating debt; Treasury yields and spreads affect new fixed debt. CoreWeave has fixed as well as floating debt. A 25 bp increase adds $2.5m annual interest per $1bn of unhedged floating principal at full repricing (claim 41, B). Overnight SOFR is not the contractual Term SOFR fixing for DDTL 5.5. [S9], [S19]
 
-The September directive rolls Treasury maturities over, reinvests agency principal into bills and permits reserve-management purchases. The New York Fed distinguishes those purchases from stimulus: reserve availability can improve while policy rates remain restrictive. [S3], [S48]
+DDTL 5.0 also requires ≥95% swap coverage after specified deadlines; future requirements do not establish current hedge coverage. DDTL 4.0 limits recourse except for carve-outs, whereas DDTL 5.0 is parent-guaranteed. These distinctions change loss allocation; aggregate October net exposure remains unverified. [S19]
+
+Profitable incumbents withstand funding shocks better than projects requiring repeated raises. Microsoft's and Nvidia's net income does not measure cash remaining after capex or isolate incremental AI returns. Overextension combines construction delays, fixed customer pricing, floating debt and equipment obsolescence. Equity loses first; creditor, landlord and vendor losses depend on collateral, guarantees and recourse. [S19], [S43], [S47]
+
+The September directive rolls Treasury maturities over, reinvests agency principal into bills and permits reserve-management purchases. The New York Fed distinguishes those purchases from stimulus: reserve availability can improve independently of the policy-rate stance. Several September participants judged that stance not restrictive or only mildly restrictive. [S3], [S48], [S50]
 
 [Historical precedents](../theory/historical-precedents.md) illustrate mechanisms rather than timing rules. Japan's asset prices initially rose after BOJ tightening. The technology boom coexisted with Fed restraint: productive technology does not protect leveraged buyers. The local note's “quiet” current tightening indicator conflicts with September's hike. [S20], [S21], [S2]
 
@@ -81,7 +96,9 @@ EIA attributes the oil shock to infrastructure and tanker attacks, notably Saudi
 
 The requested oil range is a futures quote from FT's indexed table; full access failed and exchange settlement was not retrieved. EIA/FRED physical Brent is higher. Different delivery horizons and dates may explain the gap, but the precise basis remains unverified. [S11], [S12]
 
-Power exposure depends on local generation, PPAs and backup fuel. Broader channels are weaker spending and dearer funding/construction. EIA's projected recovery of export routes contradicts extrapolating today's scarcity indefinitely. [S14]
+EIA estimates Middle East shut-ins fell from 5.8m b/d in August to 4.8m in September and reports partial East–West pipeline resumption on September 22. Recovery is already partly observed, not just forecast; it does not establish normalization. [S14]
+
+Power exposure depends on local generation, PPAs and backup fuel. September gasoline explained over half the monthly CPI rise, yet commercial electric power PPI fell 0.6% m/m. Neither measure is a data-center PPA index; uniform oil-to-power cost transmission is unsupported. Weaker spending and dearer funding/construction remain conditional channels, while August real PCE growth provides a demand counterweight. [S4], [S5], [S51]
 
 Deficits imply competition for savings. Net borrowing excludes refinancing included in gross issuance. Treasury's advisory committee recommended unchanged coupon sizes despite possible later increases. [S15], [S16], [S17]
 
@@ -103,23 +120,27 @@ The reproducible funding reconciliation is:
 |---|---|---|---|
 | Direct sovereign lab funding disclosed here | HUMAIN→xAI | $3bn | Identified floor, not the sector total |
 | Broader selected AI/semiconductor support | Above + US Intel equity commitment + executed Japanese IPA equity | $11.9bn plus ¥250bn | Mixed commitments/executions; Intel is not AI-exclusive |
-| Private strategic capital, separately | SoftBank→OpenAI during the covered period | $60bn | Excluded from sovereign subtotal |
-| Broad selected support plus private strategic funding | Previous broader subtotal + SoftBank | $71.9bn plus ¥250bn | Not comparable to lab venture funding alone |
+| Non-sovereign strategic capital, separately | SoftBank→OpenAI, 2025–October 1, 2026 | $60bn | Excluded from sovereign subtotal; does not mean privately held |
+| Broad selected support plus non-sovereign strategic funding | Previous broader subtotal + SoftBank | $71.9bn plus ¥250bn | Not comparable to lab venture funding alone |
 | Excluded from addition | Stargate, AIP, Aligned, AMD–HUMAIN, Qai JV, EU ambitions; undisclosed round allocations | Not determinable | Overlap, debt, acquisition value and deployment dates prevent attribution |
 
-Claims 23–39 support this partial sum. Missing allocations, beneficial ownership and a matched global denominator prevent estimating the sovereign share. Japan remains in yen.
+Claims 23–39 support this partial sum: $3bn + $8.9bn = $11.9bn; ¥100bn + ¥150bn = ¥250bn; $11.9bn + $60bn = $71.9bn. The cross-check found no arithmetic error. These are bookkeeping subtotals across beneficiaries, instruments, dates and execution status, not a measure of current holdings or global AI investment. Missing allocations, beneficial ownership and a matched global denominator prevent estimating the sovereign share. Japan remains in yen.
 
-Stargate's ambition is not a sovereign appropriation. SoftBank funded its final OpenAI tranche with bonds and repaid/canceled its bridge. SGX records additional Arm-secured and OpenAI-share borrowing. Falling collateral values could constrain follow-on support; actual margin triggers remain unknown. [S32], [S33], [S34], [S37], [S38]
+Stargate's ambition is not a sovereign appropriation. SoftBank funded its final OpenAI tranche with bonds and repaid/canceled its bridge. Its September notes carry $941.25m plus €75.625m in gross annual coupons (claim 48, B), before hedging, fees or tax. [S32], [S33], [S34], [S38]
 
-Intel equity reallocates prior grants/program funding: avoid counting both. Japan's Rapidus equity is executed; EU InvestAI is a mobilization ambition. Strategic autonomy can sustain uneconomic capacity, extending overbuild while transferring losses to public investors. [S39], [S40], [S41]
+The Arm facility is non-recourse to the parent; the OpenAI-linked loan has cash-account collateral and a parent guarantee. Valuation declines can trigger collateral or prepayment requirements, but numerical thresholds remain unverified. The memorandum also discloses a fully drawn $11.9bn senior term facility with a two-year maturity; the OpenAI-linked loan matures in August 2028. Repayment of the named bridge therefore does not demonstrate equivalent consolidated deleveraging (inference). [S37]
+
+Bloomberg's October 6 report of UAE funds including MGX discussing up to $10bn collectively in OpenAI is a C-grade, reported, unverified watch lead. It adds a possible inflow alongside the pullback scenario, but no funded check to any subtotal. [S54]
+
+Intel equity reallocates prior grants/program funding: avoid counting both. Japan's Rapidus equity is executed; EU InvestAI is a mobilization ambition. Strategic autonomy could sustain uneconomic capacity and transfer losses to public investors; this is a conditional mechanism, not an observed outcome established by these announcements. [S39], [S40], [S41]
 
 ### Geopolitical tails and scenario transmission
 
-Taiwan disruption threatens physical supply. TSMC's overseas expansion alongside continued Taiwan investment does not establish immediate substitutability of advanced manufacturing and packaging. [S46]
+Taiwan disruption threatens physical supply. On October 15, TSMC scheduled Arizona fab two volume production for Q3 2027 and described building 13 leading-edge/advanced-packaging fabs in Taiwan and five to six overseas. Diversification is proceeding, but the disclosed plans do not establish immediate substitutability for Taiwan supply. Its Q3 revenue of $46.72bn and 58.7% operating margin are a profitable upstream counterweight; they do not prove customers' incremental AI returns. [S46], [S52], [S53]
 
 BIS permits case-by-case chip licensing, but Nvidia reports Chinese restrictions and tariffs it cannot pass through. AMD distinguishes uncodified revenue-share expectations from inspection tariffs. Neither is equity or fresh funding. [S42], [S43], [S45]
 
-China proposes controls on models, agents and clusters while imposing immediate temporary registration, including unfinished transfers. Public-domain technology is exempt. Final thresholds and offshore licensing effects remain uncertain; existing open models are not universally banned. [S44]
+China proposes controls on models, agents and clusters while imposing immediate temporary registration, including unfinished transfers, offshore licensing and foreign ownership/control changes. Public-domain technology is exempt. Registration is already effective; the proposed catalogue is not a final blanket export prohibition. Final thresholds and practical offshore licensing effects remain uncertain; existing open models are not universally banned. [S44]
 
 Russia–Ukraine affects refinery, sanctions and shipping risks. The latest US Russia–Iran sanctions order includes extensive waivers: headline penalties do not establish lost oil supply (primary, A). Middle East escalation threatens oil, LNG routes and Gulf investment. These transmission hypotheses have no measured Russian contribution here. Nvidia reports no significant impact on Israel operations so far. [S49], [S14], [S43]
 
@@ -135,10 +156,14 @@ The scenarios below are conditional mechanisms, not probability forecasts. Equip
 
 ## Conflicts and open questions
 
-- **Tightening versus resilience:** higher rates threaten financing, but CME favors a hold and incumbent profits remain substantial. A cycle-ending monetary shock is plausible, not established. [S6], [S43], [S47]
-- **Energy versus reversal:** EIA documents supply disruption and projects recovery. Benchmark/date differences prevent treating the futures quote as the physical spot price. [S11], [S12], [S14]
-- **Patient capital versus market dependence:** sovereign mandates can stabilize investment; SoftBank's repayment reduces bridge rollover risk. Neither eliminates project losses or dependence on bond and collateral markets. [S34], [S37], [S38]
-- **Funding opacity:** undisclosed MGX/QIA/GIC checks, external LPs, overlapping facilities and staged commitments prevent a global sum or percentage. The stated floor is deliberately incomplete.
+- **Financing interpretation — original note versus cross-check:** the original note characterized the external financing backdrop as tightened and policy as restrictive, emphasizing higher rates and distant profits. The cross-check gives greater weight to the September minutes: supportive financial conditions, broadly available credit and AI-driven inflation/financing demand; several participants saw policy as not restrictive or only mildly restrictive. Higher rate hurdles remain, but neither view establishes general credit contraction or a cycle-ending shock. October hold odds do not settle the year-end hike question. [S2], [S6], [S50]
+- **Borrower vulnerability — original note versus cross-check:** the original summary generalized floating-rate pressure to neocloud and construction borrowing. The reviewer stresses fixed debt, swap deadlines and recourse; net October exposure is unknown. Incumbent net income supports resilience but is not post-capex cash, and TSMC's profitable Q3 adds upstream counterevidence. [S19], [S43], [S47], [S53]
+- **Energy interpretation — original note versus cross-check:** the original note emphasized disruption and projected recovery. The reviewer gives more weight to already declining shut-ins, partial pipeline resumption, falling commercial-electric-power PPI and positive August real PCE. These qualify uniform cost or demand-damage claims without establishing normalization. Benchmark/date differences still prevent treating the futures quote as physical spot. [S4], [S5], [S11], [S12], [S14], [S51]
+- **Patient capital versus market dependence:** the original note emphasized bridge repayment reducing rollover risk; the cross-check agrees for that bridge but rejects inferring equivalent consolidated deleveraging given other borrowing and collateral provisions. Sovereign mandates may stabilize investment, while uneconomic-capacity support remains a hypothesis rather than an A-grade observed outcome. [S34], [S37], [S38], [S39], [S40], [S41]
+- **Sovereign attribution — original note versus cross-check:** the original summary said announcements “substantially overstate” attributable cash. The reviewer finds missing allocations and incompatible scopes, not a measurable overstatement. The historical funding arithmetic passes; neither current holding values nor a global sovereign share follows from it. [S24], [S29]; claim 39
+- **Sovereign inflow watch:** Bloomberg reported October 6, 2026 that UAE funds including MGX discussed up to $10bn collectively in OpenAI (secondary, C, reported, unverified). This is a counterpoint to the pullback scenario, excluded from all sums pending a primary closing disclosure. [S54]
+- **Funding uncertainty — original note versus cross-check:** the original summary ranked unconditional funding as the “biggest” unknown; the reviewer finds that ranking unestablished. Undisclosed MGX/QIA/GIC checks, external LPs, overlapping facilities and staged commitments remain unresolved, preventing a global sum or percentage. The stated floor is deliberately incomplete.
+- **Review scope:** the independent audit targeted selected original claim rows; it did not certify CME's timestamped distribution, the futures settlement, all other rows or detailed Russia–Iran sanctions waivers. Its White House fetch failed; that access limitation does not contradict the original note's direct-fetch claim. [Cross-check](../../reviews/rates-sovereign-geopolitics-codex-xcheck.md)
 - **Unverified:** exact term-premium reading, exchange-verified Brent settlement, aggregate sovereign share, margin-call thresholds, current Russian energy flows and final Chinese export-control thresholds. These require datasets, agreements or final rules not obtained here.
 
 ## Signals to watch
@@ -149,11 +174,16 @@ The scenarios below are conditional mechanisms, not probability forecasts. Equip
 | October hike odds | 15.5%; hold 84.5% | Oct 17, 02:37:45 CT | [S6] | Live expectation, not certainty |
 | CPI headline / core | 3.7% / 2.6% y/y | September; Oct 14 release | [S4] | Persistence beyond energy |
 | PPI final demand | 6.3% y/y; 1.3% m/m | September; Oct 15 release | [S5] | Supply-chain price pressure |
+| PCE headline / core; real spending | 3.4% / 3.0% y/y; real PCE +0.6% m/m | August; Sep 30 release with annual revisions | [S51] | Fed-target inflation and demand counterweight |
+| Fed conditions / year-end outlook | Supportive conditions; most participants expected another hike by year-end | Sep 15–16 meeting; Oct 7 minutes | [S50] | Distinguish rate pressure from general credit contraction |
 | Treasury / SOFR | 5.10% / 3.89% | Oct 15 | [S7], [S9] | Discount rate and cash interest |
 | Balance-sheet policy | Reinvestment and reserve maintenance | Sep 16 | [S3] | Distinguish liquidity from easing |
 | Brent spot / quoted futures | $126.55 / $109.95 per barrel; different dates | Oct 14 / 16 | [S12], [S11] | Physical shortage versus delivery outlook |
+| Oil recovery / power prices | Shut-ins 5.8m→4.8m b/d Aug→Sep; pipeline partially resumed Sep 22; commercial power PPI −0.6% m/m | Oct 6 EIA / Oct 15 BLS releases | [S14], [S5] | Recovery and differentiated energy transmission |
+| UAE financing talks | Up to $10bn collectively; reported, unverified, C; excluded from sums | Oct 6 | [S54] | Require primary closing and allocation disclosure |
+| TSMC supply diversification | Arizona fab two Q3 2027; 13 Taiwan fabs versus five to six overseas in build plans | Oct 15 | [S52] | Timing of alternative supply |
 | Sovereign closes | Aligned closed; QIA Crusoe check undisclosed | Jul 21 / Sep 17 | [S27], [S31] | Follow cash, not deal envelopes |
-| SoftBank financing | OpenAI tranche completed; bridge canceled; notes and Arm collateral financing | Oct 1 / September | [S34], [S37], [S38] | Capacity for follow-on support |
+| SoftBank financing | OpenAI tranche completed; bridge canceled; notes; $11.9bn two-year facility; OpenAI-linked maturity Aug 2028 | Oct 1 / September | [S34], [S37], [S38] | Follow residual maturities and collateral, not bridge alone |
 | Export controls | China draft plus immediate registration; US case-by-case licensing | Oct 16 / Jan 13 | [S44], [S45] | Market access and technology transfer |
 
 [CSV](/data/macro-rates-inflation.csv): month-start labels identify reference months; Fed values are month-end carry-forwards, GS10/Brent monthly averages. Daily snapshots are labeled; PPI uses the latest vintage; missing CPI annual history is not interpolated.
@@ -211,7 +241,11 @@ All accessed **2026-10-17**. Issuer-distributed press releases are primary evide
 47. Microsoft, “Full-year financial results”. Published/as of 2026-07-29. <https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast>. Accessed 2026-10-17.
 48. New York Fed, “Perli: reserve-management purchases are not monetary easing”. Published/as of 2026-03-26. <https://www.newyorkfed.org/newsevents/speeches/2026/per260326>. Accessed 2026-10-17.
 49. White House, “Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026”. Published 2026-10-16; primary HTML fetched directly after web fetch failed. <https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/>. Accessed 2026-10-17.
-
+50. Federal Reserve, “September FOMC minutes; direct HTML fetch after web-tool access failure”. Published/as of 2026-10-07; meeting 2026-09-15–16. <https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm>. Accessed 2026-10-17.
+51. BEA, “Personal Income and Outlays, August 2026; annual update”. Published/as of 2026-09-30. <https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026>. Accessed 2026-10-17.
+52. TSMC, “Q3 2026 earnings-call transcript, capacity plans (p. 5)”. Published/as of 2026-10-15. <https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf>. Accessed 2026-10-17.
+53. TSMC, “Q3 2026 earnings release”. Published/as of 2026-10-15. <https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf>. Accessed 2026-10-17.
+54. Bloomberg, republished by Moneycontrol, “OpenAI looks to UAE for up to $10 billion as it lines up $30 billion round; BlackRock in talks; reported, unverified”. Published/as of 2026-10-06. <https://www.moneycontrol.com/news/business/openai-looks-to-uae-for-up-to-10-billion-as-it-lines-up-30-billion-round-blackrock-in-talks-14045202.html>. Accessed 2026-10-17.
 
 Additional FOMC statements supporting [S1]: [March](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm), [April](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm), [June](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm), [July](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm). Published on the dates embedded in each URL; accessed 2026-10-17. [FOMC calendar](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm), undated current page, accessed 2026-10-17.
 
@@ -265,3 +299,9 @@ Additional FOMC statements supporting [S1]: [March](https://www.federalreserve.g
 [S47]: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
 [S48]: https://www.newyorkfed.org/newsevents/speeches/2026/per260326
 [S49]: https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/
+
+[S50]: https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm
+[S51]: https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026
+[S52]: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf
+[S53]: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf
+[S54]: https://www.moneycontrol.com/news/business/openai-looks-to-uae-for-up-to-10-billion-as-it-lines-up-30-billion-round-blackrock-in-talks-14045202.html
