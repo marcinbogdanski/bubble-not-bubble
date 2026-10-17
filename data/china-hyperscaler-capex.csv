@@ -1,0 +1,12 @@
+# source: https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf ; https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf ; https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf ; https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results, accessed 2026-10-17, units RMB million; group capex, definitions vary by issuer, calendar quarters, observations only
+company,calendar_quarter,capex_rmb_million,scope,source_url,accessed
+Alibaba,2025-Q2,38676,reported_group_capex,https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf,2026-10-17
+Alibaba,2026-Q1,26887,reported_group_capex,https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf,2026-10-17
+Alibaba,2026-Q2,67678,reported_group_capex,https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf,2026-10-17
+Tencent,2025-Q2,19107,reported_group_capex,https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf,2026-10-17
+Tencent,2026-Q1,31936,reported_group_capex,https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf,2026-10-17
+Tencent,2026-Q2,52784,reported_group_capex,https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf,2026-10-17
+Baidu,2025-Q2,3800,reported_group_capex,https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results,2026-10-17
+Baidu,2026-Q1,5916,reported_group_capex,https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results,2026-10-17
+Baidu,2026-Q2,11390,reported_group_capex,https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results,2026-10-17
+
