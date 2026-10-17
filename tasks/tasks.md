@@ -56,4 +56,4 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-17 | Cross-checks of remaining 12 Codex-written notes | Codex gpt-6-astra | done, applied | reviews/*-codex-xcheck.md |
 | P2-18 | Report v0.4-0.6; third red-team (Codex astra) and Grok community-angle critique, verified | Claude (lead), Codex, Grok | done | reviews/ |
 | P3-1 | Claude-side fresh review of front page and cross-checks of Codex notes (after usage reset) | Claude Opus | pending | reviews/ |
-| P2-19 | Note updates: payback estimates side by side (unit-economics, demand-side); IMF/KC Fed credit evidence (circular-financing, debt-markets) | Codex gpt-6.1-sol | running | research notes |
+| P2-19 | Note updates: payback estimates side by side (unit-economics, demand-side); IMF/KC Fed credit evidence (circular-financing, debt-markets) | Codex gpt-6.1-sol | done | research notes |
