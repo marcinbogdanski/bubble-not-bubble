@@ -1,0 +1,16 @@
+# source: ASML Form 20-F selected financial data: FY2003 20-F (1999-2003) https://www.sec.gov/Archives/edgar/data/937966/000115697304000133/u47074e20vf.htm ; FY2009 20-F (2005-2009) https://www.sec.gov/Archives/edgar/data/937966/000095012310006383/u08158e20vf.htm ; FY2025 20-F and Q3 2026 presentation (2022-2025) https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm ; accessed 2026-10-17. Units: EUR millions except percentages and units. 1999-2003 figures are continuing operations as restated in the FY2003 20-F. backlog_units = systems backlog at year end (orders with written authorization; 12-month shipment window from 2008). cancellations_or_pushouts_units = orders cancelled or pushed out beyond 12 months during the year. Blank = not disclosed in the fetched source.
+year,net_sales_eur_m,net_sales_growth_pct,gross_margin_pct,net_income_eur_m,systems_sold_units,backlog_units_year_end,backlog_value_eur_m_year_end,cancellations_or_pushouts_units
+1999,1518,36.7,32.3,57,267,206,,
+2000,2673,76.1,41.2,378,455,365,,
+2001,1589,-40.5,2.0,-479,197,118,,
+2002,1959,23.2,23.9,-208,205,110,,64
+2003,1543,-21.2,23.9,-160,169,124,,56
+2005,2529,2.6,38.5,311,196,95,1434,
+2006,3582,41.6,40.6,619,266,163,2146,
+2007,3768,5.2,41.1,671,260,89,1697,
+2008,2954,-21.6,34.4,322,151,41,755,12
+2009,1596,-46.0,28.7,-151,70,69,1853,10
+2022,21200,,,,,,,
+2023,27559,30.0,51.3,7839,421,,39000,
+2024,28263,2.6,51.3,7572,418,,,
+2025,32667,15.6,52.8,9609,327,,38797,

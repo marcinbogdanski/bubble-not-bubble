@@ -1,0 +1,14 @@
+# source: SEC EDGAR 10-K/10-Q filings (URLs per row) and the amcompute.com depreciation tracker for non-fetched filers, accessed 2026-10-17, useful life in years for servers and networking equipment; stated impacts in USD billions
+company,useful_life_years,effective_date,change,stated_impact,grade,source_url
+Amazon,5 (servers) then 6 (networking),2022-01-01,servers 4 to 5; networking 5 to 6,FY2022 depreciation -3.6; net income +2.8,B,https://www.hudson-labs.com/research/amazon-server-depreciation-amzn
+Amazon,6,2024-01-01,servers 5 to 6,FY2024 depreciation -3.2; net income +2.5 ($0.23/share),B,https://www.hudson-labs.com/research/amazon-server-depreciation-amzn
+Amazon,5 (subset) / 6,2025-01-01,subset of servers and networking 6 to 5 citing pace of AI/ML technology development,FY2025 D&A +1.4; net income -1.0 ($0.10/share); mainly AWS,A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+Meta,5.5 (most servers and network assets),2025-01-01,5 to 5.5,FY2025 depreciation -2.92; net income +2.59 ($1.00/diluted share),A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+Alphabet,6 (servers and network equipment),2023-01-01,4 to 6 (per tracker; 10-K states six years),not restated in FY2025 10-K,A,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+Microsoft,2 to 6 (servers and network equipment),2022-07-01,4 to 6 in fiscal 2023 (per tracker),not restated in FY2026 10-K,A,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+Oracle,6 (servers and networking equipment),2024-06-01,5 to 6 in fiscal 2025 (per tracker); Q1 FY27 10-Q states six years,not stated,A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm
+CoreWeave,6 (computing equipment in data centers),2023-01-01,5 to 6,FY2023 expenses -0.02; +$0.10/share,A,https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm
+Nebius,5,2026-01-01,4 to 5 (per tracker; 20-F not fetched),not stated,C,https://www.amcompute.com/gpu-depreciation-schedules
+SpaceX (xAI),5 to 6,,none listed (424B4 prospectus per tracker),not stated,C,https://www.amcompute.com/gpu-depreciation-schedules
+Alibaba,3 to 5,,none listed (20-F per tracker),not stated,C,https://www.amcompute.com/gpu-depreciation-schedules
+Tracker summary,median 5 where GPUs are named,2026-10-10,16 of 17 useful-life changes since 2020 lengthened lives,n/a,C,https://www.amcompute.com/gpu-depreciation-schedules

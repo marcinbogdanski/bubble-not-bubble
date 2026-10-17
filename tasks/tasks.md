@@ -10,7 +10,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-T1 | Theory: bubble mechanics, indicators | Claude subagent | done (draft) | research/theory/bubble-mechanics.md |
 | P1-T2 | Theory: historical precedents | Claude subagent | resumed after rate limit | research/theory/historical-precedents.md |
 | P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | resumed after rate limit | research/theory/ai-unit-economics.md |
-| P1-S1 | Stack: ASML and equipment | Claude subagent | resumed after rate limit | research/stack/semiconductor-equipment.md |
+| P1-S1 | Stack: ASML and equipment | Claude subagent | done (draft) | research/stack/semiconductor-equipment.md |
 | P1-S2 | Stack: TSMC and foundry | Codex CLI (after Claude rate limit) | running | research/stack/tsmc-and-foundry.md |
 | P1-S3 | Stack: memory and HBM | Claude subagent | paused (rate limit), to resume | research/stack/memory-hbm.md |
 | P1-S4 | Stack: Nvidia | Claude subagent | resumed after rate limit | research/stack/nvidia.md |
@@ -21,7 +21,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S8 | Stack: Amazon | Codex CLI (after Claude rate limit) | running | research/stack/amazon.md |
 | P1-S9 | Stack: Meta | Codex CLI (after Claude rate limit) | running | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
-| P1-S11 | Stack: CoreWeave | Claude subagent | paused (rate limit), to resume | research/stack/coreweave.md |
+| P1-S11 | Stack: CoreWeave | Claude subagent | resumed after rate limit | research/stack/coreweave.md |
 | P1-S12 | Stack: other neoclouds | Claude subagent | paused (rate limit), to resume | research/stack/neoclouds-other.md |
 | P1-S13 | Stack: OpenAI | Claude subagent | pending (agent cap) | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Claude subagent | pending (agent cap) | research/stack/anthropic.md |

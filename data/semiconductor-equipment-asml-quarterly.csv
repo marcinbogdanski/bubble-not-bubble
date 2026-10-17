@@ -1,0 +1,17 @@
+# source: ASML quarterly results press releases filed on SEC Form 6-K (EX-99.1), accessed 2026-10-17. Units: EUR millions except gross margin (%) and units (systems). net_system_sales = total_net_sales - installed_base_management_sales (derived). ASML stopped disclosing net bookings from Q1 2026 (NA). Backlog is disclosed annually: end-2023 EUR 39bn, end-2025 EUR 38.8bn. Filings: 2023-07-19 https://www.sec.gov/Archives/edgar/data/937966/000093796623000026/pressreleasequarterlyresul.htm ; 2024-01-24 https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/pressreleasequarterlyresul.htm ; 2024-07-17 https://www.sec.gov/Archives/edgar/data/937966/000093796624000019/pressreleasequarterlyresul.htm ; 2025-01-29 https://www.sec.gov/Archives/edgar/data/937966/000093796625000003/pressreleasequarterlyresul.htm ; 2025-07-16 https://www.sec.gov/Archives/edgar/data/937966/000162828025034992/pressreleasequarterlyresul.htm ; 2026-01-28 https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/pressreleasefinancialresul.htm ; 2026-07-15 https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/pressreleasefinancialresul.htm ; 2026-10-14 https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm
+quarter,total_net_sales_eur_m,installed_base_management_sales_eur_m,net_system_sales_eur_m,net_bookings_eur_m,euv_bookings_eur_m,gross_margin_pct,net_income_eur_m,new_systems_units,used_systems_units
+2023Q1,6746,1404,5342,3752,,50.6,1956,96,4
+2023Q2,6902,1296,5606,4500,1600,51.3,1942,107,6
+2023Q3,6673,1365,5308,2602,,51.9,1893,105,7
+2023Q4,7237,1555,5682,9186,5600,51.4,2048,113,11
+2024Q1,5290,1324,3966,3611,,51.0,1224,66,4
+2024Q2,6243,1482,4761,5567,2500,51.5,1578,89,11
+2024Q3,7467,1541,5926,2633,,50.8,2077,106,10
+2024Q4,9263,2147,7116,7088,3000,51.7,2693,119,13
+2025Q1,7742,2001,5741,3936,,54.0,2355,73,4
+2025Q2,7692,2096,5596,5541,2300,53.7,2290,67,9
+2025Q3,7516,1962,5554,5399,,51.6,2125,66,6
+2025Q4,9718,2134,7584,13158,7400,52.2,2840,94,8
+2026Q1,8767,2488,6279,NA,NA,53.0,2757,67,12
+2026Q2,9326,2762,6564,NA,NA,54.0,2918,86,5
+2026Q3,11662,3289,8373,NA,NA,57.5,4960,113,8

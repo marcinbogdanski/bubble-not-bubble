@@ -1,0 +1,49 @@
+# source: provider pricing pages and model/changelog pages (developers.openai.com/api/docs/pricing; platform.claude.com/docs/en/about-claude/pricing; ai.google.dev/gemini-api/docs/pricing and /changelog), accessed 2026-10-17, USD per 1M tokens, standard tier, short context; date_basis says how the release date was established
+provider,model,tier,release_date,date_basis,input_usd_per_mtok,output_usd_per_mtok,note,source_url
+OpenAI,gpt-4-0613,frontier,2023-06-13,snapshot id,30.00,60.00,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-4-turbo-2024-04-09,frontier,2024-04-09,snapshot id,10.00,30.00,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-4o-2024-05-13,frontier,2024-05-13,snapshot id,5.00,15.00,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-4o (current snapshot),frontier,,not stated on page,2.50,10.00,price listed as current for the undated gpt-4o alias,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-4.1,frontier,2025-04-14,snapshot id gpt-4.1-2025-04-14,2.00,8.00,,https://developers.openai.com/api/docs/models/gpt-4.1
+OpenAI,gpt-5,frontier,2025-08-07,changelog and snapshot id,1.25,10.00,,https://developers.openai.com/api/docs/models/gpt-5
+OpenAI,gpt-5.1,frontier,2025-11-13,changelog,1.25,10.00,,https://developers.openai.com/api/docs/changelog
+OpenAI,gpt-5.2,frontier,2025-12-11,changelog and snapshot id,1.75,14.00,,https://developers.openai.com/api/docs/models/gpt-5.2
+OpenAI,gpt-5.4,frontier,2026-03-05,changelog and snapshot id,2.50,15.00,,https://developers.openai.com/api/docs/models/gpt-5.4
+OpenAI,gpt-5.5,frontier,2026-04-24,changelog (snapshot id 2026-04-23),5.00,30.00,,https://developers.openai.com/api/docs/models/gpt-5.5
+OpenAI,gpt-5.6-sol,frontier,2026-07-09,changelog,4.00,20.00,cut 2026-08-21 from implied 5.00/30.00 (-20% input / -33% output); promotional through at least 2026-11-21,https://developers.openai.com/api/docs/changelog
+OpenAI,gpt-6-astra,frontier-plus,2026-09-03,changelog,10.00,50.00,top tier above the Sol line,https://developers.openai.com/api/docs/models/gpt-6-astra
+OpenAI,gpt-6-sol,frontier,2026-09-22,changelog,2.00,10.00,,https://developers.openai.com/api/docs/models/gpt-6-sol
+OpenAI,gpt-6.1-sol,frontier,2026-09-29,changelog,2.00,10.00,,https://developers.openai.com/api/docs/models/gpt-6.1-sol
+OpenAI,gpt-4o-mini,small,,not stated on page,0.15,0.60,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-4.1-nano,small,,not stated on page,0.10,0.40,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-5-nano,small,,not stated on page,0.05,0.40,,https://developers.openai.com/api/docs/pricing
+OpenAI,gpt-6-luna,small,,not stated on page,0.10,0.50,,https://developers.openai.com/api/docs/pricing
+Anthropic,Claude Opus 4,frontier,2025-05-14,snapshot id claude-opus-4-20250514,15.00,75.00,retired 2026-06-15,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Opus 4.1,frontier,2025-08-05,snapshot id claude-opus-4-1-20250805,15.00,75.00,retired 2026-08-05,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Opus 4.5,frontier,2025-11-24,stated on model page,5.00,25.00,,https://platform.claude.com/docs/en/models/opus-4-5/overview
+Anthropic,Claude Opus 4.6,frontier,2026-02-05,inferred: retirement commitment minus 12 months,5.00,25.00,,https://platform.claude.com/docs/en/about-claude/model-deprecations
+Anthropic,Claude Opus 4.7,frontier,2026-04-16,inferred: retirement commitment minus 12 months,5.00,25.00,,https://platform.claude.com/docs/en/about-claude/model-deprecations
+Anthropic,Claude Opus 4.8,frontier,2026-05-28,inferred: retirement commitment minus 12 months,5.00,25.00,,https://platform.claude.com/docs/en/about-claude/model-deprecations
+Anthropic,Claude Opus 5,frontier,2026-07-24,inferred: retirement commitment minus 12 months,5.00,25.00,,https://platform.claude.com/docs/en/about-claude/model-deprecations
+Anthropic,Claude Opus 5.5,frontier,2026-09-22,stated on model page,4.00,20.00,,https://platform.claude.com/docs/en/models/opus-5-5/overview
+Anthropic,Claude Fable 5,frontier-plus,2026-06-09,inferred: retirement commitment minus 12 months,10.00,50.00,top tier above Opus,https://platform.claude.com/docs/en/about-claude/model-deprecations
+Anthropic,Claude Fable 5.1,frontier-plus,2026-09-01,stated on model page,10.00,50.00,,https://platform.claude.com/docs/en/models/fable-5-1/overview
+Anthropic,Claude Sonnet 4,mid,2025-05-14,snapshot id,3.00,15.00,retired 2026-06-15,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Sonnet 4.5,mid,2025-09-29,snapshot id,3.00,15.00,deprecated 2026-09-30,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Sonnet 4.6,mid,2026-02-17,inferred: retirement commitment minus 12 months,3.00,15.00,,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Sonnet 5,mid,2026-06-30,inferred: retirement commitment minus 12 months,2.00,10.00,,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Sonnet 5.5,mid,2026-09-28,inferred: retirement commitment minus 12 months,2.00,10.00,,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Haiku 3.5,small,2024-10-22,snapshot id,0.80,4.00,retired 2026-02-19,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Haiku 4.5,small,2025-10-01,snapshot id,1.00,5.00,,https://platform.claude.com/docs/en/about-claude/pricing
+Anthropic,Claude Haiku 5.5,small,2026-10-07,inferred: retirement commitment minus 12 months,0.10,0.50,prompts up to 100k tokens; 0.50/2.50 above,https://platform.claude.com/docs/en/about-claude/pricing
+Google,Gemini 2.5 Pro,frontier,2025-06-17,changelog (GA),1.25,10.00,prompts up to 200k tokens,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3 Pro Preview,frontier,2025-11-18,changelog,2.00,12.00,prompts up to 200k tokens,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3.1 Pro Preview,frontier,2026-02-19,changelog,2.00,12.00,prompts up to 200k tokens,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 4 Argon,frontier,2026-10-13,changelog (GA),2.00,10.00,rises to 4.00/20.00 on 2026-12-01,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 2.5 Flash,mid,2025-06-17,changelog (GA),0.30,2.50,,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3 Flash Preview,mid,2025-12-17,changelog,0.50,3.00,,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3.6 Flash,mid,2026-07-21,changelog,0.75,3.75,rises to 1.50/7.50 on 2027-01-01,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3.8 Flash,mid,2026-09-02,changelog (GA),0.75,3.75,rises to 1.50/7.50 on 2027-01-01,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 2.5 Flash-Lite,small,,GA date not captured,0.10,0.40,,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3.1 Flash-Lite,small,,GA date not captured,0.25,1.50,,https://ai.google.dev/gemini-api/docs/pricing
+Google,Gemini 3.5 Flash-Lite,small,2026-07-21,changelog (GA),0.30,2.50,,https://ai.google.dev/gemini-api/docs/pricing

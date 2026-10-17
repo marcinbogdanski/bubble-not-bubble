@@ -1,0 +1,12 @@
+# source: Microsoft quarterly earnings-call transcripts (CFO prepared remarks, https://www.microsoft.com/en-us/Investor/events/FY-2026/earnings-fy-2026-q4 and the equivalent FY-2024/FY-2025 event pages) and 10-K/10-Q cash-flow statements on EDGAR (https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm), accessed 2026-10-17, USD billions. capex_incl_finance_leases is management's accrual-basis figure stated on each call; cash_paid_ppe is "additions to property and equipment" on the cash-flow statement; finance_leases_stated is the finance-lease amount when the CFO gave one (blank otherwise). The three columns do not sum: capex is accrual-basis, cash lags. Azure growth is reported (not constant currency); ai_points_of_azure_growth was disclosed only through Mar-2025.
+quarter_end,fiscal_quarter,capex_incl_finance_leases,cash_paid_ppe,finance_leases_stated,azure_growth_pct,ai_points_of_azure_growth,commercial_rpo_bn
+2024-03-31,FY24Q3,14.0,11.0,,31,7,235
+2024-06-30,FY24Q4,19.0,13.9,,29,8,269
+2024-09-30,FY25Q1,20.0,14.9,,33,12,259
+2024-12-31,FY25Q2,22.6,15.8,,31,13,298
+2025-03-31,FY25Q3,21.4,16.7,,33,16,315
+2025-06-30,FY25Q4,24.2,17.1,6.5,39,,368
+2025-09-30,FY26Q1,34.9,19.4,11.1,40,,392
+2025-12-31,FY26Q2,37.5,29.9,6.7,39,,625
+2026-03-31,FY26Q3,31.9,30.9,4.7,40,,627
+2026-06-30,FY26Q4,41.0,35.8,5.6,43,,678
