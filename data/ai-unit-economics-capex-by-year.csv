@@ -3,15 +3,15 @@ company,period,period_end,capex_usd_bn,basis,grade,source_url
 Amazon,FY2024,2024-12-31,83.0,Purchases of property and equipment (gross; net of proceeds and incentives 77.7),A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
 Amazon,FY2025,2025-12-31,131.8,Purchases of property and equipment (gross; net 128.3),A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
 Amazon,H1 2026,2026-06-30,96.3,Cash capital expenditures (net),A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
-Amazon,FY2026 guidance,2026-12-31,200,Guided Feb 2026 and reaffirmed Apr 2026; consensus 207.4 (Visible Alpha); ~220 reported after Q2 call (C),B,https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html
+Amazon,FY2026 guidance,2026-12-31,220,July 30 Q2 update; earlier February/April guidance 200; includes non-AI technology; reported public-company guidance,B,https://apnews.com/article/amazon-second-quarter-earnings-cloud-b4ce02b4666a35b8975823c5c22072ee
 Microsoft,FY2024,2024-06-30,56.1,Additions to PP&E 44.5 plus finance-lease ROU assets obtained 11.6,B,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
 Microsoft,FY2025,2025-06-30,85.1,Additions to PP&E 64.6 plus finance-lease ROU assets obtained 20.5,B,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
 Microsoft,FY2026,2026-06-30,140.6,Additions to PP&E 115.9 plus finance-lease ROU assets obtained 24.6,B,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
-Microsoft,CY2026 guidance,2026-12-31,190,Capex incl. finance leases guided on FY26 Q3 call (29 Apr 2026) incl. ~25 from higher component pricing; ~175 reported after Q4 call due to lease reclassification (C),A,https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptQandAFY26Q3
+Microsoft,CY2026 guidance,2026-12-31,175,July 29 Q4 guidance after finance-to-operating lease reclassification; underlying investment unchanged from April 190 incl. ~25 component inflation,A,https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 Alphabet,FY2024,2024-12-31,52.5,Purchases of property and equipment,A,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
 Alphabet,FY2025,2025-12-31,91.4,Purchases of property and equipment,A,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
 Alphabet,H1 2026,2026-06-30,80.6,Purchases of property and equipment (Q1 35.7; Q2 44.9),A,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-Alphabet,FY2026 guidance,2026-12-31,200,Range 195-205 after Q2 2026 call (top end lifted to 205),B,https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html
+Alphabet,FY2026 guidance,2026-12-31,200,Range 195-205 after Q2 2026 call (top end lifted to 205),B,https://www.stockopedia.com/share-prices/alphabet-NSQ%3AGOOGL/news/google-increases-capex-forecast-again-after-cloud-driven-quarterly-beat-updated-019f8c0e-edfb-74ba-9a45-207222cd42f6/
 Meta,FY2024,2024-12-31,39.2,Purchases of PP&E 37.3 plus principal payments on finance leases 2.0,A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
 Meta,FY2025,2025-12-31,72.2,Purchases of PP&E 69.7 plus principal payments on finance leases 2.5,A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
 Meta,H1 2026,2026-06-30,50.9,Capex incl. principal payments on finance leases (Q2 31.1),A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
@@ -20,9 +20,9 @@ Oracle,FY2025,2025-05-31,21.2,Capital expenditures (cash flow statement),A,https
 Oracle,FY2026,2026-05-31,55.7,Capital expenditures; free cash flow -23.7,A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm
 Oracle,Q1 FY2027,2026-08-31,28.5,Capital expenditures for the quarter; FY27 guided only as "higher than fiscal 2026",A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm
 CoreWeave,FY2026 guidance,2026-12-31,37,Range 35-39 given on Q2 2026 call (secondary report); Q2 2026 capex 9.4,C,https://www.yieldtheory.app/research/hyperscaler-ai-capex-tracker-2026
-Big-4 total,FY2024,2024-12-31,230.9,Sum of Amazon gross; Microsoft FY24 incl. leases; Alphabet; Meta incl. leases,B,derived
-Big-4 total,FY2025,2025-12-31,380.5,Sum of Amazon gross; Microsoft FY25 incl. leases; Alphabet; Meta incl. leases,B,derived
-Big-4 total,FY2026 guidance,2026-12-31,727.5,Sum of guidance midpoints (Amazon 200; Microsoft 190; Alphabet 200; Meta 137.5); definitions differ by company,B,derived
+Big-4 total,FY2024,2024-12-31,230.9,Sum of Amazon gross; Microsoft FY24 incl. leases; Alphabet; Meta incl. leases; mixed fiscal periods (Microsoft June); not a calendar-year AI-only cohort,B,derived
+Big-4 total,FY2025,2025-12-31,380.5,Sum of Amazon gross; Microsoft FY25 incl. leases; Alphabet; Meta incl. leases; mixed fiscal periods (Microsoft June); not a calendar-year AI-only cohort,B,derived
+Big-4 total,FY2026 guidance,2026-12-31,732.5,Updated guidance midpoints: Amazon 220; Microsoft 175; Alphabet 200; Meta 137.5; range 720-745; keeping Microsoft April accounting basis gives 747.5; not AI-only,B,derived
 Nvidia (cross-check),FY2024 data center revenue,2024-01-28,47.5,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 Nvidia (cross-check),FY2025 data center revenue,2025-01-26,115.2,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 Nvidia (cross-check),FY2026 data center revenue,2026-01-25,193.7,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
