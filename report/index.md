@@ -37,8 +37,9 @@ is open.
 the stack, and partly repriced already.** The strongest-supported finding.
 Oracle (FY2026 free cash flow −$23.7B, $125B of borrowings, BBB−), CoreWeave
 (net interest 25% of revenue, covenant relief in December 2025, CDS above
-1,000bp), the wider listed neocloud layer (~$81B of debt at June including
-CoreWeave; over $110B counting private facilities, some undrawn) and the
+1,000bp), the wider listed neocloud layer (about $81B of debt at June including
+CoreWeave, on mixed bases; private facilities such as Nscale's add to it
+but have not been reconciled) and the
 frontier labs (multi-year commitments many times revenue, financed partly by
 their suppliers). From 2026 peaks to 16 October: Oracle −48%, CoreWeave
 −56%, SK Hynix −56%, Vertiv −45%; the Nasdaq-100 −6.5%. Losses would fall on
@@ -138,8 +139,9 @@ ratio.
 
 ## Status
 
-All 26 research notes are present; nine have had cross-check corrections
-applied, the rest are drafts. No paywalled sources were used, so
+All 26 research notes are present; nine (all the Claude-written ones)
+have had Codex cross-check corrections applied; the Codex-written ones are
+being cross-checked next. No paywalled sources were used, so
 private-company figures are reported and unverified and graded as such. The
 lead agent is an Anthropic model; Anthropic's note was written by Codex.
 Version history and every change are in the

@@ -44,9 +44,11 @@ return.
 | Tightening policy | Fed hiked in September 2026, first since 2023; 10-year touched 5.31% on 5 October, highest since 2002, then fell to 5.09% by 16 October; CPI 3.7% | 2 |
 
 Twelve points of fourteen across seven indicators, with sentiment and
-new-buyer entry the two partial readings; the fuller 13-row rubric in the
-mechanics note sums to 20 of 26 and scores forward P/E and broad credit
-stress at zero. In Kindleberger's sequence, soft sentiment with the financing
+new-buyer entry the two partial readings. This scoring is the report's own
+operationalisation; the mechanics note, after its cross-check, withdrew its
+13-row composite (which summed to 20 of 26) pending consistent rules and
+calibration, and records that the four hyperscalers spent 86% of operating
+cash flow on cash capex in Q1 2026 and 96% in Q2. In Kindleberger's sequence, soft sentiment with the financing
 indicators lit is consistent with the late-euphoria / early profit-taking
 boundary. It is also consistent with
 a rational response to a productive technology; the checklist cannot tell
