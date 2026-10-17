@@ -4,11 +4,11 @@
 
 ## Summary
 
-- Oracle combines a profitable software franchise with rapidly expanding OCI infrastructure. Accounting profit remains strong; the infrastructure build does not fund itself from operating cash flow.
+- Oracle’s profitable software franchise cannot currently fund its infrastructure build from operating cash flow.
 - FY2026 free cash flow was **−$23.686bn**; Q1 FY2027 added **−$5.396bn**, despite substantial customer advances. Those advances are financing economically, even when classified as operating cash flow. [S2]
 - Borrowings total **$125.337bn**, or **$88.260bn net** of cash and securities, before leases. Future datacenter leases create substantial additional exposure. [S1]
-- OpenAI confirms a partnership exceeding **$300bn over five years**. The precise enforceable minimum, cancellation rights and share of Oracle's RPO remain undisclosed. Calling the entire headline amount guaranteed cash would be unjustified. [S6]
-- Equity, bonds, customer-funded hardware and developer financing materially improve feasibility. They redistribute risk; they do not establish that the completed assets will earn adequate returns.
+- OpenAI confirms a partnership exceeding **$300bn over five years**. The precise enforceable minimum, cancellation rights and share of Oracle's RPO remain undisclosed. [S6]
+- Equity, bonds, customer-funded hardware and developer financing improve feasibility without establishing adequate returns.
 - Credit stress is observable: Reuters reported **288bp five-year CDS**; S&P's downgrade to **BBB−** is corroborated by reputable reporting. Neither establishes imminent default. [S18], [S19]
 - The largest uncertainty is whether OpenAI's cash payments arrive on the schedule needed to service Oracle's equipment, leases and debt. Oracle is overextended where it assumes long obligations before power, customer liquidity and durable rental margins are secured.
 
@@ -83,7 +83,7 @@ Customer-supplied GPUs contradict blanket Oracle ownership. Leasing buildings le
 
 **Can the build be funded? (Conditional analysis, C.)** The CSV reconciles actual OCF less cash capex. For planning, use either gross capex against OCF including advances, or net capex outlay against OCF excluding the corresponding advances. Subtracting net capex from unadjusted OCF counts customer funding twice. Net outlay also includes manufacturing-finance flows; it is not ordinary FCF. [S2]
 
-The following deliberately transparent illustration uses row 37's annualized operating cash, management's net spending ceiling, the disclosed principal schedule and unchanged FY26 dividends:
+This illustration uses annualized operating cash, management’s net spending ceiling, scheduled principal and unchanged dividends:
 
 - FY27: **70−46.960+7.210+5.787 = 36.037** external funding required. The announced **40** could cover this and leave **35.857** from opening cash/securities of **31.894**.
 - FY28, repeating those operating and net-spending assumptions: **70−46.960+10.145+5.787 = 38.972** required. Without another raise, even exhausting that illustrative opening cash leaves **3.115** uncovered.
@@ -95,14 +95,14 @@ These are C-grade scenarios, not predictions. Annualizing a seasonally strong qu
 
 If OpenAI cannot pay, Oracle first loses collections and utilization while retaining obligations unless contracts provide relief. Shareholders absorb lower profit, impairment and dilution; corporate creditors are exposed if cash resources and refinancing fail. Project equity is economically junior to its secured lenders, but recoveries depend on guarantees, completion support and tenant claims. Unsold construction loans remain with underwriting banks; distributed loans move exposure to buying funds, insurers or other lenders. Blue Owl-managed fund investors should not automatically be conflated with Blue Owl's corporate balance sheet. Paid chip vendors may have transferred much of the demand risk, while equipment owners retain obsolescence and resale risk. The actual waterfall cannot be resolved without private loan and lease documents.
 
-**What securities discount (interpretation, C).** The verified equity price produces a moderate near-term adjusted earnings multiple, not evidence that the old growth narrative is fully priced. Its much lower multiple of the distant target illustrates how much execution remains disputed; time value, dilution and non-GAAP adjustments make that comparison unsuitable as a price target. [S20] CDS and the disclosed debt fair-value discount indicate materially more demanding financing conditions. The latter also reflects interest rates and duration, not solely expected credit losses. Neither measure directly gives default probability. Current executable bond yields were not verified.
+**What securities discount (interpretation, C).** Equity trades at a moderate multiple of near-term adjusted earnings and a much lower multiple of distant targets. Time value, dilution and non-GAAP adjustments prevent treating those comparisons as price targets. [S20] CDS and the disclosed debt fair-value discount indicate materially more demanding financing conditions. The latter also reflects interest rates and duration, not solely expected credit losses. Neither measure directly gives default probability. Current executable bond yields were not verified.
 
 ## Conflicts and open questions
 
 - **Fundability versus leverage:** completed equity issuance, actual customer advances and supplied hardware contradict a debt-only funding narrative. They also transfer obligations to future service periods; continued funding availability remains uncertain.
 - **Margins versus obsolescence:** management's example and reported stronger renewal pricing challenge the low-margin extrapolation. Neither discloses a complete, audited return after financing and replacement investment.
 - **Insider profit-taking versus conviction:** the verified Catz example accompanied option exercise under a prearranged plan. It proves a sale, not advance knowledge of failure. Ellison's cancelled plan is counterevidence. A complete, deduplicated insider-sale total was not verified. [S27], [S28]
-- **Dating and source limits:** the Jupiter stress article retrieved was September reporting, not a newly verified mid-October FT investigation. S&P's original page was located but its substantive text was inaccessible; the downgrade is secondary grade B. Moody's and Fitch observations are explicitly dated, not certified unchanged through today. The private contract, current bond yields and exact GPU ownership remain unresolved. Search snippets, accessible republications and a retrieved SEC filing were used where direct pages failed; no paywall was bypassed.
+- **Dating and source limits:** the Jupiter stress article retrieved was September reporting, not a newly verified mid-October FT investigation. S&P's original page was located but its substantive text was inaccessible; the downgrade is secondary grade B. Moody's and Fitch observations are explicitly dated, not certified unchanged through today. The private contract, current bond yields and exact GPU ownership remain unresolved. Indexed excerpts and republications supplement inaccessible pages.
 - **Ranking:** “most leveraged large AI builder” is plausible within a narrowly defined hyperscaler peer group, but this note does not establish that ranking using uniform lease-adjusted leverage. It does establish substantial financing and counterparty exposure without that superlative.
 
 ## Signals to watch
@@ -133,7 +133,7 @@ All accessed **2026-10-17**; dates below are publication/filing dates unless sta
 8. **S7** — Oracle, Q1 FY2026 earnings release, 2025-09-09: https://s23.q4cdn.com/440135859/files/doc_financials/2026/q1/1q26-pressrelease-September-final_.pdf
 9. **S8** — Oracle/Doug Kehring, Financial Analyst Meeting presentation, 2025-10-16: https://www.oracle.com/a/ocom/docs/corporate/financial-analyst-meeting-2025-kehring.pdf
 10. **S9** — CRN, analysis of Oracle's revised outlook, October 2025: https://www.crn.com/news/ai/2025/analysis-how-oracle-is-differentiating-for-the-agentic-ai-era-in-quest-for-225-billion
-11. **S10** — CreditSights, top takeaways from analyst meeting, October 2025: https://know.creditsights.com/insights/oracle-top-10-takeaways-from-2025-analyst-meeting/
+11. **S10** — CreditSights, top takeaways from analyst meeting, 2025-10-20: https://know.creditsights.com/insights/oracle-top-10-takeaways-from-2025-analyst-meeting/
 12. **S11** — Motley Fool, Q1 FY2027 call transcript and editorial summary, 2026-09-11, call 2026-09-10: https://www.fool.com/earnings/call-transcripts/2026/09/11/oracle-orcl-q1-2027-earnings-call-transcript/
 13. **S12** — Oracle, calendar-year financing plan, 2026-02-01: https://investor.oracle.com/investor-news/news-details/2026/Oracle-announces-Equity-and-Debt-Financing-Plan-for-Calendar-Year-2026/default.aspx
 14. **S13** — SEC/Oracle, final bond pricing sheet, 2025-01-30: https://www.sec.gov/Archives/edgar/data/1341439/000119312525017365/d901407dfwp.htm
@@ -155,7 +155,7 @@ All accessed **2026-10-17**; dates below are publication/filing dates unless sta
 30. **S28** — Oracle, Ellison cancels trading plan, 2026-09-12: https://www.oracle.com/news/announcement/larry-ellison-cancels-his-plan-to-sell-oracle-shares-2026-09-12/
 31. **S29** — Oracle, AI World event schedule, current page (undated): https://www.oracle.com/ai-world/
 32. **S30** — Bloomberg/Bloomberg Law, Jupiter force majeure and responses, 2026-09-24: https://news.bloomberglaw.com/ip-law/oracle-cites-force-majeure-to-shield-itself-on-big-data-center
-33. **S31** — STACK, New Mexico campus announcement, 2025-09-23: https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-delivers-digital-infrastructure-for-data-center-campus-in-new-mexico/
+33. **S31** — STACK, New Mexico campus announcement, 2025-09-26: https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-delivers-digital-infrastructure-for-data-center-campus-in-new-mexico/
 
 [S0]: https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm
 [S1]: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm
