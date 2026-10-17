@@ -23,9 +23,9 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S10 | Stack: Oracle | Claude subagent | running | research/stack/oracle.md |
 | P1-S11 | Stack: CoreWeave | Claude subagent | running | research/stack/coreweave.md |
 | P1-S12 | Stack: other neoclouds | Claude subagent | running | research/stack/neoclouds-other.md |
-| P1-S13 | Stack: OpenAI | Claude subagent | running | research/stack/openai.md |
-| P1-S14 | Stack: Anthropic | Claude subagent | running | research/stack/anthropic.md |
-| P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Claude subagent | running | research/stack/labs-other.md |
+| P1-S13 | Stack: OpenAI | Claude subagent | pending (agent cap) | research/stack/openai.md |
+| P1-S14 | Stack: Anthropic | Claude subagent | pending (agent cap) | research/stack/anthropic.md |
+| P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Claude subagent | pending (agent cap) | research/stack/labs-other.md |
 | P1-G1 | Grok live scan of x.com, last 7 days | Grok CLI | running | signals/2026-10-17.md (after verification) |
 | P1-M2 | Macro: power and datacenters | Claude subagent | pending | research/macro/power-and-datacenters.md |
 | P1-M3 | Macro: debt markets and private credit | Claude subagent | pending | research/macro/debt-markets.md |
