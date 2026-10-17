@@ -27,13 +27,13 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S14 | Stack: Anthropic | Codex gpt-6.1-sol | done (draft) | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Codex gpt-6.1-sol | done (draft) | research/stack/labs-other.md |
 | P1-G1 | Grok live scan of x.com, last 7 days | Grok CLI, verified by Codex gpt-6.1-sol | verifying | signals/2026-10-17.md (after verification) |
-| P1-M2 | Macro: power and datacenters | Codex gpt-6.1-sol | running | research/macro/power-and-datacenters.md |
+| P1-M2 | Macro: power and datacenters | Codex gpt-6.1-sol | done (draft) | research/macro/power-and-datacenters.md |
 | P1-M3 | Macro: debt markets and private credit | Codex gpt-6.1-sol | done (draft) | research/macro/debt-markets.md |
-| P1-M4 | Macro: public-market valuation and concentration | Codex gpt-6.1-sol | running | research/macro/public-markets.md |
+| P1-M4 | Macro: public-market valuation and concentration | Codex gpt-6.1-sol | done (draft) | research/macro/public-markets.md |
 | P1-M5 | Macro: circular financing map | Codex gpt-6.1-sol | done (draft) | research/macro/circular-financing.md |
 | P1-M6 | Macro: demand side, adoption, revenue | Codex gpt-6.1-sol | done (draft) | research/macro/demand-side.md |
 | P1-M7 | Macro: China | Codex gpt-6.1-sol | done (draft) | research/macro/china.md |
-| P1-M8 | Macro: rates, sovereign money, geopolitics | Codex gpt-6.1-sol | running | research/macro/rates-sovereign-geopolitics.md |
+| P1-M8 | Macro: rates, sovereign money, geopolitics | Codex gpt-6.1-sol | done (draft) | research/macro/rates-sovereign-geopolitics.md |
 
 
 Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropic account session limit at ~16:55 and all were terminated; one note and nine CSVs survived. Work is now paced: ~6 Claude agents resumed at a time, four notes moved to Codex.
