@@ -47,7 +47,10 @@ The whole VM is cleared for agentic use. The one concern is spill: don't leave
 stray files around it.
 
 - **This repo:** this is an agentic repo. Commit whenever you reach a usable
-  step. You can work on `master` and/or create worktrees for subagents.
+  step. You can work on `master` and/or create worktrees for subagents. Don't
+  push: there are no GitHub credentials on this VM.
+- **Usage limits:** use agent and model usage as you see fit. There is plenty
+  available.
 - **Packages:** use `uv` (Python) and `npm` within this repo.
 - **Temporary files:** use your own temp folder or `/tmp`.
 - **API keys:** some are in `~/.zshrc`, if any.
