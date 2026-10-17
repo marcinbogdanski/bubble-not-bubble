@@ -1,20 +1,21 @@
 # AI debt markets: where losses sit if the build disappoints
 
-*Last updated: 2026-10-17 · Author: Codex / OpenAI · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
+*Last updated: 2026-10-18 · Author: Codex / OpenAI · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
 
 ## Summary
 
 - Credit risk depends on construction delivery, customer payments and equipment resale values. S&P’s **2026-08-27 forecast** projects capex above $1.3T by 2027 and expects all six covered hyperscalers to have negative free operating cash flow in 2026–2027, with recovery only in 2029; profitability alone does not establish capacity to self-fund the build. [S&P][sp]
 - Meta’s May 2026 bond issue raised $25B face value and $24.91B net cash. Alphabet’s June 2026 common-stock and mandatory-preferred financing raised $49.6B net; preferred conversion is scheduled on/about May 15, 2029 unless earlier converted. [Meta][meta], [Alphabet][goog]
 - The note assembles approximately $572.5B of dated corporate principal and selected project securities, mainly from May–June 2026 snapshots, conditional on the verification limits in claim 12. Construction packages, chip-platform capital and subsequent issuance are displayed separately because they do not measure comparable outstanding debt. [Claims 12 and 40](#key-claims)
+- AI-related IG issuance expanded substantially (claims 50–51), while later issuance weakened (claim 53). The measures have different coverage. [KC Fed][kcfed]
 - Hyperion’s 2025 structure illustrates project versus tenant debt: Meta signed initial four-year leases and conditional, capped residual-value support for the first 16 operating years. This is not an unlimited Meta guarantee of project bonds. [Meta][metajv]
-- On October 15, 2026, Reuters reported CoreWeave five-year CDS above 1,000bp and Oracle at 288bp; broad US high-yield OAS was 323bp. These differently constructed indicators suggest selective credit stress; they are neither realized losses nor directly comparable default probabilities. [Reuters][cds], [FRED][fredhy]
-- Institutional participation is established: CDPQ joined CoreWeave’s $7.5B May 2024 facility; BCI and Liberty Mutual Investments joined Crusoe’s $0.225B March 2025 GPU financing. Current allocations, aggregate insurer/pension exposure and banks’ retained underwriting positions remain unquantified. [Blackstone][crwv24], [Crusoe][crusoe]
-- CoreWeave’s August 2026 $2.6B DDTL 5.5 has roughly five-year debt against customer contracts averaging three years. Repayment therefore depends partly on renewals, replacement customers or collateral recovery after the initial contracts expire—an illustrative mechanism, not a portfolio loss forecast. [CoreWeave][crwv55]
+- Wood/Jefferies, relayed October 17, reports Oracle CDS widening from 186bp on September 11 to 288bp, and CoreWeave from 749bp to 1,118bp. Endpoint quote dates are unspecified. These paths reinforce selective stress, not realized defaults or rating-downgrade probabilities. [ET/ANI][wood]
+- Institutional participation is established: CDPQ joined CoreWeave’s $7.5B May 2024 facility; BCI and Liberty Mutual Investments joined Crusoe’s $0.225B March 2025 GPU financing. Open Markets warns about pensions and PE-owned insurers, but supplies no holdings census. Current allocations, aggregate insurer/pension exposure and banks’ retained underwriting positions remain unquantified. [Blackstone][crwv24], [Crusoe][crusoe], [Open Markets][omi]
+- Long bonds outlast server accounting lives (claims 52,56–57), suggesting repeated replacement capex before repayment; actual chip economic life remains unverified. CoreWeave’s five-year debt/three-year customer-contract mismatch is a separate renewal risk (claim 23). [KC Fed][kcfed], [Meta][metak], [Microsoft historical policy][mslife], [CoreWeave][crwv55]
 
 ## Key claims
 
-Dollar amounts are USD unless another currency is shown; B = billion, bp = basis points. All sources accessed **2026-10-17**. Analyst forecasts are identified as estimates even when their publication is primary.
+Dollar amounts are USD unless another currency is shown; B = billion, bp = basis points. Existing sources accessed **2026-10-17**; new sources and hardware-life comparators checked **2026-10-18**. Analyst forecasts are identified as estimates even when their publication is primary.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -67,6 +68,15 @@ Dollar amounts are USD unless another currency is shown; B = billion, bp = basis
 | 47 | Meta future lease obligations | $278.99B leases not yet commenced at June 30; another $68B data-center leases signed in July; undiscounted obligations, separate from current project debt | 2026-06-30 / 2026-07 | [Meta 10-Q, Note 9][meta] | primary | A |
 | 48 | Oracle future lease commitments | $288B additional leases not on August balance sheet; expected commencement fiscal Q2 2027–fiscal 2029, terms 15–19 years; undiscounted contractual obligations | 2026-08-31 | [August 10-Q][orclq] | primary | A |
 | 49 | CoreWeave immediate principal payments | $4.413B in remaining portion of calendar 2026, per June maturity schedule; not an October remaining balance | 2026-06-30 | [10-Q, Note 10][crwv] | primary | A |
+| 50 | AI-related share of IG issuance | 2% in 2023 → 10% in 2026; broad AI value-chain issuers, not AI-only use of proceeds | through 2026-Q2; published 2026-10-05 | [Sharma & George, KC Fed, Chart 1][kcfed] | primary | A for authors’ analysis |
+| 51 | AI-related IG issuance volume | $330B YTD, 10× full-year 2023 | through 2026-Q2; published 2026-10-05 | [KC Fed, Chart 1][kcfed] | primary | A for authors’ estimate |
+| 52 | Weighted-average IG bond maturity | Hyperscalers 16 years; utilities 17; market average 10 | bonds issued 2025–August 2026; published 2026-10-05 | [KC Fed, Chart 4][kcfed] | primary | A for authors’ analysis |
+| 53 | Global AI-related debt issuance | September $23B versus June $113B | 2026; reported 2026-10-16 | [Axios, citing FT][axiosdebt] | secondary | B |
+| 54 | Oracle CDS path | Five-year protection 186bp on September 11 → 288bp; endpoint observation date unspecified | since 2026-09-11; reported 2026-10-17 | [ET/ANI quoting Christopher Wood, Jefferies][wood] | secondary | B for attributed marks |
+| 55 | CoreWeave CDS path | 749bp → 1,118bp over the same interval; 2032 bond yield 14.8%; endpoint observation date unspecified | since 2026-09-11; reported 2026-10-17 | [ET/ANI quoting Wood/Jefferies][wood] | secondary | B for attributed marks |
+| 56 | Meta hardware accounting lives | Servers/network assets 5–5.5 years; most extended to 5.5 effective January 1, 2025; buildings 25–30 years | 2025-12-31; filed 2026-01-29 | [Meta 10-K, Note 1][metak] | primary | A for accounting estimates, not measured economic life |
+| 57 | Microsoft historical hardware accounting policy | Server/network lives extended from 4 to 6 years effective FY2023; historical comparator, not a new 2026 GPU-life measurement | FY2024 annual report | [Microsoft, Note 1][mslife] | primary | A for historical accounting policy |
+| 58 | Holder-channel evidence and limit | Institutional channels identified; AI-specific allocations unquantified. Open Markets warns about insurer/endowment exposure | KC Fed 2026-10-05; Open Markets 2026-10-16 | [KC Fed][kcfed], [Open Markets][omi]; named deals in claims 18,24–26 | primary institutional analysis / advocacy | A for Fed analysis and named disclosures; B for advocacy attribution |
 
 **Claim 12 verification limits.** The cross-check directly reproduced Meta, Alphabet and Amazon balances. Oracle’s principal schedule was available only in an indexed SEC extract; the full annual report did not fetch. Microsoft’s filing index was accessible, but the reviewer could not independently reproduce its principal. The conditional sum is correct arithmetic, not certification of all five balances or an October debt census. [Independent cross-check](../../reviews/debt-markets-codex-xcheck.md), [Oracle indexed filing][orclindex], [Microsoft filing index][msftindex]
 
@@ -75,6 +85,8 @@ Dollar amounts are USD unless another currency is shown; B = billion, bp = basis
 **What is financed, and who can pay.** Advertising, software, retail and cloud cash flows support hyperscaler debt. Microsoft’s leased suppliers can borrow against its rent despite its absence of direct issuance. Corporate proceeds cannot all be assigned to AI; Alphabet’s mandatory preferred primarily creates dilution and dividends. S&P’s August forecast (claim 39) expects negative free operating cash flow across its six-company universe through 2027, with recovery only in 2029. Operating profitability is therefore support, not evidence that the build can be self-funded. [S&P][sp]
 
 Oracle’s quarter ended August 31, 2026 provides a funding bridge: $23.103B OCF included $11.363B of customer advances with a significant financing component, against $28.499B capex and reported FCF of −$5.396B. Excluding those advances gives an illustrative −$16.759B OCF-minus-capex figure, not reported FCF. These prepayments create deferred revenue and interest expense; they improve liquidity but are distinct from cash generated by delivered services. Oracle also raised $19.909B net common equity, real loss-absorbing capital (claims 45–46). [Results][orclresults], [10-Q][orclq]
+
+**Issuance flows and market access.** The Fed excludes private AI labs; its issuer perimeter differs from claim 53. Neither series measures outstanding debt or forms a directly comparable monthly series. Together with the closed Lambda facility and CoreWeave convertible, the evidence supports more selective access; it does not establish that financing has stopped. [KC Fed][kcfed]; claims 25,41,53
 
 **Estimated stack by instrument and holder.** The CSV distinguishes stocks, issuance flows, capacities and proposals. The dated subtotal below is an incomplete historical map, conditional on claim 12’s verification limits; corporate principal includes legacy non-AI borrowing, and project issuance can include reserves or refinancing.
 
@@ -105,6 +117,14 @@ Lambda, Crusoe and xAI examples are outside that subtotal: their facility capaci
 
 Blackstone and Magnetar are verified CoreWeave lenders; PIMCO anchors Beignet; Apollo finances equipment vehicles; Blue Owl supplies project equity and organizes capital. CDPQ and BCI, institutional investment managers, establish pension-sector participation in the named financings, not direct pension balance-sheet allocations; Liberty Mutual Investments and CoreWeave’s disclosed insurance investors establish insurer-sector participation. Asset-manager AUM is not the manager’s own loss-bearing balance sheet. [Blackstone][crwv24], [Crusoe][crusoe], [CoreWeave][crwv4]
 
+**Who holds the paper.** KC Fed’s purchase chart covers all corporate bonds; its private-placement discussion identifies insurer, pension and private-credit channels. Open Markets’ October 16 report argues exposure reaches retirement funds, endowments and policyholders through PE-owned insurers; that verifies the advocacy position, not each portfolio’s exposure. [KC Fed][kcfed], [Open Markets][omi]
+
+The named providers above establish participation, not present beneficial ownership. An insurer may hold an asset directly or through a managed fund; a pension can be a fund investor rather than lender of record; a private-credit manager can arrange capital without retaining all the risk. A security-level bridge requires identifiers, current positions, fund investors, insurer general-account disclosures and the contractual waterfall. Neither new source verifies aggregate AI holdings or a quantified BBB−/BB GPU-mezzanine allocation. General corporate-bond purchase data cannot fill that gap.
+
+**Maturity mismatch: long bonds, shorter-lived chips.** Compare claim 52’s 16–17-year bonds with the roughly five-to-six-year hardware accounting lives in claims 56–57. These server/network estimates are broader than GPUs and do not measure actual resale value or the date chips cease to earn revenue. Meta also reports much longer building lives. [Meta][metak], [Microsoft historical policy][mslife]
+
+Our inference is that long-duration creditors rely on cash generation across successive hardware generations after replacement capex. Rapid obsolescence, weaker rents or expensive replacement can erode that cushion before legal maturity. Long fixed-rate borrowing also reduces immediate rollover pressure, and diversified corporate issuers have durable assets and other revenues; their bonds are not automatically secured solely by the first chip cohort. For equipment/project debt, amortization, contracts, residual values and guarantees determine the mismatch security by security. Claim 23’s contract-renewal gap is separate from hardware useful life.
+
 **Project credit and GPU credit differ.** Beignet investors depend on Meta rent and conditional residual support; Meta’s guarantee is not an unlimited promise to repay every bond. QTS creditors own project claims, not Microsoft corporate notes. Hut’s Louisiana lease is with Fluidstack, backstopped by Google; the Texas Nvidia tenancy is reported by the FT. Calling both Hut projects Nvidia leases is unsupported. [Meta][metajv], [QTS counsel][qts], [Hut][hutlease], [FT][prices]
 
 CoreWeave’s older DDTLs combine contractual cash receipts with equipment collateral. Its later contract/debt mismatch requires successful renewal, replacement customers or residual recoveries. The cheaper investment-grade facility has different contractual support: its spread cannot be compared with the later facility as a pure time-series repricing. DDTL 4.0 initially permits about $7.5B, rising to $8.5B upon stabilization; DDTL 5.5 is rated Ba2/BB+ (claim 23). Lambda’s October facility instead pairs full amortization with two investment-grade offtakers and commissioning-linked draws (claim 25), counterevidence against an indiscriminate shutdown; closing the commitment does not show it was fully drawn. [March facility][crwv4], [August facility][crwv55], [Lambda][lambda26]
@@ -112,6 +132,8 @@ CoreWeave’s older DDTLs combine contractual cash receipts with equipment colla
 Claim 42 makes lease-commencement protection an immediate verification priority. [Axios][jupnotice] Oracle’s October 13 statement says Jupiter’s scope is unchanged beyond its April power-plan update (claim 43); this does not establish resolution of financing or permitting risks. [Oracle][juporacle]
 
 **Maturity wall and repricing order.** CoreWeave’s June 30 schedule includes $4.413B of principal payments in the remaining part of 2026 (claim 49), an immediate liquidity requirement omitted by a 2027–2030-only view; it is not an October remaining balance. [10-Q][crwv] Claim 14 mixes calendars: Oracle years end in May, Microsoft in June. Meta’s new May issue starts beyond the requested window. Construction loans may require takeout when construction completes, well before a project bond’s legal final maturity. Jupiter’s original proposed tenor and Vantage’s final extension conditions were not verified.
+
+The Jefferies paths in claims 54–55 provide an earlier starting point for repricing. ET/ANI reproduces Wood’s figures, but the original Jefferies note and endpoint fixing times were not retrieved. Their endpoints must not be dated as October 17 closes or combined with Reuters’ separate observations into a certified daily series. CDS prices include risk premia, recovery assumptions and liquidity; neither path directly establishes default or fallen-angel odds. [ET/ANI][wood]
 
 CDS, bonds and new-deal discounts reprice first. Floating interest, draw conditions, collateral tests and construction deadlines transmit stress before maturity. Amortizing GPU loans require continuing cash generation. Fixed corporate coupons do not reset when secondary prices fall; their issuers face the new price when refinancing or borrowing again. Fully amortizing Hut bonds reduce balloon-refinancing risk, but retain completion and tenant-performance risk.
 
@@ -137,6 +159,7 @@ A telecom-style default cycle would start with delays and weak compute cash conv
 - The original note combined Reuters syndications as approximately 63–64% CDS-implied default risk. The review reproduced about 63% but could not fetch the Swedish 64% version; that value remains unverified. Recovery assumptions, risk premia and liquidity make neither an objective default forecast. [Reuters explainer][cdsex], [Reuters syndication][cds64]
 - No primary KBRA report or original S&P Oracle action was retrieved. Anthropic rating/financing details remain reported, unverified. North Star closing, guarantee documentation and final allocations remain unknown.
 - Moody’s capex/AUM forecasts, S&P capex projections and Morgan Stanley financing needs measure different universes. No reproducible current AI-only private-credit stock was retrieved from Fitch or Bank of America. Fitch’s joint whitepaper instead highlights leverage layered across holding companies, projects and GPUs. [Fitch joint whitepaper][fitch]
+- KC Fed’s issuance and maturity samples have different cutoffs; its broad issuer definition differs from claim 53’s global debt perimeter. Hardware accounting lives are not observed GPU economic lives, and Jefferies’ endpoint fixing dates/original note remain unverified (claims 50–57).
 - Exact insurer/pension holdings, bank warehouse exposure, project-loan drawn balances, current secondary spreads and subsequent repayments and foreign-currency issuance are incomplete. Fund redemption pressure is documented; an AI-infrastructure-loss-caused gate was not verified. [CRISIL][flows]
 
 ## Signals to watch
@@ -145,6 +168,8 @@ A telecom-style default cycle would start with delays and weak compute cash conv
 |--------|---------------|-------|--------|----------------|
 | CoreWeave CDS | >1,000bp | 2026-10-15 | [Reuters][cds] | Marginal refinancing price |
 | Oracle CDS | 288bp | 2026-10-15 | [Reuters][cds] | Tenant/bank concentration |
+| CDS path / quote provenance | Oracle 186→288bp; CoreWeave 749→1,118bp since September 11; endpoint dates unspecified | reported 2026-10-17 | [ET/ANI][wood] | Dated risk repricing; original note/fixing times still needed |
+| Issuance and maturity coverage | Claims 50–53: different universes and cutoffs | Q2 / August / September 2026 | [KC Fed][kcfed]; claim 53 | Track matched issuance series and hardware replacement needs |
 | Project bonds, unresolved versions | Oct 15 original attribution: Beignet <91/QTS <87/Hut Louisiana ~93, Texas ~91; Oct 16 alternate: <92/<88/~94/~92 cents; no certified mark | 2026-10-15/16 publication dates | [FT/Yahoo][prices], [FT/BizNews][pricesalt] | Indicative discounts also reflect rates/liquidity/terms; identifiers and timestamps needed |
 | Construction syndication | Jupiter $18B, indications 89–91 | 2026-09-18 | [Reuters/FT][jupiter] | Retained underwriting exposure |
 | New GPU deals | Lambda $1.008B commitment at 6.78%, closed; two investment-grade offtakers; commissioning-linked draws | 2026-10-01 | [Lambda][lambda26] | Selective financing access; commitment is not full funding |
@@ -230,6 +255,13 @@ A telecom-style default cycle would start with delays and weak compute cash conv
 71. [Oracle, FY2026 indexed annual report][orclindex]. 2026-06-22. Cross-check obtained indexed principal schedule on 2026-10-17; full-document retrieval failed.
 72. [Independent debt-markets cross-check](../../reviews/debt-markets-codex-xcheck.md). Codex, 2026-10-17; applied 2026-10-17.
 
+73. [Sharma, Padma, and Pierce George, Beyond Valuations: Long-Term Financial Risks from the AI Build-Out][kcfed]. Federal Reserve Bank of Kansas City, Economic Bulletin, 2026-10-05. Charts 1, 3 and 4 and endnotes. Accessed 2026-10-18.
+74. [Axios issuance report][axiosdebt]. Madison Mills, 2026-10-16, citing FT. Accessed 2026-10-18.
+75. [Rising borrowing costs signal funding risks for global AI expansion: Jefferies report][wood]. Economic Times/ANI, 2026-10-17. Full HTML retrieved directly; original Jefferies note not retrieved. Accessed 2026-10-18.
+76. [Brace for Impact: Protecting People and the Economy when the AI Bubble Bursts][omi]. Open Markets Institute, 2026-10-16. Advocacy report; not a holdings census. Accessed 2026-10-18.
+77. [Microsoft FY2024 annual report, Note 1][mslife]. Historical useful-life policy, effective FY2023. Accessed 2026-10-18.
+78. [Meta 2025 10-K, Note 1][metak]. 2026-01-29; source 22 rechecked for hardware/building lives on 2026-10-18.
+
 [meta25]: https://www.sec.gov/Archives/edgar/data/1326801/000119312525258837/d61769dfwp.htm
 [meta26]: https://www.sec.gov/Archives/edgar/data/1326801/000119312526197902/d148113dfwp.htm
 [meta]: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
@@ -305,3 +337,9 @@ A telecom-style default cycle would start with delays and weak compute cash conv
 [bis137]: https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms
 [orclresults]: https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx
 [orclq]: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm
+
+[kcfed]: https://www.kansascityfed.org/research/economic-bulletin/beyond-valuations-long-term-financial-risks-from-the-ai-build-out/
+[axiosdebt]: https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt
+[wood]: https://economictimes.indiatimes.com/markets/us-stocks/news/rising-borrowing-costs-signal-funding-risks-for-global-ai-expansion-jefferies-report/articleshow/135012567.cms
+[omi]: https://www.openmarketsinstitute.org/publications/report-brace-for-impact-protecting-people-and-the-economy-when-the-ai-bubble-burst
+[mslife]: https://www.microsoft.com/investor/reports/ar24/

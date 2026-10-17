@@ -1,9 +1,10 @@
 # Circular and vendor financing in the AI stack
 
-*Last updated: 2026-10-17 · Author: Codex (GPT-6) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
+*Last updated: 2026-10-18 · Author: Codex (GPT-6) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
 
 ## Summary
 
+- The IMF maps ~$300bn equity, $650bn debt and $1.4tn future orders. The financing channels match this register; exact deal overlap is unverified. Its “wrong-way risk” warning concerns simultaneous investment and customer-revenue impairment. [IMF]
 - At July 26, 2026, NVIDIA disclosed $36bn of capacity-support commitments, typically lasting six years; these purchase obligations differ from supplier equity and guarantees. [NQ]
 - NVIDIA’s August 17, 2026 PORTS guarantee has a $105bn initial cap. Broadcom separately disclosed a $29bn maximum backstop and up to $42bn of conditional convertible notes at August 2; these are not additive loss exposures. North Star remains reported, unverified. [NGUAR] [BQ] [NSTAR]
 - Amazon’s July 30, 2026 filing confirms completion of its $50bn OpenAI investment after June-end. Microsoft disclosed approximately 25% ownership at June-end versus approximately 27% at recapitalization, without a complete capitalization bridge. [AMQ] [MOWN] [MAZ]
@@ -67,6 +68,12 @@ Amounts are USD; **bn** = billion, **m** = million. Arrows follow the instrument
 | 48 | Microsoft Cloud breadth counterevidence | Nearly 90% of FY2026 Microsoft Cloud revenue from outside frontier-model companies; RPO excluding OpenAI grew 25% year over year; neither isolates AI-only demand | FY2026 ended 2026-06-30; call 2026-07-29 | [MCALL] | primary | A |
 | 49 | Concrete customer-incentive accounting | Cerebras H1 OpenAI-arrangement revenue $74.4m net of $3.3m OpenAI-specific warrant amortization; $86.3m non-cash billings credited against loan, no cash repayment; CoreWeave $350m OpenAI stock issuance offsets associated revenue | 2026-06-30; CoreWeave prospectus 2025-03-20 | [CBQ], [CS1] | primary | A |
 | 50 | PORTS risk allocation qualifications | Exposure activates with applicable leases as phases enter service and declines with payments; termination can precede 20 years, including satisfactory OpenAI credit rating; optional support for another 3.8GW at NVIDIA’s discretion; cap is not expected loss | 2026-08-17; July 26 10-Q subsequent event | [NGUAR], [NQ] | primary / interpretation of cap | A for terms; expected loss not quantified |
+| 51 | IMF circular-deal sample | 14 disclosed transactions since 2023; figure nodes denote firms | October 2026 publication | [IMF, pp.3–4][IMF] | primary | A, staff analysis |
+| 52 | IMF aggregate equity investment | Approximately $300bn, led by hyperscalers into weaker AI firms | October 2026 publication; sample since 2023 | [IMF, p.4][IMF] | primary | A, staff estimate |
+| 53 | IMF additional debt financing | $650bn across investor/investee firms; not all hyperscaler borrowing | October 2026 publication; sample since 2023 | [IMF, pp.3–4][IMF] | primary | A, staff estimate |
+| 54 | IMF future revenue commitments | $1.4tn services/chip orders returning spending to backers; not realized revenue | October 2026 publication; sample since 2023 | [IMF, pp.3–4][IMF] | primary | A, staff estimate |
+| 55 | IMF investee debt component | About $320bn within claim 53; includes investor-guaranteed, contingent and other off-balance-sheet debt | October 2026 publication; sample since 2023 | [IMF, p.3 figure note][IMF] | primary | A, staff estimate |
+| 56 | Local register scope | 51 instrument links, CF001–CF051; overlapping announcements, revisions and compound rows, not 51 independent transactions | register accessed 2026-10-18; underlying entries accessed 2026-10-17 | [Deal register](/data/circular-financing-deals.csv), claims 1–35 | primary inventory / derived count | B for count; underlying grades retained |
 
 ## Analysis
 
@@ -100,6 +107,22 @@ Google [Fluidstack default backstop] → TeraWulf / Cipher project lenders
 Microsoft [prepayment / contracted cash flows] → IREN / Nebius / Nscale
 Blue Owl / bondholders → Hyperion JV ← Meta [rent / residual guarantee]
 ```
+
+**IMF map and register reconciliation.** Figure 1.2 panel 2 anonymizes firms without a deal ledger; exact membership and a dollar bridge are unverified. Debt includes investor and investee financing beyond vendor links. [IMF]
+
+The table below classifies every local link once by its main instrument. **Overlap means matching economic channels, not verified membership of the IMF sample.** Compound rows also contain other instruments; no amounts are summed. The named links are already evidenced in claims 1–35 and the register.
+
+| Channel | Local links and relationships | Reconciliation |
+|---|---|---|
+| Equity / capital participation | CF001–002, 004, 006–009, 012–013, 018, 025–027, 029, 031, 046–048: NVIDIA and other vendors into labs/neoclouds; Microsoft–OpenAI/Anthropic; Amazon–OpenAI/Anthropic; Google–Anthropic; SoftBank–OpenAI | Candidate overlap with equity financing; announced ceilings, whole rounds and funding revisions cannot all count as paid equity. CF001/002 describe overlapping NVIDIA–OpenAI announcements. |
+| Purchases returning capital upstream | CF005, 010, 014, 019–020, 028, 030, 033, 035, 038–041, 051: capacity support; Anthropic–Azure/TPUs; OpenAI–AWS/Oracle/Broadcom/Cerebras/CoreWeave; Microsoft–neocloud contracts | Candidate overlap with future revenue commitments. CF051’s aggregate capacity support may overlap named contracts; multi-year sales cannot be added to annual revenue. |
+| Debt, guarantees and project support | CF003, 021–024, 037, 042–045, 049–050: PORTS; AI XPV/Broadcom/North Star; Hyperion; Google–Fluidstack/TeraWulf/Cipher; CoreWeave/Nscale vendor financing | Candidate overlap with debt/support channels. Guarantees are contingent caps, not extra principal; CF044/045 revise one Cipher exposure, and Broadcom package overlap remains unresolved. |
+| Customer equity incentives | CF016–017, 034, 036: AMD warrants; Cerebras warrants; CoreWeave stock issued to OpenAI | Circular incentives, but no verified IMF treatment or conversion from shares to equity-financing dollars. |
+| Boundary cases / programme umbrella | CF011, 015, 032: NVIDIA–Intel, Groq licence/hiring, Stargate programme | No demonstrated equivalent IMF circular-deal entry. Supplier integration, acquisition consideration and programme intentions require separate treatment. |
+
+**What the IMF counts beyond this register.** Funding-side corporate borrowing and third-party bank/bond/project debt are not comprehensively recorded as separate links here. The register identifies support and selected facilities, but often omits the borrowing that support enables. The [debt-markets note](/research/macro/debt-markets) maps some of those instruments separately; its balances cannot be added to the IMF total. Which named debts make up the IMF-only remainder cannot be established from anonymous nodes. Conversely, this register includes later announcements, conditional instruments and boundary cases whose IMF inclusion is unknown. The sample counts cannot establish relative completeness.
+
+Our inference is correlated impairment across investments, orders and support. Contract terms still determine recovery; neither inventory identifies demand that would vanish without financing.
 
 **Attribution.** Claims 38–39 are accounting-scale illustrations using selected historical announcements and assumed spending paths. They are not estimates or bounds of financing-dependent demand: the NVIDIA and AMD cases omit debt and other equity enabled by supplier support, while the backlog cases do not reconcile original contract values to remaining obligations. The small equity-basket percentages cannot dismiss financing dependence. Revenue flows and RPO stocks are different measures; annualizing a quarter does not produce trailing annual revenue. Mechanical arithmetic is B; scenario assumptions keep the overall claims at C.
 
@@ -135,7 +158,7 @@ Reuters’ October 1 account identifies Anthropic as the note-facility borrower 
 
 **Accounting and demand interpretation.** The original note’s ordinary supply-chain accounting explanation remains a conceptual caution; the reviewer says it cannot serve as a blanket audit of gross-versus-net treatment. Customer incentives reduce recognized revenue in the disclosed examples (claims 25, 49), with no stack-wide accounting audit established. The original phrase “concentrate final demand” treated labs as end users; the reviewer identifies them as intermediaries concentrating upstream purchases and financing. The graph now distinguishes those roles. Groq’s reported headline differs from filed consideration; no customer-financing loop was established. [CBQ] [CS1] [NK]
 
-Unresolved: investee-level NVIDIA sales; guarantee collateral/fees and realized losses; remaining lab contracts; a complete paid-equity reconciliation; programme overlap. Some SEC access remains indexed-only, but Microsoft’s full filing was retrieved directly over HTTP for this update. No comprehensive related-party revenue matrix was verified, despite the measured Microsoft–OpenAI link in claim 41; economic links do not automatically meet accounting definitions. The review’s preliminary Broadcom/OpenAI financing-talks lead supplies neither a fetched executed agreement nor an amount used here.
+Unresolved: IMF firm identities, transaction dates, paid-versus-committed treatment and deal-level bridge to the register; investee-level NVIDIA sales; guarantee collateral/fees and realized losses; remaining lab contracts; a complete paid-equity reconciliation; programme overlap. Some SEC access remains indexed-only, but Microsoft’s full filing was retrieved directly over HTTP for this update. No comprehensive related-party revenue matrix was verified, despite the measured Microsoft–OpenAI link in claim 41; economic links do not automatically meet accounting definitions. The review’s preliminary Broadcom/OpenAI financing-talks lead supplies neither a fetched executed agreement nor an amount used here.
 
 ## Signals to watch
 
@@ -154,7 +177,7 @@ Unresolved: investee-level NVIDIA sales; guarantee collateral/fees and realized 
 
 ## Sources
 
-All accessed **2026-10-17**. Publication/filing dates below; unavailable days and indexed-only SEC access are identified.
+Existing sources accessed **2026-10-17**; IMF and register checked **2026-10-18**. Publication/filing dates below; unavailable days and indexed-only SEC access are identified.
 
 1. **NLOI** — NVIDIA, OpenAI strategic partnership, 2025-09-22; primary. https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx (accessed 2026-10-17).
 2. **ROUND** — OpenAI, Scaling AI for everyone, 2026-02-27; primary. https://openai.com/index/scaling-ai-for-everyone/ (accessed 2026-10-17).
@@ -220,6 +243,8 @@ All accessed **2026-10-17**. Publication/filing dates below; unavailable days an
 61. **MCALL** — Microsoft, FY2026 Q4 earnings conference call, 2026-07-29; primary. https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4 (accessed 2026-10-17).
 62. **NPAIDX** — Techmeme, October 1 snapshot reproducing The Information’s funding-completion excerpt, 2026-10-01; tertiary reproduction, not independent confirmation. https://www.techmeme.com/261001/p34 (accessed 2026-10-17).
 
+63. **IMF** — International Monetary Fund, *Global Financial Stability Report, October 2026*, chapter 1, pp.3–4, Figure 1.2 panel 2 and note; primary institutional analysis. https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch1.pdf (accessed 2026-10-18; figure visually inspected).
+
 [NLOI]: https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx
 [ROUND]: https://openai.com/index/scaling-ai-for-everyone/
 [NGUAR]: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm
@@ -283,3 +308,5 @@ All accessed **2026-10-17**. Publication/filing dates below; unavailable days an
 [ARR]: https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting
 [MCALL]: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 [NPAIDX]: https://www.techmeme.com/261001/p34
+
+[IMF]: https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch1.pdf
