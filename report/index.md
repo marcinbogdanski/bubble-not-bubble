@@ -139,7 +139,8 @@ a lab down round; Oracle cut to junk; the Fed continuing to hike.
   discretionary.
 - Enterprise evidence beyond leaks: 30M paid Copilot seats; Census Bureau
   23.8% of businesses using AI; Anthropic reporting over 1,000 customers
-  above $1M a year.
+  above $1M a year; Microsoft says nearly 90% of FY2026 Microsoft Cloud
+  revenue came from customers other than frontier model companies.
 - Volume: Google's tokens processed rose from 9.7T to 3.2 quadrillion a
   month in two years; Azure grew 43%, Google Cloud 82%.
 - AI can pay for itself inside existing products: Meta attributes ad gains
