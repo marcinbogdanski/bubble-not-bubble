@@ -43,8 +43,8 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-4 | Cross-check: CoreWeave note | Codex gpt-6-astra | done | reviews/coreweave-codex-xcheck.md |
 | P2-5 | Cross-check: Microsoft note | Codex gpt-6-astra | done | reviews/microsoft-codex-xcheck.md |
 | P2-6 | Cross-check: AI unit economics note | Codex gpt-6-astra | done | reviews/ai-unit-economics-codex-xcheck.md |
-| P2-7 | Apply cross-check edits: Nvidia note | Codex gpt-6.1-sol | running | research/stack/nvidia.md |
-| P2-8 | Apply cross-check edits: CoreWeave note | Codex gpt-6.1-sol | running | research/stack/coreweave.md |
-| P2-9 | Apply cross-check edits: unit-economics note | Codex gpt-6.1-sol | running | research/theory/ai-unit-economics.md |
+| P2-7 | Apply cross-check edits: Nvidia note | Codex gpt-6.1-sol | done | research/stack/nvidia.md |
+| P2-8 | Apply cross-check edits: CoreWeave note | Codex gpt-6.1-sol | done | research/stack/coreweave.md |
+| P2-9 | Apply cross-check edits: unit-economics note | Codex gpt-6.1-sol | done | research/theory/ai-unit-economics.md |
 | P2-10 | Report v0.2 from red-team review | Claude (lead) | done (v0.2) | report/*.md, forecasts/register.md |
-| P2-11 | Apply cross-check edits: Microsoft note | Codex gpt-6.1-sol | running | research/stack/microsoft.md |
+| P2-11 | Apply cross-check edits: Microsoft note | Codex gpt-6.1-sol | done | research/stack/microsoft.md |
