@@ -26,7 +26,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S13 | Stack: OpenAI | Codex gpt-6.1-sol | done (draft) | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Codex gpt-6.1-sol | done (draft) | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Codex gpt-6.1-sol | done (draft) | research/stack/labs-other.md |
-| P1-G1 | Grok live scan of x.com, last 7 days | Grok CLI, verified by Codex gpt-6.1-sol | verifying | signals/2026-10-17.md (after verification) |
+| P1-G1 | Grok live scan of x.com, last 7 days | Grok CLI, verified by Codex gpt-6.1-sol | done | signals/2026-10-17.md (after verification) |
 | P1-M2 | Macro: power and datacenters | Codex gpt-6.1-sol | done (draft) | research/macro/power-and-datacenters.md |
 | P1-M3 | Macro: debt markets and private credit | Codex gpt-6.1-sol | done (draft) | research/macro/debt-markets.md |
 | P1-M4 | Macro: public-market valuation and concentration | Codex gpt-6.1-sol | done (draft) | research/macro/public-markets.md |
@@ -38,8 +38,12 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 
 Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropic account session limit at ~16:55 and all were terminated; one note and nine CSVs survived. Work is now paced: ~6 Claude agents resumed at a time, four notes moved to Codex.
 | P2-1 | Report v0.1: stack, theory, forecasts, index | Claude (lead) | done (v0.1) | report/*.md, forecasts/register.md |
-| P2-2 | Red-team review of report v0.1 | Codex gpt-6-astra | running | reviews/2026-10-17-codex-redteam-report.md |
-| P2-3 | Cross-check: Nvidia note | Codex gpt-6-astra | running | reviews/nvidia-codex-xcheck.md |
-| P2-4 | Cross-check: CoreWeave note | Codex gpt-6-astra | running | reviews/coreweave-codex-xcheck.md |
+| P2-2 | Red-team review of report v0.1 | Codex gpt-6-astra | done | reviews/2026-10-17-codex-redteam-report.md |
+| P2-3 | Cross-check: Nvidia note | Codex gpt-6-astra | done | reviews/nvidia-codex-xcheck.md |
+| P2-4 | Cross-check: CoreWeave note | Codex gpt-6-astra | done | reviews/coreweave-codex-xcheck.md |
 | P2-5 | Cross-check: Microsoft note | Codex gpt-6-astra | running | reviews/microsoft-codex-xcheck.md |
-| P2-6 | Cross-check: AI unit economics note | Codex gpt-6-astra | running | reviews/ai-unit-economics-codex-xcheck.md |
+| P2-6 | Cross-check: AI unit economics note | Codex gpt-6-astra | done | reviews/ai-unit-economics-codex-xcheck.md |
+| P2-7 | Apply cross-check edits: Nvidia note | Codex gpt-6.1-sol | running | research/stack/nvidia.md |
+| P2-8 | Apply cross-check edits: CoreWeave note | Codex gpt-6.1-sol | running | research/stack/coreweave.md |
+| P2-9 | Apply cross-check edits: unit-economics note | Codex gpt-6.1-sol | running | research/theory/ai-unit-economics.md |
+| P2-10 | Report v0.2 from red-team review | Claude (lead) | in progress | report/*.md, forecasts/register.md |
