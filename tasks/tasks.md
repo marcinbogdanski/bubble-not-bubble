@@ -8,16 +8,16 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P0-1 | Repo layout, markdown site, llms.txt | Claude (lead) | done | main.py, content.py |
 | P0-2 | Methodology page | Claude (lead) | done | report/methodology.md |
 | P1-T1 | Theory: bubble mechanics, indicators | Claude subagent | done (draft) | research/theory/bubble-mechanics.md |
-| P1-T2 | Theory: historical precedents | Claude subagent | resumed after rate limit | research/theory/historical-precedents.md |
+| P1-T2 | Theory: historical precedents | Claude subagent | done (draft) | research/theory/historical-precedents.md |
 | P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | done (draft) | research/theory/ai-unit-economics.md |
 | P1-S1 | Stack: ASML and equipment | Claude subagent | done (draft) | research/stack/semiconductor-equipment.md |
 | P1-S2 | Stack: TSMC and foundry | Codex CLI (after Claude rate limit) | running | research/stack/tsmc-and-foundry.md |
-| P1-S3 | Stack: memory and HBM | Claude subagent | paused (rate limit), to resume | research/stack/memory-hbm.md |
+| P1-S3 | Stack: memory and HBM | Claude subagent | resumed after rate limit | research/stack/memory-hbm.md |
 | P1-S4 | Stack: Nvidia | Claude subagent | resumed after rate limit | research/stack/nvidia.md |
 | P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | done (draft) | research/stack/amd-broadcom-custom-silicon.md |
 | P1-M1 | Macro: GPU pricing and utilization | Claude subagent | resumed after rate limit | research/macro/gpu-pricing-and-utilization.md |
-| P1-S6 | Stack: Microsoft | Claude subagent | resumed after rate limit | research/stack/microsoft.md |
-| P1-S7 | Stack: Alphabet | Claude subagent | paused (rate limit), to resume | research/stack/alphabet.md |
+| P1-S6 | Stack: Microsoft | Claude subagent | done (draft) | research/stack/microsoft.md |
+| P1-S7 | Stack: Alphabet | Claude subagent | resumed after rate limit | research/stack/alphabet.md |
 | P1-S8 | Stack: Amazon | Codex CLI (after Claude rate limit) | running | research/stack/amazon.md |
 | P1-S9 | Stack: Meta | Codex CLI (after Claude rate limit) | running | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
