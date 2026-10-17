@@ -52,5 +52,7 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-13 | Cross-checks: equipment, AMD/Broadcom, other neoclouds, bubble mechanics, precedents | Codex gpt-6-astra | done, applied | reviews/*-codex-xcheck.md |
 | P2-14 | Cross-checks of Codex-written notes: OpenAI, Anthropic, Oracle, demand-side, debt-markets | Codex gpt-6-astra (fresh context; Claude pass to follow) | done, applying | reviews/*-codex-xcheck.md |
 | P2-15 | Forecast baseline observations (2026-10-16 closes, M1 index) | Codex gpt-6.1-sol | done (29 closes verified; P2 baseline unverified) | data/forecast-observations.csv |
-| P2-16 | Apply cross-checks: OpenAI, Anthropic, Oracle, demand-side, debt-markets | Codex gpt-6.1-sol | running | research notes |
-| P2-17 | Cross-checks of remaining 12 Codex-written notes | Codex gpt-6-astra | running | reviews/*-codex-xcheck.md |
+| P2-16 | Apply cross-checks: OpenAI, Anthropic, Oracle, demand-side, debt-markets | Codex gpt-6.1-sol | done | research notes |
+| P2-17 | Cross-checks of remaining 12 Codex-written notes | Codex gpt-6-astra | done, applied | reviews/*-codex-xcheck.md |
+| P2-18 | Report v0.4; third red-team (Codex astra) and Grok community-angle critique | Claude (lead), Codex, Grok | running | reviews/ |
+| P3-1 | Claude-side fresh review of front page and cross-checks of Codex notes (after usage reset) | Claude Opus | pending | reviews/ |

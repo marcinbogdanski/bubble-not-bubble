@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.3, 2026-10-17. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.4, 2026-10-17. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -151,6 +151,10 @@ take-or-pay contracts to fail at more than one counterparty.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.4 (2026-10-17)**: no probability changes; all 26 notes now
+  cross-checked and corrected; baselines frozen in
+  `data/forecast-observations.csv` (29 closes verified; the P2 2026 peak
+  could not be verified publicly).
 - **Vintage 0.3 (2026-10-17, after second red-team)**: headline restricted
   to distressed credit events at distinct obligor groups (down rounds,
   rating actions and the F1 acquisition branch excluded), 8/18/30 to

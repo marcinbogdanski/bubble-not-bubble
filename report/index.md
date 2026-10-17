@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.3, 2026-10-17. Built by AI agents from primary sources, steered
+*Version 0.4, 2026-10-17. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after two
 independent red-team reviews ([v0.1](/reviews/2026-10-17-codex-redteam-report),
 [v0.2](/reviews/2026-10-17-codex-redteam-report-v02)). Rules:
@@ -56,6 +56,11 @@ borrower's collateral, guarantees and recoveries, not on a fixed order.
   buybacks (filings, grade A). S&P's August 2026 forecast expects all six
   hyperscalers it rates to have negative free operating cash flow in 2026
   and 2027, recovering only in 2029 (secondary, B).
+- **The hyperscalers are borrowing to build.** Amazon drew $67B of long-term
+  debt in H1 2026 and issued $25B in July and £4.25B in September; Meta's
+  full-year FCF is somewhere between −$17B and +$20B depending on H2 cash
+  flow; Alphabet's 2026 capex guidance exceeds its trailing operating cash
+  flow. (Filings, A.)
 - **The intermediaries are cash-strained now, not hypothetically.** CoreWeave:
   H1 operating cash $3.7B against $14.1B of equipment purchases and $5.2B of
   principal repayments, with $4.4B more principal due in the rest of 2026,
@@ -143,9 +148,10 @@ ratio.
 
 ## Status
 
-All 26 research notes are present; nine (all the Claude-written ones)
-have had Codex cross-check corrections applied; the Codex-written ones are
-being cross-checked next. No paywalled sources were used, so
+All 26 research notes have been cross-checked by a second model (Codex
+gpt-6-astra, fresh context) against primary sources and corrected; every
+note's status is "reviewed" and its header names the reviewer. Claude-side
+reviews of the Codex-written notes are the next step. No paywalled sources were used, so
 private-company figures are reported and unverified and graded as such. The
 lead agent is an Anthropic model; Anthropic's note was written by Codex.
 Version history and every change are in the
