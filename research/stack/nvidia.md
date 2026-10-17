@@ -1,279 +1,355 @@
 # Nvidia
 
-*Last updated: 2026-10-17 · Status: draft · Author: Claude (claude-fable-5-1 subagent) · Reviewer: none*
+*Last updated: 2026-10-17 · Author: Claude (claude-fable-5-1 subagent) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
 
 Fiscal year ends late January. "Q2 FY2027" is the quarter ended 26 July 2026,
 reported 26 August 2026. Quarterly series: [data/nvidia-quarterly.csv](/data/nvidia-quarterly.csv).
 
 ## Summary
 
-- Nvidia is the toll booth of the AI build: Q2 FY2027 revenue $96.2bn (+106% y/y),
-  of which Data Center $89.0bn, at a 75.0% gross margin and a 62% GAAP net margin.
-  Trailing-twelve-month revenue is $303bn and free cash flow $127bn. Guidance is
-  $108bn for Q3 and a "preliminary" +70% for FY2028. Comfortably profitable is an
-  understatement; the question is durability, not current earnings.
-- The balance sheet is changing character. In one quarter supply commitments went
-  from $119bn to $279bn (mostly memory), DSO jumped from 45 to 60 days on
-  "extended payment terms" of up to a year, inventory rose to $31.6bn, Nvidia
-  issued its first $25bn of senior notes, and it signed a guarantee capped at
-  $105bn on OpenAI's leases at a 4.25 GW Ohio campus. Equity investments stand at
-  $99bn with $25bn more committed; the CFO says "nearly $50 billion" is in frontier labs.
-- Management now openly discusses the circularity: "we know some will call this
-  circular financing. We see it differently." It also quantifies it: the AI labs
-  "for which we expect to leverage our balance sheet" should be "roughly a quarter
-  of our business next year." Our own estimate is that 25–40% of data-center
-  revenue is bought with debt and 25–35% is ultimately paid for by loss-making labs.
-- Customer concentration is high but disclosed: one direct customer was 16% of Q2
-  revenue, three were 16/15/13% in H1, and an unnamed "AI research and deployment
-  company" (OpenAI by any reasonable reading) is acknowledged as a meaningful
-  indirect source of revenue. Hyperscalers are about 55% of data-center revenue.
-- Margins are guided down, not up: 74% in Q3, a "bottom" of 71–72% in Q4, then
-  72–73% in FY2028, attributed to memory scarcity. AMD ($6.7bn data-center quarter,
-  +107%) and Broadcom ($16.7bn AI quarter, +221%) are growing faster off smaller
-  bases; China is "effectively zero" and Nvidia says it cannot build a competitive
-  product for China under current rules.
-- Valuation is not Cisco 2000 on multiples: $5.2tn market cap is 17x trailing sales
-  and 27x trailing GAAP earnings (30x non-GAAP; 17.7x forward), versus Cisco's roughly
-  29x sales and roughly 200x earnings at its March 2000 peak. It is Cisco-like in
-  structure: concentrated customers, vendor financing, a supply chain being
-  pre-paid years ahead, and end demand funded by capital markets rather than profits.
-- Biggest uncertainty: whether the labs and neoclouds that are now a quarter to a
-  third of demand can keep raising the external capital that pays Nvidia, and what
-  happens to $279bn of supply commitments and $105bn of guarantees if they cannot.
+- Nvidia is comfortably profitable: Q2 FY2027 revenue was $96.2bn (+106% y/y),
+  including $89.0bn of Data Center revenue, with a 75.0% gross margin and 62% GAAP
+  net margin. TTM revenue was $303bn and FCF $127bn. Q3 guidance is $108bn;
+  management's preliminary FY2028 growth expectation is 70%, not a realized result.
+- Financing exposure is growing. Supply commitments rose from $119bn to $279bn,
+  DSO from 45 to 60 days, and inventory to $31.6bn. Nvidia issued $25bn of new notes;
+  total notes were $33.5bn. The later $105bn Ohio guarantee is conditional residual-value
+  support, not debt due now. Equity investments carried at $99bn are not cash spent.
+- Management acknowledges circular-financing concerns and expects supported labs to
+  account for roughly a quarter of FY2028 total-company business. Current loss-funded
+  demand is unquantified. OpenAI announced $30bn of Nvidia investment in February;
+  September disclosures add a $1bn Nscale convertible-note commitment and SB Energy's
+  $1.5bn prepayment plus a separate $1.5bn conditional placement (42, 44, 48).
+- Customer concentration is disclosed: one direct customer was 16% of Q2 revenue,
+  three were 16/15/13% in H1, and an unnamed AI lab was a meaningful indirect source
+  of revenue. It is possibly OpenAI, but the disclosure does not identify it.
+  Hyperscale was 54.7% of Q2 Data Center revenue; this is not a funding map.
+- Management guides gross margin to 74% in Q3, 71–72% in Q4 and 72–73% in FY2028;
+  recovery assumes price increases. AMD's Data Center growth of 107% trails Nvidia
+  Data Center's 117%; Broadcom AI semiconductor growth is 221%, with different
+  product mixes. Zero China DC compute is a guidance assumption, while China/HK
+  customer headquarters still account for $7.9bn of quarterly revenue (29).
+- At an approximate $5.16tn capitalization, Nvidia trades at 17x TTM sales and 27x
+  GAAP earnings. Cisco's selected peak capitalization divided by subsequently
+  reported FY2000 results gives 29x sales and 208x earnings. Lower multiples do not
+  establish fair value; the five-year return scenario requires a higher future
+  revenue level and sustained margins (31–34, 54).
+- The central uncertainty is whether customer funding and project delivery can
+  sustain demand while Nvidia's procurement, investments and guarantees grow.
+  Guarantee recoveries and termination rights limit exposure; $235bn of discretionary
+  buyback authorization and S&P's June AA/stable upgrade provide counterevidence to
+  near-term distress, although the rating predates Ohio (43, 45, 49).
 
 ## Key claims
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
 | 1 | Q2 FY2027 revenue | $96,221m, +106% y/y, +18% q/q | 2026-07-26 | [Q2 FY27 press release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) | primary | A |
-| 2 | Q2 FY2027 Data Center revenue; Hyperscale / ACIE split | $89,023m; $48,710m / $40,313m | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
-| 3 | Q2 FY2027 gross margin (GAAP and non-GAAP) | 75.0% | 2026-07-26 | [Q2 FY27 press release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) | primary | A |
+| 2 | Q2 FY2027 Data Center revenue; Hyperscale / ACIE split | $89,023m; $48,710m / $40,313m; Data Center +117% y/y; ACIE +138% y/y; prior splits recast | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
+| 3 | Q2 FY2027 gross margin (GAAP and non-GAAP) | 75.0%; comparative Q2 FY26 GAAP 72.4% | 2026-07-26 | [Q2 FY27 press release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) | primary | A |
 | 4 | Q3 FY2027 guidance | Revenue $108.0bn ±2%; GM 74.0% ±50bp; no China DC compute assumed | 2026-08-26 | [Q2 FY27 press release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) | primary | A |
-| 5 | FY2028 outlook | "Our preliminary expectation is for fiscal year 2028 revenue to grow approximately 70% year-over-year" (Kress); supply "a bottleneck at least through the end of fiscal year 2028" | 2026-08-26 | [Q2 FY27 call transcript](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | primary (transcript via secondary host) | B |
-| 6 | Gross-margin path | "We expect margins to bottom in Q4 in the 71%-72% range before settling at 72%-73% in fiscal year 2028" (Kress) | 2026-08-26 | [Q2 FY27 call transcript](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | primary (transcript) | B |
+| 5 | FY2028 outlook | "Our preliminary expectation is for fiscal year 2028 revenue to grow approximately 70% year-over-year" (Kress); supply "a bottleneck at least through the end of fiscal year 2028" | 2026-08-26 | [Company-hosted corrected Q2 FY27 transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | primary (company-hosted transcript) | A for management statements |
+| 6 | Gross-margin path | "We expect margins to bottom in Q4 in the 71%-72% range before settling at 72%-73% in fiscal year 2028" (Kress); recovery assumes executed price increases take effect in Q1 FY28 | 2026-08-26 | [Company-hosted corrected Q2 FY27 transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | primary (company-hosted transcript) | A for management statements |
 | 7 | Visibility claim, latest | "full confidence in the $1 trillion in Blackwell and Rubin revenue we foresee from 2025 through calendar 2027" (Kress, Q1 FY27 call, 2026-05-20); earlier framed as "the $500 billion Blackwell and Rubin revenue opportunity we shared last year" (Q4 FY26 call, 2026-02-25) | 2026-05-20 | [Q1 FY27 call](https://www.marketbeat.com/earnings/reports/2026-5-20-nvidia-co-stock/); [Q4 FY26 call](https://www.marketbeat.com/earnings/reports/2026-2-25-nvidia-co-stock/) | primary (transcript) | B |
-| 8 | Rubin ramp | Production shipments commenced August 2026; "about 20% of data center revenue in Q3"; purchase orders "from every major hyperscaler, AI cloud, and system OEM" | 2026-08-26 | [Q2 FY27 call transcript](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | primary (transcript) | B |
-| 9 | Direct-customer concentration | Q2 FY27: one direct customer 16% of revenue; H1 FY27: three at 16%, 15%, 13%; Q2 FY26: 23% and 16%; FY2026: 22% and 14%; FY2025: 12%, 11%, 11% | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [FY26 10-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm) | primary | A |
+| 8 | Rubin ramp | Production shipments commenced August 2026; "about 20% of data center revenue in Q3"; purchase orders "from every major hyperscaler, AI cloud, and system OEM" | 2026-08-26 | [Company-hosted corrected Q2 FY27 transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | primary (company-hosted transcript) | A for management statements |
+| 9 | Direct-customer concentration | Q2 FY27: one direct customer 16% of revenue; H1 FY27: three at 16%, 15%, 13%; Q2 FY26: 23% and 16%; FY2026: 22% and 14%; FY2025: 12%, 11%, 11%; periods differ, not a common concentration series | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [FY26 10-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm) | primary | A |
 | 10 | Indirect-customer disclosure | "one AI research and deployment company contributed a meaningful amount of our revenue by purchasing cloud services from our customers in the second quarter and first half of fiscal year 2027"; "some [indirect customers] individually representing 10% or more" | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
 | 11 | Receivables concentration | Five direct customers = 22%, 14%, 13%, 11%, 10% of AR (Jul 2026); three = 30%, 18%, 16% (Apr 2026) | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [Q1 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm) | primary | A |
-| 12 | Accounts receivable and DSO | AR $63.1bn, DSO 60 days (from 45) "due to extended payment terms on large, multi-quarter agreements with certain investment-grade customers"; terms "ranging from 90 days up to one year" | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm); [10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
+| 12 | Accounts receivable and DSO | AR $63.059bn; DSO 60 days (from 45), attributed to extended terms for certain investment-grade customers; terms 90 days–one year. Q1 benefited from payments before invoice due dates; normalization was flagged | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm); [10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [Q1 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm) | primary | A |
 | 13 | DSO trend (10 quarters, Q1 FY25 to Q2 FY27) | 43, 43, 46, 53, 46, 54, 53, 51, 45, 60 days | 2026-07-26 | CFO commentaries (see CSV) | primary | A |
 | 14 | Inventory | $31.6bn (from $25.8bn); raw materials $11.3bn vs $3.8bn in Jan 2026 | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
-| 15 | Supply and capacity commitments | $279bn (from $119bn a quarter earlier, $95.2bn in Jan 2026, $45.8bn in Jul 2025), "primarily related to the procurement of memory"; $92bn/$87bn/$88bn due in rest of FY27/FY28/FY29 | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
+| 15 | Supply and capacity commitments | $279bn (from $119bn a quarter earlier, $95.2bn in Jan 2026), primarily memory; $92bn/$87bn/$88bn due in rest of FY27/FY28/FY29. July 2025 $45.8bn was a broader category including non-inventory/cloud obligations; not directly comparable | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm); [Q2 FY26 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26cfocommentary.htm) | primary | A |
 | 16 | Other commitments | Cloud service agreements $29bn; data-center leases not commenced $25bn; equity investment commitments $25bn; capex $8bn; total $366bn. Plus "AI cloud agreements" $36bn (typically six years) and $20bn of leases to be reassigned to third parties | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
-| 17 | OpenAI / SB Energy guarantee | Guarantees capped at $105bn on leases for ~4.25 GW at PORTS campus, Pike County, Ohio; tenant OpenAI; effective in nine phases from FY2029; option for ~3.8 GW more; each generation "approximately $150 billion to $200 billion in NVIDIA revenue" | 2026-08-17 | [8-K 2026-08-17](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm); [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
-| 18 | Equity investments | $99bn carried ($42.8bn marketable equity, $5.0bn locked-up long-term, $47.9bn non-marketable, $3.3bn equity-method) plus $25bn committed; H1 FY27 purchases of equity securities $42.4bn; H1 gains from equity securities $23.7bn | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
-| 19 | Investment in frontier labs | "we have invested nearly $50 billion in the frontier AI labs" (Kress); labs backed by Nvidia's balance sheet to be "roughly a quarter of our business next year"; "We're not making loans"; "we know some will call this circular financing. We see it differently" | 2026-08-26 | [Q2 FY27 call transcript](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | primary (transcript) | B |
-| 20 | OpenAI letter of intent | 22 Sep 2025: at least 10 GW of Nvidia systems; Nvidia "intends to invest up to $100 billion" progressively per GW; first GW on Vera Rubin in H2 2026. By Aug 2026 OpenAI's "existing and planned commitments represent approximately 12 GW of NVIDIA Compute" through 2030 | 2026-08-26 | [OpenAI announcement](https://openai.com/index/openai-nvidia-systems-partnership/) (fetch blocked, terms per [Neowin](https://www.neowin.net/news/nvidia-to-invest-up-to-100-billion-in-openai/)); [Q2 FY27 call](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | secondary / transcript | B |
+| 17 | OpenAI / SB Energy residual-value guarantee | Guarantees capped at $105bn on leases for ~4.25 GW at PORTS campus, Pike County, Ohio; tenant OpenAI; conditional, phased with service readiness in nine phases from FY2029; option for ~3.8 GW more; management scenario: each generation could generate $150–200bn of NVIDIA revenue; not contracted revenue | 2026-08-17 | [8-K 2026-08-17](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm); [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
+| 18 | Equity investments | $99bn carried ($42.8bn marketable equity, $5.0bn locked-up long-term, $47.9bn non-marketable, $3.3bn equity-method) plus $25bn committed; H1 FY27 purchases of equity securities $42.4bn; H1 gains from equity securities $23.7bn; carrying values include gains and are not cumulative cash invested; lab investments are a subset | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A disclosures; B component sum |
+| 19 | Investment in frontier labs | "we have invested nearly $50 billion in the frontier AI labs" (Kress); labs backed by Nvidia's balance sheet to be "roughly a quarter of our business next year"; "We're not making loans"; "we know some will call this circular financing. We see it differently"; quarter share refers to FY2028 total-company business, not current loss-funded DC revenue; August statement predates Nscale notes (42) | 2026-08-26 | [Company-hosted corrected Q2 FY27 transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | primary (company-hosted transcript) | A for management statements |
+| 20 | OpenAI letter of intent | 22 Sep 2025: at least 10 GW of Nvidia systems; Nvidia "intends to invest up to $100 billion" progressively per GW; first GW on Vera Rubin in H2 2026. By Aug 2026 OpenAI's "existing and planned commitments represent approximately 12 GW of NVIDIA Compute" through 2030 | 2026-08-26 | [OpenAI announcement](https://openai.com/index/openai-nvidia-systems-partnership/) (fetch blocked, terms per [Neowin](https://www.neowin.net/news/nvidia-to-invest-up-to-100-billion-in-openai/)); [Company-hosted Q2 FY27 call](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | secondary / transcript | B LOI terms via secondary; A August management statement |
 | 21 | Anthropic | "$10 billion investment in their company" (Huang, Q4 FY26 call); Nov 2025 three-way deal with Microsoft (up to $5bn), Anthropic to buy $30bn of Azure compute and up to 1 GW of Grace Blackwell/Vera Rubin capacity | 2026-02-25 | [Q4 FY26 call](https://www.marketbeat.com/earnings/reports/2026-2-25-nvidia-co-stock/); [Al Jazeera](https://www.aljazeera.com/economy/2025/11/18/microsoft-nvidia-invest-in-anthropic-in-cloud-services-deal) | transcript / secondary | B |
 | 22 | CoreWeave | Nvidia private placement Jan 2026: ~23m Class A shares at $87.20 = $2.0bn; Sep 2025 order form of initial value $6.3bn under which Nvidia buys residual unsold capacity through 13 Apr 2032 | 2026-06-30 | [CoreWeave Q2 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm); [CoreWeave 8-K 2025-09-09](https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm) | primary | A |
-| 23 | CoreWeave financials | Q2 2026 revenue $2,575m; net loss $626m; interest expense $640m; backlog ~$104bn; debt ~$35.1bn; equity $5.0bn vs liabilities $72.0bn; Customer A 36%, B 26%; "all of the GPUs used in our infrastructure today are NVIDIA GPUs" | 2026-06-30 | [CoreWeave Q2 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm); [press release](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm) | primary | A |
+| 23 | CoreWeave financials | Q2 2026 revenue $2,575m; net loss $626m; net interest expense $640m; backlog ~$104bn; debt carrying value $35.068bn ($35.551bn gross); equity $5.024bn vs liabilities $72.046bn; Customer A 36%, B 26%; "all of the GPUs used in our infrastructure today are NVIDIA GPUs" | 2026-06-30 | [CoreWeave Q2 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm); [press release](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm) | primary | A disclosures; B debt addition |
 | 24 | Intel stake | $5bn of Intel common stock at $23.28/share, announced 18 Sep 2025 | 2025-09-18 | [Nvidia press release](https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products) | primary | A |
 | 25 | Financing platforms | Partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR "to mobilize over $500 billion of third-party capital," subject to definitive agreements | 2026-08-26 | [Q2 FY27 press release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) | primary | A |
-| 26 | Cash, debt, buybacks | Cash and marketable debt securities $56.6bn; $25.0bn senior notes issued in Q2 FY27; $33.5bn notes outstanding; $25bn CP programme (undrawn); Q2 buybacks $19.7bn (94m shares), ~$26.0bn returned; $99bn authorisation left; dividend raised to $0.25 from $0.01 | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [Q1 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm) | primary | A |
-| 27 | Cash generation | Q2 FY27 operating cash flow $24.1bn, FCF $21.3bn (vs $50.3bn / $48.6bn in Q1); TTM FCF $126.9bn (sum of four quarters) | 2026-07-26 | CFO commentaries | primary / arithmetic | A/B |
+| 26 | Cash, debt, buybacks | Cash and marketable debt securities $56.6bn; $25.0bn senior notes issued in Q2 FY27; $33.5bn face principal outstanding ($33.366bn carrying amount); $25bn CP programme (undrawn); Q2 buybacks $19.7bn (94m shares), ~$26.0bn returned; $99bn authorization left in July; September 28: $235bn remaining after $150bn addition (43); dividend raised to $0.25 from $0.01 | 2026-07-26 / 2026-09-28 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [Q1 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm); [September buyback announcement](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx) | primary | A |
+| 27 | Cash generation | Q2 FY27 operating cash flow $24.1bn, FCF $21.3bn (vs $50.3bn / $48.6bn in Q1); TTM FCF $126.9bn (sum of four quarters) | 2026-07-26 | [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); [Q4 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm); [Q3 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm) | primary / arithmetic | A quarterly figures; B TTM sum |
 | 28 | China and H20/H200 | $4.5bn H20 charge Q1 FY26 after April 2025 licence requirement; H20 sales $4.6bn in Q1 FY26 then ~$60m under Aug 2025 licences; USG "expectation" of 15% of licensed revenue, never codified; H200 licences Feb 2026 but PRC restricted purchases; $0.4bn H200 charge H1 FY27; China Hopper shipments <1% of DC revenue; 25% US tariff on licensed H200s not passed on; "unable to create and deliver a competitive product for wide distribution in China" | 2026-07-26 | [FY26 10-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm); [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
 | 29 | Revenue by customer HQ | Q2 FY27: US $60.1bn (62%), Taiwan $27.0bn (28%), China incl. HK $7.9bn (8%); FY2026 China $19.7bn vs $25.0bn FY2025 | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [FY26 10-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm) | primary | A |
 | 30 | Groq licence and Hugging Face | Groq non-exclusive licence: $13.0bn paid FY2026 and $2.9bn in H1 FY27; Hugging Face acquisition ~$11.9bn plus up to ~$1.0bn retention, signed 2 Sep 2026 | 2026-09-02 | [FY26 10-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm); [8-K 2026-09-02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm) | primary | A |
-| 31 | Market data | Close $214.13 (2026-10-16); 24.1bn shares (2026-08-21) → market cap ~$5.16tn; TTM revenue $303.0bn; TTM GAAP net income $192.9bn (P/E 26.8x); TTM non-GAAP $170.8bn (30.2x); P/S 17.0x; P/FCF 40.7x; forward P/E 17.7x | 2026-10-16 | [StockAnalysis](https://stockanalysis.com/stocks/nvda/); [10-Q cover](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); arithmetic | secondary / primary | B |
+| 31 | Market data | Close $214.13; using rounded August 21 share count of 24.1bn gives approximate $5.1605tn cap; TTM revenue $302.969bn and GAAP net income $192.879bn → P/S 17.03x, GAAP P/E 26.76x; P/FCF 40.67x. Provider shows 24.15bn shares, ~$5.17tn cap, EPS-based P/E 27.08x and forward consensus P/E 17.70x (horizon/basis unreconciled). Comparable adjusted TTM unavailable; see #55 | 2026-10-16 | [StockAnalysis](https://stockanalysis.com/stocks/nvda/); [10-Q cover](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); arithmetic; [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); [Q4 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm); [Q3 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm) | secondary / primary | B quote / derived GAAP ratios |
 | 32 | Cisco FY2000 (ended 29 Jul 2000) | Net sales $18,928m (+55.5%); net income $2,668m; gross margin 64.4%; 7,042m shares outstanding at 22 Sep 2000 | 2000-07-29 | [Cisco FY2000 10-K](https://www.sec.gov/Archives/edgar/data/858877/000109581100003692/f65797e10-k.txt) | primary | A |
-| 33 | Cisco peak | $80.06 on 27 Mar 2000; market cap reported at $531–576bn (ETF Trends $555bn, Reuters intraday $575.9bn); fell 84% within 13 months, low $8.12 in Oct 2002 | 2000-03-27 | [Barchart](https://www.barchart.com/story/news/36574022/ciscos-stock-hits-record-high-for-first-time-since-dot-com-era); [ITWeb/Reuters](https://itweb.co.za/article/cisco-briefly-tops-microsoft-as-most-valuable-firm/kLgB1MeJLByq59N4); [Crossing Wall Street](https://www.crossingwallstreet.com/?p=1404) | secondary | B/C |
-| 34 | Cisco multiples at peak (derived) | ~29x FY2000 sales; ~208x FY2000 net income ($555bn / $2.668bn; FY2000 ended four months after the peak, so this understates the trailing multiple at the time) | 2000-03-27 | arithmetic on #32, #33 | derived | B |
-| 35 | AMD | Q2 2026 revenue $11.5bn; data-center $6.7bn (+107%); non-GAAP GM 56%; Helios/MI450 ramp H2 2026; OpenAI 6 GW AMD agreement (Oct 2025), first 1 GW H2 2026 | 2026-08-05 | [DCD](https://datacenterdynamics.com/en/news/amd-posts-q2-26-revenue-of-115bn-with-data-center-revenue-up-107-for-the-quarter/); [KuCoin blog](https://www.kucoin.com/blog/ama-q2-2026-earnings-data-center-revenue-doubles-as-ai-chips-challenge-nvidia) | secondary | B/C |
+| 33 | Cisco peak | $80.06 on 27 Mar 2000; market cap reported at $531–576bn (ETF Trends $555bn, Reuters intraday $575.9bn); reported low $8.12 in Oct 2002; peak-to-stated-low decline 89.86% (derived) (conditional on the stated price observations) | 2000-03-27 | [Barchart](https://www.barchart.com/story/news/36574022/ciscos-stock-hits-record-high-for-first-time-since-dot-com-era); [ITWeb/Reuters](https://itweb.co.za/article/cisco-briefly-tops-microsoft-as-most-valuable-firm/kLgB1MeJLByq59N4); [Crossing Wall Street](https://www.crossingwallstreet.com/?p=1404) | secondary / arithmetic | B/C reported prices; B drawdown arithmetic |
+| 34 | Cisco multiples at peak (derived) | 29.32x FY2000 sales; 208.02x FY2000 net income, using $555bn selected peak cap and #32. FY2000 ended four months after the peak: hindsight denominators, not contemporaneous trailing multiples | 2000-03-27 | arithmetic on #32, #33 | derived | B |
+| 35 | AMD | Q2 2026 revenue $11.5bn; Data Center $6.7bn (+107%); company non-GAAP GM 56%; Helios launched/in deployment. OpenAI agreement 6 GW (Oct 2025), first 1 GW planned H2 2026; Anthropic partnership up to 2 GW MI450/Helios | 2026-08-04 | [AMD Q2 results](https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results); [AMD–OpenAI announcement](https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) | primary | A for results and announced plans |
 | 36 | Broadcom | Q3 FY26 (ended 2 Aug 2026) AI semiconductor revenue $16.7bn (+221%); Q4 guide $21.7bn; total revenue $29.6bn | 2026-09-03 | [Broadcom 8-K exhibit](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm) | primary | A |
 | 37 | Chinese chips | Huawei plans ~600,000 Ascend 910C in 2026 (Bloomberg-sourced); Ascend revenue estimate ~$12bn 2026 (single source); Kress: Chinese competitors "have the potential to disrupt the structure of the global AI industry over the long term" | 2026-02-25 | [Gulf News/Bloomberg](https://gulfnews.com/technology/huawei-to-double-output-of-top-ai-chip-as-nvidia-wavers-in-china-1.500287469); [CXO Digital Pulse](https://www.cxodigitalpulse.com/?p=52878); [Q4 FY26 call](https://www.marketbeat.com/earnings/reports/2026-2-25-nvidia-co-stock/) | secondary / tertiary | C |
-| 38 | GPU rental prices | H100 on-demand medians $2.8–4.2/hr in 2026 vs $6–10/hr at the 2024 peak (vendor trackers); B200 median $8.19/hr (Oct 2026); SemiAnalysis reports 1-year reserved H100 pricing up ~40% | 2026-10 | [Uvik index](https://uvik.net/blog/gpu-price-index/); [Spheron](https://www.spheron.network/blog/h100-price-per-hour-2026/); [CloudZero](https://cloudzero.com/blog/h100-gpu-cost/) | tertiary | C |
+| 38 | GPU rental prices | Vendor-tracker H100 on-demand estimates $2.8–4.2/hr in 2026 vs $6–10/hr at 2024 peak; B200 $8.19/hr (Oct 2026). Samples/contracts not established as comparable; reserved-price comparison unverified | 2026-10 | [Uvik index](https://uvik.net/blog/gpu-price-index/); [Spheron](https://www.spheron.network/blog/h100-price-per-hour-2026/); [CloudZero](https://cloudzero.com/blog/h100-gpu-cost/) | tertiary | C |
 | 39 | Hyperscaler capex 2026 | Meta $130–145bn (Q2 capex $31.08bn; FCF $784m; long-term debt $83.7bn from $58.7bn, $24.9bn issued in Q2); Alphabet $195–205bn (Q2 $44.9bn); Amazon ~$220bn (Q2 ~$53bn); Microsoft ~$175–190bn (sources conflict) | 2026-07-29 | [Meta Q2 2026 8-K exhibit](https://www.sec.gov/Archives/edgar/data/0001326801/000162828026050596/meta-06302026xexhibit991.htm); [effectstory](https://effectstory.com/en/articles/hyperscaler-ai-capex-q2-2026-microsoft-alphabet-meta-amazon) | primary (Meta) / secondary | A / C |
 | 40 | OpenAI finances (reported, unverified) | Investor projections (Sep 2026, per FT/Reuters coverage): revenue $36bn 2026 → $350bn 2030; cumulative negative FCF ~$278bn 2026–30; compute spend ~$856bn; Q1 2026 cash burn $3.7bn on $5.7bn revenue | 2026-09 | [Runtimewire](https://runtimewire.com/article/openai-278b-cash-burn-1-2t-valuation); [iTiger](https://www.itiger.com/news/1197658515) | tertiary | C |
-| 41 | Large-CSP / hyperscale share of DC revenue | "mid-40%" (Q1 FY25) → ~50% (FY26) → 54.7% (Q2 FY27, $48.7bn/$89.0bn after recast) | 2026-07-26 | CFO commentaries (see CSV) | primary | A |
+| 41 | Large-CSP / hyperscale share of DC revenue | "mid-40%" (Q1 FY25) → ~50% (FY26) → 54.7% (Q2 FY27, $48.7bn/$89.0bn after recast) | 2026-07-26 | CFO commentaries (see CSV) | primary / arithmetic | A stated historical shares; B calculated Q2 share |
+| 42 | Nscale convertible financing | $3.36bn total: $2.36bn initial tranche and $1bn NVIDIA commitment expected to fund mid-November 2026; automatic conversion at IPO, into non-voting shares for NVIDIA; not evidence already funded | 2026-09-25 | [Nscale announcement](https://www.nscale.com/press-releases/pre-ipo-convertible-financing) | primary (company statement) | A for announced terms |
+| 43 | September buyback update | $150bn additional authorization; $235bn remaining, expected execution through FY2028; discretionary, not debt or a binding cash outflow | 2026-09-28 | [NVIDIA announcement](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx) | primary | A |
+| 44 | SB Energy investment and execution risk | $1.5bn prepaid August 17 for Class N shares at 90% of IPO price; separate $1.5bn placement conditional on IPO, at IPO price. OpenAI is not investment-grade; planned gas generation not yet financed, constructed or contracted | 2026-09-21 | [SB Energy S-1/A, cover / Recent Developments / risks](https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm) | primary | A |
+| 45 | Ohio guarantee protections | Readiness conditions precede effectiveness; reletting/sale recoveries offset guaranteed minimum; lease/remedy choices, OpenAI reimbursement and termination provisions including satisfactory credit rating. Scheduled lease payments reduce exposure | 2026-08-17 / 2026-08-26 | [8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm); [CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A for terms |
+| 46 | RPO and customer advances | $3.2bn RPO for contracts longer than one year; not total chip backlog. Customer advances disclosed; funding flows also run from customers to NVIDIA | 2026-07-26 | [10-Q, Note 7](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
+| 47 | Equity liquidity restrictions | Public equity holdings include short- and long-term sale lock-ups; investment carrying values are not all available cash | 2026-07-26 | [10-Q, Note 5](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | primary | A |
+| 48 | Named OpenAI financing round | $30bn NVIDIA investment announced within OpenAI's $110bn round; 3 GW inference and 2 GW training capacity on Vera Rubin. Does not establish funding of the full older up-to-$100bn LOI | 2026-02-27 | [OpenAI announcement](https://openai.com/index/scaling-ai-for-everyone/) | primary (company statement) | A for announcement |
+| 49 | NVIDIA credit rating | S&P upgraded long-term issuer/debt rating to AA, outlook stable; predates August Ohio guarantee | 2026-06-11 | [S&P rating action](https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101690859) | primary (rating agency's own action) | A |
+| 50 | DSO baseline context | Q1 45-day DSO benefited from payments before invoice due dates; management expected normalization in Q2 | 2026-05-20 | [Q1 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm) | primary | A |
+| 51 | Quarterly earnings measures | Q2 FY27 GAAP net income $59.688bn; adjusted net income $53.954bn; pretax equity gains $7.771bn Q2 / $23.707bn H1. GAAP net margin 62.03%, adjusted net margin 56.07%; not operating margins | 2026-07-26 | [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); [CFO reconciliation](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary / arithmetic | A amounts; B ratios |
+| 52 | Other guarantees and combined cap | $3.5bn maximum gross land/power/shell support for select AI clouds, plus $105bn Ohio cap = $108.5bn; contingent maxima, not expected losses | 2026-08-17 | [10-Q, Note 10 including subsequent event](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm); [CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | primary | A |
+| 53 | FY2028 revenue / supported-lab scenario | Assume FY27 $400bn: H1 $177.837bn + Q3 guide $108bn + assumed Q4 $114.163bn (+5.71% q/q). Applying management's preliminary 70% growth gives FY28 $680bn; 25% share gives $170bn. Dollar outcomes are scenarios, not guidance | 2026-10-17 (using 2026-08-26 outlook) | [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); [Company transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf); arithmetic | primary inputs / analyst scenario | C scenario (B arithmetic) |
+| 54 | Five-year valuation scenario | At $5.16tn initial cap, constant shares, no interim distributions, 10% annual price return and 25x terminal P/E: ~$332bn net income / ~$604bn revenue at 55% margin. Q2 annualized revenue $384.884bn; target is ~57% above that, ~99% above TTM | 2026-10-17 | [Quote](https://stockanalysis.com/stocks/nvda/); [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); #31; arithmetic | secondary / primary inputs / analyst scenario | C scenario (B arithmetic) |
+| 55 | Adjusted-TTM accounting break | Original $170.821bn sum / 30.21x multiple mixes FY26 excluding SBC and FY27 including SBC; not comparable adjusted earnings/P/E. Q4 FY26 restated adjusted net income $38.969bn; Q3 reconciliation still needed | 2026-10-17 | [Q4 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm); [Q1 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm); #31 and CSV | primary / arithmetic | A basis change / restatement; no comparable-TTM grade |
+| 56 | Debt-financed demand scenario | Assumed 55/45 hyperscale/ACIE mix on $277.798bn TTM DC revenue (~$152.789bn / $125.009bn); assumed debt shares 20–30% / 40–55% give 29–41.25%. Current loss-funded lab share unquantifiable | 2026-10-17 | [Q2 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm); [Q2 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm); [Q4 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm); [Q3 release](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm); CSV; explicit assumptions | primary inputs / analyst scenario | C scenario (B arithmetic) |
+| 57 | Cash-flow and exposure comparisons | OCF $24.077bn vs $50.344bn = −52.18% q/q, with working-capital and tax effects. $267bn of supply commitments due through FY29. $105bn cap / $126.886bn TTM FCF = 82.75%; multi-year cap versus annual flow, not a cash schedule | 2026-07-26 / August guarantee | [Q2 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm); #15, #17, #27 | primary / arithmetic | A inputs; B calculations |
 
 ## Analysis
 
-**What the numbers say.** Ten quarters ago (Q1 FY2025) Nvidia made $26.0bn a quarter;
-it now makes $96.2bn, and $89.0bn of it is data centre (claims 1, 2). Gross margin has
-held at 73–75% through the Hopper-to-Blackwell transition except for the H20
-write-down quarter (60.5%). Net income of $59.7bn in Q2 FY2027 includes $7.8bn of
-equity-securities gains; $23.7bn of such gains flatter the half-year (18), so the
-non-GAAP figure ($54.0bn) is the better measure of operating earnings. Trailing free
-cash flow is $127bn (27). There is no overbuild question inside Nvidia's own P&L: the
-question is whether its customers' spending is sustainable, and increasingly whether
-Nvidia's own balance sheet is being used to make it so.
+**What the numbers say.** Nine quarters earlier (Q1 FY2025), Nvidia made $26.0bn
+per quarter; Q2 FY2027 revenue is $96.2bn, including $89.0bn of Data Center (1, 2;
+CSV). Gross margin has been around the mid-70s with transition and export-charge
+exceptions, including 72.4% in Q2 FY2026 and 60.5% in the H20-charge quarter (3, 28;
+CSV). Q2 GAAP net income of $59.7bn includes pretax equity gains of $7.8bn;
+H1 gains were $23.7bn. Adjusted **net income** of $54.0bn excludes those gains with
+associated tax adjustments; it is not operating income, and pretax gains cannot
+simply be deducted from after-tax earnings (51). TTM FCF is $126.9bn (27).
+These are strong current earnings, but customer overbuild can still impair future
+orders, margins and asset values before it produces a current supplier loss.
 
-**The balance sheet is being conscripted.** Three things changed in Q2 FY2027 at once.
-Supply commitments went from $119bn to $279bn, with $267bn due inside three fiscal
-years, "primarily memory" (15). Days sales outstanding jumped from 45 to 60 as Nvidia
-granted "investment-grade" customers terms "from 90 days up to one year" (12), and
-operating cash flow halved sequentially as receivables absorbed it (27). Nvidia issued
-$25bn of senior notes (26), the first time it has borrowed at scale, in the same quarter
-it bought back $19.7bn of stock and paid $6.3bn of dividends in the half-year. Then, in
-August, it guaranteed up to $105bn of OpenAI's lease and power payments at a 4.25 GW
-campus (17), an off-balance-sheet contingent liability almost twice its cash. Nvidia's
-own 10-Q explains the logic plainly: AI clouds and model makers "currently lack the
-ability to secure long-term infrastructure contracts and investment-grade financing
-capacity," so Nvidia is supplying the credit. Lucent and Nortel did this in 1999–2000
-with loans; Nvidia does it with equity, guarantees, take-or-pay cloud commitments and
-extended terms, which is why Kress insists "We're not making loans" (19).
+**The balance sheet is being conscripted.** Supply commitments rose from $119bn to
+$279bn, mostly memory, with $267bn due through FY2029 (15, 57). These are future
+procurement commitments, not all cash already prepaid. The July 2025 $45.8bn
+comparison includes broader non-inventory obligations and is not a supply-only
+baseline. DSO rose from 45 to 60 days as certain investment-grade customers received
+extended terms (12). Q1's low baseline benefited from payments before invoice due
+dates and management had flagged normalization (50). OCF fell 52% sequentially;
+working capital and higher cash taxes contributed, so receivables are not the sole
+explanation (57).
 
-**Customer concentration, direct and indirect.** The 10-Q discloses one direct customer
-at 16% of Q2 revenue and three at 16/15/13% for the half (9). Direct customers are
-mostly ODMs and system integrators (Taiwan-headquartered customers were 28% of revenue
-(29)), so the end-customer concentration is higher than the direct figures suggest.
-Nvidia says so: "some [indirect customers] individually representing 10% or more," and
-"one AI research and deployment company contributed a meaningful amount of our revenue
-by purchasing cloud services from our customers" (10). Five direct customers are 70% of
-receivables (11). Hyperscalers have gone from "mid-40%" of data-centre revenue to about
-55% (41); the rest, the "AI Clouds, Industrial & Enterprise" bucket at $40.3bn, grew
-138% y/y and is where the neoclouds, sovereigns and labs sit.
+Nvidia issued $25bn of new senior notes; $33.5bn is total face principal, not the new
+issuance (26). August's $105bn Ohio guarantee is a contingent multi-year cap;
+comparing it with cash plus marketable debt securities does not show money due now
+(17, 26, 45). The filing says some AI clouds lack investment-grade financing
+capacity. Nvidia supplies support through investments, guarantees, extended terms
+and cloud commitments, but these instruments differ in recourse and cash timing.
+Customer advances run the other way, while investment lock-ups constrain liquidity
+(46, 47); the financing narrative is not one-way supplier credit. Nvidia also reports
+$3.2bn of RPO for contracts longer than one year; this limited disclosure cannot
+establish that supply commitments are matched by firm chip backlog (46).
+
+**Customer concentration, direct and indirect.** One direct customer was 16% of Q2
+revenue; H1's three largest disclosed shares were 16/15/13% (9). These different
+periods are not a common concentration series. ODMs, system integrators and customer
+headquarters do not provide a look-through map of end users. The filing separately
+identifies meaningful indirect concentration, including an unnamed AI research and
+deployment company, possibly OpenAI but not identified (10). It does not establish
+that ultimate-customer concentration must exceed direct concentration. Five direct
+customers account for 70% of receivables (11). Hyperscale is 54.7% of Q2 Data Center
+revenue; ACIE's $40.3bn grew about 138% y/y (2, 41; arithmetic on recast CSV).
+Neither segment determines how its customers funded purchases.
 
 **(a) Circular financing: how big is it?** The disclosed pieces, with status:
 
-- OpenAI: September 2025 letter of intent, "up to $100 billion" staged per GW over at
-  least 10 GW (20). No definitive investment agreement is identified in Nvidia's
-  filings; what is definitive is the $105bn guarantee (17) and Kress's statement that
-  OpenAI's commitments total ~12 GW through 2030. Nvidia's own arithmetic is that one
-  generation at the Ohio site alone is $150–200bn of revenue (17).
-- Anthropic: a $10bn investment (21), with Anthropic buying Nvidia systems through
-  Azure; an unnamed "another frontier AI lab" gets "selective credit enhancement for
-  nearly 2 GW" (19).
-- CoreWeave: $2.0bn private placement in January 2026 at $87.20 (22) on top of an
-  earlier stake, plus the September 2025 $6.3bn order form under which Nvidia buys
-  whatever capacity CoreWeave cannot sell, through April 2032 (22). CoreWeave has
-  $35bn of debt, $5bn of equity, a $626m quarterly loss and two customers at 62% of
-  revenue (23). Nvidia is simultaneously its sole GPU supplier, a shareholder, and the
-  buyer of last resort for its output.
-- The Q2 FY2027 "new business model": AI clouds buy Nvidia systems and Nvidia signs
-  six-year cloud-service commitments ($36bn) that the clouds "can unilaterally stop
-  providing to us and sell to third-party customers at more advantageous rates" (16),
-  with Nvidia taking a revenue share above a floor. Kress called it being "paid twice."
-- Intel $5bn (24), Groq $15.9bn licence (30), Hugging Face $11.9bn (30): ecosystem
-  rather than customer financing, but they consume the same cash.
+- OpenAI: the September 2025 LOI contemplated up to $100bn of investment alongside
+  at least 10 GW (20). February's named financing announcement specifies $30bn
+  from Nvidia in a $110bn round and 3 GW inference / 2 GW training on Vera Rubin
+  (48). This clarifies a substantial announced investment without establishing
+  funding of the entire older LOI or how all later arrangements overlap. Ohio's
+  $105bn guarantee is contractual; management's $150–200bn per generation at that
+  site is a revenue scenario, not contracted chip backlog (17).
+- Anthropic: the $10bn investment statement and Azure compute partnership (21).
+- CoreWeave: $2bn January private placement and the September 2025 $6.3bn residual
+  capacity order form through April 2032 (22). CoreWeave's roughly $35.1bn debt
+  carrying value, $626m quarterly loss and $640m net interest expense illustrate
+  financing risk at this customer (23), without proving the funding mix of all
+  neoclouds. Nvidia is its GPU supplier, shareholder and residual-capacity buyer.
+- AI clouds: $36bn of typically six-year cloud agreements (16); these support
+  financing by committing Nvidia to capacity that partners can instead sell to
+  third parties on better terms. The cash economics differ from an ordinary loan.
+- Nscale: the September 25 announcement includes a $1bn Nvidia commitment to
+  convertible loan notes, expected to fund in mid-November, with automatic IPO
+  conversion into non-voting shares (42). Convertible debt now qualifies the
+  earlier equity-versus-loans framing; it is not already funded cash.
+- SB Energy: the September prospectus separates $1.5bn prepaid on August 17 at
+  90% of the IPO price from another $1.5bn placement conditional on the IPO at its
+  offer price (44). This adds developer exposure alongside support for the tenant;
+  neither belongs in July's balance sheet, and a roll-forward is needed before
+  adding it to July commitments. The prospectus's non-investment-grade OpenAI
+  disclosure and unfinished gas-generation financing/construction/contracting
+  also make delivery a material constraint on future chip demand.
+- Intel's $5bn investment and $15.9bn Groq licence payments consume resources;
+  the signed $11.9bn Hugging Face acquisition is not evidence of cash already
+  spent (24, 30).
 
-Totals: $99bn of equity investments carried, $25bn more committed, "nearly $50bn" in
-labs (18, 19), $36bn of AI-cloud take-or-pay, $105bn of guarantees. Kress's own
-estimate is that labs backed by Nvidia's balance sheet will be "roughly a quarter of our
-business next year" (19); on FY2028 guidance of roughly $690bn that is ~$170bn of
-revenue. The bull case is arithmetic: $50bn of equity is a fraction of one year's free
-cash flow, the investments are marked up (H1 gains $23.7bn), and compute is "fungible"
-and can be redeployed if a lab fails. The bear case is also arithmetic: the guarantee
-alone is 83% of trailing FCF, the counterparty projects $278bn of negative free cash
-flow through 2030 (40), and the equity gains that make the investments look profitable
-are themselves priced off the compute demand the investments create. Both sides agree
-on the mechanism; they disagree on whether the labs' revenue arrives.
+The $99bn of equity investments is carrying value, with the lab investments a
+subset; $25bn of commitments is a different measure (18, 19). Management expects
+supported labs to be roughly a quarter of **FY2028 total-company** business (19).
+An assumed $400bn FY2027 base and preliminary 70% growth imply $680bn in FY2028
+and $170bn of supported-lab revenue; neither dollar figure is company guidance (53).
+The bull view points to current FCF, investment gains and redeployable compute.
+The bear view points to correlated customer funding and OpenAI's reported,
+unverified negative FCF projections (40). The Ohio cap is about 83% of TTM FCF,
+but that compares a multi-year contingent maximum with one annual flow (57).
 
-**(b) Can 75% gross margin survive?** Management says no, modestly: 74% in Q3, 71–72%
-in Q4, 72–73% in FY2028 (6), blamed on memory prices, not competition. Competition is
-real but still small in absolute terms: AMD's data-centre segment is $6.7bn a quarter
-at a 56% company gross margin (35), Broadcom's AI business is $16.7bn and guided to
-$21.7bn (36), a run-rate roughly a quarter of Nvidia's data-centre revenue and growing
-221% off custom accelerators for Google, Meta and (from 2026) OpenAI. The OpenAI–AMD
-6 GW agreement and Anthropic's AMD capacity (35) show the largest buyers deliberately
-dual-sourcing, and Huang's answer to the question of why Nvidia funds labs that build
-competing chips was that Nvidia is "building something very different" (19). China is
-the one market already lost: Nvidia states it cannot build a competitive product under
-current rules, PRC authorities blocked H20 and H200 purchases even after US licences
-were granted, and Huawei targets ~600,000 910C chips in 2026 (28, 37). Rental prices
-cut both ways: on-demand H100 rates have roughly halved since 2024 but one-year reserved
-rates are reported up ~40% (38), consistent with scarce new capacity and cheap old
-capacity, which is what a fast product cadence produces. Our reading: margin erosion in
-the next two years comes from input costs and mix, and the real test of pricing power
-is the FY2028 Rubin pricing against Broadcom's and AMD's second-generation parts, not
-anything visible today.
+Guarantee protections matter: recovery offsets, remedy choices, reimbursement
+rights, readiness conditions, scheduled exposure reductions and termination events
+limit or defer Nvidia's burden (45). They do not ensure recovery during a correlated
+AI downturn. Compute fungibility does not establish that a particular Ohio site
+retains its financing value. Separately, September's $235bn remaining repurchase
+authorization creates both a capital-allocation question and a discretionary cash
+lever (43). It is not a debt obligation. S&P's June AA/stable upgrade supports the
+case against near-term distress, but predates the Ohio guarantee (49).
 
-**(c) Valuation versus Cisco.** Cisco at its peak on 27 March 2000 was worth about
-$555bn (33) on FY2000 sales of $18.9bn and net income of $2.7bn (32): roughly 29x sales
-and 200x earnings (34), growing 55%, at a 64% gross margin. Nvidia at $214 is $5.16tn
-(31): 17x trailing sales, 27x trailing GAAP earnings (30x non-GAAP), 17.7x forward,
-growing 106%, at a 75% gross margin and a 56–62% net margin. On multiples Nvidia is
-priced like a mature mega-cap, not a bubble stock; the market is paying for earnings
-that exist. What is the market discounting? For a 10% annual return over five years
-with a 25x exit multiple, Nvidia needs about $332bn of net income in FY2032
-($5.16tn × 1.1^5 / 25); at a 55% net margin that is ~$600bn of revenue. FY2028 guidance
-of +70% on ~$400bn FY2027 already implies ~$690bn. So the price assumes that FY2028
-roughly happens and is then sustained at a 55% net margin for years; it does not need
-further growth, but it does need no reversion. Cisco's price needed decades of growth;
-Nvidia's needs the current level to be a plateau, not a peak. That is a materially
-smaller ask, but it is exactly the ask that fails if customers are overbuilding: Cisco's
-business did not disappear after 2000, yet the stock fell 84% within 13 months (33)
-because the multiple and the growth assumption collapsed together. (The ~$400bn FY2027
-base is our estimate: H1 actual plus Q3 guidance plus a Q4 at modest sequential growth.) The structural rhymes are
-uncomfortable: both companies sold to customers who funded purchases in the capital
-markets (CLECs then, neoclouds and labs now), both financed customers (Cisco's vendor
-financing, Nvidia's guarantees and equity), and both pre-bought components years ahead
-(Cisco's 2001 excess-inventory charge; Nvidia's $279bn of commitments, $32bn of
-inventory and $11bn of raw materials).
+**(b) Can 75% gross margin survive?** Management guides to 74% in Q3, 71–72% in Q4
+and 72–73% in FY2028, citing memory costs; recovery also assumes executed price
+increases taking effect in Q1 FY2028 (6). AMD Data Center grew 107%, below Nvidia
+Data Center's 117%, while Broadcom AI semiconductor revenue grew 221% (2, 35, 36).
+AMD's segment includes CPUs and Broadcom's includes networking. Their completed
+quarters also differ: Broadcom's $16.7bn is smaller than Nvidia's $89.0bn; its
+$21.7bn is future guidance, not a completed-quarter comparison. OpenAI's AMD
+agreement and Anthropic's announced AMD capacity demonstrate alternative supply
+relationships (35), but do not isolate their effect on Nvidia pricing.
 
-**(d) How much revenue is debt-funded or lab-funded?** Trailing-four-quarter data-centre
-revenue is $277.8bn (sum of Q3 FY26–Q2 FY27, CSV). Assumptions, stated: hyperscale is
-~55% ($153bn) and ACIE ~45% ($125bn), using the recast splits of the last three quarters (41). Within hyperscale, Amazon, Alphabet and
-Microsoft fund capex mostly from operations but all three are issuing bonds; Meta's free
-cash flow was $784m in Q2 2026 against $31bn of capex and it added $25bn of debt in the
-quarter (39); Oracle (not covered here) is debt-funded. We put the debt-financed share
-of hyperscale purchases at 20–30%. Within ACIE, the neoclouds (CoreWeave $35bn of debt,
-23) are almost entirely debt-funded, sovereigns are state-funded, enterprises are
-cash-funded; we put the debt share at 40–55%. Blended: roughly 25–40% of data-centre
-revenue is bought with borrowed money. The lab share is a different cut: OpenAI (via
-Microsoft, Oracle, CoreWeave and now its own leases), Anthropic (via Amazon, Google,
-Azure) and xAI are the end users of a large part of both buckets. Kress's "roughly a
-quarter" for labs that Nvidia backs is a floor for FY2028 (19); adding labs it does not
-back and the hyperscalers' own model training, we estimate 25–35% of data-centre revenue
-is ultimately paid for by entities with no profits, whose cash comes from equity raises
-and debt. Those two categories overlap heavily; the clean statement is that at least a
-quarter of Nvidia's revenue depends on the continued willingness of capital markets to
-fund losses. Grade C: these are estimates on disclosed anchors, not disclosures.
+China restrictions have sharply constrained DC compute, and Q3 guidance assumes
+none (4, 28). This is not zero China-related company revenue: China/HK customer
+headquarters account for $7.9bn in Q2 (29), a different classification. Huawei's
+output/revenue estimates remain lower-grade evidence (37). H100 tracker ranges
+suggest cheaper on-demand capacity than in 2024, but contract/vendor comparability
+is unestablished; the reserved-price increase lacks a reproducible source (38).
+Our working view remains that input costs and product mix pressure margins, while
+competition is an additional risk; current disclosures cannot isolate their effects.
 
-**Who bears the loss if returns disappoint.** In order: the labs' equity holders (including
-Nvidia, $50bn); neocloud lenders (CoreWeave's $35bn, GPU-backed); Nvidia via guarantees
-($108.5bn maximum) and take-or-pay ($36bn) and memory commitments ($279bn, partly
-cancellable); then Nvidia shareholders via the multiple. Nvidia's cash ($56.6bn) is now
-smaller than its guarantees, and its new debt ($33.5bn) is roughly the size of one
-quarter's buybacks and dividends. Nothing here is distressed; everything here is a new
-exposure that did not exist four quarters ago.
+**(c) Valuation versus Cisco.** The selected $555bn Cisco peak capitalization divided
+by subsequently reported FY2000 sales and earnings gives about 29x sales and 208x
+earnings (32–34). These are hindsight denominators. Nvidia's approximate $5.16tn
+capitalization uses October's price and August's rounded shares; it gives 17x TTM
+sales and 27x GAAP earnings (31). The original adjusted-TTM sum mixes FY2026
+excluding SBC with FY2027 including SBC, so its 30.2x multiple is withdrawn as a
+comparable adjusted P/E (55). The provider's 17.7x forward ratio is consensus on an
+unreconciled horizon/basis, not company guidance or a demonstrated bargain.
+
+At constant shares, with no interim distributions, a 10% annual price return over
+five years and a 25x terminal P/E requires about $332bn net income; at a sustained
+55% net margin this requires roughly $604bn revenue (54). This is a conditional
+scenario, not a unique inference of what the market prices. It requires revenue
+about 57% above the Q2 annualized run-rate, not today's revenue becoming a plateau.
+The $400bn FY2027 assumption requires a $114.163bn Q4 after H1 actuals and Q3
+guidance; preliminary 70% FY2028 growth then implies $680bn, not $690bn (53).
+Whether that future level and margin persist is unresolved. Lower multiples than
+Cisco do not establish fair value. The structural analogy is customer financing and
+future procurement exposure; it does not demonstrate that all end demand relies on
+capital markets. The unsupported dated Cisco drawdown claim is removed (33).
+
+**(d) How much revenue is debt-funded or lab-funded?** TTM Data Center revenue is
+$277.798bn. Applying an assumed 55/45 hyperscale/ACIE mix gives approximately
+$152.789bn / $125.009bn (56); it is a proxy from recast disclosed quarters, not an
+observed four-quarter split. Meta's low quarterly FCF alongside large capex and new
+debt, and CoreWeave's leverage, show financing needs at specific buyers (23, 39).
+They cannot allocate each GPU purchase between operating cash, equity and debt.
+
+Retaining the original **assumptions** of 20–30% debt funding for hyperscale and
+40–55% for ACIE yields 0.55×20% + 0.45×40% = **29%** at the low end and
+0.55×30% + 0.45×55% = **41.25%** at the high end (56). This is a grade-C scenario,
+not a measured funding share. Current demand ultimately financed by loss-making
+labs cannot be quantified from these disclosures. Management's next-year
+supported-lab share is neither a current-period floor nor a loss-funded fraction;
+profitable hyperscalers' internal training cannot be counted as loss-making entities.
+
+**Who bears the loss if returns disappoint.** Equity valuations, including Nvidia's,
+can fall before defaults. Ultimate contractual losses depend on seniority,
+collateral, recourse, recoveries and guarantee triggers; Nvidia support can shield
+lenders and transfer losses to Nvidia. The $108.5bn combined gross cap consists of
+$105bn Ohio plus $3.5bn of other AI-cloud land/power/shell guarantees (52). It is not
+a forecast loss. Procurement commitments, take-or-pay, investment values and
+guarantee caps cannot be added as immediate losses without double-counting and
+recovery analysis. Strong earnings, the June credit assessment and discretionary
+buybacks argue against treating gross exposure as imminent insolvency (27, 43, 49).
+The evidence supports a highly profitable supplier taking growing, correlated
+financing risk, with the scale and timing of realized losses still unknown.
 
 ## Conflicts and open questions
 
-- **Is it circular?** Nvidia: equity, not loans; small versus FCF; fungible compute;
-  gains to date. Critics (and Nvidia's own 10-Q): customers "lack... investment-grade
-  financing capacity" and Nvidia is supplying it; the guarantee and take-or-pay are
-  economically loans. Both are true. Unknown: how much of the $100bn OpenAI letter of
-  intent has been funded, and under what definitive terms. Nvidia's filings do not say.
-- **Visibility.** "$500bn" (Oct 2025) became "$1 trillion through calendar 2027" (May
-  2026) and "+70% in FY2028" (Aug 2026). These are demand statements, not backlog;
-  Nvidia reports no remaining-performance-obligation figure. Whether the $279bn of
-  supply commitments is matched by firm customer orders is undisclosed.
-- **DSO.** Nvidia says the rise to 60 days is extended terms for investment-grade buyers
-  on multi-quarter deals. The alternative reading, that collection is slowing, is not
-  supported by the AR concentration (five investment-grade-looking customers), but a
-  second consecutive rise would change that.
-- **Gross-margin cause.** Management attributes the decline to memory; AMD and Broadcom
-  growth suggests price competition is also arriving. Resolvable by Rubin ASPs in FY2028.
-- **Hyperscale/ACIE recast.** In Q2 a company moved from ACIE to Hyperscale, shifting
-  $5.2bn of Q1 revenue; Nvidia does not name it. The split is management's and has been
-  restated twice in two quarters.
-- **Cisco aftermath.** FY2001 revenue and the inventory charge are not verified here in a
-  primary source (the FY2001 10-K's financial statements are in an exhibit not fetched);
-  the 84%/90% drawdown figures are secondary.
-- **China upside.** Guidance assumes zero. Any licence that the PRC also permits would
-  be upside, but the 10-K says Nvidia cannot build a competitive compliant product.
-- **Not verified:** Nvidia's current stakes in xAI/SpaceXAI, Nebius, Lambda and other
-  neoclouds; the $12.3bn reclassification of non-marketable to marketable securities
-  "following public market trading" in Q2 FY27 is not attributed in the 10-Q.
+- **Circularity and funding dependence — original note versus cross-check.** The
+  original inferred a current 25–35% loss-funded DC share and at least a quarter
+  of total revenue dependent on capital markets funding losses. Codex finds neither
+  measurable from the disclosures: the supported-lab share is a FY2028 total-company
+  expectation, and profitable hyperscalers are not loss-making labs. The corrected
+  29–41.25% debt-funded range retains the original assumptions only as a scenario
+  (56). Both views make customer funding durability central; customer-level cash
+  allocation and ultimate-user data would be needed to measure it.
+- **Equity versus loans.** Management's August statement emphasized equity and
+  redeployable compute (19). The original called guarantees and take-or-pay
+  economically loans and treated both descriptions as true. Codex distinguishes
+  those contracts from loans and adds the later Nscale convertible-note commitment
+  (42). Its cash timing and automatic conversion matter. OpenAI's $30bn financing
+  announcement narrows the original uncertainty, but does not establish full funding
+  of the older $100bn LOI or overlap with later commitments (20, 48). October
+  installment reporting remains unverified here; no funded total is inferred from it.
+- **Valuation — original note versus cross-check.** The original called the multiple
+  mature-megacap-like and a current-revenue plateau sufficient. Codex agrees the
+  selected multiples are below Cisco's, but finds cheapness unsupported: the
+  scenario requires a higher future revenue level and a sustained assumed margin,
+  while adjusted TTM is inconsistent and Cisco denominators postdate its peak
+  (31–34, 54, 55). A return scenario is not a fair-value determination.
+- **Overbuild and loss sequence — original note versus cross-check.** The original
+  excluded overbuild from Nvidia's P&L and ordered losses from lab equity to lenders,
+  Nvidia contracts and finally Nvidia shareholders. Codex argues today's earnings
+  cannot rule out future impairment; shareholder repricing can precede defaults and
+  guarantees can protect lenders at Nvidia's expense. Both recognize customer risk;
+  recoveries and contract-specific recourse decide ultimate losses (45, 52).
+- **Guarantee recovery.** The original bull view relied on fungible compute and
+  current FCF; its bear view emphasized the gross cap relative to cash. Codex adds
+  contractual protections and distinguishes cap, expected loss and near-term cash
+  demand. Reletting, site delivery and reimbursement remain uncertain under a
+  correlated downturn; SB Energy's unfunded/unbuilt/uncontracted planned gas
+  generation is an execution constraint, not proof of a completed alternative use
+  (44, 45). The June AA/stable action predates Ohio (49).
+- **Visibility.** Management's $500bn, then $1tn through calendar 2027, and preliminary
+  70% FY2028 growth statements are expectations (5, 7). Contrary to the original
+  note, Nvidia reports $3.2bn of RPO on contracts longer than one year (46). This
+  limited measure is not comprehensive chip backlog and does not establish firm
+  orders matching $279bn of supply commitments.
+- **DSO.** Management attributes extended terms to certain investment-grade buyers;
+  Q1 early payments and expected normalization qualify the original stress reading
+  (12, 50). Receivables concentration alone does not identify credit quality or prove
+  collections are healthy. Further aging, payment-term and cash-conversion data
+  would distinguish normalization from deterioration.
+- **Gross-margin cause.** The original emphasizes input costs and mix; management
+  also assumes pricing actions. Codex corrects the claim AMD is growing faster
+  than Nvidia DC and says peer growth does not isolate pricing pressure (2, 6, 35,
+  36). Competition remains plausible, with Rubin pricing and mix still unresolved.
+- **Hyperscale/ACIE recast.** A company moved between buckets in Q2; the recast
+  prevents treating unadjusted historic shares as a clean funding trend (2, 41).
+- **Cisco aftermath and rental rates.** The original asserted an 84% fall within
+  13 months and a 40% rise in reserved H100 pricing. Codex found neither dated
+  comparison reproducible from the supplied evidence; both are withdrawn. Cisco's
+  stated peak/October 2002 low are secondary and imply about a 90% decline over
+  that longer interval, not the claimed 13 months. Rental tracker samples may
+  differ by vendor and contract (33, 38). Cisco FY2001 results and inventory charge
+  remain unverified here in a primary source.
+- **China and concentration scope.** The original described China as effectively
+  zero and identified the unnamed lab as OpenAI. Codex limits zero to DC-compute
+  guidance and treats the identity as plausible, unconfirmed. HQ revenue and direct
+  channel shares do not establish destination or ultimate funding (4, 9, 10, 29).
+- **Not verified:** current stakes in xAI/SpaceXAI, Nebius, Lambda and other
+  neoclouds; attribution of the Q2 public-market reclassification of investments;
+  funding/commitment roll-forwards linking July balances with later announcements.
 
 ## Signals to watch
 
 | Signal | Current value | As of | Source | Why it matters |
 |--------|---------------|-------|--------|----------------|
-| DSO | 60 days (45 prior quarter; 43–54 range over 2 years) | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | Vendor terms are a form of financing; a second rise means customers cannot pay on delivery |
-| Supply and capacity commitments | $279bn ($119bn prior; $45.8bn a year earlier) | 2026-07-26 | same | Cisco 2001 analogue; exposure if demand slips; cancellability partly undisclosed |
+| DSO | 60 days (45 prior quarter; 43–54 range over 2 years) | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | Vendor terms are a form of financing; track aging and cash conversion; another rise alone does not prove inability to pay |
+| Supply and capacity commitments | $279bn ($119bn prior; July 2025 $45.8bn was a broader category) | 2026-07-26 | same | Cisco 2001 analogue; exposure if demand slips; cancellability partly undisclosed |
 | Inventory and raw materials | $31.6bn; raw materials $11.3bn | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | Rubin ramp build is normal; inventory growing faster than revenue is not |
-| Guarantees and take-or-pay | $108.5bn max guarantee exposure; $36bn AI-cloud agreements | 2026-08-17 | same; [8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) | Contingent liabilities now exceed cash; watch for new guarantees per lab |
-| Direct customer >10% share | one at 16% (Q2); 16/15/13% (H1) | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | Concentration falling is the diversification claim; rising means dependence on 2–3 buyers |
-| Hyperscale share of DC revenue | ~55% ($48.7bn of $89.0bn) | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | The non-hyperscale half is the debt- and equity-funded half |
+| Guarantees and take-or-pay | $108.5bn max guarantee exposure; $36bn AI-cloud agreements | 2026-08-17 | same; [8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm) | Gross conditional caps exceed cash/debt securities; track triggers, recoveries and incremental support |
+| Direct customer >10% share | one at 16% (Q2); 16/15/13% (H1) | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | Compare like periods; direct-channel shares do not reveal ultimate-user concentration |
+| Hyperscale share of DC revenue | ~55% ($48.7bn of $89.0bn) | 2026-07-26 | [Q2 FY27 CFO commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) | Neither segment discloses its purchase-funding mix; track recasts and ultimate users |
 | Hyperscaler 2026 capex guidance | Alphabet $195–205bn; Amazon ~$220bn; Meta $130–145bn; Microsoft ~$175–190bn | 2026-07-29 | [Meta 8-K](https://www.sec.gov/Archives/edgar/data/0001326801/000162828026050596/meta-06302026xexhibit991.htm); secondary for others | Nvidia's FY2028 +70% needs another step up in 2027 guidance |
-| Meta free cash flow | $784m in Q2 2026 vs $31.1bn capex | 2026-06-30 | [Meta 8-K](https://www.sec.gov/Archives/edgar/data/0001326801/000162828026050596/meta-06302026xexhibit991.htm) | First hyperscaler whose capex has consumed its cash flow; now bond-funded |
-| GPU rental price (H100 on-demand median) | ~$4.20/hr (Uvik, Oct 2026); $2.8–3.5/hr on other trackers; 1-yr reserved reportedly +40% | 2026-10 | [Uvik](https://uvik.net/blog/gpu-price-index/) | Falling rental prices with rising commitments is the overbuild signature |
-| Gross margin | 75.0%; guided 74% Q3, 71–72% Q4, 72–73% FY2028 | 2026-08-26 | [Q2 FY27 call](https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/) | Below 70% would indicate pricing, not memory |
-| Equity-securities gains in GAAP net income | $7.8bn in Q2; $23.7bn in H1 | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | Marks on customers' equity feeding Nvidia's reported earnings is the circularity made visible |
-| CoreWeave debt and interest | $35.1bn debt; $640m quarterly interest; $626m net loss | 2026-06-30 | [CoreWeave 10-Q](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm) | The template neocloud; Nvidia is its backstop through 2032 |
+| Meta free cash flow | $784m in Q2 2026 vs $31.1bn capex | 2026-06-30 | [Meta 8-K](https://www.sec.gov/Archives/edgar/data/0001326801/000162828026050596/meta-06302026xexhibit991.htm) | Low quarterly FCF and new debt show funding pressure, not allocation of each purchase |
+| GPU rental price (H100 on-demand median) | ~$4.20/hr (Uvik, Oct 2026); $2.8–3.5/hr on other trackers; reserved-price comparison unverified | 2026-10 | [Uvik](https://uvik.net/blog/gpu-price-index/) | Comparable falling rates alongside rising commitments would support overbuild; samples differ |
+| Gross margin | 75.0%; guided 74% Q3, 71–72% Q4, 72–73% FY2028 | 2026-08-26 | [Company-hosted Q2 FY27 call](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | Track memory costs, realized pricing and mix; margin alone cannot identify the cause |
+| Equity-securities gains in GAAP net income | $7.8bn in Q2; $23.7bn in H1 | 2026-07-26 | [Q2 FY27 10-Q](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) | Pretax investment marks affect net income; the filing does not identify every holding as a customer |
+| CoreWeave debt and interest | $35.1bn debt; $640m quarterly net interest; $626m net loss | 2026-06-30 | [CoreWeave 10-Q](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm) | The template neocloud; Nvidia is its backstop through 2032 |
 
 ## Sources
 
@@ -288,7 +364,7 @@ exposure that did not exist four quarters ago.
 9. NVIDIA Form 10-Qs for Q1–Q3 FY2025 and Q1–Q3 FY2026 (accessions 0001045810-24-000124, -24-000264, -24-000316, -25-000116, -25-000209, -25-000230), accessed 2026-10-17.
 10. https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm — NVIDIA Form 8-K, Item 1.01, SB Energy residual value guaranties, 2026-08-17, accessed 2026-10-17.
 11. https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm — NVIDIA Form 8-K, Hugging Face acquisition, 2026-09-02, accessed 2026-10-17.
-12. https://www.marketbeat.com/earnings/reports/2026-8-26-nvidia-co-stock/ — MarketBeat/Quartr, NVIDIA Q2 FY2027 earnings call transcript, 2026-08-26, accessed 2026-10-17.
+12. https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf — NVIDIA investor relations / FactSet, corrected Q2 FY2027 earnings call transcript, 2026-08-26, accessed 2026-10-17.
 13. https://www.marketbeat.com/earnings/reports/2026-5-20-nvidia-co-stock/ — MarketBeat/Quartr, NVIDIA Q1 FY2027 earnings call transcript, 2026-05-20, accessed 2026-10-17.
 14. https://www.marketbeat.com/earnings/reports/2026-2-25-nvidia-co-stock/ — MarketBeat/Quartr, NVIDIA Q4 FY2026 earnings call transcript, 2026-02-25, accessed 2026-10-17.
 15. https://stockanalysis.com/stocks/nvda/ — StockAnalysis, NVDA quote page (close 2026-10-16), accessed 2026-10-17.
@@ -303,8 +379,8 @@ exposure that did not exist four quarters ago.
 24. https://itweb.co.za/article/cisco-briefly-tops-microsoft-as-most-valuable-firm/kLgB1MeJLByq59N4 — ITWeb (Reuters), "Cisco briefly tops Microsoft as most valuable firm", 2000-03-24, accessed 2026-10-17.
 25. https://www.etftrends.com/?p=648920 — ETF Trends, Cisco peak market cap $555bn, accessed 2026-10-17.
 26. https://www.crossingwallstreet.com/?p=1404 — Crossing Wall Street, "Cisco's Peak", 2006-08-23, accessed 2026-10-17.
-27. https://datacenterdynamics.com/en/news/amd-posts-q2-26-revenue-of-115bn-with-data-center-revenue-up-107-for-the-quarter/ — DCD, AMD Q2 2026 results, 2026-08, accessed 2026-10-17.
-28. https://www.kucoin.com/blog/ama-q2-2026-earnings-data-center-revenue-doubles-as-ai-chips-challenge-nvidia — KuCoin blog, AMD Q2 2026 earnings summary (incl. OpenAI 6 GW and Helios timing), 2026-08, accessed 2026-10-17.
+27. https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results — AMD, Second Quarter 2026 Financial Results, 2026-08-04, accessed 2026-10-17.
+28. https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus — AMD, OpenAI strategic partnership announcement, 2025-10-06, accessed 2026-10-17.
 29. https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm — Broadcom Q3 FY2026 results (8-K exhibit), 2026-09-03, accessed 2026-10-17.
 30. https://gulfnews.com/technology/huawei-to-double-output-of-top-ai-chip-as-nvidia-wavers-in-china-1.500287469 — Gulf News (Bloomberg), Huawei 910C output plans, accessed 2026-10-17.
 31. https://www.cxodigitalpulse.com/?p=52878 — CXO Digital Pulse, Huawei AI chip revenue estimate, 2026, accessed 2026-10-17.
@@ -316,3 +392,12 @@ exposure that did not exist four quarters ago.
 37. https://runtimewire.com/article/openai-278b-cash-burn-1-2t-valuation — Runtimewire (citing FT/Reuters), OpenAI projections, 2026-09, accessed 2026-10-17.
 38. https://www.itiger.com/news/1197658515 — iTiger, OpenAI Q1 2026 cash burn (citing shareholder documents), 2026, accessed 2026-10-17.
 39. https://pepperstone.com/en-au/insights/market-analysis/equities/nvidia-earnings-preview-q2-fy27 — Pepperstone, Q2 FY27 earnings preview ("$1 trillion... through 2027"), 2026-08-25, accessed 2026-10-17.
+40. https://www.nscale.com/press-releases/pre-ipo-convertible-financing — Nscale, Pre-IPO Convertible Financing announcement, 2026-09-25, accessed 2026-10-17.
+41. https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx — NVIDIA, Share Repurchase Authorization Increase, 2026-09-28, accessed 2026-10-17.
+42. https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm — SB Energy, amended Form S-1 (Amendment 2), 2026-09-21, accessed 2026-10-17 (SEC search returned relevant cover, Recent Developments and risk-factor passages; full web reader exceeded its size limit).
+43. https://openai.com/index/scaling-ai-for-everyone/ — OpenAI, Scaling AI for everyone, 2026-02-27, accessed 2026-10-17.
+44. https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101690859 — S&P Global Ratings, NVIDIA upgraded to AA / stable outlook, 2026-06-11, accessed 2026-10-17 (rating action verified through indexed primary text).
+45. https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm — NVIDIA, Q4 FY2026 financial results, 2026-02-25, accessed 2026-10-17.
+46. https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm — NVIDIA, Q3 FY2026 financial results, 2025-11-19, accessed 2026-10-17.
+47. https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26cfocommentary.htm — NVIDIA, Q2 FY2026 CFO commentary (broader historical commitments), 2025-08-27, accessed 2026-10-17.
+48. https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round/ — The Information, October installment reporting lead, 2026-10-01 per cross-check; accessed 2026-10-17 (body unavailable; no funded figure independently verified or added).
