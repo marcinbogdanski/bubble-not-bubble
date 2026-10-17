@@ -12,12 +12,12 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | done (draft) | research/theory/ai-unit-economics.md |
 | P1-S1 | Stack: ASML and equipment | Claude subagent | done (draft) | research/stack/semiconductor-equipment.md |
 | P1-S2 | Stack: TSMC and foundry | Codex gpt-6-astra | done (draft) | research/stack/tsmc-and-foundry.md |
-| P1-S3 | Stack: memory and HBM | Claude subagent | paused (usage window) | research/stack/memory-hbm.md |
+| P1-S3 | Stack: memory and HBM | Codex gpt-6.1-sol | running | research/stack/memory-hbm.md |
 | P1-S4 | Stack: Nvidia | Claude subagent | done (draft) | research/stack/nvidia.md |
 | P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | done (draft) | research/stack/amd-broadcom-custom-silicon.md |
-| P1-M1 | Macro: GPU pricing and utilization | Claude subagent (Opus, fresh) | paused until window resets ~02:30 | research/macro/gpu-pricing-and-utilization.md |
+| P1-M1 | Macro: GPU pricing and utilization | Codex gpt-6.1-sol | running | research/macro/gpu-pricing-and-utilization.md |
 | P1-S6 | Stack: Microsoft | Claude subagent | done (draft) | research/stack/microsoft.md |
-| P1-S7 | Stack: Alphabet | Claude subagent | paused (usage window) | research/stack/alphabet.md |
+| P1-S7 | Stack: Alphabet | Codex gpt-6.1-sol | running | research/stack/alphabet.md |
 | P1-S8 | Stack: Amazon | Codex gpt-6-astra | done (draft) | research/stack/amazon.md |
 | P1-S9 | Stack: Meta | Codex gpt-6-astra | done (draft) | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex gpt-6-astra | done (draft) | research/stack/oracle.md |
