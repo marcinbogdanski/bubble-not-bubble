@@ -11,18 +11,18 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-T2 | Theory: historical precedents | Claude subagent | done (draft) | research/theory/historical-precedents.md |
 | P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | done (draft) | research/theory/ai-unit-economics.md |
 | P1-S1 | Stack: ASML and equipment | Claude subagent | done (draft) | research/stack/semiconductor-equipment.md |
-| P1-S2 | Stack: TSMC and foundry | Codex CLI (after Claude rate limit) | running | research/stack/tsmc-and-foundry.md |
-| P1-S3 | Stack: memory and HBM | Claude subagent | resumed after rate limit | research/stack/memory-hbm.md |
-| P1-S4 | Stack: Nvidia | Claude subagent | resumed after rate limit | research/stack/nvidia.md |
+| P1-S2 | Stack: TSMC and foundry | Codex gpt-6-astra | done (draft) | research/stack/tsmc-and-foundry.md |
+| P1-S3 | Stack: memory and HBM | Claude subagent | paused (usage window) | research/stack/memory-hbm.md |
+| P1-S4 | Stack: Nvidia | Claude subagent | done (draft) | research/stack/nvidia.md |
 | P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | done (draft) | research/stack/amd-broadcom-custom-silicon.md |
-| P1-M1 | Macro: GPU pricing and utilization | Claude subagent | resumed after rate limit | research/macro/gpu-pricing-and-utilization.md |
+| P1-M1 | Macro: GPU pricing and utilization | Claude subagent | paused (usage window) | research/macro/gpu-pricing-and-utilization.md |
 | P1-S6 | Stack: Microsoft | Claude subagent | done (draft) | research/stack/microsoft.md |
-| P1-S7 | Stack: Alphabet | Claude subagent | resumed after rate limit | research/stack/alphabet.md |
-| P1-S8 | Stack: Amazon | Codex CLI (after Claude rate limit) | running | research/stack/amazon.md |
+| P1-S7 | Stack: Alphabet | Claude subagent | paused (usage window) | research/stack/alphabet.md |
+| P1-S8 | Stack: Amazon | Codex gpt-6-astra | done (draft) | research/stack/amazon.md |
 | P1-S9 | Stack: Meta | Codex CLI (after Claude rate limit) | running | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
 | P1-S11 | Stack: CoreWeave | Claude subagent | resumed after rate limit | research/stack/coreweave.md |
-| P1-S12 | Stack: other neoclouds | Claude subagent | resumed after rate limit | research/stack/neoclouds-other.md |
+| P1-S12 | Stack: other neoclouds | Claude subagent | paused (usage window), near done | research/stack/neoclouds-other.md |
 | P1-S13 | Stack: OpenAI | Codex gpt-6.1-sol | running | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Codex gpt-6.1-sol | running | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Codex gpt-6.1-sol | running | research/stack/labs-other.md |
