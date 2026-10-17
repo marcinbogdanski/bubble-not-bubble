@@ -12,12 +12,12 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | done (draft) | research/theory/ai-unit-economics.md |
 | P1-S1 | Stack: ASML and equipment | Claude subagent | done (draft) | research/stack/semiconductor-equipment.md |
 | P1-S2 | Stack: TSMC and foundry | Codex gpt-6-astra | done (draft) | research/stack/tsmc-and-foundry.md |
-| P1-S3 | Stack: memory and HBM | Codex gpt-6.1-sol | running | research/stack/memory-hbm.md |
+| P1-S3 | Stack: memory and HBM | Codex gpt-6.1-sol | done (draft) | research/stack/memory-hbm.md |
 | P1-S4 | Stack: Nvidia | Claude subagent | done (draft) | research/stack/nvidia.md |
 | P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | done (draft) | research/stack/amd-broadcom-custom-silicon.md |
-| P1-M1 | Macro: GPU pricing and utilization | Codex gpt-6.1-sol | running | research/macro/gpu-pricing-and-utilization.md |
+| P1-M1 | Macro: GPU pricing and utilization | Codex gpt-6.1-sol | done (draft) | research/macro/gpu-pricing-and-utilization.md |
 | P1-S6 | Stack: Microsoft | Claude subagent | done (draft) | research/stack/microsoft.md |
-| P1-S7 | Stack: Alphabet | Codex gpt-6.1-sol | running | research/stack/alphabet.md |
+| P1-S7 | Stack: Alphabet | Codex gpt-6.1-sol | done (draft) | research/stack/alphabet.md |
 | P1-S8 | Stack: Amazon | Codex gpt-6-astra | done (draft) | research/stack/amazon.md |
 | P1-S9 | Stack: Meta | Codex gpt-6-astra | done (draft) | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex gpt-6-astra | done (draft) | research/stack/oracle.md |
@@ -41,9 +41,10 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-2 | Red-team review of report v0.1 | Codex gpt-6-astra | done | reviews/2026-10-17-codex-redteam-report.md |
 | P2-3 | Cross-check: Nvidia note | Codex gpt-6-astra | done | reviews/nvidia-codex-xcheck.md |
 | P2-4 | Cross-check: CoreWeave note | Codex gpt-6-astra | done | reviews/coreweave-codex-xcheck.md |
-| P2-5 | Cross-check: Microsoft note | Codex gpt-6-astra | running | reviews/microsoft-codex-xcheck.md |
+| P2-5 | Cross-check: Microsoft note | Codex gpt-6-astra | done | reviews/microsoft-codex-xcheck.md |
 | P2-6 | Cross-check: AI unit economics note | Codex gpt-6-astra | done | reviews/ai-unit-economics-codex-xcheck.md |
 | P2-7 | Apply cross-check edits: Nvidia note | Codex gpt-6.1-sol | running | research/stack/nvidia.md |
 | P2-8 | Apply cross-check edits: CoreWeave note | Codex gpt-6.1-sol | running | research/stack/coreweave.md |
 | P2-9 | Apply cross-check edits: unit-economics note | Codex gpt-6.1-sol | running | research/theory/ai-unit-economics.md |
-| P2-10 | Report v0.2 from red-team review | Claude (lead) | in progress | report/*.md, forecasts/register.md |
+| P2-10 | Report v0.2 from red-team review | Claude (lead) | done (v0.2) | report/*.md, forecasts/register.md |
+| P2-11 | Apply cross-check edits: Microsoft note | Codex gpt-6.1-sol | running | research/stack/microsoft.md |

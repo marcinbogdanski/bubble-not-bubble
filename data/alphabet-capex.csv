@@ -1,0 +1,12 @@
+# source: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm ; https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm ; https://www.sec.gov/Archives/edgar/data/1652044/000165204424000115/googexhibit991q32024.htm ; https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm ; https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm ; https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm, accessed 2026-10-17, units USD millions; cash purchases of property and equipment; FCF = operating cash flow minus cash capex
+quarter,period_end,cash_capex_usd_millions,operating_cash_flow_usd_millions,free_cash_flow_usd_millions,source_url,accessed,type,grade
+2024-Q1,2024-03-31,12012,28848,16836,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm,2026-10-17,primary,A
+2024-Q2,2024-06-30,13186,26640,13454,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm,2026-10-17,primary,A
+2024-Q3,2024-09-30,13061,30698,17637,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000115/googexhibit991q32024.htm,2026-10-17,primary,A
+2024-Q4,2024-12-31,14276,39113,24837,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm,2026-10-17,primary,A
+2025-Q1,2025-03-31,17197,36150,18953,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm,2026-10-17,primary,A
+2025-Q2,2025-06-30,22446,27747,5301,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm,2026-10-17,primary,A
+2025-Q3,2025-09-30,23953,48414,24461,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm,2026-10-17,primary,A
+2025-Q4,2025-12-31,27851,52402,24551,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm,2026-10-17,primary,A
+2026-Q1,2026-03-31,35674,45790,10116,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm,2026-10-17,primary,A
+2026-Q2,2026-06-30,44924,39069,-5855,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm,2026-10-17,primary,A
