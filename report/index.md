@@ -53,7 +53,9 @@ borrower's collateral, guarantees and recoveries, not on a fixed order.
   Microsoft FCF $67B (FY2026) with cash capex at 63% of operating cash flow;
   Alphabet TTM FCF $53B though Q2 was −$5.9B; Amazon TTM FCF −$7.6B; Meta Q2
   FCF $0.8B. Each has tens of billions of liquidity and discretionary
-  buybacks. (Filings, grade A.)
+  buybacks (filings, grade A). S&P's August 2026 forecast expects all six
+  hyperscalers it rates to have negative free operating cash flow in 2026
+  and 2027, recovering only in 2029 (secondary, B).
 - **The intermediaries are cash-strained now, not hypothetically.** CoreWeave:
   H1 operating cash $3.7B against $14.1B of equipment purchases and $5.2B of
   principal repayments, with $4.4B more principal due in the rest of 2026,
@@ -62,8 +64,9 @@ borrower's collateral, guarantees and recoveries, not on a fixed order.
 - **Demand is growing fast.** Azure +43%, Google Cloud +82%, 30M paid Copilot
   seats, nearly 90% of Microsoft Cloud revenue from customers other than
   frontier labs (filings and calls, A); Anthropic reporting $16.8B of Q3
-  revenue and OpenAI about $50B of net annualised revenue (reported,
-  unverified, C).
+  revenue at an 11% adjusted operating margin, OpenAI about $50B of net
+  annualised revenue and 1.2B weekly users, against its own February
+  forecast of $25B of 2026 cash burn (reported, unverified, C).
 - **Investment returns are unknown.** No company discloses cohort-level
   returns on AI capacity. Depreciation lives are 5-6 years; rental evidence
   on old chips cuts both ways (A100s still rent, but at about a third of H100
@@ -101,8 +104,9 @@ Definitions and the full set of 18 questions plus layer estimates are in the
   Alphabet $155B excluding equity stakes; dividends and buybacks are
   discretionary.
 - Breadth: nearly 90% of Microsoft Cloud revenue is from customers other
-  than frontier labs; Census Bureau 23.8% of businesses using AI; Anthropic
-  reports over 1,000 customers above $1M a year.
+  than frontier labs; the Census Bureau's business survey showed 19.8% of
+  employer businesses using AI in May 2026 (a later 23.8% reading is
+  unreproduced); Anthropic reports over 1,000 customers above $1M a year.
 - Volume: Google's tokens processed rose from 9.7T to 3.2 quadrillion a
   month in two years across all surfaces.
 - AI pays for itself inside existing products: Meta attributes ad gains to
