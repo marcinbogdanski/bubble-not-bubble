@@ -65,6 +65,18 @@ them to double-check work for blind spots.
 - **Grok** output is a lead, never a citation: trace it to a primary source.
 - Give each subagent `tasks/RESEARCH_BRIEF.md` (or a similar brief) and an
   explicit output path; it writes only its own files and never commits.
+- **Patterns that worked (2026-10-17):** one Codex process per note or
+  review, launched with `nohup ... &` and a log in the scratchpad; a
+  background shell loop that polls the logs for "tokens used" so the lead is
+  woken when a batch finishes; cross-check reviews written to `reviews/` and
+  then a separate "apply the review to the note" job, so the reviewer never
+  edits and the editor never judges; red-team reviews of the published pages
+  after every substantive revision, each in fresh context. Commit by explicit
+  path while agents are writing, or half-finished files get swept in.
+- **What went wrong:** a 16-agent fan-out on the lead's own model, with
+  agents spawning sub-agents, exhausted the Claude usage window in under an
+  hour and killed every agent. Pace Claude agents (about six at a time on
+  Opus), never let them spawn, and move breadth work to Codex.
 
 ### Browser
 
