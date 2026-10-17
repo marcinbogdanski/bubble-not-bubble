@@ -14,7 +14,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S2 | Stack: TSMC and foundry | Codex CLI (after Claude rate limit) | running | research/stack/tsmc-and-foundry.md |
 | P1-S3 | Stack: memory and HBM | Claude subagent | paused (rate limit), to resume | research/stack/memory-hbm.md |
 | P1-S4 | Stack: Nvidia | Claude subagent | resumed after rate limit | research/stack/nvidia.md |
-| P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | resumed after rate limit | research/stack/amd-broadcom-custom-silicon.md |
+| P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | done (draft) | research/stack/amd-broadcom-custom-silicon.md |
 | P1-M1 | Macro: GPU pricing and utilization | Claude subagent | paused (rate limit), to resume | research/macro/gpu-pricing-and-utilization.md |
 | P1-S6 | Stack: Microsoft | Claude subagent | resumed after rate limit | research/stack/microsoft.md |
 | P1-S7 | Stack: Alphabet | Claude subagent | paused (rate limit), to resume | research/stack/alphabet.md |
@@ -22,7 +22,7 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-S9 | Stack: Meta | Codex CLI (after Claude rate limit) | running | research/stack/meta.md |
 | P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
 | P1-S11 | Stack: CoreWeave | Claude subagent | resumed after rate limit | research/stack/coreweave.md |
-| P1-S12 | Stack: other neoclouds | Claude subagent | paused (rate limit), to resume | research/stack/neoclouds-other.md |
+| P1-S12 | Stack: other neoclouds | Claude subagent | resumed after rate limit | research/stack/neoclouds-other.md |
 | P1-S13 | Stack: OpenAI | Claude subagent | pending (agent cap) | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Claude subagent | pending (agent cap) | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Claude subagent | pending (agent cap) | research/stack/labs-other.md |
