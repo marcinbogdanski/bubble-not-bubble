@@ -1,0 +1,8 @@
+# source: CoreWeave 10-Q/10-K filings and earnings releases on SEC EDGAR (CIK 1769628), https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769628 ; accessed 2026-10-17 ; USD millions unless stated. revenue_backlog_bn and rpo_bn in USD billions (company-defined backlog = RPO + other committed amounts). total_debt_principal = future principal payments total from the debt note (recourse + non-recourse, before discounts). cash_capex = purchase of property and equipment incl. capitalized software from the cash-flow statement (company-reported capex incl. financed additions is higher, e.g. $9.4bn in 2026-Q2). Q3/Q4 2025 cash_capex, D&A, SBC and interest derived by subtracting year-to-date figures. active_power_mw and contracted_power_gw from earnings releases (approximate).
+quarter,period_end,revenue,net_loss,interest_expense_net,adjusted_ebitda,depreciation_amortization,stock_based_comp,cash_capex,total_debt_principal,cash_and_equivalents,revenue_backlog_bn,rpo_bn,largest_customer_pct_revenue,active_power_mw,contracted_power_gw
+2025-Q1,2025-03-31,982,-315,-264,606,443,184,1407,8808,1276,25.9,14.7,72,420,1.6
+2025-Q2,2025-06-30,1213,-290,-267,753,559,145,2453,11171,1153,30.1,30.1,71,470,2.2
+2025-Q3,2025-09-30,1365,-110,-311,838,630,144,2389,14205,1894,55.6,50.0,67,590,2.9
+2025-Q4,2025-12-31,1572,-452,-388,898,821,157,4060,21615,3127,66.8,60.7,,850,3.1
+2026-Q1,2026-03-31,2078,-740,-536,1157,1147,153,7695,25149,2244,99.4,98.8,45,1000,3.5
+2026-Q2,2026-06-30,2575,-626,-640,1510,1393,165,6422,35551,5524,104.0,103.7,36,1500,3.7
