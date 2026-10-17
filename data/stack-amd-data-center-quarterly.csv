@@ -1,0 +1,10 @@
+# source: AMD earnings releases (8-K Ex.99.1) Q3-2025 https://ir.amd.com/financial-information/sec-filings/content/0000002488-25-000163/0000002488-25-000163.pdf ; Q4-2025 https://ir.amd.com/news-events/press-releases/detail/1276/ ; Q1-2026 https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000072/q12026991.htm ; Q2-2026 https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/q22026991.htm and 10-Q https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm ; accessed 2026-10-17 ; units USD millions ; Data Center segment = Instinct GPUs + EPYC CPUs ; rows marked derived are back-calculated from reported YoY growth and rounded
+quarter,period_end,data_center_revenue_musd,data_center_operating_income_musd,total_revenue_musd,basis
+2024-Q3,2024-09-28,3549,1041,6819,reported (prior-year column of Q3-2025 release)
+2024-Q4,2024-12-28,3885,1157,7658,derived from Q4-2025 YoY (+39% rev; op income ~+51%)
+2025-Q1,2025-03-29,3678,932,7438,revenue derived from Q1-2026 YoY (+57%); op income reported in Q1-2026 release
+2025-Q2,2025-06-28,3240,-155,7685,reported (prior-year column of Q3-2025 release; includes $800M MI308 charges)
+2025-Q3,2025-09-27,4341,1074,9246,reported
+2025-Q4,2025-12-27,5400,1752,10300,reported (rounded in release; FY2025 DC = 16.6bn)
+2026-Q1,2026-03-28,5775,1599,10253,reported
+2026-Q2,2026-06-27,6718,2103,11540,reported ($6.7bn in release; exact from 10-Q six-month figures 12,493 and 3,702 less Q1)

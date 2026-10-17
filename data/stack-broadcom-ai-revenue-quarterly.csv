@@ -1,0 +1,11 @@
+# source: Broadcom earnings releases (8-K Ex.99.1) and call transcripts: Q4-FY25 https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm and https://www.marketbeat.com/earnings/reports/2025-12-11-broadcom-inc-stock/ ; Q1-FY26 https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-02012026x8kxex99.htm ; Q2-FY26 https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000051/avgo-05032026x8kxex99.htm ; Q3-FY26 https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm ; accessed 2026-10-17 ; units USD billions ; fiscal year ends ~Nov 1 ; AI semiconductor revenue = custom accelerators (XPUs) + AI networking ; rows marked derived are back-calculated from reported YoY growth
+fiscal_quarter,period_end,ai_semiconductor_revenue_busd,total_revenue_busd,free_cash_flow_busd,basis
+FY24-Q4,2024-11-03,3.7,14.05,,derived from Q4-FY25 +74% YoY
+FY25-Q1,2025-02-02,4.1,14.92,,derived from Q1-FY26 +106% YoY
+FY25-Q2,2025-05-04,4.4,15.00,,derived from Q2-FY26 +143% YoY
+FY25-Q3,2025-08-03,5.2,15.95,,derived from Q3-FY26 +221% YoY
+FY25-Q4,2025-11-02,6.5,18.02,7.47,reported (call); FY25 AI revenue 20.0
+FY26-Q1,2026-02-01,8.4,19.31,8.01,reported
+FY26-Q2,2026-05-03,10.8,22.19,10.26,reported
+FY26-Q3,2026-08-02,16.7,29.59,13.7,reported
+FY26-Q4,2026-11-01,21.7,34.8,,guidance (2026-09-02)

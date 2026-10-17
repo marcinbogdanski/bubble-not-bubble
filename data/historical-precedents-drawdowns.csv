@@ -1,0 +1,8 @@
+# source: FRED series NASDAQCOM, NIKKEI225, CSUSHPINSA, CBBTCUSD (https://fred.stlouisfed.org/graph/fredgraph.csv?id=<series>), accessed 2026-10-17; Dow 1929 from federalreservehistory.org/essays/stock-market-crash-of-1929; nominal price levels, no dividends, no inflation adjustment; drawdown_pct = trough/peak-1; months_to_trough and years_to_recover computed from the dates
+episode,series,peak_date,peak_level,trough_date,trough_level,drawdown_pct,months_to_trough,recovery_date,years_to_recover
+1929 crash,Dow Jones Industrial Average (close),1929-09-03,381.17,1932-07-08,41.22,-89.2,34,1954-11-23,25.2
+Dot-com,Nasdaq Composite (close),2000-03-10,5048.62,2002-10-09,1114.11,-77.9,31,2015-04-23,15.1
+Japan 1980s,Nikkei 225 (close),1989-12-29,38915.87,2009-03-10,7054.98,-81.9,230,2024-02-22,34.1
+2008 housing,S&P/Case-Shiller US National Home Price Index (NSA monthly),2006-07-01,184.61,2012-02-01,133.99,-27.4,67,2017-01-01,10.5
+2021-22 crypto,Bitcoin USD (Coinbase daily),2021-11-08,67510.06,2022-11-21,15755.75,-76.7,12,2024-03-04,2.3
+2017-18 crypto,Bitcoin USD (Coinbase daily),2017-12-16,19650.01,2018-12-15,3183.00,-83.8,12,2020-11-30,3.0

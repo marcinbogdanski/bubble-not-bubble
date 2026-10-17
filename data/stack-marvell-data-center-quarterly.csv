@@ -1,0 +1,5 @@
+# source: Marvell Q2-FY27 earnings release (8-K Ex.99.1) https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm and Futurum summary of Q1-FY27 https://futurumgroup.com/insights/marvell-q1-fy-2027-raises-full-year-outlook-on-ai-data-center-demand/ ; accessed 2026-10-17 ; units USD millions ; fiscal year ends ~Feb 1 ; data center = custom XPU/attach + electro-optics + switching + storage
+fiscal_quarter,period_end,data_center_revenue_musd,total_revenue_musd,basis
+FY26-Q2,2025-08-02,1490.5,2006,reported (prior-year column of Q2-FY27 release; total derived from +37% YoY)
+FY27-Q1,2026-05-02,1830,2418,reported (secondary summary)
+FY27-Q2,2026-08-01,2171.5,2739.3,reported

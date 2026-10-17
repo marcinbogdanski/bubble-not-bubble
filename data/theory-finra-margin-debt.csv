@@ -1,0 +1,14 @@
+# source: https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics (FINRA Margin Statistics), accessed 2026-10-17, USD millions. debit = debit balances in customers' securities margin accounts; free_credit_cash = free credit balances in customers' cash accounts; free_credit_margin = free credit balances in customers' securities margin accounts. Blank = not transcribed.
+month,debit_balances,free_credit_cash,free_credit_margin
+2025-10,1183654,,
+2025-11,1214321,,
+2025-12,1225597,,
+2026-01,1279042,,
+2026-02,1253192,205060,200047
+2026-03,1220922,221860,205600
+2026-04,1304281,217836,215445
+2026-05,1415557,206600,217256
+2026-06,1502072,217441,223412
+2026-07,1417225,205132,217305
+2026-08,1453832,207641,217499
+2026-09,1480054,215328,218581
