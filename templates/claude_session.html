@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ session.title }} · Claude{% endblock %}
+{% block content %}
+  <style>
+    .msg { margin: 1.25rem 0; }
+    .msg .who { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.25rem; }
+    .msg.user .body { background: var(--user-bg); border-radius: 8px; padding: 0.6rem 0.9rem;
+                      white-space: pre-wrap; overflow-wrap: anywhere; }
+    .msg.assistant .body > :first-child { margin-top: 0; }
+    .msg img { max-width: 100%; border: 1px solid var(--border); border-radius: 6px;
+               margin-top: 0.5rem; display: block; }
+  </style>
+  <h1>{{ session.title }}</h1>
+  <p class="muted">
+    {{ session.started.strftime("%Y-%m-%d %H:%M") if session.started }}
+    · {{ session.messages | length }} messages
+    · <a href="/claude/{{ session.id }}.json">json</a>
+  </p>
+  {% for m in session.messages %}
+    <div class="msg {{ m.role }}">
+      <div class="who">{{ "User" if m.role == "user" else "Claude" }}
+        {% if m.timestamp %}· {{ m.timestamp.strftime("%H:%M") }}{% endif %}</div>
+      {% if m.role == "user" %}
+        <div class="body">{{ m.text }}{% for img in m.images %}<img src="{{ img }}" alt="Pasted image">{% endfor %}</div>
+      {% else %}
+        <div class="body">{{ m.text | markdown }}</div>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endblock %}

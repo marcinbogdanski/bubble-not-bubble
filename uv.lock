@@ -53,10 +53,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
+    { name = "markdown-it-py" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "fastapi", extras = ["standard"], specifier = ">=0.143.3" }]
+requires-dist = [
+    { name = "fastapi", extras = ["standard"], specifier = ">=0.143.3" },
+    { name = "markdown-it-py", specifier = ">=4.2.0" },
+]
 
 [[package]]
 name = "certifi"

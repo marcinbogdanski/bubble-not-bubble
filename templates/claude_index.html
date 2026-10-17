@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Claude chats · Bubble or Not Bubble{% endblock %}
+{% block content %}
+  <h1>Claude chats</h1>
+  <p class="muted">Claude Code conversations that built this project, newest first.
+    Each chat is also available as JSON by adding <code>.json</code> to its URL.</p>
+  <ul>
+  {% for s in sessions %}
+    <li>
+      <a href="/claude/{{ s.id }}">{{ s.title }}</a>
+      <span class="muted">· {{ s.started.strftime("%Y-%m-%d %H:%M") if s.started }}
+        · {{ s.messages | length }} messages · <a href="/claude/{{ s.id }}.json">json</a></span>
+    </li>
+  {% endfor %}
+  </ul>
+{% endblock %}
