@@ -32,8 +32,9 @@ them to double-check work for blind spots.
 
 ### Browser
 
-A full Google Chrome is available. Use it when the built-in search/fetch tools
-can't reach part of the web.
+A full Google Chrome is available through the Claude in Chrome extension (the
+preferred way). It runs in the user's real profile, with their sign-ins. Use it
+when the built-in search/fetch tools can't reach part of the web.
 
 ## The VM
 
