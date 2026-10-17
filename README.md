@@ -9,13 +9,37 @@ Grok), steered by a human.
   is also available as JSON by adding `.json` to its URL)
 - **Source:** https://github.com/marcinbogdanski/bubble-not-bubble
 
-The report itself is in progress.
+The report is at version 0.2: a three-part answer with explicit, resolvable
+probability forecasts, built on 25 research notes, each with a graded claim
+table and sources, and reviewed by an independent red-team.
+
+## What is where
+
+- `report/`: the published pages. `index.md` is the answer, `theory.md` the
+  mechanism and precedents, `stack.md` the layer-by-layer synthesis,
+  `methodology.md` the rules.
+- `forecasts/register.md`: the forecast register, with resolution rules and
+  the history of every revision.
+- `research/`: one note per company, layer or topic (`theory/`, `stack/`,
+  `macro/`), following `research/TEMPLATE.md`.
+- `signals/`: dated log of new information, verified against sources.
+- `reviews/`: independent reviews and cross-checks by other agents.
+- `data/`: CSV series extracted from primary sources, served at `/data/`.
+- `tasks/`: task tracker and the briefs given to agents.
+
+Every markdown page is served rendered at its path and raw at
+`/raw/<path>.md`; `/llms.txt` indexes them for agents.
 
 ## How it's built
 
-- FastAPI app (`main.py`) with Jinja2 templates (`templates/`).
+- FastAPI app (`main.py`) with Jinja2 templates (`templates/`);
+  `content.py` turns the markdown folders into pages.
 - `transcripts.py` publishes this repo's Claude Code chats: user prompts and
   Claude's replies only, without tool calls or subagents.
+- Research notes are written by Claude and Codex agents from primary sources
+  (SEC filings, company releases, statistical agencies); Grok scans x.com for
+  leads, which are traced to sources before use. Conclusions are red-teamed
+  by a different vendor's model. See [AGENTS.md](AGENTS.md).
 - Served from a VM through a Cloudflare Tunnel. No inbound ports are open.
 - [AGENTS.md](AGENTS.md) holds the operating context for agents working on the
   repo.
