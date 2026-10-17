@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse
 from fastapi.templating import Jinja2Templates
 from markdown_it import MarkdownIt
 from markupsafe import Markup
@@ -15,6 +15,19 @@ templates = Jinja2Templates(directory=Path(__file__).parent / "templates")
 # html=False escapes any raw HTML in transcripts; tables are enabled for readability.
 md = MarkdownIt("commonmark", {"html": False, "linkify": False}).enable("table")
 templates.env.filters["markdown"] = lambda text: Markup(md.render(text))
+
+
+@app.middleware("http")
+async def noindex(request: Request, call_next):
+    # Public, but kept out of search results. AI crawlers follow robots.txt instead.
+    response = await call_next(request)
+    response.headers["X-Robots-Tag"] = "noindex"
+    return response
+
+
+@app.get("/robots.txt", response_class=PlainTextResponse)
+def robots_txt() -> str:
+    return "User-agent: *\nAllow: /\n"
 
 
 def render(request: Request, name: str, **context) -> HTMLResponse:
