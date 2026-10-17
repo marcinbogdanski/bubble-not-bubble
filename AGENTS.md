@@ -32,11 +32,19 @@ them to double-check work for blind spots.
 
 ### Browser
 
-A full Google Chrome is available through the Claude in Chrome extension (the
-preferred way). It runs in the user's real profile, with their sign-ins. Use it
-when the built-in search/fetch tools can't reach part of the web.
+A full Google Chrome is available. Use it when the built-in search/fetch tools
+can't reach part of the web.
+
+- **Preferred:** the Claude and Codex Chrome extensions. Each works in the
+  user's real Chrome profile, with their sign-ins. Grok has no extension.
+- **Also allowed:** driving Chrome over its debugging port, e.g. with the
+  chrome-devtools MCP. Agents may launch their own Chrome instance for this when
+  they need it. Keep its profile in a temp folder.
 
 ## The VM
+
+The whole VM is cleared for agentic use. The one concern is spill: don't leave
+stray files around it.
 
 - **This repo:** this is an agentic repo. Commit whenever you reach a usable
   step. You can work on `master` and/or create worktrees for subagents.
