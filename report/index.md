@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.5, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.6, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after two
 three independent red-team reviews ([v0.1](/reviews/2026-10-17-codex-redteam-report),
 [v0.2](/reviews/2026-10-17-codex-redteam-report-v02),
@@ -101,6 +101,28 @@ Definitions and the full set of 18 questions plus layer estimates are in the
 | F1: CoreWeave distressed credit event, or an acquisition closing below $40 a share | 15% | 25% | 38% |
 | F3: OpenAI cancels, cuts, or defers by a year or more, a binding compute commitment, by $10B+ | 15% | 32% | 52% |
 | Headline: M1 plus distressed credit events at two distinct corporate or sponsor groups (one severe unwind, not every bad outcome) | 6% | 13% | 20% |
+
+## Where the markets and the named arguments stand
+
+Verified in [market views, 18 October](/signals/2026-10-18-market-views).
+
+| Forecast | Our number (6/12/24m) | Nearest market or named estimate | Comparable? |
+|---|---|---|---|
+| Headline unwind | 6 / 13 / 20% | Polymarket "AI bubble burst": 6.9% by end-2026, 16.5% by June 2027 (needs three of six triggers such as NVDA −50% from high, SOXX −40%, H100 at $1/hr) | Not nested; similar order of magnitude |
+| F1 CoreWeave distress | 15 / 25 / 38% | 5-year CDS 1,000-1,195bp; flat-hazard, 40% recovery implies ~8-10% at 6 months, ~28-33% at 2 years, ~57-63% at 5 years (risk-neutral) | Our 6-month number is above the CDS path because F1 also includes a sale below $40 |
+| F2 Oracle to junk | 12 / 28 / 42% | CDS 288-300bp; S&P BBB− stable; no fallen-angel market | No matched market |
+| F3 OpenAI $10B+ cut | 15 / 32 / 52% | Kalshi and Metaculus price lab IPO order and lock-up valuations (~$1.8-2.0T), not commitment cuts | No matched market |
+| Capex continues (C1 low) | 7% of a cut | Goldman (23 Sep): hyperscaler capex $800B 2026, $1.2T 2027, $1.4T 2028; Kalshi's open "at least 5,100 US datacenters" contract at 41% | Consistent with continued build |
+
+The strongest arguments we had not made, now sourced:
+
+- **Bull, valuation**: S&P technology trades at about 21x earnings against 70x in 2000, and semiconductor earnings grew 178% year on year (Timmer, 9 Oct). Our reply: that is why we lead with the payback question, not CAPE; the earnings are partly each other's capex.
+- **Bull, demand path**: a SemiAnalysis estimate puts combined OpenAI and Anthropic revenue at $600-700B by December 2027, and revenue per megawatt at up to $50M against $10-15M of compute cost (estimates, C). If half right, the payback gap closes.
+- **Bull, supply**: TSMC and ASML both say demand exceeds planned supply through 2028; current-generation B200 rents rose 15% in 30 days to $8.12 (Ornn, 16 Oct) while H100 and A100 drifted lower.
+- **Bear, payback stock**: Gartner (14 Oct) needs $8.5T of cumulative revenue through 2030 for a 12% return on ~$7T of 2026-30 AI infrastructure, against at most $3.6T attributable to datacenter owners, and expects 80% of neoclouds to lose independence by 2030 (scenario, B).
+- **Bear, credit transmission**: the IMF's October GFSR maps about $300B of hyperscaler equity and $650B of debt into AI firms that committed ~$1.4T of spending back to their backers ("wrong-way risk"); the Kansas City Fed counts $330B of AI-related investment-grade issuance in 2026 to date, 10% of the market, at 16-17-year average maturities against 5-6-year chips.
+- **Bear, demand quality**: token consumption at Anthropic rose 90% from early July to late September while spending rose 19% (Ramp via Breakingviews, 15 Oct); Barclays (14 Oct) attributes enterprise hardware strength to memory prices, with AI about 5% of IT budgets.
+- **Both**: Microsoft will make its own Maia chips the primary platform for its own inference from 2027, bearish for Nvidia's margin and neutral-to-bullish for Microsoft's returns.
 
 ## What we do not know, and what would tell us
 

@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.5, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.6, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -155,6 +155,9 @@ take-or-pay contracts to fail at more than one counterparty.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.6 (2026-10-18)**: no probability changes; market comparison
+  added on the front page (Polymarket 6.9%/16.5%, CoreWeave CDS-implied
+  path, Goldman capex path); no matched market exists for any question.
 - **Vintage 0.5 (2026-10-18, after third red-team)**: F1 raised 10/20/35
   to 15/25/38 (the $40 sale branch needs only a 35% fall from the baseline;
   unsecured market shut); F3 lowered 20/40/60 to 15/32/52 (a binding $10B+

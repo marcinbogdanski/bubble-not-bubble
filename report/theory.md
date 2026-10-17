@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.5, 2026-10-18 · Synthesis of
+*Version 0.6, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -44,8 +44,12 @@ return.
 | Tightening policy | Fed hiked in September 2026, first since 2023; 10-year touched 5.31% on 5 October, highest since 2002, then fell to 5.09% by 16 October; CPI 3.7% | 2 |
 
 Twelve points of fourteen across seven indicators, with sentiment and
-new-buyer entry the two partial readings. This scoring is the report's own
-operationalisation; the mechanics note, after its cross-check, withdrew its
+new-buyer entry the two partial readings. The main objection to this table
+is the forward multiple: S&P technology at about 21x earnings against 70x in
+2000. The reply is Druckenmiller's "earnings bubble": GPU buyers' capex is
+suppliers' revenue, so the E can be the bubble while the P/E looks ordinary.
+Which side is right is the payback question below. This scoring is the
+report's own operationalisation; the mechanics note, after its cross-check, withdrew its
 13-row composite (which summed to 20 of 26) pending consistent rules and
 calibration, and records that the four hyperscalers spent 86% of operating
 cash flow on cash capex in Q1 2026 and 96% in Q2. In Kindleberger's sequence, soft sentiment with the financing
@@ -123,7 +127,15 @@ Against that, the demand-side note's deduplicated estimate of end-user AI
 product revenue is about $55B for 2025 and $180B for 2026 (range
 $130-230B), with scenarios of $210B, $480B and $800B for 2028. The note
 grades those allocations D: they are a working model, not a measured
-denominator. The comparison is also not like for like: capex includes non-AI
+denominator. Three outside estimates bracket the question: Gartner's
+cumulative view (≥$8.5T of revenue needed through 2030 against ≤$3.6T
+attributable to owners), IoT Analytics' modelled returns (above a 15%
+hurdle now, below it in 2028, negative by 2031, an absorbable write-down),
+and SemiAnalysis' operator path ($600-700B of combined OpenAI and Anthropic
+revenue by December 2027, $50M of revenue per megawatt against $10-15M of
+cost). They disagree by an order of magnitude because they measure different
+things: cumulative versus annual, fleet versus inference megawatts, owner
+capture versus end-user spend. The comparison is also not like for like: capex includes non-AI
 assets, 2026 spending earns over later years, advertising gains and internal
 savings pay for compute without a labelled AI dollar, and infrastructure
 owners keep less than 100% of end-user spend wherever a lab sits between

@@ -1,6 +1,6 @@
 # The stack, layer by layer
 
-*Version 0.5, 2026-10-18 · Synthesis of the research notes, corrected after
+*Version 0.6, 2026-10-18 · Synthesis of the research notes, corrected after
 the [red-team review](/reviews/2026-10-17-codex-redteam-report). Every
 figure is sourced and graded in the note it links to. All 26 notes have
 been cross-checked and corrected (status: reviewed).*
