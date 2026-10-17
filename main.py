@@ -67,7 +67,9 @@ def claude_session_json(session_id: str) -> dict:
 def claude_session(request: Request, session_id: str):
     session = transcripts.get_session(session_id)
     if not session:
-        raise HTTPException(404, "Session not found")
+        response = render(request, "claude_missing.html")
+        response.status_code = 404
+        return response
     return render(request, "claude_session.html", session=session)
 
 
