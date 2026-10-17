@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.2, 2026-10-17. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.3, 2026-10-17. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -10,11 +10,23 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 ## Resolution rules
 
-- Only information publicly released by the horizon date counts. Source
-  hierarchy: company filings and releases, then Reuters, Bloomberg, FT,
-  WSJ, CNBC, The Information. Silence is not evidence either way.
-- Price questions use official closing prices from the named exchange, split-
-  and spin-adjusted, price return. Baselines are the 2026-10-16 close.
+- Forecast origin: 2026-10-17 00:00 UTC. An event counts if it occurs after
+  the origin and is publicly disclosed by the horizon date (disclosure date
+  governs). Source hierarchy: company filings and releases, then Reuters,
+  Bloomberg, FT, WSJ, CNBC, The Information. Question-specific rules take
+  precedence over these general rules.
+- Private-company questions (D1, D2, F3, F5, lab and neolab layers) resolve
+  on qualifying public disclosure; if none appears by the horizon the answer
+  is No. A later disclosure of an earlier event does not reopen a resolved
+  question.
+- Price questions use official closing prices on the primary listing (US
+  listings for ADRs where named; local currency otherwise), split- and
+  spin-adjusted, price return. M1 and the layer thresholds are measured from
+  the 2026-10-16 close; M2 is an absolute level; M3 is measured from the
+  highest 2026 close before the test day. Corporate actions: a cash
+  acquisition fixes that constituent at the deal value from closing; a
+  bankruptcy or delisting after a qualifying fall fixes it at the last
+  close; a resolved Yes is never voided by a later delisting.
 - "Distressed credit event" means a missed payment beyond any grace period,
   a distressed exchange or restructuring in which creditors take a
   concession, a bankruptcy filing, or a sale of the company or of the
@@ -30,7 +42,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | D1 | OpenAI's annualised revenue, as reported on its own accounting basis at two dated points, is lower at the later point. Corrections of basis (gross to net) and comparisons with targets do not count | 5% | 10% | 20% |
-| D2 | Contemporaneously reported annualised revenue of OpenAI plus Anthropic, each on its own basis (currently ~$50B net and ~$65-67B gross), sums to $200B or more. Projections and targets do not count | 20% | 50% | 72% |
+| D2 | Reported annualised revenue of OpenAI plus Anthropic, each on its own basis, with the two observations dated within 45 days of each other, sums to $200B or more. Current readings: OpenAI ~$50B net (end-September exit); Anthropic >$65B gross (July exit) or $67.2B (Q3 sales x4). Projections and targets do not count | 20% | 45% | 65% |
 | D3 | Azure, Google Cloud or AWS reports a year-on-year growth rate (reported currency, company's restated segment) at least 10 points below the rate reported the previous quarter | 15% | 35% | 60% |
 
 ## Capex and supply
@@ -46,14 +58,14 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 on 2026-10-17): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% publication coverage and no interpolation. If the series ceases, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization) | 5% | 15% | 35% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 displayed on access 2026-10-17, no fixing timestamp): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization) | 5% | 15% | 35% |
 | P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
 ## Credit and financing
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| F1 | CoreWeave has a distressed credit event (definition above) or is acquired for consideration below $40 per share split-adjusted | 10% | 20% | 35% |
+| F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and is counted separately in the headline | 10% | 20% | 35% |
 | F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− as of 2026-10-17) | 12% | 28% | 42% |
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the amount cancelled, deferred or reduced is $10B or more. Supplier-side delivery delays do not count | 20% | 40% | 60% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
@@ -64,8 +76,8 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | M1 | An equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT, indexed to 100 at the 2026-10-16 close with daily rebalancing, closes at or below 60 | 12% | 25% | 38% |
-| M2 | Nvidia's equity market value (closing price times shares outstanding per the latest 10-Q cover) is below $2T on any trading day | 3% | 8% | 18% |
-| M3 | The Nasdaq-100 price index closes 30% or more below its highest 2026 close (as of 2026-10-16 it is 6.5% below) | 10% | 20% | 32% |
+| M2 | Nvidia's equity market value (closing price times shares outstanding per the latest 10-K or 10-Q as of that date, split-adjusted) is below $2T on any trading day | 3% | 8% | 18% |
+| M3 | The Nasdaq-100 price index (NDX) closes 30% or more below its highest 2026 close recorded before that day (as of 2026-10-16 it is 6.5% below) | 10% | 20% | 32% |
 
 ## Layer impairment
 
@@ -85,18 +97,26 @@ observed 2026-peak drawdowns are listed for context and do not count.
 | Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CRWV −56% | 40% | 55% | 70% |
 | Frontier labs | OpenAI, Anthropic, xAI/SpaceX: a down round (F5 definition) or a reported markdown of 40%+ | n/a | 10% | 25% | 40% |
 | Neolabs and applications | SSI, Thinking Machines, Reflection, Periodic, Mistral, Perplexity, Cursor, Harvey, Glean, Sierra: any down round, shutdown or distressed sale | n/a | 25% | 45% | 65% |
-| Power and datacenter | VRT, GEV, EQIX, DLR equity; any datacenter project bond or loan of $1B+ | VRT −45% | 12% | 25% | 40% |
+| Power and datacenter | VRT, GEV, EQIX, DLR equity; any datacenter project bond or loan of $1B+ whose tenant is an AI compute buyer (the F4 universe) | VRT −45% | 20% | 38% | 52% |
 
 ## Headline
 
-A 2000-style unwind: M1 resolves yes **and** distressed credit events occur
-at two distinct obligors among {CoreWeave, Oracle, any other neocloud, any
-$1B+ project or GPU-backed debt, any frontier lab (F5)}. One restructuring
-counts once.
+A 2000-style unwind: M1 resolves yes **and** distressed credit events
+(definition above; not down rounds, rating actions, deferrals or the F1
+acquisition branch) occur at two distinct obligor groups among {CoreWeave
+and its SPVs; Oracle corporate; each other listed neocloud with its SPVs;
+each project or GPU-backed debt vehicle of $1B+ grouped by sponsor}. One
+restructuring counts once.
 
 | 6m | 12m | 24m |
 |---|---|---|
-| 8% | 18% | 30% |
+| 6% | 13% | 20% |
+
+Implied probability of two distinct credit failures given the basket event:
+50% / 52% / 53%. The scenario tree behind that: multiple compression alone
+(no credit failure) is the most likely basket-crash path; one large failure
+(CoreWeave or Oracle) next; two or more distinct failures requires the
+take-or-pay contracts to fail at more than one counterparty.
 
 ## Reasoning, in brief
 
@@ -104,17 +124,19 @@ counts once.
   sold through 2028, Broadcom supply "secured" for FY2027-28, Microsoft and
   Amazon raising guidance), so C1 stays low. The cycle would turn at the
   funding layer first; the credit questions carry the highest numbers.
-- CoreWeave's CDS at 1,000-1,195bp maps to roughly 57-64% five-year
-  risk-neutral default probability on simple models, about 34% over two
-  years at constant hazard; risk-neutral probabilities overstate real-world
-  ones, and F1 at 35% is near that path. Covenant relief in December 2025
+- CoreWeave's CDS at 1,000-1,195bp maps to roughly 57-63% five-year
+  risk-neutral default probability at 40% recovery and flat hazard, or
+  28-33% over two years; risk-neutral probabilities overstate real-world
+  ones. F1 at 35% also includes a non-distressed sale below $40, so it is
+  not a CDS-derived number. Covenant relief in December 2025
   and five-year loans against three-year contracts are the concrete risks.
 - Oracle is one notch above junk with FY2026 FCF of −$23.7B, but a stable
   S&P outlook, $20B of equity raised, customer advances and legacy earnings
   argue for a slower path; F2 sits below the vintage-0.1 number.
-- D2 is higher than in vintage 0.1 because both labs' reported targets
-  (OpenAI $70B+ by year-end, Anthropic above $100B) would already sum past
-  $200B; those targets are grade C.
+- D2: the reported targets (OpenAI $70B+ by year-end; an outside
+  expectation of $100-110B for Anthropic) sum to roughly $170-180B, not
+  $200B, so a Yes needs growth beyond stated targets; at recent growth rates
+  that is plausible within 12 months but not implied.
 - Market questions are driven as much by rates as by AI. The Fed hiked in
   September into 3.7% CPI; the 10-year is above 5% though it fell during the
   week of 10-17 October.
@@ -129,12 +151,22 @@ counts once.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.3 (2026-10-17, after second red-team)**: headline restricted
+  to distressed credit events at distinct obligor groups (down rounds,
+  rating actions and the F1 acquisition branch excluded), 8/18/30 to
+  6/13/20; power layer widened to the F4 universe and raised 12/25/40 to
+  20/38/52; D2 reasoning corrected and 20/50/72 to 20/45/65; general rules
+  gained an origin timestamp, disclosure-date convention, private-company
+  No-by-default, and corporate-action handling; P1 fallback aligned with the
+  GPU-pricing note; F1 acquisition branch labelled; correction: Broadcom
+  (−32%) had not crossed the old 40% threshold.
 - **Vintage 0.2a (2026-10-17)**: P1 and P2 definitions adopted from the
   GPU-pricing and memory notes; probabilities unchanged.
 - **Vintage 0.2 (2026-10-17, after red-team)**: every question rewritten
   with a resolution rule; price questions rebased to the 2026-10-16 close
-  because Oracle (−48%), CoreWeave (−56%), SK Hynix (−56%), Vertiv (−45%)
-  and Broadcom (−32%) had already passed the old 40%-from-peak threshold;
+  because Oracle (−48%), CoreWeave (−56%), SK Hynix (−56%) and Vertiv
+  (−45%) had already passed the old 40%-from-peak threshold (Broadcom, at
+  −32%, had not);
   F1/F4 restricted to distressed events; headline redefined to two distinct
   obligors; D2 raised, F2 and F5 lowered, M3 lowered, per the review's
   reasoning. Cause: review findings on definitions and already-observed

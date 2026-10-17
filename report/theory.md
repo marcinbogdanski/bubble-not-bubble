@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.2, 2026-10-17 · Synthesis of
+*Version 0.3, 2026-10-17 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -43,10 +43,12 @@ return.
 | New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade C) | 1 |
 | Tightening policy | Fed hiked in September 2026, first since 2023; 10-year touched 5.31% on 5 October, highest since 2002, then fell to 5.09% by 16 October; CPI 3.7% | 2 |
 
-Twelve of fourteen. The mechanics note's fuller 13-row rubric sums to 20 of
-26 (its own text says 19; the arithmetic gives 20). In Kindleberger's
-sequence, soft sentiment with every other indicator lit is consistent with
-the late-euphoria / early profit-taking boundary. It is also consistent with
+Twelve points of fourteen across seven indicators, with sentiment and
+new-buyer entry the two partial readings; the fuller 13-row rubric in the
+mechanics note sums to 20 of 26 and scores forward P/E and broad credit
+stress at zero. In Kindleberger's sequence, soft sentiment with the financing
+indicators lit is consistent with the late-euphoria / early profit-taking
+boundary. It is also consistent with
 a rational response to a productive technology; the checklist cannot tell
 those apart, which is why the arithmetic below and the stack page matter
 more than this table.
@@ -89,7 +91,8 @@ tying several vendors' balance sheets together is new.
 ## The arithmetic
 
 The four largest hyperscalers spent about $231B in 2024 and $381B in 2025 on
-each company's own definition (Microsoft on a June fiscal year), and 2026
+each company's own definition and period (Microsoft's fiscal years end in
+June, so its figures are offset six months from the others), and 2026
 guidance sums to $720-745B on a mixed basis (Amazon raised to ~$220B;
 Microsoft's reported figure fell to ~$175B after a lease reclassification
 with plans unchanged). Oracle's FY2026 capex was $55.7B and CoreWeave guides
@@ -97,10 +100,11 @@ $35-39B for 2026. These totals include ordinary cloud, CPUs and logistics,
 not only AI.
 
 The unit-economics note's model is a scenario, not a measurement: an assumed
-$750B cohort, two-thirds short-lived compute and one-third buildings and
-power, must repay itself at a chosen return. At a six-year GPU life, 50%
-EBITDA margin and 10% cost of capital the cohort needs about $295B of
-incremental annual revenue; at a three-year life, $468B.
+$750B cohort, two-thirds short-lived compute at life L and one-third
+buildings and power at a 15-year life, must repay itself pre-tax at a chosen
+return out of owner-level EBITDA. At a six-year GPU life, 50% margin and 10%
+cost of capital the cohort needs about $295B of incremental annual revenue;
+at a three-year life, $468B.
 
 | GPU life | Required annual revenue, $750B cohort (10%, 50% margin) |
 |---|---|
@@ -117,14 +121,18 @@ denominator. The comparison is also not like for like: capex includes non-AI
 assets, 2026 spending earns over later years, advertising gains and internal
 savings pay for compute without a labelled AI dollar, and infrastructure
 owners keep less than 100% of end-user spend wherever a lab sits between
-them. What survives these caveats: the two inputs that decide the answer,
-GPU economic life (worth 1.6x on required revenue) and the margin on AI
-revenue (1.7x between 50% and 30%), are the two that no company discloses.
-Market evidence on GPU life cuts both ways: A100s from 2020 still rent at
-$1.84/hr and H100 contract rates rose through early 2026, while Blackwell
-serves tokens at under half of Hopper's cost. Lab margins are one leaked
-figure (OpenAI 33% gross, 2025) and one unaudited "adjusted profit"
-(Anthropic, Q3 2026).
+them. What survives these caveats: the inputs that decide the answer are
+cohort-level and undisclosed: GPU economic life (worth 1.6x on required
+revenue), the owner's margin on AI revenue (1.7x between 50% and 30%),
+utilisation, commissioning timing, residual values and the share of customer
+spending that reaches the infrastructure owner. Market evidence on GPU life
+cuts both ways: A100s from 2020 still rent (an aggregator quoted $1.84/hr
+median; the pricing note found $1.79 on 2 October and could not reproduce
+the earlier figure) and H100 contract rates rose through early 2026, while
+on one published benchmark (MiniMax M2.7, FP8) a GB200 serves tokens at
+$0.19 per million against $0.42 on an H100. Lab margins are one leaked
+figure (OpenAI 33% adjusted gross, 2025, unverified) and one unaudited
+"adjusted profit" (Anthropic, Q3 2026).
 
 ## Where we are
 
@@ -135,7 +143,10 @@ Jupiter loans were reported stressed on 18-19 September) and widened in the
 week of 10-17 October (CoreWeave CDS above 1,000bp, project bonds at 88-94
 cents). The indicator-reversal stage (IPO window closing, vendor guidance
 cuts, forward purchases renegotiated, sector index diverging from
-incumbents) has shown in one place only: neocloud equity and single-tenant
-project bonds fell far more than the hyperscalers. Whether a Blackwell-era
-supply glut arrives in 2027 is a scenario, not an observation; the GPU
-rental indices currently show the opposite.
+incumbents) has begun in two places: policy (the Fed's September hike and
+its October minutes), and the sector split in which neocloud equity and
+single-tenant project bonds fell far more than the hyperscalers while
+hyperscaler bond spreads widened earlier in 2026. Whether a Blackwell-era
+supply glut arrives in 2027 is a scenario, not an observation; the H100
+monthly averages are flat, newer chips firmer, A100s softer, with a sharp
+two-day H100 drop on 14-16 October inside a flat month.

@@ -1,181 +1,148 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.2, 2026-10-17. Revised after an independent
-[red-team review](/reviews/2026-10-17-codex-redteam-report) by Codex of
-version 0.1; its findings and our changes are listed at the end. All 25
-research notes are present. Built by AI agents from primary sources, steered
-by a human. See [Methodology](/report/methodology).*
+*Version 0.3, 2026-10-17. Built by AI agents from primary sources, steered
+by a human, on 26 research notes with graded claim tables, after two
+independent red-team reviews ([v0.1](/reviews/2026-10-17-codex-redteam-report),
+[v0.2](/reviews/2026-10-17-codex-redteam-report-v02)). Rules:
+[Methodology](/report/methodology). Glossary at the end.*
 
 ## The short answer
 
-The question splits into three, and they have different answers.
+The question splits into three.
 
-**1. Does the market show bubble-stage dynamics? Yes.** Twelve of fourteen
-on the Dalio checklist as we operationalise it: CAPE 40.6 (September) against
-a 1999 peak of 44.2; margin debt $1.48T (record $1.50T in June); forward
-purchases at records (Oracle RPO $664B, Microsoft $678B, Nvidia supply
-commitments $279B); capex financing migrating from cash flow to bonds,
-equity, SPVs and vendor credit; new classes of buyer; a central bank hiking
-into 3.7% inflation. Sentiment is the only soft reading. This is a
-resemblance test. It says the conditions past bubbles had are present, not
-that the investment will fail. [Theory](/report/theory)
+**1. Are the signals that past bubbles showed present? Yes, most of them.**
+Twelve points of fourteen across seven indicators: CAPE 40.6 (September)
+against a 1999 peak of 44.2; margin debt $1.48T; record forward purchases
+(Oracle RPO $664B, Microsoft $678B, Nvidia supply commitments $279B); capex
+financing moving from cash flow to bonds, equity, SPVs and vendor credit; new
+classes of buyer; a central bank hiking into 3.7% inflation. Sentiment and
+new-buyer entry are the two partial readings. This is a resemblance test. It
+says the conditions past bubbles had are present; it does not establish that
+AI assets are broadly overpriced. [Theory](/report/theory)
 
 **2. Is capital being deployed faster than returns can service it? Not
-established either way, and this is the question that matters.** Our
-payback model is a scenario, not a measurement: a $750B cohort with
-two-thirds short-lived compute needs about $295B of incremental annual
-revenue at a six-year GPU life, 50% margin and 10% cost of capital, or $468B
-at a three-year life. Against it, deduplicated end-user AI revenue is
-estimated at about $180B for 2026 (range $130-230B, graded D by the note
-that built it), and the two lab run-rates are reported and unverified
-(OpenAI ~$50B net; Anthropic ~$65-67B gross). The comparison is not like for
-like: capex includes ordinary cloud, revenue excludes advertising gains and
-internal savings, and 2026 spending earns over later years. The two inputs
-that would settle it, the economic life of a GPU and the margin on AI
-revenue, are the two nothing public discloses. Demand is real and growing
-fast; whether it is growing fast enough is open.
+established either way.** This is the question that matters, and public
+disclosures do not settle it. Our payback model is a scenario: a $750B
+cohort, two-thirds short-lived compute, needs about $295B of incremental
+annual revenue at a six-year GPU life, 50% owner EBITDA margin and 10% cost
+of capital, or $468B at a three-year life. The best available demand
+estimate, about $180B of deduplicated end-user AI revenue in 2026 (range
+$130-230B), is a grade-D working model, and the two are not like for like.
+What is missing is cohort-level cash returns: GPU economic life, utilisation,
+owner margins, residual values and how much customer spending reaches the
+infrastructure owner. Demand is real and growing fast; whether fast enough
+is open.
 
-**3. Where is the fragility, and who bears it? Concentrated in the middle
-of the stack, and partly repriced already.** Oracle (FY2026 free cash flow
-−$23.7B, $125B of borrowings, BBB−, CDS near 300bp), CoreWeave (net
-interest 25% of revenue, covenant relief in December 2025, CDS above
-1,000bp), the other neoclouds (~$81B of listed debt, over $110B with private
-facilities, against contracts concentrated in four counterparties) and the
-labs (multi-year commitments many times revenue, financed partly by their
-suppliers). From 2026 peaks to 16 October: Oracle −48%, CoreWeave −56%, SK
-Hynix −56%, Vertiv −45%, Broadcom −32%; the Nasdaq-100 −6.5%. The equipment
-makers, TSMC and Nvidia earn record margins and collect much of their cash
-early, with the caveat that Nvidia's receivables, supply commitments and
-guarantee are all growing. [Stack](/report/stack)
+**3. Where is the fragility, and who bears it? Concentrated in the middle of
+the stack, and partly repriced already.** The strongest-supported finding.
+Oracle (FY2026 free cash flow −$23.7B, $125B of borrowings, BBB−), CoreWeave
+(net interest 25% of revenue, covenant relief in December 2025, CDS above
+1,000bp), the wider listed neocloud layer (~$81B of debt at June including
+CoreWeave; over $110B counting private facilities, some undrawn) and the
+frontier labs (multi-year commitments many times revenue, financed partly by
+their suppliers). From 2026 peaks to 16 October: Oracle −48%, CoreWeave
+−56%, SK Hynix −56%, Vertiv −45%; the Nasdaq-100 −6.5%. Losses would fall on
+equity holders first everywhere; beyond that, who loses depends on each
+borrower's collateral, guarantees and recoveries, not on a fixed order.
+[Stack](/report/stack)
 
-**Forecasts** (6 / 12 / 24 months, definitions in the
-[register](/forecasts/register); price questions are measured from the
-16 October close so none is already triggered):
+## Four observations that carry the answer
+
+- **The incumbents still generate cash, with less margin than before.**
+  Microsoft FCF $67B (FY2026) with cash capex at 63% of operating cash flow;
+  Alphabet TTM FCF $53B though Q2 was −$5.9B; Amazon TTM FCF −$7.6B; Meta Q2
+  FCF $0.8B. Each has tens of billions of liquidity and discretionary
+  buybacks. (Filings, grade A.)
+- **The intermediaries are cash-strained now, not hypothetically.** CoreWeave:
+  H1 operating cash $3.7B against $14.1B of equipment purchases and $5.2B of
+  principal repayments, with $4.4B more principal due in the rest of 2026,
+  $6.2B in 2027 and $4.4B in 2028. Oracle: Q1 FY2027 operating cash flow
+  included $11.4B of customer advances. (10-Qs, grade A.)
+- **Demand is growing fast.** Azure +43%, Google Cloud +82%, 30M paid Copilot
+  seats, nearly 90% of Microsoft Cloud revenue from customers other than
+  frontier labs (filings and calls, A); Anthropic reporting $16.8B of Q3
+  revenue and OpenAI about $50B of net annualised revenue (reported,
+  unverified, C).
+- **Investment returns are unknown.** No company discloses cohort-level
+  returns on AI capacity. Depreciation lives are 5-6 years; rental evidence
+  on old chips cuts both ways (A100s still rent, but at about a third of H100
+  rates; Blackwell cuts cost per token by more than half on the one benchmark
+  we have). Lab margins rest on one leaked figure (OpenAI 33% adjusted gross,
+  2025) and one unaudited "adjusted profit" (Anthropic, Q3 2026).
+
+## Forecasts
+
+Definitions and the full set of 18 questions plus layer estimates are in the
+[register](/forecasts/register). Exact labels; 6 / 12 / 24 months.
 
 | Event | 6m | 12m | 24m |
 |---|---|---|---|
-| Equal-weighted AI-infrastructure basket falls a further 40% | 12% | 25% | 38% |
-| Oracle rated below investment grade | 12% | 28% | 42% |
-| CoreWeave distressed credit event | 10% | 20% | 35% |
-| OpenAI cancels or defers a commitment of $10B+ | 20% | 40% | 60% |
-| A frontier lab down round | 10% | 20% | 35% |
-| Hyperscaler 2027 capex guidance below 2026 | 7% | 7% | 7% |
-| 2000-style unwind (basket event plus distress at two distinct obligors) | 8% | 18% | 30% |
+| M1: equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT closes 40% below its 16 October level | 12% | 25% | 38% |
+| F2: Oracle rated below investment grade by any major agency | 12% | 28% | 42% |
+| F1: CoreWeave distressed credit event, or sale below $40 a share | 10% | 20% | 35% |
+| F3: OpenAI cancels, cuts or defers a binding compute commitment by $10B+ | 20% | 40% | 60% |
+| Headline: M1 plus distressed credit events at two distinct obligor groups | 6% | 13% | 20% |
 
-## What we know
+## What we do not know, and what would tell us
 
-Verified against primary sources during the review.
-
-- **Capex**: the four largest hyperscalers spent about $231B in 2024 and
-  $381B in 2025 on their own definitions, and 2026 guidance sums to
-  $720-745B (Amazon raised to ~$220B; Microsoft's reported figure fell to
-  ~$175B after a lease reclassification with plans unchanged). Oracle's
-  FY2026 capex was $55.7B; CoreWeave guides $35-39B.
-- **Commitments are stocks, not flows**: Microsoft's $329B of signed leases
-  not yet commenced (10-K, note 13) start between FY2027 and FY2033.
-  Nvidia's $105B cap (8-K of 17 August 2026) is conditional residual-value
-  support on OpenAI's Ohio leases, phased from 2028 and net of recoveries,
-  not cash lent today. Neither falls due inside the forecast window.
-- **Vendor financing is explicit and large**: Nvidia holds $99B of equity
-  stakes, DSO rose from 45 to 60 days on terms up to a year, and management
-  says labs it backs will be "roughly a quarter of our business next year".
-  AMD pays OpenAI and Meta in warrants on 160M shares each. Amazon has put
-  $50B into OpenAI ($28.7B by June plus $21.3B since) and $18B into Anthropic
-  with a $15B facility remaining. Lucent and Nortel carried $4-7B each in
-  2000.
-- **Oracle**: RPO $664B with 13% due within a year (10-Q); OpenAI has
-  confirmed a partnership above $300B over five years; Oracle does not
-  disclose its share of RPO. FY2026 operating cash flow $32.0B less capex
-  $55.7B. Q1 FY2027 operating cash flow included $11.4B of customer
-  advances.
-- **CoreWeave**: $35.6B of debt principal at June (10-Q), about $42B pro
-  forma after September; Q2 net interest $640M on revenue $2.58B; first-half
-  operating cash $3.7B against $14.1B of capex and $5.2B of principal
-  repayments; $35.5B of leases not yet commenced.
-- **Credit in the week of 10-17 October**: CoreWeave 5-year CDS
-  1,038-1,195bp; its 2032 notes traded from 76 to about 81 cents (14.6%);
-  Oracle CDS 282-300bp; Hyperion bonds ~92 cents, Project Excalibur below
-  88. The 10-year Treasury yield fell during the week, from 5.24% to 5.09%,
-  after touching 5.31% on 5 October.
-- **Compute prices are not falling, but the market is split**: the Silicon
-  Data H100 index was $2.82/hr on 17 October and the OCPI H100 monthly
-  average is flat ($2.83 October-to-date vs $2.83 in September); H200 and
-  B200 firmed, A100 softened to $0.94. Connected, deliverable clusters are
-  scarce while standalone marketplace GPU-hours stay cheap (CoreWeave B200
-  spot $4.26 vs $8.60 on-demand). Overcapacity is not visible yet; the
-  three public indices measure different products and cannot be spliced.
-
-## What we do not know
-
-- The economic life of a GPU under 2026 conditions. It moves required
-  revenue by 1.6x. Burry's claim that Oracle's and Meta's earnings would be
-  overstated by 21-27% in 2028 is a grade-D scenario we have not verified.
-- The labs' real numbers: no audited accounts, run-rates on different bases
-  (OpenAI net, Anthropic gross), undisclosed terms on every large commitment.
-- Contract firmness: the deferral and termination rights in the Microsoft,
-  Meta, OpenAI and Anthropic take-or-pay agreements that back the neocloud
-  debt.
-- Who ultimately holds the project bonds and GPU-backed loans (insurers,
-  pensions, private-credit funds, bank warehouses) and at what marks.
-- How much purchasing would disappear without supplier financing. The
-  circular-financing map shows 51 links; it cannot show the counterfactual.
-
-## What would change the answer
-
-Toward "not a bubble": lab revenue growth sustained through 2027 on net
-accounting; the H100 index holding through a Blackwell-era supply increase;
-hyperscaler free cash flow recovering while capex still grows; OpenAI and
-Anthropic publishing audited numbers that close the margin gap; custom
-silicon delivering the 30-44% cost advantages claimed (grade C today).
-
-Toward "bursting": a 2027 capex guidance cut by any hyperscaler; an OpenAI
-commitment deferral; a GPU-backed loan default; the H100 index below $1.50;
-a lab down round; Oracle cut to junk; the Fed continuing to hike.
+| Unknown | The observable test |
+|---|---|
+| Economic life of a GPU under 2026 conditions (1.6x on required revenue) | H100 monthly index (P1) through a Blackwell-era supply increase; used-H100 prices; depreciation-policy changes |
+| The labs' real numbers: no audited accounts, different bases (OpenAI net, Anthropic gross), undisclosed commitment terms | An S-1 on EDGAR; same-basis run-rates at two dates (D1, D2); a lab down round (F5) |
+| Firmness of the take-or-pay contracts behind neocloud debt | A disclosed deferral or cancellation (F3); CoreWeave principal schedule met from operations; renewal pricing on 2027 expiries |
+| Who holds the project bonds and GPU-backed loans, and at what marks | A $1B+ project or SPV distress (F4); dealer marks moving from the current below-88-to-94 cents range |
+| How much purchasing would disappear without supplier financing (51 mapped links) | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop purchases |
+| Whether the hyperscalers cut (C1, C2) or keep building | First calendar-2027 capex guidance with Q4 2026 results |
 
 ## The bull case, stated fairly
 
-- Cash cushions: Microsoft $67B of FCF and $77B of liquidity; Amazon $123B
-  of liquidity; Meta $90B of cash and securities; dividends and buybacks are
+- Cash cushions: Microsoft $77B of liquidity, Amazon $123B, Meta $90B,
+  Alphabet $155B excluding equity stakes; dividends and buybacks are
   discretionary.
-- Enterprise evidence beyond leaks: 30M paid Copilot seats; Census Bureau
-  23.8% of businesses using AI; Anthropic reporting over 1,000 customers
-  above $1M a year; Microsoft says nearly 90% of FY2026 Microsoft Cloud
-  revenue came from customers other than frontier model companies.
+- Breadth: nearly 90% of Microsoft Cloud revenue is from customers other
+  than frontier labs; Census Bureau 23.8% of businesses using AI; Anthropic
+  reports over 1,000 customers above $1M a year.
 - Volume: Google's tokens processed rose from 9.7T to 3.2 quadrillion a
-  month in two years; Azure grew 43%, Google Cloud 82%.
-- AI can pay for itself inside existing products: Meta attributes ad gains
-  to AI ranking, and internal cost savings need no labelled AI revenue.
-- Suppliers are paid early, so losses concentrate where contracts fail, not
-  across the whole chain.
+  month in two years across all surfaces.
+- AI pays for itself inside existing products: Meta attributes ad gains to
+  AI ranking; internal savings need no labelled AI revenue.
+- Suppliers collect early: equipment deposits, TSMC's cash flow, Nvidia's
+  $127B of trailing FCF. CoreWeave's management reports initial-term
+  returns and A100/H200 renewals (company claims, not audited).
 
 ## The bear case, stated fairly
 
-- CoreWeave already needed covenant relief; its converts are far out of the
-  money; five-year loans sit against three-year contracts.
-- Oracle's operating cash flow is supported by customer advances; its lease
-  commitments ($288B uncommenced) sit on top of $125B of debt.
-- Meta's commitments ($279B uncommenced leases plus $68B in July) are far
-  larger than its Hyperion headline.
+- CoreWeave needed covenant relief on its DDTL 3.0 facility; its converts are
+  far out of the money; DDTL 5.5 lends five years against contracts averaging
+  three.
+- Oracle's operating cash flow is supported by customer advances; $44B of
+  lease liabilities and $288B of uncommenced leases sit on top of $125B of
+  debt.
+- Meta's $279B of uncommenced leases plus $68B signed in July overlap with,
+  and dwarf, the $46B Hyperion headline.
 - Anthropic reports roughly 80% of its obligations as non-cancellable while
   its customers can switch models.
 - Demand quality: Ramp's sample shows flat token spending; consumer-app
   retention is weak; one reported failed raise (Poolside).
-- Several names have already fallen 45-56% from their 2026 peaks; the
-  repricing is not only a future possibility.
+- Several names have already fallen 45-56% from their 2026 peaks.
 
-## Changes from version 0.1
+## Glossary
 
-The red-team found 36 errors or overstatements. The material ones: a
-"$600-700B" middle-layer debt figure that mixed borrowers and scopes
-(removed); "most of Oracle's RPO is OpenAI" (Oracle does not disclose it);
-the $180B demand estimate presented as known (it is a grade-D scenario); the
-checklist scored 13/14 (12/14 on the note's own scores); "$329B moved off
-Microsoft's capex line" (it is a stock of future leases); Anthropic
-commitments "ten times revenue" (seven to eight, over a decade); layer
-forecasts that were already triggered by observed drawdowns (rebased to the
-16 October close); the headline event allowing one restructuring to count
-twice (now two distinct obligors). Vintage 0.1 probabilities are preserved
-in the register's history.
+RPO: remaining performance obligations, contracted revenue not yet
+recognised. FCF: free cash flow, operating cash flow less capital
+expenditure. CDS: credit default swap; the annual cost in basis points
+(bp, hundredths of a percent) of insuring debt. DSO: days sales
+outstanding, how long customers take to pay. DDTL: delayed-draw term loan.
+SPV: special-purpose vehicle. CAPE: cyclically adjusted price/earnings
+ratio.
 
-Start points for agents: [llms.txt](/llms.txt), the raw markdown of every
-page, and the [data](/data/) folder.
+## Status
+
+All 26 research notes are present; nine have had cross-check corrections
+applied, the rest are drafts. No paywalled sources were used, so
+private-company figures are reported and unverified and graded as such. The
+lead agent is an Anthropic model; Anthropic's note was written by Codex.
+Version history and every change are in the
+[register](/forecasts/register) and the [reviews](/reviews/2026-10-17-codex-redteam-report-v02).
+Start points for agents: [llms.txt](/llms.txt), raw markdown of every page,
+the [data](/data/) folder.
