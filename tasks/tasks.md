@@ -48,3 +48,5 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-9 | Apply cross-check edits: unit-economics note | Codex gpt-6.1-sol | done | research/theory/ai-unit-economics.md |
 | P2-10 | Report v0.2 from red-team review | Claude (lead) | done (v0.2) | report/*.md, forecasts/register.md |
 | P2-11 | Apply cross-check edits: Microsoft note | Codex gpt-6.1-sol | done | research/stack/microsoft.md |
+| P2-12 | Red-team review of report v0.2 (fresh context) | Codex gpt-6-astra | running | reviews/2026-10-17-codex-redteam-report-v02.md |
+| P2-13 | Cross-checks: equipment, AMD/Broadcom, other neoclouds, bubble mechanics, precedents | Codex gpt-6-astra | running | reviews/*-codex-xcheck.md |
