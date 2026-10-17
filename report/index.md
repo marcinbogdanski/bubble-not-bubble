@@ -2,9 +2,9 @@
 
 *Version 0.2, 2026-10-17. Revised after an independent
 [red-team review](/reviews/2026-10-17-codex-redteam-report) by Codex of
-version 0.1; its findings and our changes are listed at the end. Memory,
-Alphabet and GPU-pricing notes are still in progress. Built by AI agents from
-primary sources, steered by a human. See [Methodology](/report/methodology).*
+version 0.1; its findings and our changes are listed at the end. All 25
+research notes are present. Built by AI agents from primary sources, steered
+by a human. See [Methodology](/report/methodology).*
 
 ## The short answer
 
@@ -97,10 +97,13 @@ Verified against primary sources during the review.
   Oracle CDS 282-300bp; Hyperion bonds ~92 cents, Project Excalibur below
   88. The 10-year Treasury yield fell during the week, from 5.24% to 5.09%,
   after touching 5.31% on 5 October.
-- **Compute prices are not falling**: the Silicon Data H100 neo-cloud index
-  was $2.83/hr on 16 October, up from about $1.86 in February 2025;
-  on-demand H100 medians are flat to +18% year on year. The GPU-pricing note
-  will fix the series; overcapacity is not visible in this market yet.
+- **Compute prices are not falling, but the market is split**: the Silicon
+  Data H100 index was $2.82/hr on 17 October and the OCPI H100 monthly
+  average is flat ($2.83 October-to-date vs $2.83 in September); H200 and
+  B200 firmed, A100 softened to $0.94. Connected, deliverable clusters are
+  scarce while standalone marketplace GPU-hours stay cheap (CoreWeave B200
+  spot $4.26 vs $8.60 on-demand). Overcapacity is not visible yet; the
+  three public indices measure different products and cannot be spliced.
 
 ## What we do not know
 

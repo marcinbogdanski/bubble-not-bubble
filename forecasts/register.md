@@ -46,8 +46,8 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | *Provisional until the GPU-pricing note names the series.* The Silicon Data H100 neo-cloud index (daily, portal.silicondata.com; $2.83 on 2026-10-16) averages below $1.50/GPU-hour for three consecutive calendar months | 5% | 15% | 35% |
-| P2 | *Provisional until the memory note names the series.* TrendForce's quarterly conventional server DRAM contract price index falls 30% or more from its 2026 peak | 5% | 20% | 45% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 on 2026-10-17): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% publication coverage and no interpolation. If the series ceases, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization) | 5% | 15% | 35% |
+| P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
 ## Credit and financing
 
@@ -129,6 +129,8 @@ counts once.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.2a (2026-10-17)**: P1 and P2 definitions adopted from the
+  GPU-pricing and memory notes; probabilities unchanged.
 - **Vintage 0.2 (2026-10-17, after red-team)**: every question rewritten
   with a resolution rule; price questions rebased to the 2026-10-16 close
   because Oracle (−48%), CoreWeave (−56%), SK Hynix (−56%), Vertiv (−45%)
