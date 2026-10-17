@@ -7,22 +7,22 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 |----|------|-------|--------|--------|
 | P0-1 | Repo layout, markdown site, llms.txt | Claude (lead) | done | main.py, content.py |
 | P0-2 | Methodology page | Claude (lead) | done | report/methodology.md |
-| P1-T1 | Theory: bubble mechanics, indicators | Claude subagent | running | research/theory/bubble-mechanics.md |
-| P1-T2 | Theory: historical precedents | Claude subagent | running | research/theory/historical-precedents.md |
-| P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | running | research/theory/ai-unit-economics.md |
-| P1-S1 | Stack: ASML and equipment | Claude subagent | running | research/stack/semiconductor-equipment.md |
-| P1-S2 | Stack: TSMC and foundry | Claude subagent | running | research/stack/tsmc-and-foundry.md |
-| P1-S3 | Stack: memory and HBM | Claude subagent | running | research/stack/memory-hbm.md |
-| P1-S4 | Stack: Nvidia | Claude subagent | running | research/stack/nvidia.md |
-| P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | running | research/stack/amd-broadcom-custom-silicon.md |
-| P1-M1 | Macro: GPU pricing and utilization | Claude subagent | running | research/macro/gpu-pricing-and-utilization.md |
-| P1-S6 | Stack: Microsoft | Claude subagent | running | research/stack/microsoft.md |
-| P1-S7 | Stack: Alphabet | Claude subagent | running | research/stack/alphabet.md |
-| P1-S8 | Stack: Amazon | Claude subagent | running | research/stack/amazon.md |
-| P1-S9 | Stack: Meta | Claude subagent | running | research/stack/meta.md |
-| P1-S10 | Stack: Oracle | Claude subagent | running | research/stack/oracle.md |
-| P1-S11 | Stack: CoreWeave | Claude subagent | running | research/stack/coreweave.md |
-| P1-S12 | Stack: other neoclouds | Claude subagent | running | research/stack/neoclouds-other.md |
+| P1-T1 | Theory: bubble mechanics, indicators | Claude subagent | done (draft) | research/theory/bubble-mechanics.md |
+| P1-T2 | Theory: historical precedents | Claude subagent | resumed after rate limit | research/theory/historical-precedents.md |
+| P1-T3 | Theory: AI unit economics, capex payback | Claude subagent | resumed after rate limit | research/theory/ai-unit-economics.md |
+| P1-S1 | Stack: ASML and equipment | Claude subagent | resumed after rate limit | research/stack/semiconductor-equipment.md |
+| P1-S2 | Stack: TSMC and foundry | Codex CLI (after Claude rate limit) | running | research/stack/tsmc-and-foundry.md |
+| P1-S3 | Stack: memory and HBM | Claude subagent | paused (rate limit), to resume | research/stack/memory-hbm.md |
+| P1-S4 | Stack: Nvidia | Claude subagent | resumed after rate limit | research/stack/nvidia.md |
+| P1-S5 | Stack: AMD, Broadcom, custom silicon | Claude subagent | resumed after rate limit | research/stack/amd-broadcom-custom-silicon.md |
+| P1-M1 | Macro: GPU pricing and utilization | Claude subagent | paused (rate limit), to resume | research/macro/gpu-pricing-and-utilization.md |
+| P1-S6 | Stack: Microsoft | Claude subagent | resumed after rate limit | research/stack/microsoft.md |
+| P1-S7 | Stack: Alphabet | Claude subagent | paused (rate limit), to resume | research/stack/alphabet.md |
+| P1-S8 | Stack: Amazon | Codex CLI (after Claude rate limit) | running | research/stack/amazon.md |
+| P1-S9 | Stack: Meta | Codex CLI (after Claude rate limit) | running | research/stack/meta.md |
+| P1-S10 | Stack: Oracle | Codex CLI (after Claude rate limit) | running | research/stack/oracle.md |
+| P1-S11 | Stack: CoreWeave | Claude subagent | paused (rate limit), to resume | research/stack/coreweave.md |
+| P1-S12 | Stack: other neoclouds | Claude subagent | paused (rate limit), to resume | research/stack/neoclouds-other.md |
 | P1-S13 | Stack: OpenAI | Claude subagent | pending (agent cap) | research/stack/openai.md |
 | P1-S14 | Stack: Anthropic | Claude subagent | pending (agent cap) | research/stack/anthropic.md |
 | P1-S15 | Stack: xAI, neolabs, Chinese labs, apps | Claude subagent | pending (agent cap) | research/stack/labs-other.md |
@@ -34,3 +34,6 @@ Status of agent work. Lead agent: Claude (this repo's Claude chats). Phases:
 | P1-M6 | Macro: demand side, adoption, revenue | Claude subagent | pending | research/macro/demand-side.md |
 | P1-M7 | Macro: China | Claude subagent | pending | research/macro/china.md |
 | P1-M8 | Macro: rates, sovereign money, geopolitics | Claude subagent | pending | research/macro/rates-sovereign-geopolitics.md |
+
+
+Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropic account session limit at ~16:55 and all were terminated; one note and nine CSVs survived. Work is now paced: ~6 Claude agents resumed at a time, four notes moved to Codex.
