@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7b, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7c, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -33,11 +33,12 @@ cohort needs about $295B of annual owner revenue while it operates, $468B at
 a three-year life. Applied to a 60-100% AI share of Goldman's $3.4T
 hyperscaler-capex forecast for 2026-28, the 2026-28 cohorts need $0.8-1.3T a
 year of owner revenue once they all operate; at 50% end-user-to-owner
-capture that is $1.6-2.7T of annual end-user AI revenue, against a grade-D
-estimate of about $180B in 2026. Reaching it by 2029-30 would take growth of
-roughly 70-150% a year (arithmetic reproducible, B; inputs and sector
-application D). It roughly tripled in 2026; our own base path assumes +67%
-then +60%. The scenario omits replacement capex that preserves existing
+capture that is $1.6-2.7T of annual end-user AI revenue, against an estimate
+of about $170B in 2026 (range $130-210B; the half that is the two labs'
+reported revenue is C, the allocated rest D). Reaching it by 2029-30 would
+take growth of roughly 75-150% a year (arithmetic reproducible, B; inputs
+and sector application D). It roughly tripled in 2026 and exits the year at
+a run-rate near $250B; our own base path assumes +67% then +60%. The scenario omits replacement capex that preserves existing
 revenue, advertising and internal-savings benefits, commissioning timing and
 residual values, any of which could move it; cohort-level returns, GPU
 economic life and owner margins remain undisclosed. Capex cuts (C1, C2

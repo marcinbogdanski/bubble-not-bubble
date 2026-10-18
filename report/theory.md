@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.7, 2026-10-18 · Synthesis of
+*Version 0.7c, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -124,10 +124,12 @@ at a three-year life, $468B.
 | 6 years | $295B |
 
 Against that, the demand-side note's deduplicated estimate of end-user AI
-product revenue is about $55B for 2025 and $180B for 2026 (range
-$130-230B), with scenarios of $210B, $480B and $800B for 2028. The note
-grades those allocations D: they are a working model, not a measured
-denominator. Three outside estimates bracket the question: Gartner's
+product revenue is about $55B for 2025 and $170B for 2026 (range
+$130-210B; an independent rebuild by payer gave $165B), with scenarios of
+$210B, $480B and $800B for 2028. About half of the 2026 figure is the two
+labs' reported revenue (C); the allocated remainder is D. It is a working
+model, not a measured denominator, and the year exits at a run-rate near
+$250B, so the bear path for 2027 is a contraction, not slow growth. Three outside estimates bracket the question: Gartner's
 cumulative view (≥$8.5T of revenue needed through 2030 against ≤$3.6T
 attributable to owners), IoT Analytics' modelled returns (above a 15%
 hurdle now, below it in 2028, negative by 2031, an absorbable write-down),
