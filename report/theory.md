@@ -41,7 +41,7 @@ return.
 | Purchases financed by leverage | FINRA margin debt $1.48T in September (record $1.50T in June); hyperscalers issuing bonds and equity; ~$81B of listed neocloud debt; Oracle $125B of borrowings | 2 |
 | Forward purchases | Oracle RPO $664B, Microsoft $678B, CoreWeave $104B, Broadcom $179B (company-wide); Nvidia supply commitments $279B; ASML expects planned 2027-28 output below customer demand and reports interest in 2029-30 orders, not accepted orders | 2 |
 | New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade D, derivation unverified) | 1 |
-| Tightening policy | Fed hiked in September 2026, first since 2023, and its minutes say AI-related investment is "contributing to inflation pressures" alongside energy (Brent averaged $114 in September); 10-year touched 5.31% on 5 October, then 5.09% by 16 October; CPI 3.7%. Partly a response to the boom, partly an oil confounder | 2 |
+| Tightening policy | Fed hiked in September 2026, first since 2023, and its minutes say AI-related investment is "contributing to inflation pressures" alongside energy (Brent averaged $114 in September); 10-year touched 5.31% on 5 October (highest close since May 2002), then 5.09% by 16 October; CPI 3.7%. Partly a response to the boom, partly an oil confounder | 2 |
 
 Twelve points of fourteen across seven indicators, with sentiment and
 new-buyer entry the two partial readings. The main objection to this table
@@ -169,11 +169,13 @@ incumbents) has begun in two places: policy (the Fed's September hike, whose
 minutes link it partly to AI investment and partly to energy), and the
 sector split in which neocloud equity and single-tenant project bonds fell
 far more than the hyperscalers while hyperscaler bond spreads widened
-earlier in 2026. The 10-year had risen to 5.31% on 5 October and Brent was above $100, but
-during the week of 10-17 October itself the 10-year fell from 5.24% to 5.10%
-while high-yield spreads widened and the financing-sensitive names (Oracle,
-CoreWeave, Vertiv) fell 16.5% against 10.5% for the chip names, which fits a
-credit channel better than a rates shock. Whether a Blackwell-era
+earlier in 2026. Rates and oil set the backdrop (the 10-year reached 5.31% on 5 October, its
+highest close since May 2002; Brent averaged $114 in September), but during
+the week of 9-16 October itself the 10-year fell 15bp, real yields and hike
+odds fell and physical Brent fell, while the AI basket dropped 12.7%,
+high-yield spreads widened and the financing-sensitive names (Oracle,
+CoreWeave, Vertiv) fell 16.5% against 10.5% for the chip names. That week's
+repricing was AI-specific and ran through the credit channel. Whether a Blackwell-era
 supply glut arrives in 2027 is a scenario, not an observation; the H100
 monthly averages are flat, newer chips firmer, A100s softer, with a sharp
 two-day H100 drop on 14-16 October inside a flat month.
