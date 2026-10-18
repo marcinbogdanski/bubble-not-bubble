@@ -104,4 +104,8 @@ with the counter-evidence beside them.
   concentration is an earnings risk more than a multiple risk),
   [power-and-datacenters](/research/macro/power-and-datacenters),
   [rates-sovereign-geopolitics](/research/macro/rates-sovereign-geopolitics),
-  [china](/research/macro/china).
+  [china](/research/macro/china) (a margin competitor, not a demand
+  substitute: Chinese labs took 69% of OpenRouter tokens in mid-September
+  while Western closed models kept 73% of spend; MiniMax prices near cost
+  at an 18% gross margin; China's three groups spent about $19B of
+  June-quarter capex against $171B for the US four).
