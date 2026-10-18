@@ -59,4 +59,5 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P2-19 | Note updates: payback estimates side by side (unit-economics, demand-side); IMF/KC Fed credit evidence (circular-financing, debt-markets) | Codex gpt-6.1-sol | done | research notes |
 | P3-2 | CoreWeave note: ineffective disclosure controls (10-Q Item 4), equity-cure date | Codex gpt-6.1-sol | done | research/stack/coreweave.md |
 | P3-3 | Codex check of v0.7's Anthropic framing and Part 2 arithmetic (vendor-conflict control) | Codex gpt-6-astra | done, applied in v0.7a | reviews/2026-10-18-codex-check-v07.md |
-| P3-4 | Claude Opus cross-check of the OpenAI note | Claude Opus | running | reviews/openai-claude-xcheck.md |
+| P3-4 | Claude Opus cross-check of the OpenAI note | Claude Opus | done, applied | reviews/openai-claude-xcheck.md |
+| P3-5 | Claude Opus cross-check of the demand-side note | Claude Opus | running | reviews/demand-side-claude-xcheck.md |
