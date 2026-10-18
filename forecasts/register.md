@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.7d, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.7e, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -114,7 +114,11 @@ actions, deferrals or the F1 acquisition branch. Obligor groups: CoreWeave
 and its SPVs; Oracle corporate; each other listed neocloud with its SPVs;
 each project or GPU-backed debt vehicle of $1B+ grouped by sponsor. One
 restructuring counts once; dealer marks below par are not events. The same
-list defines the credit perimeter for F4 and the layer rows.
+list defines the credit perimeter for F4 and the layer rows. "Distinct"
+means separate obligors, not independent causes: one OpenAI or CoreWeave
+failure can produce two qualifying events (Oracle-tenanted projects, or
+CoreWeave's landlords whose notes are repaid from its rent), which is why
+the two-or-more conditional is as high as it is.
 
 Conditional tree given M1 (zero / one / two-or-more distinct credit
 failures), rising with horizon because defaults lag equity falls (telecom's
@@ -176,6 +180,9 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.7e (2026-10-18)**: no probability changes; headline
+  definition clarified (distinct obligors, shared roots) after the Claude
+  cross-check of the circular-financing note.
 - **Vintage 0.7d (2026-10-18)**: F2 lowered 12/28/42 to 8/24/40 after the
   Claude cross-check of the Oracle note (S&P triggers and outlook timing;
   Moody's and Fitch two notches above junk); no other changes.

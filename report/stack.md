@@ -1,6 +1,6 @@
 # The stack, layer by layer
 
-*Version 0.7d, 2026-10-18 · Synthesis of the research notes, corrected after
+*Version 0.7e, 2026-10-18 · Synthesis of the research notes, corrected after
 the [red-team review](/reviews/2026-10-17-codex-redteam-report). Every
 figure is sourced and graded in the note it links to. All 26 notes have
 been cross-checked and corrected (status: reviewed).*
@@ -51,10 +51,13 @@ lease backstop and conditional notes, Google's and Amazon's reported ~$110B
 commitments each, and is expected to be Broadcom's largest custom-silicon
 customer in 2027 (reported, C); its reported $518B of commitments are about
 80% non-cancellable. The
-[circular-financing note](/research/macro/circular-financing) maps 51 such
-links and is explicit that the map shows transmission channels, not proof
-that the demand is uneconomic; what it cannot quantify is how much purchasing
-would disappear without the supplier financing.
+[circular-financing note](/research/macro/circular-financing) maps the
+links (round-trip flows, contingent credit support and customer prepayments
+are different things; "circular" fits only the first) and is explicit that
+the map shows transmission channels, not proof that the demand is
+uneconomic. A narrow estimate of supplier-supported 2026 accelerator demand
+is 10-20%, broad 17-35% (grade D); the filed, paid-in, chip-traceable part
+is under 5%, almost all of it through OpenAI and Anthropic.
 
 ## Near-term cash risk, by name
 

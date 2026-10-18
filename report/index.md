@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7d, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7e, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -127,7 +127,7 @@ downgrade or a lab commitment cut.
 
 | Topic | Bull (source, grade) | Bear (source, grade) |
 |---|---|---|
-| Valuation | S&P technology ~21x earnings vs 70x in 2000; semiconductor earnings +178% y/y (Timmer, B) | GPU buyers' capex is suppliers' revenue, so the E can be the bubble while the P/E looks ordinary (Druckenmiller via FT, B) |
+| Valuation | S&P technology ~21x earnings vs 70x in 2000; semiconductor earnings +178% y/y (Timmer, B) | GPU buyers' capex is suppliers' revenue, so the E can be the bubble while the P/E looks ordinary (Druckenmiller via FT, B); suppliers also booked about $190B of 2026 gains on their stakes in the labs (Alphabet $114B and Amazon $63B in H1 alone; filings, A) |
 | Demand path | SemiAnalysis: OpenAI plus Anthropic revenue $600-700B by December 2027; up to $50M revenue per MW against $10-15M of cost (estimate, C) | Gartner: $8.5T of cumulative revenue needed through 2030 for a 12% return, at most $3.6T attributable to owners (B) |
 | Supply | TSMC and ASML say demand exceeds planned supply through 2028; B200 rents +15% in 30 days to $8.12 (A/B) | Nvidia guides its own gross margin down to 71-73%; by 2028 the H100 is 5.5 years old (A) |
 | Credit | Liquidity: Microsoft $77B, Amazon $123B, Meta $90B, Alphabet $155B; buybacks could be cut (A) | IMF: ~$300B of hyperscaler equity and ~$650B of debt into AI firms that committed ~$1.4T back to their backers, "wrong-way risk"; AI is 10% of 2026 IG issuance (A) |
@@ -142,7 +142,7 @@ downgrade or a lab commitment cut.
 | The labs' real numbers: no audited accounts, different bases (OpenAI net, Anthropic gross), undisclosed commitment terms | An S-1 on EDGAR; same-basis run-rates at two dates (D1, D2); a lab down round (F5) |
 | Firmness of the take-or-pay contracts behind neocloud and lab debt | A disclosed deferral or cancellation (F3, F3b); CoreWeave's principal schedule met from operations; any cure or amendment after DDTL 3.0's unlimited equity-cure window closes on 28 October 2026 |
 | Who holds the project bonds and GPU-backed loans, and at what marks | A $1B+ project or SPV distress (F4); dealer marks moving from the current below-88-to-94 cents range |
-| How much purchasing would disappear without supplier financing (51 mapped links) | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop purchases |
+| How much purchasing would disappear without supplier, investor and customer financing (the mapped links understate it: Google's backstops, AMD's guarantees and Nvidia's third-party leases were missing until the latest check; a narrow estimate is 10-20% of 2026 accelerator demand, grade D) | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop usage; Nvidia receivables ($63B, up from $39B) |
 | Whether the hyperscalers cut (C1, C2) or keep building | First calendar-2027 capex guidance with Q4 2026 results |
 | Whether Oracle's customers keep funding their share of its build | The customer-prepayment line in Oracle's Q2 FY2027 cash-flow statement (mid-December): it needs about $5-6B a quarter while capex holds; the Jupiter permit decision (reported deadline 23 November) |
 | How much of the October repricing was AI information versus rates and oil | Spreads of AI names against the index as the 10-year and Brent move |
