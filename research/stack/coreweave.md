@@ -1,6 +1,6 @@
 # CoreWeave (CRWV)
 
-*Last updated: 2026-10-17 · Author: Claude (claude-fable-5-1 subagent) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
+*Last updated: 2026-10-18 · Author: Claude (claude-fable-5-1 subagent) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
 
 ## Summary
 
@@ -69,6 +69,7 @@
 | 51 | Equity cures after relief window | Unlimited cures before 28 Oct 2026; thereafter no more than three consecutive calendar months in any four-month period; that date does not end all cures or itself establish default | 2025-12-31 | [Amendment 8-K][CA] | primary | A terms |
 | 52 | Deferred revenue balance versus cash-flow contribution | $9.692bn at June versus $8.185bn at December: +$1.507bn balance growth; $1.365bn is the separate H1 cash-flow reconciliation contribution | 2026-06-30 | [Q2 10-Q][Q], balance sheet/cash-flow statement | primary / derived | A balances/contribution; B growth |
 | 53 | Management’s initial-term-return position | Management says initial contracts repay asset-level debt and deliver attractive returns before renewals; current renewal exposure described as limited portion of fleet. Not independently verified cohort returns | 2026-08-11 | [Corrected transcript][T], pp. 8, 11 | primary | A that management made the assertions |
+| 54 | Ineffective disclosure controls and material weaknesses; remediation | “Based on the evaluation of our disclosure controls and procedures, our Chief Executive Officer and Chief Financial Officer concluded that our disclosure controls and procedures were not effective at the reasonable assurance level as of June 30, 2026 due to the material weaknesses in our internal control over financial reporting described below.” Material weaknesses: “lack of effectively designed, implemented, and maintained IT general controls over applications that support our financial reporting processes; insufficient segregation of duties across financially relevant functions, and lack of sufficient number of qualified personnel within our accounting, finance, and operations functions who possessed an appropriate level of expertise to provide reasonable assurance that transactions were being appropriately recorded and disclosed.” These weaknesses continued at June 30; the filing says the deficiencies did not cause a material financial-statement misstatement. Remediation actions taken/planned: engage external Sarbanes-Oxley consultants; implement IT access/program-change controls and evaluation/monitoring of key application controls/reports; implement processes/controls to identify and manage segregation-of-duties risks; design/implement significant-account and disclosure controls, including reconciliations and journal-entry preparation/review; continue hiring accounting, finance and operations staff with sufficient technical expertise and separation of conflicting duties; consult experts on technical accounting, internal controls and financial-statement preparation. Management review and audit committee oversight continue; completion and testing over a sufficient period are required before management can conclude remediation is effective, and further measures may be needed | 2026-06-30 (assessment); 2026-08-12 (filing) | [Q2 10-Q][Q], Part I, Item 4, pp. 49–51 (accessed 2026-10-18) | primary | A |
 
 ## Analysis
 
@@ -115,6 +116,8 @@ The funding dependence is clear, but a further $30–40bn funding need does not 
 Per MW, net in-service PP&E is $46.736bn − $11.918bn = $34.818bn, or $23.212m/MW on 1,500MW quarter-end power. Annualized Q2 revenue and actual EBITDA are $6.867m and $4.027m/MW-year. Net in-service PP&E/annualized EBITDA is 5.76 years, about 5.8; using gross in-service PP&E of $40.704bn gives 6.74 years. Neither ratio measures original-investment payback: mixed cohorts, prior depreciation, non-GPU assets and ramping-quarter earnings prevent that inference. A stylized fully debt-funded 9% charge on $34.818bn costs $3.134bn/year and leaves $2.906bn from $6.04bn EBITDA, a roughly 12-year ratio; actual debt amortizes and is not all priced at 9%. It does not prove that initial contracts fail to recover capital. [Q2 10-Q][Q], balance sheet/Note 5; [Q2 release][E] (B accounting ratios; C financing scenario).
 
 Selected Q3 short contracts priced at ~$40m/MW annualized revenue, stronger expected contribution margins and disclosed renewals materially qualify that static fleet calculation. They cannot be extrapolated to the entire fleet. Cohort costs, stabilized margins, debt amortization and residual values are needed to establish returns (claims 43–45, 53). [Pricing update][P]; [September presentation][S]; [corrected call][T].
+
+Management's unaudited operating claims about initial-term returns, renewals and ~$40m/MW contracts should be read in light of the CEO/CFO conclusion that disclosure controls were ineffective because of continuing material weaknesses (claim 54). [Q2 10-Q][Q], Item 4.
 
 ### Renewal risk, 2027–2029
 
@@ -174,6 +177,7 @@ CDS above 1,000bp and bond yields above 15% indicate severe repricing. With flat
 | Capex versus revenue guidance | $35–39bn versus $12.4–13.2bn | 2026-08-11 | [August outlook][O] | Reconcile cash PP&E, cash generation, prepayments and committed financing |
 | ATM / liquidity | 35m-share authorization; anticipated initial ≥30-day sales restriction; June facility availability $10.014bn | 2026-09-17 (ATM); 2026-06-30 (facilities) | claims 41, 48; [September 8-K][A8]; [Q2 10-Q][Q] | Actual issuance, net cash raised and remaining eligible borrowing |
 | Lease / expansion commitments | $35.5bn uncommenced undiscounted lease payments, specified exclusions; planned India 240MW | 2026-06-30 (leases); 2026-10-07 (India) | claims 46–47; [Q2 10-Q][Q]; [India announcement][I] | Fixed commitments, delivery timing and future capital needs |
+| Remediation of material weaknesses | Disclosure controls ineffective at June 30; IT general controls, segregation of duties and qualified staffing weaknesses persisted; remediation ongoing | 2026-06-30 (assessment); 2026-08-12 (filing) | [Q2 10-Q][Q], Item 4; claim 54 | Next test: Q3 2026 10-Q, Item 4—whether management reports effective disclosure controls, completed remediation supported by testing, continuing weaknesses or additional measures |
 
 ## Sources
 
