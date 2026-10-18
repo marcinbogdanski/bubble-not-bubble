@@ -90,8 +90,9 @@ with the counter-evidence beside them.
   [anthropic](/research/stack/anthropic), [labs-other](/research/stack/labs-other).
 - **Memory**: [memory-hbm](/research/stack/memory-hbm).
 - **Compute market**: [gpu-pricing-and-utilization](/research/macro/gpu-pricing-and-utilization):
-  connected clusters are scarce while standalone GPU-hours stay cheap; the
-  three public indices measure different products and cannot be spliced.
+  pricing is segmented by generation and product (OCPI transaction prices
+  as a share of CoreWeave list: B200 0.94, H100 0.45, A100 0.35); the three
+  public indices measure different things and cannot be spliced.
 - **Cross-cutting**: [debt-markets](/research/macro/debt-markets) (about
   $494B of corporate principal at five large issuers including legacy
   non-AI debt, $572B with selected project securities, both dated May-June

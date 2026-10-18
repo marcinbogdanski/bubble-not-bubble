@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.8a, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.8b, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -58,7 +58,8 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 displayed on access 2026-10-17, no fixing timestamp): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, so a Yes at 24 months is partly an age effect, not glut evidence on its own | 5% | 15% | 35% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 as of 2026-10-17, published each business day; both this series and OCPI must be archived daily in data/ because neither keeps a public history): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, and today's 6.4-year-old A100 already prices at $1.53 on the same index in a market with no glut, so a Yes at 24 months is largely an age effect; read it together with P1b | 5% | 15% | 35% |
+| P1b | The Ornn OCPI B200 monthly mean (September 2026: $7.245) is below $4.50 for three consecutive complete months inside the horizon; on 2027-10-17 the question rolls to the newest Nvidia GPU with at least 180 days of OCPI history, with Silicon Data's B200 index as fallback. P1 Yes with P1b No reads as ageing; both Yes reads as glut | 3% | 10% | 20% |
 | P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
 ## Credit and financing
@@ -183,6 +184,10 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.8b (2026-10-18)**: P1b (current-generation B200 companion
+  to P1) added at 3/10/20 after the Claude cross-check of the GPU-pricing
+  note; P1 timestamp wording and archive requirement fixed; no other
+  changes.
 - **Vintage 0.8a (2026-10-18)**: no changes; front page trimmed from
   2,250 to about 1,350 words with all figures and probabilities retained.
 - **Vintage 0.8 (2026-10-18)**: no probability changes; closes the first

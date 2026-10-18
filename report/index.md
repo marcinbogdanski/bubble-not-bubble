@@ -44,7 +44,7 @@ Full [register](/forecasts/register): 6 / 12 / 24 months from 17 October 2026.
 |---|---|---|
 | Valuation | S&P technology ~21x earnings versus 70x in 2000 (Timmer; attribution B, estimates C) | GPU buyers' capex is suppliers' revenue; earnings can be the bubble despite ordinary P/Es (Druckenmiller via FT, B) |
 | Demand path | OpenAI plus Anthropic revenue $600-700B by December 2027 (SemiAnalysis, C) | Scenario: $8.5T cumulative owner revenue needed through 2030 at a 12% return; at most $3.6T attributable to AI datacenters (Gartner; attribution A, outcomes C) |
-| Supply | TSMC says demand exceeds supply; B200 rents +15% in 30 days (A/B) | TSMC also calls consumer segments "challenged" and is "prudent" on 2027; Nvidia guides gross margin to 71-73% (A) |
+| Supply | TSMC says demand exceeds supply; OCPI B200 monthly mean rose from $6.14 (Aug) to $7.25 (Sep) to $7.74 (Oct to date) (A/B) | TSMC also calls consumer segments "challenged" and is "prudent" on 2027; Nvidia guides gross margin to 71-73% (A) |
 | Credit | Buybacks could be cut; Microsoft liquidity $77B (A) | IMF: ~$300B equity into weaker firms, ~$650B additional debt across investors/investees, ~$1.4T future orders returning spending to backers (staff estimates, A) |
 | Demand quality | 19.8% of employer businesses use AI (Census, May 2026, A) | Token spending roughly flat August-September despite rising usage (Ramp sample, A) |
 | Intermediaries | CoreWeave claims initial-term recovery and renewals (C) | DDTL 5.5 lends five years against three-year contracts (A/C) |

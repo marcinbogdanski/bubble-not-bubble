@@ -32,6 +32,14 @@ AMD, CoreWeave, Micron, SK Hynix, Samsung. For each: assign one agent to
 update the company note's claim table and CSV from the release, 10-Q and
 call transcript, and to list which forecasts (C1-C4, D3, F2) it touches.
 
+## Daily (for P1 and P1b to be scoreable)
+
+- Append the Silicon Data SDH100RT H100 print and the OCPI H100 and B200
+  prints to `data/gpu-index-daily.csv` (date, series, value, source URL,
+  accessed). Neither publisher keeps a public history; OCPI's API holds a
+  rolling three months. `scripts/archive-gpu-prices.sh` is the place for
+  this once written.
+
 ## Monthly
 
 - TSMC monthly revenue (around the 10th): update `data/tsmc-monthly-revenue.csv`

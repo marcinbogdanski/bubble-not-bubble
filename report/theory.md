@@ -146,11 +146,13 @@ cohort-level and undisclosed: GPU economic life (worth 1.6x on required
 revenue), the owner's margin on AI revenue (1.7x between 50% and 30%),
 utilisation, commissioning timing, residual values and the share of customer
 spending that reaches the infrastructure owner. Market evidence on GPU life
-cuts both ways: A100s from 2020 still rent (an aggregator quoted $1.84/hr
-median; the pricing note found $1.79 on 2 October and could not reproduce
-the earlier figure) and H100 contract rates rose through early 2026, while
-on one published benchmark (MiniMax M2.7, FP8) a GB200 serves tokens at
-$0.19 per million against $0.42 on an H100. Lab margins are one leaked
+cuts both ways: A100s from 2020 still rent (a listing median of $1.84/hr
+mixing 40GB and 80GB variants; the OCPI transaction index is $0.94) and
+one-year H100 contract rates rose through early 2026 while the composite
+spot stayed flat near $2.80, and on one published benchmark (MiniMax M2.7
+at 91 tokens per second per user, using hyperscaler ownership cost rather
+than rents) a GB200 serves tokens at $0.19 per million against $0.42 on an
+H100; at market rents that gap largely closes. Lab margins are one leaked
 figure (OpenAI 33% adjusted gross, 2025, unverified) and one unaudited
 "adjusted profit" (Anthropic, Q3 2026).
 
