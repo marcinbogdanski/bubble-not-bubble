@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7c, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7d, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -110,7 +110,7 @@ months from 17 October 2026.
 | M1a: the five chip names alone fall 40% | 6% | 14% | 25% |
 | M1b: ORCL, CRWV, VRT alone fall 40% | 20% | 35% | 50% |
 | F1: CoreWeave distressed credit event, or an acquisition closing below $40 a share | 8% | 20% | 35% |
-| F2: Oracle rated below investment grade by any major agency | 12% | 28% | 42% |
+| F2: Oracle rated below investment grade by any major agency | 8% | 24% | 40% |
 | F3: OpenAI cancels, cuts, or defers by a year or more, a binding compute commitment of $10B+ | 15% | 32% | 52% |
 | F3b: the same for Anthropic | 10% | 22% | 38% |
 | Credit-led unwind: M1 plus distressed credit events at two distinct obligor groups | 3% | 9% | 16% |
@@ -144,6 +144,7 @@ downgrade or a lab commitment cut.
 | Who holds the project bonds and GPU-backed loans, and at what marks | A $1B+ project or SPV distress (F4); dealer marks moving from the current below-88-to-94 cents range |
 | How much purchasing would disappear without supplier financing (51 mapped links) | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop purchases |
 | Whether the hyperscalers cut (C1, C2) or keep building | First calendar-2027 capex guidance with Q4 2026 results |
+| Whether Oracle's customers keep funding their share of its build | The customer-prepayment line in Oracle's Q2 FY2027 cash-flow statement (mid-December): it needs about $5-6B a quarter while capex holds; the Jupiter permit decision (reported deadline 23 November) |
 | How much of the October repricing was AI information versus rates and oil | Spreads of AI names against the index as the 10-year and Brent move |
 
 ## Glossary

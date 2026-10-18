@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.7a, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.7d, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -66,7 +66,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and does not count toward the headline | 8% | 20% | 35% |
-| F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− as of 2026-10-17) | 12% | 28% | 42% |
+| F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− stable as of 2026-10-17; Moody's Baa2 negative; Fitch BBB stable). In practice a one-notch S&P question: its triggers are adjusted leverage above 4.5x or no path to positive FOCF by FY2029, and its own FY2027 forecast sits at both; agencies usually move to a negative outlook before cutting, and S&P went to stable only in July | 8% | 24% | 40% |
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the nominal amount cancelled, deferred or reduced is $10B or more (amendments to one contract aggregate). Supplier-side delivery delays, and slower incremental signings, do not count | 15% | 32% | 52% |
 | F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor). Below F3 because Anthropic's reported operating improvement and $65B Series H (which includes $15B of previously committed supplier funding) give a near-term cushion, while OpenAI's larger reported programme and burn outlook are offset by $122B of committed capital with at least $80B funded by 1 October; both companies' payment schedules and unrestricted cash are unknown, so the gap is judgmental. These questions concern disclosed binding amendments of $10B+, not insolvency; rigidity worsens liquidity but makes cancellation harder | 10% | 22% | 38% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
@@ -152,9 +152,12 @@ basket crash, which is the most likely way the boom under-delivers.
   term. CoreWeave's own disclosure controls were not effective at 30 June
   2026 (10-Q), which lowers the weight on its management's operating claims. Covenant relief in December 2025
   and five-year loans against three-year contracts are the concrete risks.
-- Oracle is one notch above junk with FY2026 FCF of −$23.7B, but a stable
-  S&P outlook, $20B of equity raised, customer advances and legacy earnings
-  argue for a slower path; F2 sits below the vintage-0.1 number.
+- Oracle is one notch above junk with FY2026 FCF of −$23.7B and S&P's own
+  FY2027 forecast at its downgrade triggers, but a stable outlook three
+  months old, $37B of liquidity, no bond deal planned before January 2027
+  and a working share-sale channel argue against a cut inside six months.
+  The first sign of trouble would be the customer-prepayment line in the Q2
+  FY2027 cash-flow statement (mid-December) falling well below $5-6B.
 - D2: the reported targets (OpenAI $70B+ by year-end; an outside
   expectation of $100-110B for Anthropic) sum to roughly $170-180B, not
   $200B, so a Yes needs growth beyond stated targets; at recent growth rates
@@ -173,6 +176,9 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.7d (2026-10-18)**: F2 lowered 12/28/42 to 8/24/40 after the
+  Claude cross-check of the Oracle note (S&P triggers and outlook timing;
+  Moody's and Fitch two notches above junk); no other changes.
 - **Vintage 0.7a (2026-10-18)**: no probability changes; F3b rationale
   added and the private-company rule lists F3b, after the Codex check of
   the Claude review's Anthropic findings.
