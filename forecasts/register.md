@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.6, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.7, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -42,8 +42,8 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | D1 | OpenAI's annualised revenue, as reported on its own accounting basis at two dated points, is lower at the later point. Corrections of basis (gross to net) and comparisons with targets do not count | 5% | 10% | 20% |
-| D2 | Reported annualised revenue of OpenAI plus Anthropic, each on its own basis (exit-month run-rate or latest quarter times four, whichever the company or its reporter states; recorded in the observation ledger), with the two observations dated within 45 days of each other, sums to $200B or more. Current readings: OpenAI ~$50B net (end-September exit); Anthropic >$65B gross (July exit) or $67.2B (Q3 sales x4). Projections and targets do not count | 20% | 45% | 65% |
-| D3 | Azure, Google Cloud or AWS reports a year-on-year growth rate (reported currency, company's restated segment) at least 10 points below the rate reported the previous quarter | 15% | 35% | 60% |
+| D2 | Reported annualised revenue of OpenAI plus Anthropic, each on its own basis (exit-month run-rate or latest quarter times four, whichever the company or its reporter states; recorded in the observation ledger), with the two observations dated within 45 days of each other, sums to $200B or more. Current readings: OpenAI ~$50B net (end-September exit); Anthropic >$65B gross (July exit) or $67.2B (Q3 sales x4). Projections and targets do not count | 20% | 55% | 72% |
+| D3 | Azure, Google Cloud or AWS reports a year-on-year growth rate (reported currency, company's restated segment) at least 10 points below the rate reported the previous quarter | 30% | 50% | 68% |
 
 ## Capex and supply
 
@@ -58,16 +58,17 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 displayed on access 2026-10-17, no fixing timestamp): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization) | 5% | 15% | 35% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 displayed on access 2026-10-17, no fixing timestamp): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, so a Yes at 24 months is partly an age effect, not glut evidence on its own | 5% | 15% | 35% |
 | P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
 ## Credit and financing
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and does not count toward the headline | 15% | 25% | 38% |
+| F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and does not count toward the headline | 8% | 20% | 35% |
 | F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− as of 2026-10-17) | 12% | 28% | 42% |
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the nominal amount cancelled, deferred or reduced is $10B or more (amendments to one contract aggregate). Supplier-side delivery delays, and slower incremental signings, do not count | 15% | 32% | 52% |
+| F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor) | 10% | 22% | 38% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
 | F5 | OpenAI, Anthropic, xAI (or SpaceX in respect of xAI), Mistral, SSI or Thinking Machines closes a priced primary round at a lower fully diluted valuation than its previous priced primary round. IPOs below the last private mark count | 10% | 20% | 35% |
 
@@ -77,9 +78,9 @@ overwritten. The 24-month numbers carry wide error bars.*
 |---|---|---|---|---|
 | M1a | Sub-basket of the five chip names in M1 (NVDA, AVGO, TSM, AMD, MU), same construction, closes at or below 60 | 6% | 14% | 25% |
 | M1b | Sub-basket of the three credit-sensitive names in M1 (ORCL, CRWV, VRT), same construction, closes at or below 60 | 20% | 35% | 50% |
-| M1 | An equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT, indexed to 100 at the 2026-10-16 close with daily rebalancing, closes at or below 60 | 12% | 25% | 38% |
+| M1 | An equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT, indexed to 100 at the 2026-10-16 close with daily rebalancing, closes at or below 60 | 10% | 22% | 30% |
 | M2 | Nvidia's equity market value (closing price times shares outstanding per the latest 10-K or 10-Q as of that date, split-adjusted) is below $2T on any trading day | 3% | 8% | 18% |
-| M3 | The Nasdaq-100 price index (NDX) closes 30% or more below its highest 2026 close recorded before that day (as of 2026-10-16 it is 6.5% below) | 10% | 20% | 32% |
+| M3 | The Nasdaq-100 price index (NDX) closes 30% or more below its highest 2026 close recorded before that day (as of 2026-10-16 it is 6.5% below) | 8% | 16% | 26% |
 
 ## Layer impairment
 
@@ -87,52 +88,69 @@ Forward events only: a further 40% decline from the 2026-10-16 close for
 any one named constituent, or a distressed credit event (definition above)
 at any named constituent or on project debt tied to the layer. Already
 observed 2026-peak drawdowns are listed for context and do not count.
+Caution: "any one constituent" rows in layers with several volatile names
+are largely volatility measures; the Claude review's zero-drift bootstrap
+(realised volatility, no trend) gives CRWV alone 45/59/69 and MU alone
+20/32/42, and the rows below sit near or above those baselines.
 
 | Layer | Constituents | Observed 2026-peak drawdown to 10-16 | 6m | 12m | 24m |
 |---|---|---|---|---|---|
 | Equipment | ASML, AMAT, LRCX, KLAC, TEL (8035.T) | moderate | 15% | 30% | 45% |
 | Foundry | TSM (Taiwan risk included) | moderate | 8% | 18% | 32% |
-| Memory | MU, 000660.KS, 005930.KS | SK Hynix −56% | 12% | 28% | 45% |
-| Accelerators | NVDA, AMD, AVGO | AVGO −32% | 15% | 30% | 45% |
+| Memory | MU, 000660.KS, 005930.KS | SK Hynix −56% | 25% | 40% | 52% |
+| Accelerators | NVDA, AMD, AVGO | AVGO −32% | 20% | 37% | 52% |
 | Hyperscalers | MSFT, GOOGL, AMZN, META | small | 8% | 18% | 30% |
-| Oracle | ORCL equity; Oracle corporate or Oracle-tenanted project debt | −48% | 15% | 30% | 45% |
-| Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CRWV −56% | 40% | 55% | 70% |
+| Oracle | ORCL equity; Oracle corporate or Oracle-tenanted project debt | −48% | 22% | 38% | 52% |
+| Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CRWV −56% | 65% | 78% | 85% |
 | Frontier labs | OpenAI, Anthropic, xAI/SpaceX: a down round (F5 definition) or a reported markdown of 40%+ | n/a | 10% | 25% | 40% |
 | Neolabs and applications | SSI, Thinking Machines, Reflection, Periodic, Mistral, Perplexity, Cursor, Harvey, Glean, Sierra: any down round, shutdown or distressed sale | n/a | 25% | 45% | 65% |
 | Power and datacenter | VRT, GEV, EQIX, DLR equity; any datacenter project bond or loan of $1B+ whose tenant is an AI compute buyer (the F4 universe) | VRT −45% | 20% | 38% | 52% |
 
-## Headline
+## Headlines
 
-A 2000-style unwind: M1 resolves yes **and** distressed credit events
-(definition above; not down rounds, rating actions, deferrals or the F1
-acquisition branch) occur at two distinct obligor groups among {CoreWeave
+Two unwind patterns, both conditional on M1 (the basket falling 40%).
+Distressed credit events are as defined above: not down rounds, rating
+actions, deferrals or the F1 acquisition branch. Obligor groups: CoreWeave
 and its SPVs; Oracle corporate; each other listed neocloud with its SPVs;
-each project or GPU-backed debt vehicle of $1B+ grouped by sponsor}. One
-restructuring counts once. Dealer marks below par are not events. The same
-obligor-group list defines the credit perimeter for F4 and the layer rows.
-This measures one severe outcome, not every way the boom could disappoint.
+each project or GPU-backed debt vehicle of $1B+ grouped by sponsor. One
+restructuring counts once; dealer marks below par are not events. The same
+list defines the credit perimeter for F4 and the layer rows.
 
-| 6m | 12m | 24m |
-|---|---|---|
-| 6% | 13% | 20% |
+Conditional tree given M1 (zero / one / two-or-more distinct credit
+failures), rising with horizon because defaults lag equity falls (telecom's
+came one to two years after the March 2000 peak):
 
-Implied probability of two distinct credit failures given the basket event:
-50% / 52% / 53%. The scenario tree behind that: multiple compression alone
-(no credit failure) is the most likely basket-crash path; one large failure
-(CoreWeave or Oracle) next; two or more distinct failures requires the
-take-or-pay contracts to fail at more than one counterparty.
+| Horizon | P(M1) | zero | one | two+ | Credit-led unwind (M1 and two+) | Equity-led unwind (M1 and at most one) |
+|---|---|---|---|---|---|---|
+| 6m | 10% | 0.45 | 0.25 | 0.30 | 3% | 7% |
+| 12m | 22% | 0.35 | 0.25 | 0.40 | 9% | 13% |
+| 24m | 30% | 0.25 | 0.20 | 0.55 | 16% | 14% |
+
+The equity-led row is the actual 2000 pattern (an equity bust with the
+credit failures arriving later or not at all); the credit-led row is the
+telecom 2001-02 pattern. Neither covers a slow disappointment without a
+basket crash, which is the most likely way the boom under-delivers.
 
 ## Reasoning, in brief
 
-- Supply-side disclosures still point to more capex in 2027 (ASML capacity
-  sold through 2028, Broadcom supply "secured" for FY2027-28, Microsoft and
-  Amazon raising guidance), so C1 stays low. The cycle would turn at the
+- Supply-side disclosures still point to more capex in 2027 (ASML expects
+  planned 2027-28 output below customer demand, with 2029-30 interest not
+  yet accepted orders; Broadcom supply "secured" for FY2027-28; Microsoft
+  and Amazon raising guidance), so C1 stays low.
+- Drift: M1, M1a, M1b and M3 sit above a zero-drift bootstrap at realised
+  volatility (M1 3/10/16; M3 1/4/11) and near a 1.5x-volatility stress
+  (M1 13/21/27). The excess is a deliberate bearish tilt: rates rising into
+  an energy shock, a shut unsecured market for the weakest issuer, and
+  payback arithmetic that needs revenue to keep doubling. The cycle would turn at the
   funding layer first; the credit questions carry the highest numbers.
 - CoreWeave's CDS at 1,000-1,195bp maps to roughly 57-63% five-year
-  risk-neutral default probability at 40% recovery and flat hazard, or
-  28-33% over two years; risk-neutral probabilities overstate real-world
-  ones. F1 at 35% also includes a non-distressed sale below $40, so it is
-  not a CDS-derived number. Covenant relief in December 2025
+  risk-neutral default probability at 40% recovery and flat hazard, about
+  8-10% at six months and 28-33% over two years; risk-neutral probabilities
+  overstate real-world ones. F1 (8/20/35) tracks that path; its sale branch
+  adds little at six months because a deal must close, and the DSCR test
+  deferred to October 2027, the ATM and the cure rights cushion the near
+  term. CoreWeave's own disclosure controls were not effective at 30 June
+  2026 (10-Q), which lowers the weight on its management's operating claims. Covenant relief in December 2025
   and five-year loans against three-year contracts are the concrete risks.
 - Oracle is one notch above junk with FY2026 FCF of −$23.7B, but a stable
   S&P outlook, $20B of equity raised, customer advances and legacy earnings
@@ -155,6 +173,17 @@ take-or-pay contracts to fail at more than one counterparty.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.7 (2026-10-18, after the Claude Opus review)**: headline
+  split into credit-led (3/9/16) and equity-led (7/13/14) with a published
+  conditional tree rising with horizon; M1 lowered 12/25/38 to 10/22/30 and
+  M3 10/20/32 to 8/16/26 with the drift assumption stated; F1 lowered
+  15/25/38 to 8/20/35 (sale branch cannot close in six months; CDS path);
+  D2 raised 20/45/65 to 20/55/72 and D3 15/35/60 to 30/50/68 (Google Cloud's
+  lumpy TPU-sales growth makes a 10-point deceleration easy); single-name
+  layer rows recalibrated to the volatility baseline (neoclouds 65/78/85,
+  memory 25/40/52, accelerators 20/37/52, Oracle 22/38/52); F3b (Anthropic
+  twin of F3) added at 10/22/38; P1 age caveat added. Cause: the review's
+  bootstrap and coherence analysis.
 - **Vintage 0.6 (2026-10-18)**: no probability changes; market comparison
   added on the front page (Polymarket 6.9%/16.5%, CoreWeave CDS-implied
   path, Goldman capex path); no matched market exists for any question.
