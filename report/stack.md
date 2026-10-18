@@ -95,13 +95,13 @@ with the counter-evidence beside them.
   public indices measure different things and cannot be spliced.
 - **Cross-cutting**: [debt-markets](/research/macro/debt-markets) (about
   $494B of corporate principal at five large issuers including legacy
-  non-AI debt, $572B with selected project securities, both dated May-June
-  2026 snapshots; tight aggregate spreads with selective stress), [circular-financing](/research/macro/circular-financing),
+  non-AI debt, $572B with selected project securities, now on filed inputs
+  with about $46B also counted in the neocloud layer; the earlier $723B
+  perimeter is withdrawn; tight aggregate spreads with selective stress), [circular-financing](/research/macro/circular-financing),
   [demand-side](/research/macro/demand-side),
-  [public-markets](/research/macro/public-markets) (the debt note's $494B
-  and $572B corporate and project principal figures now rest on filed
-  inputs; about $46B of them is also in the neocloud layer total; its
-  earlier $723B perimeter is withdrawn),
+  [public-markets](/research/macro/public-markets) (top ten at 20.9x
+  forward earnings, their own average, against 17.9x for the rest; the
+  concentration is an earnings risk more than a multiple risk),
   [power-and-datacenters](/research/macro/power-and-datacenters),
   [rates-sovereign-geopolitics](/research/macro/rates-sovereign-geopolitics),
   [china](/research/macro/china).

@@ -34,8 +34,10 @@ overwritten. The 24-month numbers carry wide error bars.*
   without concessions and voluntary buybacks do not count.
 - A question becomes void if the series or disclosure it depends on ceases
   to exist; this is recorded, not scored.
-- Observations and their archived copies go in `data/forecast-observations.csv`
-  (to be created at first resolution check).
+- Baselines and observations are in `data/forecast-observations.csv`
+  (29 closes verified; M1, M1a and M1b at 100 on 2026-10-16; M1 is already
+  23.8% below its 2026 peak and M1b 43.4%, so the trigger at 60 means about
+  −54% and −66% from peak).
 
 ## Demand and revenue
 
@@ -78,7 +80,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | M1a | Sub-basket of the five chip names in M1 (NVDA, AVGO, TSM, AMD, MU), same construction, closes at or below 60 | 6% | 14% | 25% |
-| M1b | Sub-basket of the three credit-sensitive names in M1 (ORCL, CRWV, VRT), same construction, closes at or below 60 | 20% | 35% | 50% |
+| M1b | Sub-basket of the three financing-sensitive names in M1 (ORCL, CRWV, VRT), same construction, closes at or below 60 | 20% | 35% | 50% |
 | M1 | An equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT, indexed to 100 at the 2026-10-16 close with daily rebalancing, closes at or below 60 | 10% | 22% | 30% |
 | M2 | Nvidia's equity market value (closing price times shares outstanding per the latest 10-K or 10-Q as of that date, split-adjusted) is below $2T on any trading day | 3% | 8% | 18% |
 | M3 | The Nasdaq-100 price index (NDX) closes 30% or more below its highest 2026 close recorded before that day (as of 2026-10-16 it is 6.5% below) | 8% | 16% | 26% |

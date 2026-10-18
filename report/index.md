@@ -60,7 +60,7 @@ Full [register](/forecasts/register): 6 / 12 / 24 months from 17 October 2026.
 | Demand without supplier/investor/customer financing | Backstop usage; warrant vesting; Nvidia receivables |
 | Hyperscaler cuts (C1, C2) | Calendar-2027 capex guidance with Q4 2026 results |
 | Oracle customer funding | Q2 FY2027 advances/hardware against assumed $20-25B annual capex offsets; Jupiter permit hearing, reportedly moved to 7 December |
-| AI versus rates/oil repricing | AI spreads against the index as the 10-year and Brent move |
+| AI versus rates/oil repricing (in the week of 10-17 October the 10-year fell from 5.24% to 5.10% while high-yield spreads widened and ORCL/CRWV/VRT fell 16.5% against 10.5% for the chip names: a credit channel more than a rates shock) | AI spreads against the index as the 10-year and Brent move |
 
 ## Glossary
 

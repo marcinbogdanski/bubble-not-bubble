@@ -169,9 +169,11 @@ incumbents) has begun in two places: policy (the Fed's September hike, whose
 minutes link it partly to AI investment and partly to energy), and the
 sector split in which neocloud equity and single-tenant project bonds fell
 far more than the hyperscalers while hyperscaler bond spreads widened
-earlier in 2026. The week of 10-17 October coincided with a 5.1-5.3%
-10-year and Brent above $100, so not all of that repricing is AI-specific
-information. Whether a Blackwell-era
+earlier in 2026. The 10-year had risen to 5.31% on 5 October and Brent was above $100, but
+during the week of 10-17 October itself the 10-year fell from 5.24% to 5.10%
+while high-yield spreads widened and the financing-sensitive names (Oracle,
+CoreWeave, Vertiv) fell 16.5% against 10.5% for the chip names, which fits a
+credit channel better than a rates shock. Whether a Blackwell-era
 supply glut arrives in 2027 is a scenario, not an observation; the H100
 monthly averages are flat, newer chips firmer, A100s softer, with a sharp
 two-day H100 drop on 14-16 October inside a flat month.
