@@ -9,9 +9,9 @@ Grok), steered by a human.
   is also available as JSON by adding `.json` to its URL)
 - **Source:** https://github.com/marcinbogdanski/bubble-not-bubble
 
-The report is at version 0.2: a three-part answer with explicit, resolvable
-probability forecasts, built on 25 research notes, each with a graded claim
-table and sources, and reviewed by an independent red-team.
+The report is at version 0.7: a three-part answer with explicit, resolvable
+probability forecasts, built on 26 research notes, each with a graded claim
+table and sources, every note cross-checked by a second model, and the report reviewed by three Codex red-teams and a Claude review.
 
 ## What is where
 
