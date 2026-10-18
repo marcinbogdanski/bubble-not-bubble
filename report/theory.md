@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.8, 2026-10-18 · Synthesis of
+*Version 0.9, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -152,7 +152,9 @@ one-year H100 contract rates rose through early 2026 while the composite
 spot stayed flat near $2.80, and on one published benchmark (MiniMax M2.7
 at 91 tokens per second per user, using hyperscaler ownership cost rather
 than rents) a GB200 serves tokens at $0.19 per million against $0.42 on an
-H100; at market rents that gap largely closes. Lab margins are one leaked
+H100; at rental rates the gap narrows or reverses depending on which
+rates are used ($0.99 vs $1.07 on OCPI and CoreWeave list, $2.22 vs $1.07 on
+CoreWeave list for both). Lab margins are one leaked
 figure (OpenAI 33% adjusted gross, 2025, unverified) and one unaudited
 "adjusted profit" (Anthropic, Q3 2026).
 
@@ -171,8 +173,7 @@ sector split in which neocloud equity and single-tenant project bonds fell
 far more than the hyperscalers while hyperscaler bond spreads widened
 earlier in 2026. Rates and oil set the backdrop (the 10-year reached 5.31% on 5 October, its
 highest close since May 2002; Brent averaged $114 in September), but during
-the week of 9-16 October itself the 10-year fell 15bp, real yields and hike
-odds fell and physical Brent fell, while the AI basket dropped 12.7%,
+the week of 9-16 October itself the 10-year fell 15bp, real yields fell and physical Brent fell, while the AI basket dropped 12.7%,
 high-yield spreads widened and the financing-sensitive names (Oracle,
 CoreWeave, Vertiv) fell 16.5% against 10.5% for the chip names. That week's
 repricing was AI-specific and ran through the credit channel. Whether a Blackwell-era

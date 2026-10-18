@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.8c, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.9, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -60,8 +60,8 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 as of 2026-10-17, published each business day; both this series and OCPI must be archived daily in data/ because neither keeps a public history): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled publication days present and no interpolation. If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, and today's 6.4-year-old A100 already prices at $1.53 on the same index in a market with no glut, so a Yes at 24 months is largely an age effect; read it together with P1b | 5% | 15% | 35% |
-| P1b | The Ornn OCPI B200 monthly mean (September 2026: $7.245) is below $4.50 for three consecutive complete months inside the horizon; on 2027-10-17 the question rolls to the newest Nvidia GPU with at least 180 days of OCPI history, with Silicon Data's B200 index as fallback. P1 Yes with P1b No reads as ageing; both Yes reads as glut | 3% | 10% | 20% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 as of 2026-10-17, published each business day; both this series and OCPI must be archived daily in data/ because neither keeps a public history): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled business-day publications present as fresh prints (no carried-forward, interpolated or disruption-flagged values). If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, and today's 6.4-year-old A100 already prices at $1.53 on the same index in a market with no glut, so a Yes at 24 months is largely an age effect; read it together with P1b | 5% | 15% | 35% |
+| P1b | The Ornn OCPI B200 monthly mean (September 2026: $7.245) is below $4.50 for three consecutive complete months inside the horizon, each month with at least 80% fresh calendar-day coverage (no carried-forward or interpolated prints); on 2027-10-17 the 24-month reference rolls to the newest Nvidia datacenter GPU with at least 180 days of OCPI history, its threshold reset to 62% of its 2027-Q3 monthly mean; Silicon Data's B200 index is the fallback, calibrated on at least 60 fresh overlapping days. P1 Yes with P1b No reads as ageing; both Yes reads as glut | 3% | 10% | 20% |
 | P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
 ## Credit and financing
@@ -186,6 +186,10 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.9 (2026-10-18)**: no probability changes; P1/P1b coverage
+  rules tightened; final consistency sweep applied. Reconciliation: F5
+  moved from 10/25/45 (vintage 0.1) to 10/20/35 in vintage 0.2 without its
+  numerical outcome being itemised there.
 - **Vintage 0.8c (2026-10-18)**: neolab layer lowered 25/45/65 to
   15/35/55 and Cursor removed from its cohort (acquired before the origin),
   "distressed sale" defined; xAI removed from F5 (inside listed SpaceX);

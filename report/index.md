@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.8a, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.9, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 cross-checked research notes, after three Codex red-team
 reviews, a [Claude review](/reviews/2026-10-18-claude-opus-review) and a
 Codex trim. Rules: [Methodology](/report/methodology). Glossary at the end.*
@@ -15,8 +15,8 @@ Codex trim. Rules: [Methodology](/report/methodology). Glossary at the end.*
 
 ## The four facts that carry the answer
 
-- **The incumbents generate cash but are now borrowing to build.** Microsoft's FY2026 cash capex consumed 63% of operating cash flow. Amazon raised $67B of long-term-debt proceeds in H1, and two-thirds of its Q2 pre-tax income was the mark-up on its Anthropic stake. Meta's 2026 free cash flow lands between −$17B and +$14B on three sensitivities, short of its $23B of dividends and stock-tax withholding in every case (filings, A; sensitivities B). S&P forecasts negative free operating cash flow at all six rated hyperscalers in 2026-27 (A for stated forecast).
-- **The intermediaries are cash-strained now.** Oracle: FY2026 FCF −$23.7B, August borrowings $125B (filings, A); BBB− since 9 July (S&P, B). CoreWeave: net interest consumed 25% of Q2 revenue; H1 operating cash of $3.7B versus $5.2B principal repaid; principal due $4.4B in remaining 2026, $6.2B in 2027, $4.4B in 2028. Its CEO and CFO found disclosure controls ineffective at 30 June because of material weaknesses (10-Q, A). Five-year CDS exceeded 1,000bp on 15 October (B).
+- **The incumbents generate cash but are now borrowing to build.** Microsoft's FY2026 cash capex consumed 63% of operating cash flow. Amazon raised $67B of long-term-debt proceeds in H1, and about 62% of its Q2 pre-tax income was a preferred-stock repricing gain, mainly on its Anthropic stake. Meta's 2026 free cash flow lands between −$17B and +$14B on three sensitivities, short of its $23B of dividends and stock-tax withholding in every case (filings, A; sensitivities B). S&P forecasts negative free operating cash flow at all six rated hyperscalers in 2026-27 (A for stated forecast).
+- **The intermediaries are cash-strained now.** Oracle: FY2026 FCF −$23.7B, August borrowings $125B (filings, A); BBB− since 9 July (S&P, B). CoreWeave: net interest consumed 25% of Q2 revenue; H1 operating cash of $3.7B versus $5.2B principal repaid; the 30 June maturity schedule lists $4.4B for July-December 2026, $6.2B for 2027 and $4.4B for 2028. Its CEO and CFO found disclosure controls ineffective at 30 June because of material weaknesses (10-Q, A). Five-year CDS exceeded 1,000bp on 15 October (B).
 - **Demand is growing fast and is broad, while backlog is concentrated.** Azure +43%, Google Cloud +82%; nearly 90% of Microsoft's FY2026 Cloud revenue came from outside frontier labs, but OpenAI represented about 45% of December 2025 commercial RPO (filings/calls, A). OpenAI's September net annualised revenue was roughly $50B; Anthropic's July exit run-rate was above $65B on a gross basis, with an outside ~$74B October estimate ([lab note](/research/stack/anthropic)). Anthropic's Q3 revenue was $16.8B at an 11% adjusted operating margin. These figures are unaudited, reported, unverified (C), on different bases. Adjusted profit is not cash flow; they do not rank cash generation.
 - **Investment returns are unknown.** No company discloses cohort returns. OpenAI's 2026-30 cash-flow forecasts drifted from +$14B to −$179B across three plans (reported, unverified, C), with a disputed fourth at −$278B (D). End-2025 cash plus the $122B round funds February's burn plan only into 2028 (reported, unverified, C). Reuters reports Anthropic commitments of at least $518B over a decade, ~80% non-cancellable or payable regardless of use (reported, unverified, C).
 
@@ -60,7 +60,7 @@ Full [register](/forecasts/register): 6 / 12 / 24 months from 17 October 2026.
 | Demand without supplier/investor/customer financing | Backstop usage; warrant vesting; Nvidia receivables |
 | Hyperscaler cuts (C1, C2) | Calendar-2027 capex guidance with Q4 2026 results |
 | Oracle customer funding | Q2 FY2027 advances/hardware against assumed $20-25B annual capex offsets; Jupiter permit hearing, reportedly moved to 7 December |
-| AI versus rates/oil repricing (in the week of 9-16 October yields, real yields, hike odds and oil all fell while the AI basket dropped 12.7% and ORCL/CRWV/VRT fell 16.5% against 10.5% for chips: AI-specific, via credit) | Daily M1 return minus the equal-weight S&P, regressed on real 10-year, 2-year and Brent changes; AI versus non-AI high-yield spreads at the same rating |
+| AI versus rates/oil repricing (in the week of 9-16 October yields, real yields and oil all fell while the AI basket dropped 12.7% and ORCL/CRWV/VRT fell 16.5% against 10.5% for chips: AI-specific, via credit) | Daily M1 return minus the equal-weight S&P, regressed on real 10-year, 2-year and Brent changes; AI versus non-AI high-yield spreads at the same rating |
 
 ## Glossary
 
@@ -68,4 +68,4 @@ RPO: contracted revenue not yet recognised. FCF: operating cash flow less capex.
 
 ## Status
 
-All 26 research notes were cross-checked by a second model, six by both vendors; page reviews are under reviews and every forecast revision is in the [register](/forecasts/register)'s history. Agents start at [llms.txt](/llms.txt). No paywalled sources were used, biasing coverage toward leaked lab figures and away from sell-side and rating-agency credit work.
+All 26 research notes were cross-checked by a second model, sixteen by both vendors; page reviews are under reviews and every forecast revision is in the [register](/forecasts/register)'s history. Agents start at [llms.txt](/llms.txt). No paywalled sources were used, biasing coverage toward leaked lab figures and away from sell-side and rating-agency credit work.
