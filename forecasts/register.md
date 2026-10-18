@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.7, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.7a, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -15,7 +15,7 @@ overwritten. The 24-month numbers carry wide error bars.*
   governs). Source hierarchy: company filings and releases, then Reuters,
   Bloomberg, FT, WSJ, CNBC, The Information. Question-specific rules take
   precedence over these general rules.
-- Private-company questions (D1, D2, F3, F5, lab and neolab layers) resolve
+- Private-company questions (D1, D2, F3, F3b, F5, lab and neolab layers) resolve
   on qualifying public disclosure; if none appears by the horizon the answer
   is No. A later disclosure of an earlier event does not reopen a resolved
   question.
@@ -68,7 +68,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and does not count toward the headline | 8% | 20% | 35% |
 | F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− as of 2026-10-17) | 12% | 28% | 42% |
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the nominal amount cancelled, deferred or reduced is $10B or more (amendments to one contract aggregate). Supplier-side delivery delays, and slower incremental signings, do not count | 15% | 32% | 52% |
-| F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor) | 10% | 22% | 38% |
+| F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor). Below F3 because Anthropic's reported operating improvement and $65B Series H (which includes $15B of previously committed supplier funding) give a near-term cushion, while OpenAI's larger reported programme and burn outlook are offset by $122B of committed capital with at least $80B funded by 1 October; both companies' payment schedules and unrestricted cash are unknown, so the gap is judgmental. These questions concern disclosed binding amendments of $10B+, not insolvency; rigidity worsens liquidity but makes cancellation harder | 10% | 22% | 38% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
 | F5 | OpenAI, Anthropic, xAI (or SpaceX in respect of xAI), Mistral, SSI or Thinking Machines closes a priced primary round at a lower fully diluted valuation than its previous priced primary round. IPOs below the last private mark count | 10% | 20% | 35% |
 
@@ -173,6 +173,9 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.7a (2026-10-18)**: no probability changes; F3b rationale
+  added and the private-company rule lists F3b, after the Codex check of
+  the Claude review's Anthropic findings.
 - **Vintage 0.7 (2026-10-18, after the Claude Opus review)**: headline
   split into credit-led (3/9/16) and equity-led (7/13/14) with a published
   conditional tree rising with horizon; M1 lowered 12/25/38 to 10/22/30 and

@@ -1,11 +1,11 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7a, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
-reviewer share a vendor; its Anthropic findings are routed to a Codex
-check). Rules: [Methodology](/report/methodology). Glossary at the end.*
+reviewer share a vendor; its Anthropic findings and arithmetic were then
+[checked by Codex](/reviews/2026-10-18-codex-check-v07)). Rules: [Methodology](/report/methodology). Glossary at the end.*
 
 ## The short answer
 
@@ -20,26 +20,28 @@ credit, with the four hyperscalers spending 96% of operating cash flow on
 cash capex in Q2 2026 (filings, A); a Fed that hiked in September and whose
 minutes say AI-related investment is itself "contributing to inflation
 pressures", alongside an energy shock (Brent averaged $114 in September; Fed
-and EIA, A). CAPE at 40.6 (Shiller, A) and margin debt at $1.48T (FINRA, A)
-are market-wide rather than AI-specific, and the forward P/E of 19 is the
-standard objection; the [theory](/report/theory) page takes that up. This is
-a resemblance test: it does not establish that AI assets are overpriced.
+and EIA, A). CAPE at 40.6 and margin debt at $1.48T (A) are market-wide rather than
+AI-specific; the forward-P/E objection is taken up in
+[theory](/report/theory). This is a resemblance test: it does not establish
+that AI assets are overpriced.
 
-**2. Is capital being deployed faster than returns can service it? Unproven,
-and the bar is high.** Our payback model is a scenario: a $750B cohort,
-two-thirds short-lived compute at a six-year life, needs about $295B of
-incremental annual owner revenue at a 50% margin and 10% cost of capital
-($468B at a three-year life). The best demand figure, about $180B of
-deduplicated end-user AI revenue in 2026 (range $130-230B), is a grade-D
-working model, and the two are not like for like. The forward view is
-sharper: on announced plans (Goldman's $3.4T of hyperscaler capex for
-2026-28), the same arithmetic needs roughly $0.8-1.3T a year of owner
-revenue by about 2029, which means end-user AI revenue roughly doubling every
-year to 2030 (reviewer arithmetic on report inputs, B; inputs D). It roughly
-tripled in 2026; our own base path assumes +67% then +60%, which falls short.
-So one of three things happens: growth stays near doubling, capex is cut
-(C1, C2 below), or returns disappoint. Cohort-level returns, GPU economic
-life and owner margins remain undisclosed.
+**2. Is capital being deployed faster than returns can service it?
+Unproven; an illustrative payback scenario sets a high bar.** Our model
+(two-thirds equipment at a six-year life, one-third buildings at 15 years,
+50% owner EBITDA margin, 10% discount rate; unit-economics note) says a $750B
+cohort needs about $295B of annual owner revenue while it operates, $468B at
+a three-year life. Applied to a 60-100% AI share of Goldman's $3.4T
+hyperscaler-capex forecast for 2026-28, the 2026-28 cohorts need $0.8-1.3T a
+year of owner revenue once they all operate; at 50% end-user-to-owner
+capture that is $1.6-2.7T of annual end-user AI revenue, against a grade-D
+estimate of about $180B in 2026. Reaching it by 2029-30 would take growth of
+roughly 70-150% a year (arithmetic reproducible, B; inputs and sector
+application D). It roughly tripled in 2026; our own base path assumes +67%
+then +60%. The scenario omits replacement capex that preserves existing
+revenue, advertising and internal-savings benefits, commissioning timing and
+residual values, any of which could move it; cohort-level returns, GPU
+economic life and owner margins remain undisclosed. Capex cuts (C1, C2
+below) are the self-correcting path, and none is expected near term.
 
 **3. Where is the fragility, and who bears it? Failure risk sits in the
 middle of the stack; most of the dollars at risk sit at the top.** Likeliest
@@ -49,9 +51,10 @@ Q2 revenue, $5.2B of H1 principal repaid against $3.7B of operating cash,
 DDTL 3.0 covenant relief in December 2025, 5-year CDS above 1,000bp on 15
 October; 10-Q A, CDS B), the other listed neoclouds (about $81B of debt in
 the layer including CoreWeave, on mixed bases) and the frontier labs, OpenAI
-and Anthropic alike (Anthropic reports $518B of commitments, about 80%
-non-cancellable, with Broadcom's $29B backstop behind part of it; reported,
-C). Equity has repriced: the weakest names are down 45-56% from 2026 peaks,
+and Anthropic alike (Reuters reports at least $518B of Anthropic commitments
+over a decade, about 80% non-cancellable or payable regardless of use,
+reported C; Broadcom's filed $29B maximum backstop protects a financing
+partner and gives Anthropic no liquidity). Equity has repriced: the weakest names are down 45-56% from 2026 peaks,
 the Nasdaq-100 6.5%, though some of that is a rates and oil move, not AI
 information. Credit has only begun to: CoreWeave's unsecured notes yield
 14-16% and no AI-related debt has yet defaulted. If returns disappoint
@@ -80,10 +83,11 @@ against 5-6-year chips (Kansas City Fed, A). [Stack](/report/stack)
   Azure +43%, Google Cloud +82%, 30M paid Copilot seats; nearly 90% of
   Microsoft's FY2026 Cloud revenue came from customers other than frontier
   labs, yet OpenAI was about 45% of its December 2025 commercial RPO
-  (filings and calls, A). Anthropic reports $16.8B of Q3 revenue at an 11%
-  adjusted operating margin; OpenAI about $50B of net annualised revenue
-  against its own forecast of $25B of 2026 cash burn (reported, unverified,
-  C).
+  (filings and calls, A). Anthropic's reported $16.8B of Q3 revenue at an 11%
+  adjusted operating margin is unaudited, and adjusted profit is not cash
+  flow; OpenAI's roughly $50B of net annualised revenue and its February
+  forecast of $25B of 2026 cash burn are on different bases and dates. None
+  of these ranks the two on cash generation (reported, unverified, C).
 - **Investment returns are unknown.** No company discloses cohort-level
   returns on AI capacity. Depreciation lives are 5-6 years; A100s still
   rent at about a third of H100 rates; one benchmark has a GB200 serving
@@ -151,9 +155,7 @@ ratio. IG: investment grade.
 ## Status
 
 All 26 research notes were cross-checked by a second model against primary
-sources and corrected. Three Codex red-team reviews and one Claude review of
-this page are published under reviews, with every change logged in the
-register's history. No paywalled sources were used, which biases the
-evidence toward leaked lab figures and away from sell-side and rating-agency
-credit work. Start points for agents: [llms.txt](/llms.txt), the raw
-markdown of every page, the [data](/data/) folder.
+sources and corrected; the reviews of this page are under reviews and every
+change is logged in the register's history. No paywalled sources were used,
+which biases the evidence toward leaked lab figures and away from sell-side
+and rating-agency credit work. Agents start at [llms.txt](/llms.txt).
