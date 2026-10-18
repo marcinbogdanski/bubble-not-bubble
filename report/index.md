@@ -17,7 +17,7 @@ seven-indicator heuristic, 12 points of 14: record forward purchases (Oracle
 RPO $664B, Microsoft $678B, Nvidia supply commitments $279B; filings, A);
 capex financing moving from cash flow to bonds, equity, SPVs and vendor
 credit, with the four hyperscalers spending 96% of operating cash flow on
-cash capex in Q2 2026 (filings, A); a Fed that hiked in September and whose
+cash capex in Q2 2026 (filing inputs A, arithmetic B); a Fed that hiked in September and whose
 minutes say AI-related investment is itself "contributing to inflation
 pressures", alongside an energy shock (Brent averaged $114 in September; Fed
 and EIA, A). CAPE at 40.6 and margin debt at $1.48T (A) are market-wide rather than
@@ -46,8 +46,11 @@ below) are the self-correcting path, and none is expected near term.
 
 **3. Where is the fragility, and who bears it? Failure risk sits in the
 middle of the stack; most of the dollars at risk sit at the top.** Likeliest
-to fail: Oracle (FY2026 free cash flow −$23.7B, $125B of borrowings, BBB− at
-S&P since July; filings and rating action, A), CoreWeave (net interest 25% of
+to fail: Oracle (FY2026 free cash flow −$23.7B, $125B of borrowings at
+August, filings A; BBB− at S&P since 9 July, with S&P forecasting about
+−$42B of FY2027 free operating cash flow and mid-4x leverage, little
+headroom against its downgrade triggers, and estimating OpenAI at roughly
+half of May's $638B backlog; rating reports, B), CoreWeave (net interest 25% of
 Q2 revenue, $5.2B of H1 principal repaid against $3.7B of operating cash,
 DDTL 3.0 covenant relief in December 2025, 5-year CDS above 1,000bp on 15
 October; 10-Q A, CDS B), the other listed neoclouds (about $81B of debt in
@@ -66,8 +69,10 @@ information. Credit has only begun to: CoreWeave's unsecured notes yield
 14-16% and no AI-related debt has yet defaulted. If returns disappoint
 without defaults, the largest losses land elsewhere: on equity in Nvidia and
 the hyperscalers (the top ten are 40.6% of the S&P 500) and on the $330B of
-AI-related investment-grade bonds issued in 2026 at 16-17-year maturities
-against 5-6-year chips (Kansas City Fed, A). [Stack](/report/stack)
+AI-related investment-grade bonds issued through Q2 2026, where a 2025-26
+issuance sample shows weighted-average maturities of 16 years for
+hyperscalers and 17 for utilities against 5-6-year chips (Kansas City Fed,
+A). [Stack](/report/stack)
 
 ## The four facts that carry the answer
 
@@ -80,7 +85,8 @@ against 5-6-year chips (Kansas City Fed, A). [Stack](/report/stack)
   (rating-agency release, A for the stated forecast).
 - **The intermediaries are cash-strained now.** CoreWeave's 30 June schedule
   has $4.4B more principal due in the rest of 2026, $6.2B in 2027 and $4.4B
-  in 2028 (10-Q, A), its unsecured issuance window is effectively shut, and
+  in 2028 (10-Q, A), its secondary unsecured yields exceed 15% (issuance access since the
+  selloff is unverified), and
   its CEO and CFO concluded its disclosure controls were not effective at 30
   June 2026 because of material weaknesses (10-Q, A), which qualifies every
   management claim about returns and renewals. Oracle's Q1 FY2027 operating
@@ -128,12 +134,12 @@ downgrade or a lab commitment cut.
 
 | Topic | Bull (source, grade) | Bear (source, grade) |
 |---|---|---|
-| Valuation | S&P technology ~21x earnings vs 70x in 2000; semiconductor earnings +178% y/y (Timmer, B) | GPU buyers' capex is suppliers' revenue, so the E can be the bubble while the P/E looks ordinary (Druckenmiller via FT, B); suppliers also booked about $190B of 2026 gains on their stakes in the labs (Alphabet $114B and Amazon $63B in H1 alone; filings, A) |
-| Demand path | SemiAnalysis: OpenAI plus Anthropic revenue $600-700B by December 2027; up to $50M revenue per MW against $10-15M of cost (estimate, C) | Gartner: $8.5T of cumulative revenue needed through 2030 for a 12% return, at most $3.6T attributable to owners (B) |
-| Supply | TSMC and ASML say demand exceeds planned supply through 2028; B200 rents +15% in 30 days to $8.12 (A/B) | Nvidia guides its own gross margin down to 71-73%; by 2028 the H100 is 5.5 years old (A) |
+| Valuation | S&P technology ~21x earnings vs 70x in 2000; semiconductor earnings +178% y/y (Timmer; attribution B, estimates C) | GPU buyers' capex is suppliers' revenue, so the E can be the bubble while the P/E looks ordinary (Druckenmiller via FT, B); investment marks also inflate earnings: Alphabet reported $98B of Q2 other income, largely unrealised gains, and Amazon $50.5B of Q2 gains on repricing its Anthropic preferred stock (filings, A) |
+| Demand path | SemiAnalysis: OpenAI plus Anthropic revenue $600-700B by December 2027; up to $50M revenue per MW against $10-15M of cost (estimate, C) | Gartner's scenario: $8.5T of cumulative owner revenue needed through 2030 at a 12% return, at most $3.6T attributable to AI datacenters (attribution A, modelled outcomes C) |
+| Supply | ASML expects planned 2027-28 output below customer demand; TSMC said on 15 October demand still exceeds supply; B200 rents +15% in 30 days to $8.12 (A/B) | Nvidia guides its own gross margin down to 71-73%; by 2028 the H100 is 5.5 years old (A) |
 | Credit | Liquidity: Microsoft $77B, Amazon $123B, Meta $90B, Alphabet $155B; buybacks could be cut (A) | IMF: ~$300B of equity into weaker AI firms, ~$650B of additional debt across investor and investee firms (about $320B at the investees) and ~$1.4T of future orders returning spending to backers, "wrong-way risk" (staff estimates, A); AI is 10% of 2026 IG issuance (KC Fed, A) |
-| Demand quality | Census: 19.8% of employer businesses using AI (May 2026, A); Anthropic >1,000 customers above $1M a year (C) | Ramp's sample shows roughly flat AI token spending from August to September despite rising usage (A, sample); Barclays: enterprise hardware strength is memory prices, AI ~5% of IT budgets (B) |
-| Intermediaries | CoreWeave management reports initial-term recovery and renewals; Nebius 49.7% AI-cloud EBITDA margin (company claims, C) | CoreWeave controls not effective; converts far out of the money; DDTL 5.5 lends five years against three-year contracts; project bonds at below 88 to 94 cents (A/C) |
+| Demand quality | Census: 19.8% of employer businesses using AI (May 2026, A); Anthropic >1,000 customers above $1M a year (C) | Ramp's sample shows roughly flat AI token spending from August to September despite rising usage (A, sample); Barclays: enterprise hardware strength is memory prices, AI ~5% of IT budgets (attribution B, estimate C) |
+| Intermediaries | CoreWeave management reports initial-term recovery and renewals; Nebius 49.7% AI-cloud EBITDA margin (company claims, C) | CoreWeave controls not effective; converts far out of the money; DDTL 5.5 lends five years against three-year contracts; project bonds reported from below 88 to about 94 cents, quote versions unresolved (A/C) |
 
 ## What we do not know, and what would tell us
 
@@ -158,7 +164,8 @@ adjusted P/E. IG: investment grade.
 ## Status
 
 All 26 research notes were cross-checked by a second model against primary
-sources and corrected; the reviews of this page are under reviews and every
-change is logged in the register's history. No paywalled sources were used,
+sources and corrected; the reviews of this page are under reviews and
+forecast revisions are recorded in the register's history (with a
+reconciliation entry for the vintage-0.2 changes that were not itemised). No paywalled sources were used,
 which biases the evidence toward leaked lab figures and away from sell-side
 and rating-agency credit work. Agents start at [llms.txt](/llms.txt).

@@ -66,7 +66,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | F1 | CoreWeave has a distressed credit event (definition above), or an acquisition of the company closes at consideration (cash plus stock at announcement value) below $40 per share split-adjusted. The acquisition branch is not a credit event and does not count toward the headline | 8% | 20% | 35% |
-| F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− stable as of 2026-10-17; Moody's Baa2 negative; Fitch BBB stable). In practice a one-notch S&P question: its triggers are adjusted leverage above 4.5x or no path to positive FOCF by FY2029, and its own FY2027 forecast sits at both; agencies usually move to a negative outlook before cutting, and S&P went to stable only in July | 8% | 24% | 40% |
+| F2 | Oracle's senior unsecured or issuer rating is below investment grade at any of S&P, Moody's or Fitch (S&P: BBB− stable as of 2026-10-17; Moody's Baa2 negative; Fitch BBB stable). In practice a one-notch S&P question: its triggers are adjusted leverage above 4.5x or no path to positive FOCF by FY2029, and its FY2027 forecast (mid-4x leverage, nearly −$42B FOCF) leaves limited headroom against both; agencies usually move to a negative outlook before cutting, and S&P went to stable only in July | 8% | 24% | 40% |
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the nominal amount cancelled, deferred or reduced is $10B or more (amendments to one contract aggregate). Supplier-side delivery delays, and slower incremental signings, do not count | 15% | 32% | 52% |
 | F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor). Below F3 because Anthropic's reported operating improvement and $65B Series H (which includes $15B of previously committed supplier funding) give a near-term cushion, while OpenAI's larger reported programme and burn outlook are offset by $122B of committed capital with at least $80B funded by 1 October; both companies' payment schedules and unrestricted cash are unknown, so the gap is judgmental. These questions concern disclosed binding amendments of $10B+, not insolvency; rigidity worsens liquidity but makes cancellation harder | 10% | 22% | 38% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
@@ -144,8 +144,9 @@ basket crash, which is the most likely way the boom under-delivers.
 - Drift: M1, M1a, M1b and M3 sit above a zero-drift bootstrap at realised
   volatility (M1 3/10/16; M3 1/4/11) and near a 1.5x-volatility stress
   (M1 13/21/27). The excess is a deliberate bearish tilt: rates rising into
-  an energy shock, a shut unsecured market for the weakest issuer, and
-  payback arithmetic that needs revenue to keep doubling. The cycle would turn at the
+  an energy shock, secondary unsecured yields above 15% for the weakest
+  issuer, and payback arithmetic that needs revenue to keep growing at
+  75-150% a year. The cycle would turn at the
   funding layer first; the credit questions carry the highest numbers.
 - CoreWeave's CDS at 1,000-1,195bp maps to roughly 57-63% five-year
   risk-neutral default probability at 40% recovery and flat hazard, about
@@ -157,7 +158,7 @@ basket crash, which is the most likely way the boom under-delivers.
   2026 (10-Q), which lowers the weight on its management's operating claims. Covenant relief in December 2025
   and five-year loans against three-year contracts are the concrete risks.
 - Oracle is one notch above junk with FY2026 FCF of −$23.7B and S&P's own
-  FY2027 forecast at its downgrade triggers, but a stable outlook three
+  FY2027 forecast leaving limited headroom against its downgrade triggers, but a stable outlook three
   months old, $37B of liquidity, no bond deal planned before January 2027
   and a working share-sale channel argue against a cut inside six months.
   The first sign of trouble would be Q2 FY2027 cash advances and
@@ -182,6 +183,15 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.7f (2026-10-18)**: no probability changes; wording fixes
+  from the consistency sweep. Reconciliation: the following current values
+  were set in vintage 0.2 without being itemised in its entry: D1 5/10/20
+  (from 5/10/22), C2 10/25/40 (from 10/25/45), C3 2/10/30 (from 2/8/30),
+  C4 3/10/25 (from 3/10/30), P2 5/20/45 (from 5/20/50), F4 10/25/40 (from
+  10/25/45), and the layer rows equipment 15/30/45, foundry 8/18/32,
+  hyperscalers 8/18/30, frontier labs 10/25/40 (all rebased from the
+  40%-from-peak definitions). Cause at the time: the v0.1 review's
+  forecast-by-forecast assessment.
 - **Vintage 0.7e (2026-10-18)**: no probability changes; headline
   definition clarified (distinct obligors, shared roots) after the Claude
   cross-check of the circular-financing note.

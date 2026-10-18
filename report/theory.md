@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.7c, 2026-10-18 · Synthesis of
+*Version 0.7f, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
@@ -40,7 +40,7 @@ return.
 | Broad bullish sentiment | AAII bears outnumber bulls; fund managers' top tail risk is bond yields. The one soft reading | 1 |
 | Purchases financed by leverage | FINRA margin debt $1.48T in September (record $1.50T in June); hyperscalers issuing bonds and equity; ~$81B of listed neocloud debt; Oracle $125B of borrowings | 2 |
 | Forward purchases | Oracle RPO $664B, Microsoft $678B, CoreWeave $104B, Broadcom $179B (company-wide); Nvidia supply commitments $279B; ASML expects planned 2027-28 output below customer demand and reports interest in 2029-30 orders, not accepted orders | 2 |
-| New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade C) | 1 |
+| New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade D, derivation unverified) | 1 |
 | Tightening policy | Fed hiked in September 2026, first since 2023, and its minutes say AI-related investment is "contributing to inflation pressures" alongside energy (Brent averaged $114 in September); 10-year touched 5.31% on 5 October, then 5.09% by 16 October; CPI 3.7%. Partly a response to the boom, partly an oil confounder | 2 |
 
 Twelve points of fourteen across seven indicators, with sentiment and
@@ -160,8 +160,8 @@ By the historical checklist the boom is in the financing-escalation stage:
 capex has moved from cash flow to bonds, equity, SPVs and vendor credit. The
 repricing of the weakest credits began in September (Oracle-tenanted Project
 Jupiter loans were reported stressed on 18-19 September) and widened in the
-week of 10-17 October (CoreWeave CDS above 1,000bp, project bonds at 88-94
-cents). The indicator-reversal stage (IPO window closing, vendor guidance
+week of 10-17 October (CoreWeave CDS above 1,000bp, project bonds reported from below 88 to about
+94 cents, quote versions unresolved). The indicator-reversal stage (IPO window closing, vendor guidance
 cuts, forward purchases renegotiated, sector index diverging from
 incumbents) has begun in two places: policy (the Fed's September hike, whose
 minutes link it partly to AI investment and partly to energy), and the
