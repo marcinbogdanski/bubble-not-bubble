@@ -61,4 +61,5 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P3-3 | Codex check of v0.7's Anthropic framing and Part 2 arithmetic (vendor-conflict control) | Codex gpt-6-astra | done, applied in v0.7a | reviews/2026-10-18-codex-check-v07.md |
 | P3-4 | Claude Opus cross-check of the OpenAI note | Claude Opus | done, applied | reviews/openai-claude-xcheck.md |
 | P3-5 | Claude Opus cross-check of the demand-side note | Claude Opus | done, applied | reviews/demand-side-claude-xcheck.md |
-| P3-6 | Claude Opus cross-check of the Oracle note | Claude Opus | done, applying | reviews/oracle-claude-xcheck.md |
+| P3-6 | Claude Opus cross-check of the Oracle note | Claude Opus | done, applied | reviews/oracle-claude-xcheck.md |
+| P3-7 | Claude Opus cross-check of the circular-financing note | Claude Opus | running | reviews/circular-financing-claude-xcheck.md |
