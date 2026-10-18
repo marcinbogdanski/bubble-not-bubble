@@ -59,7 +59,7 @@ Full [register](/forecasts/register): 6 / 12 / 24 months from 17 October 2026.
 | Project-bond and GPU-loan holders and marks | $1B+ project/SPV distress (F4); waivers; November lender filings |
 | Demand without supplier/investor/customer financing | Backstop usage; warrant vesting; Nvidia receivables |
 | Hyperscaler cuts (C1, C2) | Calendar-2027 capex guidance with Q4 2026 results |
-| Oracle customer funding | Q2 FY2027 advances/hardware against assumed $20-25B annual capex offsets; Jupiter permit decision |
+| Oracle customer funding | Q2 FY2027 advances/hardware against assumed $20-25B annual capex offsets; Jupiter permit hearing, reportedly moved to 7 December |
 | AI versus rates/oil repricing | AI spreads against the index as the 10-year and Brent move |
 
 ## Glossary
