@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7a, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7b, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -51,10 +51,14 @@ Q2 revenue, $5.2B of H1 principal repaid against $3.7B of operating cash,
 DDTL 3.0 covenant relief in December 2025, 5-year CDS above 1,000bp on 15
 October; 10-Q A, CDS B), the other listed neoclouds (about $81B of debt in
 the layer including CoreWeave, on mixed bases) and the frontier labs, OpenAI
-and Anthropic alike (Reuters reports at least $518B of Anthropic commitments
-over a decade, about 80% non-cancellable or payable regardless of use,
-reported C; Broadcom's filed $29B maximum backstop protects a financing
-partner and gives Anthropic no liquidity). Equity has repriced: the weakest names are down 45-56% from 2026 peaks,
+and Anthropic alike. OpenAI's own cash-flow forecasts have moved from +$14B
+to −$278B for 2026-30 across four successive plans, and its end-2025 cash
+plus the $122B round covers the February plan's burn only into 2028, so it
+depends on raising continuously at rising valuations (reported, C). Reuters
+reports at least $518B of Anthropic commitments over a decade, about 80%
+non-cancellable or payable regardless of use (C); Broadcom's filed $29B
+maximum backstop protects a financing partner and gives Anthropic no
+liquidity. Equity has repriced: the weakest names are down 45-56% from 2026 peaks,
 the Nasdaq-100 6.5%, though some of that is a rates and oil move, not AI
 information. Credit has only begun to: CoreWeave's unsecured notes yield
 14-16% and no AI-related debt has yet defaulted. If returns disappoint
