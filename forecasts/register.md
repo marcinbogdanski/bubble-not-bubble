@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.8b, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.8c, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -73,7 +73,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | F3 | OpenAI, or a counterparty in a filing or release, discloses the cancellation, a deferral of a year or more, or a reduction of a binding compute commitment, where the nominal amount cancelled, deferred or reduced is $10B or more (amendments to one contract aggregate). Supplier-side delivery delays, and slower incremental signings, do not count | 15% | 32% | 52% |
 | F3b | The same as F3 for Anthropic (or a counterparty: Amazon, Google, Broadcom, Microsoft, a lessor). Below F3 because Anthropic's reported operating improvement and $65B Series H (which includes $15B of previously committed supplier funding) give a near-term cushion, while OpenAI's larger reported programme and burn outlook are offset by $122B of committed capital with at least $80B funded by 1 October; both companies' payment schedules and unrestricted cash are unknown, so the gap is judgmental. These questions concern disclosed binding amendments of $10B+, not insolvency; rigidity worsens liquidity but makes cancellation harder | 10% | 22% | 38% |
 | F4 | A GPU-backed loan, datacenter project bond or AI-infrastructure SPV with $1B or more outstanding has a distressed credit event | 10% | 25% | 40% |
-| F5 | OpenAI, Anthropic, xAI (or SpaceX in respect of xAI), Mistral, SSI or Thinking Machines closes a priced primary round at a lower fully diluted valuation than its previous priced primary round. IPOs below the last private mark count | 10% | 20% | 35% |
+| F5 | OpenAI, Anthropic, Mistral, SSI or Thinking Machines closes a priced primary round at a lower fully diluted valuation than its previous priced primary round. IPOs below the last private mark count. (xAI removed: it is inside listed SpaceX, so no private round can occur) | 10% | 20% | 35% |
 
 ## Markets
 
@@ -106,7 +106,7 @@ are largely volatility measures; the Claude review's zero-drift bootstrap
 | Oracle | ORCL equity; Oracle corporate or Oracle-tenanted project debt | −48% | 22% | 38% | 52% |
 | Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CRWV −56% | 65% | 78% | 85% |
 | Frontier labs | OpenAI, Anthropic, xAI/SpaceX: a down round (F5 definition) or a reported markdown of 40%+ | n/a | 10% | 25% | 40% |
-| Neolabs and applications | SSI, Thinking Machines, Reflection, Periodic, Mistral, Perplexity, Cursor, Harvey, Glean, Sierra: any down round, shutdown or distressed sale | n/a | 25% | 45% | 65% |
+| Neolabs and applications | SSI, Thinking Machines, Reflection, Periodic, Mistral, Perplexity, Harvey, Glean, Sierra (Cursor removed: acquired by SpaceX on 2026-08-14, before the origin): any down round, shutdown, or sale at a price below the last priced round | n/a | 15% | 35% | 55% |
 | Power and datacenter | VRT, GEV, EQIX, DLR equity; any datacenter project bond or loan of $1B+ whose tenant is an AI compute buyer (the F4 universe; this credit side overlaps the Oracle and neocloud rows, since a Jupiter-type loan or a CoreWeave landlord counts in both) | VRT −45% | 20% | 38% | 52% |
 
 ## Headlines
@@ -186,6 +186,10 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.8c (2026-10-18)**: neolab layer lowered 25/45/65 to
+  15/35/55 and Cursor removed from its cohort (acquired before the origin),
+  "distressed sale" defined; xAI removed from F5 (inside listed SpaceX);
+  after the Claude cross-check of the other-labs note.
 - **Vintage 0.8b (2026-10-18)**: P1b (current-generation B200 companion
   to P1) added at 3/10/20 after the Claude cross-check of the GPU-pricing
   note; P1 timestamp wording and archive requirement fixed; no other
