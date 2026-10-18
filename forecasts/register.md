@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.8, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.8a, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -183,6 +183,8 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.8a (2026-10-18)**: no changes; front page trimmed from
+  2,250 to about 1,350 words with all figures and probabilities retained.
 - **Vintage 0.8 (2026-10-18)**: no probability changes; closes the first
   Claude-side review round (one report review, five note cross-checks:
   OpenAI, demand side, Oracle, circular financing, debt markets) and the

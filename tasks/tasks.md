@@ -66,4 +66,4 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P3-8 | Consistency sweep of the four pages against all notes | Codex gpt-6.1-sol | done, applied (6 high, 20 medium) | reviews/2026-10-18-consistency-sweep.md |
 | P3-9 | Claude Opus cross-check of the debt-markets note | Claude Opus | done, applied | reviews/debt-markets-claude-xcheck.md |
 | P3-10 | Report v0.8 | Claude (lead) | done | report/*.md |
-| P3-11 | Front-page trim proposal (≤1,500 words, numbers preserved) | Codex gpt-6-astra | running | reviews/2026-10-18-front-page-trim-proposal.md |
+| P3-11 | Front-page trim proposal (≤1,500 words, numbers preserved) | Codex gpt-6-astra | done, adopted as v0.8a | reviews/2026-10-18-front-page-trim-proposal.md |
