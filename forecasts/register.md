@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.7e, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.7f, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -160,8 +160,10 @@ basket crash, which is the most likely way the boom under-delivers.
   FY2027 forecast at its downgrade triggers, but a stable outlook three
   months old, $37B of liquidity, no bond deal planned before January 2027
   and a working share-sale channel argue against a cut inside six months.
-  The first sign of trouble would be the customer-prepayment line in the Q2
-  FY2027 cash-flow statement (mid-December) falling well below $5-6B.
+  The first sign of trouble would be Q2 FY2027 cash advances and
+  customer-supplied hardware (mid-December) falling short of the $20-25B of
+  annual capex offsets the funding plan assumes; $5-6B a quarter is that
+  annual figure's average, not a demonstrated minimum.
 - D2: the reported targets (OpenAI $70B+ by year-end; an outside
   expectation of $100-110B for Anthropic) sum to roughly $170-180B, not
   $200B, so a Yes needs growth beyond stated targets; at recent growth rates

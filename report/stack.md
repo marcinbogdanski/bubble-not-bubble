@@ -1,6 +1,6 @@
 # The stack, layer by layer
 
-*Version 0.7e, 2026-10-18 · Synthesis of the research notes, corrected after
+*Version 0.7f, 2026-10-18 · Synthesis of the research notes, corrected after
 the [red-team review](/reviews/2026-10-17-codex-redteam-report). Every
 figure is sourced and graded in the note it links to. All 26 notes have
 been cross-checked and corrected (status: reviewed).*
@@ -55,9 +55,11 @@ customer in 2027 (reported, C); its reported $518B of commitments are about
 links (round-trip flows, contingent credit support and customer prepayments
 are different things; "circular" fits only the first) and is explicit that
 the map shows transmission channels, not proof that the demand is
-uneconomic. A narrow estimate of supplier-supported 2026 accelerator demand
-is 10-20%, broad 17-35% (grade D); the filed, paid-in, chip-traceable part
-is under 5%, almost all of it through OpenAI and Anthropic.
+uneconomic. How much accelerator demand depends on that financing remains unquantified:
+the note's accounting-scale scenarios (a selected $44B Nvidia equity basket
+against its revenue gives 1.1-2.3%) explicitly do not measure it, and the
+Claude cross-check's rough estimate of 10-20% narrowly defined is a
+reviewer judgement (D).
 
 ## Near-term cash risk, by name
 

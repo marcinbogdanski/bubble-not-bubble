@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7e, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.7f, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -38,7 +38,7 @@ of about $170B in 2026 (range $130-210B; the half that is the two labs'
 reported revenue is C, the allocated rest D). Reaching it by 2029-30 would
 take growth of roughly 75-150% a year (arithmetic reproducible, B; inputs
 and sector application D). It roughly tripled in 2026 and exits the year at
-a run-rate near $250B; our own base path assumes +67% then +60%. The scenario omits replacement capex that preserves existing
+a run-rate near $250B; our own base path assumes +76% then +60%. The scenario omits replacement capex that preserves existing
 revenue, advertising and internal-savings benefits, commissioning timing and
 residual values, any of which could move it; cohort-level returns, GPU
 economic life and owner margins remain undisclosed. Capex cuts (C1, C2
@@ -53,9 +53,10 @@ DDTL 3.0 covenant relief in December 2025, 5-year CDS above 1,000bp on 15
 October; 10-Q A, CDS B), the other listed neoclouds (about $81B of debt in
 the layer including CoreWeave, on mixed bases) and the frontier labs, OpenAI
 and Anthropic alike. OpenAI's own cash-flow forecasts have moved from +$14B
-to −$278B for 2026-30 across four successive plans, and its end-2025 cash
-plus the $122B round covers the February plan's burn only into 2028, so it
-depends on raising continuously at rising valuations (reported, C). Reuters
+to −$179B for 2026-30 across three successive plans (reported, C), with a
+disputed fourth at −$278B (D), and its end-2025 cash plus the $122B round
+covers the February plan's burn only into 2028, so it depends on raising
+continuously at rising valuations. Reuters
 reports at least $518B of Anthropic commitments over a decade, about 80%
 non-cancellable or payable regardless of use (C); Broadcom's filed $29B
 maximum backstop protects a financing partner and gives Anthropic no
@@ -130,8 +131,8 @@ downgrade or a lab commitment cut.
 | Valuation | S&P technology ~21x earnings vs 70x in 2000; semiconductor earnings +178% y/y (Timmer, B) | GPU buyers' capex is suppliers' revenue, so the E can be the bubble while the P/E looks ordinary (Druckenmiller via FT, B); suppliers also booked about $190B of 2026 gains on their stakes in the labs (Alphabet $114B and Amazon $63B in H1 alone; filings, A) |
 | Demand path | SemiAnalysis: OpenAI plus Anthropic revenue $600-700B by December 2027; up to $50M revenue per MW against $10-15M of cost (estimate, C) | Gartner: $8.5T of cumulative revenue needed through 2030 for a 12% return, at most $3.6T attributable to owners (B) |
 | Supply | TSMC and ASML say demand exceeds planned supply through 2028; B200 rents +15% in 30 days to $8.12 (A/B) | Nvidia guides its own gross margin down to 71-73%; by 2028 the H100 is 5.5 years old (A) |
-| Credit | Liquidity: Microsoft $77B, Amazon $123B, Meta $90B, Alphabet $155B; buybacks could be cut (A) | IMF: ~$300B of hyperscaler equity and ~$650B of debt into AI firms that committed ~$1.4T back to their backers, "wrong-way risk"; AI is 10% of 2026 IG issuance (A) |
-| Demand quality | Census: 19.8% of employer businesses using AI (May 2026, A); Anthropic >1,000 customers above $1M a year (C) | Anthropic token use +90% July to September, spending +19% (Ramp, B); Barclays: enterprise hardware strength is memory prices, AI ~5% of IT budgets (B) |
+| Credit | Liquidity: Microsoft $77B, Amazon $123B, Meta $90B, Alphabet $155B; buybacks could be cut (A) | IMF: ~$300B of equity into weaker AI firms, ~$650B of additional debt across investor and investee firms (about $320B at the investees) and ~$1.4T of future orders returning spending to backers, "wrong-way risk" (staff estimates, A); AI is 10% of 2026 IG issuance (KC Fed, A) |
+| Demand quality | Census: 19.8% of employer businesses using AI (May 2026, A); Anthropic >1,000 customers above $1M a year (C) | Ramp's sample shows roughly flat AI token spending from August to September despite rising usage (A, sample); Barclays: enterprise hardware strength is memory prices, AI ~5% of IT budgets (B) |
 | Intermediaries | CoreWeave management reports initial-term recovery and renewals; Nebius 49.7% AI-cloud EBITDA margin (company claims, C) | CoreWeave controls not effective; converts far out of the money; DDTL 5.5 lends five years against three-year contracts; project bonds at below 88 to 94 cents (A/C) |
 
 ## What we do not know, and what would tell us
@@ -142,9 +143,9 @@ downgrade or a lab commitment cut.
 | The labs' real numbers: no audited accounts, different bases (OpenAI net, Anthropic gross), undisclosed commitment terms | An S-1 on EDGAR; same-basis run-rates at two dates (D1, D2); a lab down round (F5) |
 | Firmness of the take-or-pay contracts behind neocloud and lab debt | A disclosed deferral or cancellation (F3, F3b); CoreWeave's principal schedule met from operations; any cure or amendment after DDTL 3.0's unlimited equity-cure window closes on 28 October 2026 |
 | Who holds the project bonds and GPU-backed loans, and at what marks | A $1B+ project or SPV distress (F4); dealer marks moving from the current below-88-to-94 cents range |
-| How much purchasing would disappear without supplier, investor and customer financing (the mapped links understate it: Google's backstops, AMD's guarantees and Nvidia's third-party leases were missing until the latest check; a narrow estimate is 10-20% of 2026 accelerator demand, grade D) | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop usage; Nvidia receivables ($63B, up from $39B) |
+| How much purchasing would disappear without supplier, investor and customer financing. It is unquantified: the note's accounting-scale scenarios do not measure it, and the mapped links understated the support until the latest check added Google's $43.8B of backstops, AMD's guarantees and Nvidia's third-party leases | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop usage; Nvidia receivables ($63B, up from $39B) |
 | Whether the hyperscalers cut (C1, C2) or keep building | First calendar-2027 capex guidance with Q4 2026 results |
-| Whether Oracle's customers keep funding their share of its build | The customer-prepayment line in Oracle's Q2 FY2027 cash-flow statement (mid-December): it needs about $5-6B a quarter while capex holds; the Jupiter permit decision (reported deadline 23 November) |
+| Whether Oracle's customers keep funding their share of its build | Cash advances and customer-supplied hardware in Oracle's Q2 FY2027 results (mid-December) against the $20-25B of annual capex offsets its funding plan assumes; the Jupiter permit decision (reported deadline 23 November) |
 | How much of the October repricing was AI information versus rates and oil | Spreads of AI names against the index as the 10-year and Brent move |
 
 ## Glossary
