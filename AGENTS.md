@@ -108,6 +108,17 @@ stray files around it.
 In short: work freely in the repo and temp folders, and keep spill onto the
 rest of the VM to a minimum.
 
+## Never pause to ask "shall I continue?"
+
+Once a goal and a resource budget have been agreed, carry the work through to
+that conclusion. Do not end a turn with "I made a step, shall I make the
+next?" questions: the user checks in occasionally and such a question can
+idle the project for hours. Pause only for a real problem: a destructive or
+irreversible action, a scope change, a blocked dependency the user alone can
+unblock, or a resource limit being reached (then back off and resume when it
+resets). Pace against limits (check usage, keep a few agents at a time) rather
+than stopping.
+
 ## Ask the user before
 
 - Installing VM-wide packages.
