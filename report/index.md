@@ -1,6 +1,6 @@
 # Is AI a bubble? A live, evidence-backed assessment
 
-*Version 0.7f, 2026-10-18. Built by AI agents from primary sources, steered
+*Version 0.8, 2026-10-18. Built by AI agents from primary sources, steered
 by a human, on 26 research notes with graded claim tables, after three
 Codex red-team reviews and a first
 [Claude review](/reviews/2026-10-18-claude-opus-review) (the lead and that
@@ -45,7 +45,7 @@ economic life and owner margins remain undisclosed. Capex cuts (C1, C2
 below) are the self-correcting path, and none is expected near term.
 
 **3. Where is the fragility, and who bears it? Failure risk sits in the
-middle of the stack; most of the dollars at risk sit at the top.** Likeliest
+middle of the stack; the largest mark-to-market exposure sits at the top.** Likeliest
 to fail: Oracle (FY2026 free cash flow −$23.7B, $125B of borrowings at
 August, filings A; BBB− at S&P since 9 July, with S&P forecasting about
 −$42B of FY2027 free operating cash flow and mid-4x leverage, little
@@ -67,12 +67,17 @@ liquidity. Equity has repriced: the weakest names are down 45-56% from 2026 peak
 the Nasdaq-100 6.5%, though some of that is a rates and oil move, not AI
 information. Credit has only begun to: CoreWeave's unsecured notes yield
 14-16% and no AI-related debt has yet defaulted. If returns disappoint
-without defaults, the largest losses land elsewhere: on equity in Nvidia and
-the hyperscalers (the top ten are 40.6% of the S&P 500) and on the $330B of
-AI-related investment-grade bonds issued through Q2 2026, where a 2025-26
-issuance sample shows weighted-average maturities of 16 years for
-hyperscalers and 17 for utilities against 5-6-year chips (Kansas City Fed,
-A). [Stack](/report/stack)
+without defaults, the largest losses are elsewhere: realised ones on equity
+in Nvidia and the hyperscalers (the top ten are 40.6% of the S&P 500), and
+paper ones on the $330B of AI-related investment-grade bonds issued through
+Q2 2026, where hyperscaler and utility paper carries 16-17-year maturities
+against 5-6-year chips (Kansas City Fed, A): a 100-200bp spread widening
+would mark that stock down by roughly $30-60B, more than any plausible
+no-default loss on the $81B of listed neocloud debt, though much of it would
+be a rates move and unrealised for hold-to-maturity holders (reviewer
+arithmetic B, ranking C). The first realised credit loss is likelier in the
+middle: bank construction loans never sold on (Jupiter quoted at 89-91
+cents) and sub-investment-grade GPU-backed loans. [Stack](/report/stack)
 
 ## The four facts that carry the answer
 
@@ -148,7 +153,7 @@ downgrade or a lab commitment cut.
 | Economic life of a GPU under 2026 conditions (1.6x on required revenue) | H100 monthly index (P1, an age test by 2028); used-H100 prices; depreciation-policy changes |
 | The labs' real numbers: no audited accounts, different bases (OpenAI net, Anthropic gross), undisclosed commitment terms | An S-1 on EDGAR; same-basis run-rates at two dates (D1, D2); a lab down round (F5) |
 | Firmness of the take-or-pay contracts behind neocloud and lab debt | A disclosed deferral or cancellation (F3, F3b); CoreWeave's principal schedule met from operations; any cure or amendment after DDTL 3.0's unlimited equity-cure window closes on 28 October 2026 |
-| Who holds the project bonds and GPU-backed loans, and at what marks | A $1B+ project or SPV distress (F4); dealer marks moving from the current below-88-to-94 cents range |
+| Who holds the project bonds and GPU-backed loans, and at what marks (the current below-88-to-94 cent quotes are mostly a rates effect, not distress pricing) | A $1B+ project or SPV distress (F4); a CoreWeave or neocloud 8-K disclosing a waiver, amendment or equity cure after 28 October; Q3 filings of listed private-credit funds and bank 10-Qs in early-to-mid November showing loan marks or non-accruals |
 | How much purchasing would disappear without supplier, investor and customer financing. It is unquantified: the note's accounting-scale scenarios do not measure it, and the mapped links understated the support until the latest check added Google's $43.8B of backstops, AMD's guarantees and Nvidia's third-party leases | Guarantee readiness dates (Nvidia Ohio from 2028); warrant vesting; backstop usage; Nvidia receivables ($63B, up from $39B) |
 | Whether the hyperscalers cut (C1, C2) or keep building | First calendar-2027 capex guidance with Q4 2026 results |
 | Whether Oracle's customers keep funding their share of its build | Cash advances and customer-supplied hardware in Oracle's Q2 FY2027 results (mid-December) against the $20-25B of annual capex offsets its funding plan assumes; the Jupiter permit decision (reported deadline 23 November) |

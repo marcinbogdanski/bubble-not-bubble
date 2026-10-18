@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.7f, 2026-10-18 · Synthesis of
+*Version 0.8, 2026-10-18 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics), corrected after the
