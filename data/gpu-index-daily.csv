@@ -1,0 +1,15 @@
+# source: Ornn https://data.ornn.com/markets/h100-sxm https://data.ornn.com/markets/b200 https://data.ornn.com/markets/h200 ; Price of Compute https://priceofcompute.com/ ; accessed 2026-10-21. OCPI: USD per GPU-hour, publisher transaction-based settlement daily at 16:00 America/New_York; histories retrieved retrospectively on access date, not independent contemporaneous captures. PriceOfCompute: posted-price composite index points, 2026-08-10=100, distinct from OCPI; date21Oct is publisher display date. Series names encode units. No fresh Silicon Data print verified; no carried-forward or inferred rows.
+date,series,value,source URL,accessed
+2026-10-17,OCPI-B200_USD_per_GPU-hour,8.48,https://data.ornn.com/markets/b200,2026-10-21
+2026-10-17,OCPI-H100_USD_per_GPU-hour,2.78,https://data.ornn.com/markets/h100-sxm,2026-10-21
+2026-10-17,OCPI-H200_USD_per_GPU-hour,6.39,https://data.ornn.com/markets/h200,2026-10-21
+2026-10-18,OCPI-B200_USD_per_GPU-hour,8.54,https://data.ornn.com/markets/b200,2026-10-21
+2026-10-18,OCPI-H100_USD_per_GPU-hour,2.81,https://data.ornn.com/markets/h100-sxm,2026-10-21
+2026-10-18,OCPI-H200_USD_per_GPU-hour,6.34,https://data.ornn.com/markets/h200,2026-10-21
+2026-10-19,OCPI-B200_USD_per_GPU-hour,8.41,https://data.ornn.com/markets/b200,2026-10-21
+2026-10-19,OCPI-H100_USD_per_GPU-hour,2.98,https://data.ornn.com/markets/h100-sxm,2026-10-21
+2026-10-19,OCPI-H200_USD_per_GPU-hour,6.35,https://data.ornn.com/markets/h200,2026-10-21
+2026-10-20,OCPI-B200_USD_per_GPU-hour,8.83,https://data.ornn.com/markets/b200,2026-10-21
+2026-10-20,OCPI-H100_USD_per_GPU-hour,3.12,https://data.ornn.com/markets/h100-sxm,2026-10-21
+2026-10-20,OCPI-H200_USD_per_GPU-hour,6.16,https://data.ornn.com/markets/h200,2026-10-21
+2026-10-21,PriceOfCompute_index_points_base100_2026-08-10,139.4,https://priceofcompute.com/,2026-10-21
