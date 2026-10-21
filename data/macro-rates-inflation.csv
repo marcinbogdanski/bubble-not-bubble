@@ -1,4 +1,4 @@
-# source: https://www.bls.gov/news.release/archives/cpi_10142026.htm; https://www.bls.gov/news.release/archives/ppi_10152026.htm; https://fred.stlouisfed.org; https://www.federalreserve.gov; https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html, accessed 2026-10-17, units encoded in series names except GS10=percent and MCOILBRENTEU=USD per barrel; both are monthly averages; month labels use first day; Fed targets are month-end carry-forward from cited decisions; daily observations explicitly labelled; CME snapshot 02:37:45 CT; PPI vintage 2026-10-15 includes revisions; additions accessed 2026-10-18: DGS10/DFII10/DGS30/DGS2 and ICE_BofA_US_HY_OAS_daily_pct in percent, Brent daily in USD/bbl; FRED data through Oct 15 (Brent Oct 14), Oct 16 nominal yields from Treasury; electricity CPI added; 2002 observation supports historical comparison
+# source: https://www.bls.gov/news.release/archives/cpi_10142026.htm; https://www.bls.gov/news.release/archives/ppi_10152026.htm; https://fred.stlouisfed.org; https://www.federalreserve.gov; https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html, accessed 2026-10-17, units encoded in series names except GS10=percent and MCOILBRENTEU=USD per barrel; both are monthly averages; month labels use first day; Fed targets are month-end carry-forward from cited decisions; daily observations explicitly labelled; CME snapshot 02:37:45 CT; PPI vintage 2026-10-15 includes revisions; additions accessed 2026-10-18: DGS10/DFII10/DGS30/DGS2 and ICE_BofA_US_HY_OAS_daily_pct in percent, Brent daily in USD/bbl; FRED data through Oct 15 (Brent Oct 14), Oct 16 nominal yields from Treasury; electricity CPI added; 2002 observation supports historical comparison; additions accessed 2026-10-21: housing/state data use September month label, earnings use Q3 start date July 1, EIA uses week-end date Oct 16; release dates are in note claims 60–63; no undated yield or Fed-odds carry-forward
 date,series,value,source
 2002-05-14,DGS10_daily_pct,5.32,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2000-01-01&coed=2026-10-17
 2026-01-01,Fed_target_lower_month_end_pct,3.5,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm
@@ -112,3 +112,25 @@ date,series,value,source
 2026-10-16,DGS10_daily_pct,5.09,https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve
 2026-10-16,DGS30_daily_pct,5.43,https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve
 2026-10-17,CME_Oct28_hike_probability_pct,15.5,https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html
+2026-09-01,Housing_starts_saar_thousands,1221,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_starts_mom_sa_pct,-5.2,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_starts_yoy_sa_pct,-7.4,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_permits_saar_thousands,1400,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_permits_mom_sa_pct,-0.2,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_single_family_starts_saar_thousands,859,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-09-01,Housing_completions_saar_thousands,1192,https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+2026-10-16,EIA_commercial_crude_ex_SPR_million_barrels,412.5,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_commercial_crude_weekly_change_million_barrels,-3.1,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_gasoline_weekly_change_million_barrels,-3.0,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_distillate_weekly_change_million_barrels,1.7,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_total_commercial_petroleum_weekly_change_million_barrels,-8.5,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_refinery_runs_million_bpd,16.6,https://ir.eia.gov/wpsr/summary.txt
+2026-10-16,EIA_refinery_utilization_pct,93.4,https://ir.eia.gov/wpsr/summary.txt
+2026-07-01,Median_weekly_earnings_quarterly_nsa_usd,1232,https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+2026-07-01,Median_weekly_earnings_quarterly_yoy_pct,1.5,https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+2026-07-01,CPI_U_quarterly_yoy_pct,3.5,https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+2026-07-01,Median_weekly_earnings_quarterly_sa_usd,1239,https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+2026-04-01,Median_weekly_earnings_quarterly_sa_usd,1258,https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+2026-09-01,States_payroll_significant_increase_count,2,https://www.bls.gov/news.release/archives/laus_10202026.htm
+2026-09-01,States_payroll_significant_decrease_count,1,https://www.bls.gov/news.release/archives/laus_10202026.htm
+2026-09-01,States_unemployment_significant_decrease_count,5,https://www.bls.gov/news.release/archives/laus_10202026.htm

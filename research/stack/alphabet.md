@@ -1,11 +1,11 @@
 # Alphabet: AI infrastructure, Gemini, Search and TPUs
 
-*Last updated: 2026-10-18 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18*
+*Last updated: 2026-10-21 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18 · Updated 2026-10-21 from signals/2026-10-21.md*
 
 ## Summary
 
 - At June 30, 2026, Alphabet's measurement-alternative private holdings were $124.259bn, primarily one company reported to be Anthropic (identity reported, unverified, C). A separate $20bn milestone-contingent funding commitment names no recipient. Alphabet is also Anthropic's TPU/cloud supplier; Reuters reports at least $111.1bn of Google spending through July 2033 (unverified, C). These links expose investment marks and commercial demand to the same counterparty [S6], [S19], [S21], [S46], [S47].
-- In Q2 2026, Cloud revenue reached $24.768bn, up 82%, with a 35.6% operating margin. Management said growth accelerated even excluding the first external TPU system sales. Their contribution is unquantified and shared model research sits partly outside the segment; Q3 2026 is the first test of management's planned expansion of third-party bridge capacity and associated margin pressure [S7], [S10].
+- In Q2 2026, Cloud revenue reached $24.768bn, up 82%, with a 35.6% operating margin. Management said growth accelerated even excluding the first external TPU system sales. Their contribution is unquantified and shared model research sits partly outside the segment; Q3 2026 is the first test of management's planned expansion of third-party bridge capacity and associated margin pressure. On October 21, OpenAI frontier models entered private preview with Codex integration and Marketplace purchases eligible against existing GCP commitments; this extends distribution without disclosed incremental revenue [S7], [S10], [S51], [S52].
 - At June 30, 2026, cash and debt securities excluding current marketable equities were $155.411bn. July's $195–205bn annual capex guidance exceeds trailing OCF of $185.675bn; H1 FCF was positive $4.261bn, but Q2 was negative $5.855bn. Another $25bn of bonds closed August 10. Liquidity and completed financing support near-term financeability; full-year operating-cash coverage is unproven [S6], [S7], [S10], [S44].
 - June 2026 net equity proceeds were $49.6bn, alongside substantial bond issuance. The separate $40bn ATM was unused at June 30; on August 6 its manager roster expanded from 3 to 16, without evidence of receipts. Its primary intended use is employee-equity taxes, with other proceeds available for general corporate purposes. H1's selected cash uses, including acquisitions and net private investments, exceeded operating cash by $67.107bn [S6], [S7], [S11], [S13], [S45].
 - Q2 2026 Search & other revenue was $63.271bn, up 16.8% year over year. AI can defend advertising profits and improve ad matching, giving Alphabet a return channel beyond selling tokens; reported Search growth does not isolate incremental AI profit [S7], [S10], [S15].
@@ -15,14 +15,14 @@
 
 ## Key claims
 
-All financial amounts are USD unless indicated. A verifies what a primary source states, including management claims; it does not independently validate their economics. B denotes arithmetic or corroborated market data; C denotes estimates or reported, unverified private-company terms. Original sources accessed **2026-10-17**; additions and re-fetches accessed **2026-10-18**, as specified below. Private-company reports and ratios depending on them remain C; a verified public filing does not identify an unnamed counterparty.
+All financial amounts are USD unless indicated. A verifies what a primary source states, including management claims; it does not independently validate their economics. B denotes arithmetic or corroborated market data; C denotes estimates or reported, unverified private-company terms. Original sources accessed **2026-10-17**; review additions/re-fetches **2026-10-18** and this signal update **2026-10-21**, as specified below. Private-company reports and ratios depending on them remain C; a verified public filing does not identify an unnamed counterparty.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
 | 1 | Quarterly cash capex, chronological | 2024 Q1–Q4: $12.012bn, $13.186bn, $13.061bn, $14.276bn; total $52.535bn | FY2024 | [Q1][S1], [Q2][S2], [Q3][S3], [Q4][S4] | primary | A; total B |
 | 2 | Quarterly cash capex, chronological | 2025 Q1–Q4: $17.197bn, $22.446bn, $23.953bn, $27.851bn; total $91.447bn | FY2025 | [Release][S5] | primary | A |
 | 3 | Latest capex | Q1 $35.674bn; Q2 $44.924bn; H1 $80.598bn | H1 2026 | [Release][S7] | primary | A |
-| 4 | Guidance revisions and next results | $175–185bn Feb 4; $180–190bn Apr 29, adding Intersect investment; $195–205bn Jul 22, accelerated capacity delivery; 2027 significantly higher, unquantified; Q3 call Oct 28 | 2026-10-17 | [Release][S5], [Q1 call][S9], [Q2 call][S10], [Event][S31] | primary | A |
+| 4 | Guidance revisions and next results | Prior guidance: $175–185bn Feb 4; $180–190bn Apr 29, adding Intersect investment; $195–205bn Jul 22, accelerated capacity delivery; 2027 significantly higher, unquantified. Retained pending Q3 results Oct 28, before the 4:30pm ET call; no new results at Oct 21 15:00 UTC cutoff | Guidance Feb–Jul 2026; schedule checked 2026-10-21 | [Release][S5], [Q1 call][S9], [Q2 call][S10], [Event][S31], [issuer notice via PublicNow][S53] | primary / issuer syndication | A guidance and schedule |
 | 5 | Annual cash generation | OCF $164.713bn; FCF $73.266bn | FY2025 | [Release][S5] | primary | A |
 | 6 | H1 cash generation and other uses | OCF $84.859bn; FCF $4.261bn; dividends $5.231bn; after dividends −$0.970bn; acquisitions/intangibles $33.697bn; non-marketable investment purchases $22.051bn | H1 2026 | [Release][S7]; subtraction | primary | A / B derived |
 | 7 | Quarter and trailing cash generation | Q2 OCF $39.069bn, FCF −$5.855bn; TTM OCF $185.675bn, capex $132.402bn, FCF $53.273bn | 2026-06-30 | [Release][S7] | primary | A |
@@ -77,6 +77,7 @@ All financial amounts are USD unless indicated. A verifies what a primary source
 | 56 | Equity-gain composition and taxes | Private unrealized net gains 78.1% and marketable/other unrealized net gains 21.6% of $99.031bn equity gain; gain equals 71.4% of $138.753bn pre-tax income. Release attributes $21.9bn income-tax expense and $77.1bn net-income uplift to gains (68.7% of $112.193bn NI). Q2 deferred-tax OCF adjustment $20.618bn is a separate cash-flow line, not the stated tax expense on gains | Q2 2026 | [Release][S7], [10-Q note 3][S6]; arithmetic | primary | A amounts / B ratios |
 | 57 | Borrowing market value and interest cost | Notes fair value $94.9bn versus debt face $101.085bn; Q2 interest expense $1.278bn versus $0.261bn prior year, annualized $5.112bn before August borrowing. Commercial paper nil; $1.3bn drawn on $11.7bn credit facilities | 2026-06-30 / Q2 2026 | [10-Q notes 6/7][S6]; annualization | primary | A balances and expense / B annualized scenario |
 | 58 | Securities action and offering-period overlap | Stewart v. Alphabet, N.D. Cal. 3:26-cv-11290, filed Oct 2; proposed class period May 19–Jul 16, 2026; allegations of undisclosed Gemini 3.5 Pro training problems/delay against Alphabet, Pichai and Ashkenazi, unproven (C). June common offering falls in proposed period. Oct 16 Class A close $340.59 is 4.1% below $355.1982 public issue price; not a damages estimate | 2026-10-02 filing / 2026-10-16 price | [Docket mirror][S48], [plaintiff-side notice][S49], [prospectus][S13], [price][S30] | secondary docket / primary plaintiff statement and offering / secondary price | B filing corroboration and discount / C allegations |
+| 59 | OpenAI models and Codex distribution | Frontier models in private preview on Google Cloud, with Codex integration; GA planned in coming weeks. Marketplace purchases draw down existing GCP commitments. Microsoft remains OpenAI's primary cloud partner. No new financing or incremental revenue amount disclosed | 2026-10-21 | [Google Cloud announcement][S51], [OpenAI announcement][S52] | primary company announcements | A availability/terms, not realized sales |
 
 ## Analysis
 
@@ -152,22 +153,23 @@ Model execution is also under legal scrutiny. The docket mirror records Stewart 
 
 | Signal | Current value | As of | Source | Why it matters |
 |--------|---------------|-------|--------|----------------|
-| Capex guidance | $195–205bn; further increase expected in 2027 | Jul 22 | [Call][S10] | Continued escalation raises the cash-return hurdle |
-| Cloud revenue / margin | $24.768bn, +82%; 35.6% | Q2 2026 | [Release][S7] | Watch recurring growth, hardware mix and bridging costs |
+| Capex guidance | Prior July $195–205bn; further increase expected in 2027; retained pending Oct 28 results | Jul 22, 2026 guide; checked Oct 21 | [Call][S10], [results notice][S53] | Oct 28 check: guidance and cash-return hurdle; no new capex cut established |
+| Cloud revenue / margin | $24.768bn, +82%; 35.6%; next results Oct 28 | Q2 2026 actuals; schedule checked Oct 21 | [Release][S7], [results notice][S53] | Oct 28 check: recurring growth, hardware mix and bridging costs |
 | Cloud backlog | $513.9bn; changed scope | Jun 30 | [10-Q][S6] | Conversion and customer quality matter more than bookings alone |
 | Token volume / app users | >3.2 quadrillion monthly across surfaces; API 22bn/min; Gemini 950m MAU | May / Q2 | [I/O][S16], [call][S10] | Seek paid consumption and revenue alongside activity |
 | Search growth | +17% | Q2 2026 | [Call][S10] | Tests ad-franchise resilience as AI use expands |
-| Cash after capex | Q2 −$5.855bn; TTM +$53.273bn | Jun 30 | [Release][S7] | Separates profitable growth from increasing funding needs |
+| Cash after capex | Q2 −$5.855bn; TTM +$53.273bn; next update Oct 28 | Jun 30, 2026 actuals; schedule checked Oct 21 | [Release][S7], [results notice][S53] | Refresh cash conversion against prior July guidance on Oct 28 |
 | Financing / distributions | $49.6bn June equity; H1 net debt proceeds $50.973bn; $25bn bonds closed Aug 10; ATM expanded to 16 managers Aug 6, last verified unused Jun 30 | Jun 30 / Aug 6–10, 2026 | [Release][S7], [10-Q][S6], [8-K][S44], [ATM][S45] | Track cash proceeds, debt cost and dilution; manager expansion is not evidence of sales |
 | Customer credit support | $43.785bn data-center backstop notional | Jun 30 | [10-Q][S6] | Watch growth, defaults and overlap with investments |
 | Paid usage / enterprise reach | Nearly 500 customers above 1tn tokens/year; >2,000 above 100bn, overlapping; nearly 80% of Cloud customers use AI products | Jul 22 / Oct 8, 2026 | [CEO][S35], [keynote][S41] | Track revenue and margins alongside adoption |
 | Capacity timing / expense pipeline | $5.8bn lease starting Q3, consistent with SpaceX $920m/month contract; 90-day cancellation after Dec 31; $122.814bn assets awaiting service; Finnish suspension requested | Jun 5–30 / Oct 6, 2026 | [10-Q][S6], [SpaceX][S43], [LVV][S39] | Q3 bridge-margin test; track GPU delivery, cancellation, commissioning and depreciation |
 | Outside TPU capital / roadmap | Blackstone $5bn announced equity commitment, 500MW target for 2027; TPU 8t/8i vendor price-performance claims | May 18 / Apr 22, 2026 | [Blackstone][S36], [TPUs][S38] | Check funding and delivery against announced plans |
-| Remedies / next results | Search syndication template proposed, objections unresolved; Q3 call Oct 28 | Oct 17, 2026 | [DOJ filing][S42], [IR][S31] | Distinguish proposals from final remedies and forthcoming results |
+| Remedies / next results | Search syndication template proposed, objections unresolved (Oct 13); Q3 results Oct 28 before 4:30pm ET call, still pending | Schedule checked Oct 21, 2026; 15:00 UTC signal cutoff | [DOJ filing][S42], [IR][S31], [issuer notice][S53] | Distinguish proposals from final remedies; retain July guidance until release |
 | Anthropic concentration / funding | $124.259bn private portfolio, principal company reported as Anthropic; $20bn unnamed conditional commitment; reported $111.1bn Google spending, 21.6% of backlog if fully included (C) | Jun 30 / Sep 29, 2026 | [10-Q][S6], [Bloomberg][S46], [Reuters][S47] | Watch end-customer cash generation, collection and correlated equity/TPU exposure |
 | Investment marks / lock-ups | Q2 equity gain $99.031bn: $77.354bn private unrealized, $21.399bn marketable/other unrealized; about $94.1bn SpaceX shares, including $14.1bn restricted through Q3 2027 | Q2 / Jun 30, 2026 | [10-Q][S6], [release][S7] | Watch Anthropic IPO pricing and SpaceX lock-up expiry; investment marks can reverse without operating cash changing |
 | Cash uses beyond capex | H1 selected-use deficit $67.107bn, including acquisitions and net private investments | H1 2026 | [Cash flows][S7], [10-Q][S6] | Distinguish capex coverage from the total funding choices in claim 55 |
 | Model execution / securities case | Oct 2 action, proposed May 19–Jul 16 class period; Gemini training/delay allegations unproven (C); June offering inside period | Oct 2, 2026 | [Docket mirror][S48], [plaintiff-side notice][S49] | Track model delivery and court evidence; no damages estimate established |
+| AI distribution / partnership | OpenAI models in private preview with Codex; Marketplace eligible against GCP commitments | Oct 21, 2026 | [Google Cloud][S51], [OpenAI][S52], #59 | Next check: GA in coming weeks, paid consumption and margins; existing-commitment drawdown is not new cash raised |
 
 ## Sources
 
@@ -224,6 +226,9 @@ Sources 1–42 originally accessed **2026-10-17**; sources 6 and 7 re-fetched **
 48. PACERMonitor public docket mirror, Stewart v. Alphabet Inc. et al., N.D. Cal. 3:26-cv-11290, complaint entry 2026-10-02; secondary reproduction of docket, accessed 2026-10-18; complaint merits not verified. https://cdn.pacermonitor.com/public/case/67140950/Stewart_v_Alphabet_Inc_et_al
 49. Kessler Topaz Meltzer & Check, Alphabet securities action notice, publication date unstated, describes proposed class period and Gemini-delay allegations; primary plaintiff-side statement, allegations unproven (C); accessed 2026-10-18. Linked “View Complaint” did not provide the complaint text. https://www.ktmc.com/googl-alphabet-inc-class-action-lawsuit/
 50. MarketBeat, Alphabet Q2 2026 call transcript reproduction, event 2026-07-22 (page labelled 2026-07-23); secondary reproduction fetched 2026-10-18, including CFO prepared remarks at 26:22 and Q&A at 41:45. https://www.marketbeat.com/earnings/reports/2026-7-23-alphabet-inc-stock/
+51. Google Cloud, [Google Cloud brings OpenAI models to customers][S51], 2026-10-21; fetched directly 2026-10-21. Confirms private preview, Codex integration and existing-commitment drawdown.
+52. OpenAI, [OpenAI models are coming to Google Cloud][S52], 2026-10-21; fetched 2026-10-21. Confirms planned GA in coming weeks and Microsoft's continuing primary-cloud-partner status.
+53. Alphabet, [October 6 issuer notice via PublicNow][S53], schedule re-checked 2026-10-21 through indexed issuer text: October 28 results before the 4:30pm ET call. Direct PublicNow and Alphabet event/notice fetches returned 403; the indexed syndication reproduces Alphabet's announcement, not an analyst-estimated earnings calendar.
 
 [S1]: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm
 [S2]: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm
@@ -275,3 +280,6 @@ Sources 1–42 originally accessed **2026-10-17**; sources 6 and 7 re-fetched **
 [S48]: https://cdn.pacermonitor.com/public/case/67140950/Stewart_v_Alphabet_Inc_et_al
 [S49]: https://www.ktmc.com/googl-alphabet-inc-class-action-lawsuit/
 [S50]: https://www.marketbeat.com/earnings/reports/2026-7-23-alphabet-inc-stock/
+[S51]: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers
+[S52]: https://openai.com/index/openai-models-google-cloud/
+[S53]: https://www.publicnow.com/view/44136C85C4D5D099F2F1F5740EF199299B51D499

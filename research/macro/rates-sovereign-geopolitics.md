@@ -1,6 +1,6 @@
 # Rates, sovereign capital and geopolitics: outside triggers for the AI cycle
 
-*Last updated: 2026-10-18 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18*
+*Last updated: 2026-10-21 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18 · Updated 2026-10-21 from signals/2026-10-21.md*
 
 ## Summary
 
@@ -12,20 +12,22 @@
 - TSMC’s October 15, 2026 release reports Q3 revenue of $46.72bn and a 58.7% operating margin. That is a profitable upstream counterweight; purchasers’ incremental AI returns remain unquantified. [S53]; claim 50
 - China's October 16, 2026 rule registers outbound transfer/licensing of Chinese AI technology and foreign takeovers of its owners across 23 AI categories. Its AI provisions do not specify chips or hardware; a small direct channel to US capex is an inference. Taiwan remains a physical supply concentration: TSMC expects Arizona fab two volume production in Q3 2027. [S44], [S52]; claims 38, 49
 
+- New October 20–21 releases add mixed demand evidence: September housing starts were **1.221m SAAR**, down **5.2% m/m** with an interval including zero; Q3 median weekly earnings rose **1.5% y/y**, below the same-quarter CPI increase of **3.5%**. State payrolls were statistically unchanged in **47 states and DC**. These qualify the earlier August consumption counterweight without establishing a broad contraction. FOMC meets **October 27–28**; GDP and PCE are scheduled for **October 29**. Claims 58, 60, 62–63
+
 ## Key claims
 
-Original sources accessed **2026-10-17**; additions and identified re-checks accessed **2026-10-18**. A confirms the disclosed reading or announcement, not fulfillment of a forecast or investment ambition. B identifies arithmetic; directly disclosed components retain A where specified. C marks limited futures verification, vendor equity prices and reported, unverified funding or AI-credit estimates; D marks the fetched tertiary AI-credit commentary. B arithmetic does not upgrade C inputs. Monthly sequences below run chronologically; currency amounts are nominal.
+Original sources accessed **2026-10-17**; additions and identified re-checks accessed **2026-10-18**. A confirms the disclosed reading or announcement, not fulfillment of a forecast or investment ambition. B identifies arithmetic; directly disclosed components retain A where specified. C marks limited futures verification, vendor equity prices and reported, unverified funding or AI-credit estimates; D marks the fetched tertiary AI-credit commentary. B arithmetic does not upgrade C inputs. The October 21 update re-fetched the primary calendars/statistical releases and the dated Treasury table; items predating October 17 remain historical context. Monthly sequences below run chronologically; currency amounts are nominal.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
-| 1 | Fed path and next meeting | 3.50–3.75% held Jan–Jul; September +25 bp to 3.75–4.00%, approved 12–0; next meeting Oct 27–28 | 2026-10-18 cutoff; Sep 16 decision | [S1], [S2], [S50]; [calendar](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) | primary | A |
+| 1 | Fed path and next meeting | 3.50–3.75% held Jan–Jul; September +25 bp to 3.75–4.00%, approved 12–0; next meeting Oct 27–28, decision day Oct 28; no October decision at the update cutoff | 2026-10-21 cutoff; Sep 16 decision | [S1], [S2], [S50], [S66] | primary | A |
 | 2 | Balance sheet | Full Treasury rollover; agency principal reinvested into bills; reserve-management purchases as appropriate | 2026-09-16 | [S3], [S48] | primary | A |
 | 3 | CPI headline/core, annual | September 3.7% / 2.6%; August 3.4% / 2.4%, NSA | 2026-10-14 | [S4] | primary | A |
 | 4 | CPI monthly history, Mar–Sep | Headline: 0.9, 0.6, 0.5, −0.4, 0.1, 0.4, 0.6%; core: 0.2, 0.4, 0.2, 0.0, 0.2, 0.3, 0.3%, SA | 2026-10-14 | [S4] | primary | A |
 | 5 | PPI final demand, September | 6.3% y/y NSA; 1.3% m/m SA; excluding food, energy and trade: 5.0% y/y | 2026-10-15 | [S5] | primary | A |
 | 6 | PPI history, Jan–Sep | m/m SA: 0.6, 0.5, 0.8, 1.1, 0.5, −0.1, 0.2, 0.5, 1.3%; y/y NSA: 3.1, 3.4, 4.3, 5.7, 5.9, 5.6, 4.9, 5.6, 6.3% | 2026-10-15 vintage | [S5] | primary | A |
 | 7 | October FedWatch distribution | Hike 15.5%; hold 84.5%; cut 0.0%, for Oct 28 | 2026-10-17 02:37:45 CT | [S6] | primary | A |
-| 8 | Treasury yield, daily | 10-year 5.10% | 2026-10-15 | [S7] | primary | A |
+| 8 | Treasury yield, dated daily history | Ten-year 5.24% Oct 9 → 5.21% Oct 13 → 5.19% Oct 14 → 5.10% Oct 15 → 5.09% Oct 16. These prior-week observations were already recorded in the Oct 17/18 signals and re-confirmed from Treasury; not new Oct 17–21 fixings. The scan’s undated 5.11–5.19% range is not adopted | 2026-10-09–16 observations; re-fetched 2026-10-21 | [S7], [S61] | primary | A observations; D unverified scan range |
 | 9 | Treasury yield, monthly Jan–Sep | 4.21, 4.13, 4.25, 4.32, 4.48, 4.47, 4.60, 4.68, 4.99% | 2026-09 | [S8] | primary | A |
 | 10 | SOFR | 3.89% | 2026-10-15 | [S9] | primary | A |
 | 11 | Broad dollar | 121.6023; January 2006=100 | 2026-10-09 | [S10] | primary | A |
@@ -75,6 +77,12 @@ Original sources accessed **2026-10-17**; additions and identified re-checks acc
 | 55 | MGX lab-round participation; excluded from sums | MGX reportedly joined OpenAI’s $122bn March 2026 round; individual allocation undisclosed, reported, unverified. Participation expands the known sovereign-linked lab perimeter; no amount added to $3bn floor | March 2026 round; report updated 2026-04-01 | [S64] | secondary | C |
 | 56 | Brent spike, October mean and Q4 sensitivity | Spot $135.51 Oct 2; ten observations Oct 1–14 average $126.977 ≈ $126.98/bbl. Assuming about 64 Q4 observation days, (64×$105 − 10×$126.977)/(64−10) = $100.93 ≈ $101 required for remaining 54 days; illustrative calendar assumption, not EIA forecast or a futures price | through 2026-10-14; calculated 2026-10-18 | [S14], [S59]; claim 15 | primary observations / arithmetic | A spot observations; B mean and conditional calculation |
 | 57 | CPI-day moves and policy-odds snapshots | Oct 14 headline CPI 3.7% y/y versus Reuters consensus 3.6%; core +0.3% m/m versus +0.2%. M1 −6.2%, CRWV −15.5%, ORCL −8.8%, NDX −2.0%; two-year +3bp (4.79%→4.82%), ten-year −2bp (5.21%→5.19%), real ten-year −4bp (2.88%→2.84%), HY OAS +9bp (3.16%→3.25%). Reuters/LSEG October hike odds ~33% Oct 14 versus CME 15.5% Oct 17; different times/providers, not week-endpoint change | 2026-10-14 daily moves; odds Oct 14 / 17 | [S4], [S55], [S56], [S58], [S60]–[S62], [S65], [S6] | primary official levels; secondary consensus/equities/odds report; arithmetic | A official prints/levels; B official changes/NDX return and Reuters consensus; C vendor equity inputs |
+| 58 | Upcoming macro calendar | FOMC Oct 27–28; GDP first release and personal income/PCE Oct 29, both 08:30 on NYFed calendar. Scheduled events, not October policy decisions or newly released GDP/PCE actuals | calendars re-fetched 2026-10-21 | [S66], [S67] | primary calendars | A schedule |
+| 59 | Brent intraday observation | Oct 20 report describes ~$111→~$106/bbl within minutes, later ~$108. This does not establish a >$111 settlement, WTI ~$108, or a synchronized US Treasury move; distinct from physical spot and the earlier dated futures quotes in claims 12–14 | 2026-10-20 report; re-fetched 2026-10-21 | [S68] | secondary market reporting | B intraday report; D unsupported close/tape |
+| 60 | September housing release | Starts 1.221m SAAR, −5.2% m/m (±11.8pp) / −7.4% y/y (±11.5pp); both intervals include zero. Permits 1.400m SAAR, −0.2% m/m; single-family starts 859,000; completions 1.192m. Next release Nov 18 | September 2026; released 2026-10-20 | [S69] | primary statistics | A |
+| 61 | Weekly petroleum quantities | Week ended Oct 16: commercial crude excluding SPR −3.1m to 412.5m barrels; gasoline −3.0m, distillate +1.7m, total commercial petroleum −8.5m barrels. Refinery runs 16.6m b/d, utilization 93.4%. Quantities, not price settlements | 2026-10-21 live release; week ended 2026-10-16 | [S70] | primary statistics | A |
+| 62 | Q3 weekly earnings and inflation comparison | Median $1,232 NSA, +1.5% y/y versus same-period CPI +3.5%; SA median $1,239 versus Q2 $1,258. Women $1,127, men $1,352, ratio 83.4%. Quarter-average CPI differs from September’s 3.7% point reading; earnings medians do not track the same workers over time | Q3 2026; released 2026-10-21 | [S71] | primary statistics | A |
+| 63 | September state labor-market breadth | Unemployment lower in 5 states, stable in 45 + DC; statistically significant payroll increases in 2 states, decrease in 1 (Wisconsin −13,700), unchanged in 47 + DC. California’s −9,300 table change is not a significant decline | September 2026; released 2026-10-20 | [S72] | primary statistics | A |
 
 ## Analysis
 
@@ -194,19 +202,21 @@ The scenarios below are conditional mechanisms, not probability forecasts. Equip
 - **Review scope:** the earlier Codex audit targeted selected original claim rows; it did not certify CME's timestamped distribution, the futures settlement, all other rows or detailed Russia–Iran sanctions waivers. Its White House fetch failed; that access limitation does not contradict the original note's direct-fetch claim. [Codex cross-check](../../reviews/rates-sovereign-geopolitics-codex-xcheck.md). The [Claude cross-check](../../reviews/rates-sovereign-geopolitics-claude-xcheck.md) re-verified twelve selected rows and added the market, vintage and scope critiques above; neither review certifies every row
 - **Unverified:** exact term-premium reading, exchange-verified Brent settlement, aggregate sovereign share, margin-call thresholds, current Russian energy flows and final Chinese export-control thresholds. These require datasets, agreements or final rules not obtained here.
 
+- **October update versus earlier demand/energy interpretation:** August real PCE +0.6% remains the latest spending observation used here, but the Oct 20–21 housing/earnings releases add weaker signals. Housing-start declines are not statistically significant, state payrolls are mostly unchanged, and wage/CPI comparison uses quarterly averages; none establishes a broad contraction. The Oct 20 Brent ~$111→~$106 intraday move also conflicts with describing >$111 as a verified close. No new historical Fed-odds series or undated Treasury range is inferred. Claims 43, 58–63
+
 ## Signals to watch
 
 | Signal | Current value | As of | Source | Why it matters |
 |--------|---------------|-------|--------|----------------|
-| FOMC decision / next meeting | 3.75–4.00%; Oct 27–28 next | Sep 16 / cutoff | [S2]; calendar in claim 1 | Repricing and floating funding |
-| October hike odds | 15.5%; hold 84.5% | Oct 17, 02:37:45 CT | [S6] | Live expectation, not certainty |
+| FOMC decision / next meeting | 3.75–4.00%; next Oct 27–28, decision Oct 28; October decision pending | Sep 16 decision; calendar checked Oct 21 | [S2], [S66]; claims 1, 58 | Repricing and floating funding; read the Oct 28 statement |
+| October hike odds | Historical 15.5% hike / 84.5% hold; no new matched snapshot verified in this update | Oct 17, 02:37:45 CT; historical | [S6]; [Oct 21 verification](/signals/2026-10-21) item 41 | Refresh venue snapshot before Oct 28; do not infer a 35%→83% historical path |
 | CPI headline / core | 3.7% / 2.6% y/y | September; Oct 14 release | [S4] | Persistence beyond energy |
 | PPI final demand | 6.3% y/y; 1.3% m/m | September; Oct 15 release | [S5] | Supply-chain price pressure |
-| PCE headline / core; real spending | 3.4% / 3.0% y/y; real PCE +0.6% m/m | August; Sep 30 release with annual revisions | [S51] | Fed-target inflation and demand counterweight |
+| PCE headline / core; real spending | August 3.4% / 3.0% y/y; real PCE +0.6% m/m; next personal income/PCE Oct 29, 08:30 | Aug actual; Sep 30 release; calendar checked Oct 21 | [S51], [S67]; claim 58 | Fed-target inflation and demand; await next release |
 | Fed conditions / year-end outlook | Supportive conditions; most participants expected another hike by year-end | Sep 15–16 meeting; Oct 7 minutes | [S50] | Distinguish rate pressure from general credit contraction |
-| Treasury / SOFR | 5.10% / 3.89% | Oct 15 | [S7], [S9] | Discount rate and cash interest |
+| Treasury / SOFR | Ten-year 5.10% Oct 15 → 5.09% Oct 16; SOFR 3.89% Oct 15; dated history retained | Historical fixings; Treasury re-checked Oct 21 | [S7], [S9], [S61]; claim 8 | Refresh dated daily rates around Oct 27–29; no new fixing inferred from an undated range |
 | Balance-sheet policy | Reinvestment and reserve maintenance | Sep 16 | [S3] | Distinguish liquidity from easing |
-| Brent spot / quoted futures | $126.55 / $109.95 per barrel; different dates | Oct 14 / 16 | [S12], [S11] | Physical shortage versus delivery outlook |
+| Brent spot / quoted futures | Physical $126.55 Oct 14; quoted futures close $109.95 Oct 16 (C); Oct 20 report ~$111→~$106 intraday, later ~$108 (B) | Separate Oct 14 / 16 / 20 observations | [S12], [S11], [S68]; claim 59 | Check subsequent dated spot/settlements; intraday reporting does not supply a closing price |
 | Oil recovery / power prices | Shut-ins 5.8m→4.8m b/d Aug→Sep; pipeline partially resumed Sep 22; commercial power PPI −0.6% m/m; consumer electricity CPI +0.2% m/m, +4.4% y/y | Oct 6 EIA / Oct 14–15 BLS releases | [S14], [S4], [S5] | Recovery and differentiated energy transmission |
 | UAE financing talks | Up to $10bn collectively; reported, unverified, C; excluded from sums | Oct 6 | [S54] | Require primary closing and allocation disclosure |
 | TSMC supply diversification | Arizona fab two Q3 2027; 13 Taiwan fabs versus five to six overseas in build plans | Oct 15 | [S52] | Timing of alternative supply |
@@ -222,6 +232,10 @@ The scenarios below are conditional mechanisms, not probability forecasts. Equip
 | PCE release versus estimate | Actual August 3.4%/3.0%; staff old-basis 3.8%/3.4% and new-basis 3.6%/3.2% superseded | Sep 30, 2026 release | [S50], [S51]; claim 43 | Use release vintage; do not propagate 3.8% as actual August PCE |
 | Brent versus forecast vintage | October mean $126.98 (ten observations); roughly $101 remaining-quarter path needed for EIA’s $105 Q4 mean | through Oct 14, 2026; forecast completed Oct 1 | [S14], [S59]; claims 15, 56 | Compare next EIA vintage and actual spot recovery with the forecast’s pre-spike assumptions |
 | Sovereign lab follow-through | HUMAIN $3bn check; MGX in $122bn OpenAI round reported, allocation unknown; QIA Anthropic check unknown | Feb / March / May 2026; cutoff Oct 18 | [S24], [S30], [S64]; claims 24, 28, 55 | Obtain primary participation, allocation and close disclosures; no whole round enters sovereign sums |
+| GDP first release | No new actual established; next release Oct 29, 08:30 on NYFed calendar | calendar checked Oct 21 | [S67]; claim 58 | Growth test beside the simultaneous PCE release |
+| Housing starts / permits | September 1.221m / 1.400m SAAR; starts −5.2% m/m with interval including zero; next Nov 18 | Oct 20 release | [S69]; claim 60 | Test whether weakness persists before inferring contraction |
+| Petroleum inventories / refining | Crude 412.5m barrels (−3.1m); total petroleum −8.5m; utilization 93.4% | Oct 21 release, week ended Oct 16 | [S70]; claim 61 | Follow next weekly release; inventory changes are not oil-price closes |
+| Weekly earnings / state employment | Q3 median $1,232 NSA, +1.5% y/y vs quarterly CPI +3.5%; September payrolls up in 2 states/down in 1, significant changes | Oct 21 / Oct 20 releases | [S71], [S72]; claims 62–63 | Compare Oct 29 spending with purchasing-power pressure; next release dates not verified here |
 
 [CSV](/data/macro-rates-inflation.csv): month-start labels identify reference months; Fed values are month-end carry-forwards, GS10/Brent monthly averages. Daily snapshots are labeled; PPI uses the latest vintage; missing CPI annual history is not interpolated.
 
@@ -290,11 +304,19 @@ Original sources accessed **2026-10-17**; the re-checks and additions below were
 58. Federal Reserve / FRED, “DGS2: two-year Treasury yield”; observations through October 15, 2026. <https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=2026-01-01&coed=2026-10-17>. Accessed 2026-10-18.
 59. EIA / FRED, “DCOILBRENTEU daily physical Brent”; observations through October 14, 2026; October mean calculated from ten non-missing values. <https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU&cosd=2026-01-01&coed=2026-10-17>. Accessed 2026-10-18.
 60. ICE Data Indices / FRED, “ICE BofA US High Yield Index Option-Adjusted Spread”; observations through October 15, 2026. <https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-01-01&coed=2026-10-17>. Accessed 2026-10-18.
-61. US Treasury, “Daily Treasury Par Yield Curve Rates, 2026”; October 16 ten-year 5.09% and thirty-year 5.43%. <https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve>. Accessed 2026-10-18.
+61. US Treasury, “Daily Treasury Par Yield Curve Rates, 2026”; October 16 ten-year 5.09% and thirty-year 5.43%. <https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve>. Accessed 2026-10-18; dated Oct 9–16 ten-year observations re-fetched 2026-10-21.
 62. Yahoo Finance, “Daily equity and SOX histories”; observations through October 16, 2026, C price inputs, with reproducible B basket arithmetic. <https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d>. Also re-fetched <https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/ORCL?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/MU?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/VRT?range=2y&interval=1d>, <https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=2y&interval=1d>. Nasdaq official NDX EOD levels (A; returns B): <https://indexes.nasdaq.com/Index/History/NDX>, fetched by POST to <https://indexes.nasdaq.com/Index/HistoryData> with id=NDX, startDate=2026-10-09, endDate=2026-10-16, timeOfDay=EOD. Accessed 2026-10-18.
 63. VLT Capital, “Le crédit, signal d’avertissement sur le financement du cycle de l’IA”; published October 16, 2026; tertiary analyst commentary (D) repeats the review’s C-grade secondary estimate of +25bp/360bp versus +2bp attributed to Goldman, primary note unavailable; direct HTML fetch. <https://vltcapital.substack.com/p/le-credit-signal-davertissement-sur>. Accessed 2026-10-18.
 64. MENA Startup Digest, “UAE’s MGX Joins OpenAI in Historic $122 Billion Funding Round”; updated April 1, 2026, reporting the March round; reported, unverified participation, C; direct HTML fetch. <https://menastartupdigest.com/?p=34969>. Accessed 2026-10-18.
 65. Reuters, republished by AOL, “Asia shares edge lower as chip selloff deepens”; October 14, 2026 market report, CPI consensus and LSEG policy-odds snapshot; direct HTML fetch. <https://www.aol.com/articles/asia-shares-edge-chip-selloff-015255000.html>. Accessed 2026-10-18.
+
+66. Federal Reserve, FOMC meeting calendar; Oct 27–28, 2026. <https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm>. Re-fetched 2026-10-21.
+67. New York Fed, October 2026 economic-indicators calendar; GDP first release and personal income/PCE Oct 29, 08:30. <https://www.newyorkfed.org/research/calendars/i-oct26.html>. Re-fetched 2026-10-21.
+68. Cinco Días, Oct 20 market report; intraday Brent observations, not settlements. <https://cincodias.elpais.com/mercados-financieros/2026-10-20/la-bolsa-y-el-ibex-35.html>. Re-fetched 2026-10-21.
+69. Census/HUD, September new residential construction; released Oct 20; first PDF page and uncertainty intervals checked. <https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf>. Re-fetched 2026-10-21.
+70. EIA, weekly petroleum summary; week ended Oct 16; live text fetched directly. <https://ir.eia.gov/wpsr/summary.txt>. Re-fetched 2026-10-21.
+71. BLS, Q3 usual weekly earnings; Oct 21 archive fetched directly. <https://www.bls.gov/news.release/archives/wkyeng_10212026.htm>. Re-fetched 2026-10-21.
+72. BLS, September state employment and unemployment; Oct 20 release, statistical-significance table. <https://www.bls.gov/news.release/archives/laus_10202026.htm>. Re-fetched 2026-10-21.
 
 Additional FOMC statements supporting [S1]: [March](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm), [April](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm), [June](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm), [July](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm). Published on the dates embedded in each URL; accessed 2026-10-17. [FOMC calendar](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm), undated current page, accessed 2026-10-17.
 
@@ -366,3 +388,11 @@ Additional FOMC statements supporting [S1]: [March](https://www.federalreserve.g
 [S63]: https://vltcapital.substack.com/p/le-credit-signal-davertissement-sur
 [S64]: https://menastartupdigest.com/?p=34969
 [S65]: https://www.aol.com/articles/asia-shares-edge-chip-selloff-015255000.html
+
+[S66]: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+[S67]: https://www.newyorkfed.org/research/calendars/i-oct26.html
+[S68]: https://cincodias.elpais.com/mercados-financieros/2026-10-20/la-bolsa-y-el-ibex-35.html
+[S69]: https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf
+[S70]: https://ir.eia.gov/wpsr/summary.txt
+[S71]: https://www.bls.gov/news.release/archives/wkyeng_10212026.htm
+[S72]: https://www.bls.gov/news.release/archives/laus_10202026.htm

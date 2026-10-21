@@ -1,6 +1,6 @@
 # Amazon: profitable cloud, increasingly externally funded expansion
 
-*Last updated: 2026-10-18 · Author: Codex / OpenAI · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18*
+*Last updated: 2026-10-21 · Author: Codex / OpenAI · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18 · Updated 2026-10-21 from signals/2026-10-21.md*
 
 ## Summary
 
@@ -48,7 +48,7 @@ Amounts are US dollars unless stated otherwise. Sources were accessed **2026-10-
 | 29 | Further debt issuance | July $25bn principal, including $0.750bn floating-rate notes; approximately $24.867bn proceeds before offering expenses; fixed coupons 4.60–6.25%; maturities 2029–2066 | 2026-07-09 | [8-K][DEBT] | primary | A stated terms and proceeds; B total tranche principal |
 | 30 | Liquidity and debt | Cash/equivalents/marketable securities $123.0bn; long-term debt face value including current portion $132.995bn; uncommenced leases $137.214bn | 2026-06-30 | [10-Q][Q226] | primary | A |
 | 31 | Stock-price reference and valuation arithmetic | Close $250.00; June actual outstanding shares 10.783bn imply ~$2.696tn equity value, ~16.7× TTM OCF; illustrative 4% FCF yield requires ~$107.8bn annual FCF | Price 2026-10-16; June accounts | [Price history][PRICE], [results][R226]; scenario assumption | secondary price / primary accounts; derived | B for arithmetic conditional on stated inputs; 4% yield is an illustrative assumption, not an observed market requirement |
-| 32 | Demand statement and next check | July call: capacity insufficient in 2026 and likely 2027, strong demand for 2028; next results October 29 | 2026-07-30 / 2026-10-15 | [Transcript][CALL], [announcement][NEXT] | primary | A |
+| 32 | Demand statement and next check | July call: capacity insufficient in 2026 and likely 2027, strong demand for 2028; Q3 results scheduled October 29, call 5pm ET. No new results at the Oct 21 15:00 UTC signal cutoff; retain July ~$220bn cash-capex guidance pending release | July statement; October schedule re-checked 2026-10-21 | [Transcript][CALL], [announcement][NEXT], [Amazon schedule][OCT29] | primary | A statement and schedule, not new results |
 | 33 | Anthropic external funding counterevidence | $65bn Series H, led by financial investors; includes Amazon's Series H investment, not wholly incremental to it | 2026-05-28 | [Anthropic][H] | primary | A |
 | 34 | Equipment purchases not yet paid: change, not ending balance | Increase $20.620bn in H1; $29.267bn TTM | 2026-06-30 | [10-Q][Q226] | primary | A |
 | 35 | September sterling debt issuance | £4.25bn principal; approximately £4.235bn proceeds after underwriting discounts, before offering expenses; fixed coupons 5.20–6.65%; maturities 2029–2045 | Closed 2026-09-14 | [8-K][SEPT] | primary | A terms and proceeds; B summed principal |
@@ -160,12 +160,12 @@ The original OpenAI agreement was real and primarily involved NVIDIA infrastruct
 
 | Signal | Current value | As of | Source | Why it matters |
 |--------|---------------|-------|--------|----------------|
-| Cash-capex guidance | ~$220bn, up from ~$200bn | July 2026 | [Call][CALL] | Separate capacity additions from input inflation. |
-| AWS growth and margin | 37%; 39.4% reported, approximately 38.05% subtracting the $551m primarily-AWS derivative gain (B) | 2026-Q2 | [Results][R226], [10-Q][Q226] | Demand conversion and operating returns, separating valuation effects. |
+| Cash-capex guidance | Prior July ~$220bn, up from February ~$200bn; retained pending Oct 29 results | July 30, 2026 guide; schedule checked Oct 21 | [Call][CALL], [next results][OCT29] | Oct 29 check: capacity additions versus input inflation; no new guidance or capex cut established. |
+| AWS growth and margin | 37%; 39.4% reported, approximately 38.05% subtracting the $551m primarily-AWS derivative gain (B); next update Oct 29 | 2026-Q2 actuals | [Results][R226], [10-Q][Q226], [next results][OCT29] | Oct 29 check: demand conversion and returns, separating valuation effects. |
 | Backlog and duration | $496bn; 6.4 years | June 2026 | [10-Q][Q226] | Growth accompanied by longer collection horizon. |
 | Backlog concentration in funded customers | H1 backlog +$252bn alongside OpenAI +$100bn and Anthropic >$100bn commitments; most growth plausibly from those labs (C), actual shares undisclosed | 2026-H1 | [Q1][Q126], [Q2][Q226], [OpenAI][OA], [Anthropic][ANT] | Test collectability and customer diversity rather than count investee contracts as independent demand. |
-| Trailing cash generation | OCF $161.403bn; FCF −$7.604bn | June 2026 | [Results][R226] | Whether internal funding catches spending. |
-| FCF after lease/financing principal | −$9.511bn, derived | June 2026 TTM | [10-Q][Q226] | Fuller recurring cash burden. |
+| Trailing cash generation | OCF $161.403bn; FCF −$7.604bn; next update Oct 29 | June 2026 TTM actuals | [Results][R226], [next results][OCT29] | Oct 29 check: whether internal funding catches spending. |
+| FCF after lease/financing principal | −$9.511bn, derived; refresh with Q3 disclosure after Oct 29 results | June 2026 TTM | [10-Q][Q226], [next results][OCT29] | Fuller recurring cash burden. |
 | Anthropic revenue quality | Q3 $16.8bn, reported, unverified | October 14 | [Reuters][REUT] | Audit and cash conversion matter more than the headline. |
 | Lab financing exposure | Anthropic $18bn funded plus $15bn remaining delivery-contingent facility capacity; OpenAI $28.7bn through June plus $21.3bn subsequently | June 2026 and subsequent event; filed 2026-07-31 | [10-Q][Q226] | Track investment outflows alongside customer receipts. |
 | External funding and loan draw | £4.25bn sterling notes; $17.5bn June-undrawn loan expired September 30 if undrawn; no September 15–October 18 draw-announcing 8-K located, expiry undrawn likely but unconfirmed (C) | Notes closed 2026-09-14; filing-list check 2026-10-18 | [8-K][SEPT], [10-Q][Q226], [EDGAR][SUBS] | Q3 disclosure must distinguish a draw from expired capacity. |
@@ -179,7 +179,7 @@ The original OpenAI agreement was real and primarily involved NVIDIA infrastruct
 | Full-year cash direction | $220bn guide implies ~$122–124bn H2 capex; illustrative FY OCF ~$201.2bn, FCF ~−$18.8bn under the net-capex convention (C), before lab investments | July 30 guide; H1 actuals | [10-K][K25], [10-Q][Q226], [call][CALL] | Test whether operating cash growth catches the capital bill; this is a scenario, not a forecast. |
 | Anthropic payment burden and concentration | $518bn commitments, approximately 80% rigid; nearly one-quarter of 2025 revenue from two customers, reported, unverified (C) | Reports 2026-09-28/29 | [Reuters][RSEP29], [Reuters][RSEP28] | Test payment capacity across suppliers, not just contracted AWS revenue. |
 | Capacity delivery | Trainium3 shipping; nearly 1GW Anthropic capacity planned | April 2026 | [Chips][CHIPS], [Anthropic][ANT] | Delivery, utilization and performance obligations. |
-| Next reporting checkpoint | October 29 | Announced October 15 | [Amazon][NEXT] | Refresh FCF, capex, backlog and debt together. |
+| Next reporting checkpoint | Q3 results scheduled October 29, call 5pm ET; still pending at Oct 21 15:00 UTC cutoff | Announced October 15; re-checked 2026-10-21 | [Amazon notice][NEXT], [Amazon schedule][OCT29], #32 | Refresh FCF, capex, backlog and debt together; retain prior guidance until the issuer releases results. |
 
 ## Sources
 
@@ -212,6 +212,8 @@ The original OpenAI agreement was real and primarily involved NVIDIA infrastruct
 26. Amazon / SEC, **Globalstar information statement/prospectus, Form 424B3**, 2026-08-18. https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm — fetched 2026-10-18; April 13 agreement terms and signing share count, not fixed closing consideration.
 27. SEC, **Notice of effectiveness: Amazon Form S-4**, effective 2026-08-18. https://www.sec.gov/Archives/edgar/data/1018724/999999999526002695/xslEFFECTX01/primary_doc.xml — fetched 2026-10-18; confirms Globalstar registration effectiveness.
 
+28. Amazon, [Q3 2026 earnings schedule][OCT29], re-fetched 2026-10-21: October 29 call at 5pm ET. This is a schedule re-check; July capex guidance and June cash metrics remain prior disclosures pending results.
+
 The Codex cross-check was applied on 2026-10-17; the Claude cross-check was applied on 2026-10-18. For the latter, the 2025 10-K, Q1 and Q2 2026 10-Qs, July and September debt filings, July call transcript, OpenAI expansion, Anthropic compute announcement, October Reuters report, Globalstar prospectus and effectiveness notice, and EDGAR submissions/search endpoints were fetched to verify the additions. SEC requests used the generic User-Agent `research-bot contact@example.com`. Both reviews found no arithmetic error in the pre-existing claims or CSV, so the CSV is unchanged. New ratios and scenarios were recalculated; the Anthropic carrying-value increase is $129.8bn, of which approximately $119.8bn is beyond new cash, correcting the review's ambiguous ~$120bn wording.
 
 [K25]: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
@@ -242,3 +244,5 @@ The Codex cross-check was applied on 2026-10-17; the Claude cross-check was appl
 [EFTSA]: https://efts.sec.gov/LATEST/search-index?q=%22Anthropic%2C%20PBC%22&forms=S-1%2FA&dateRange=custom&startdt=2026-06-01&enddt=2026-10-18
 [GSAT]: https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm
 [EFFECT]: https://www.sec.gov/Archives/edgar/data/1018724/999999999526002695/xslEFFECTX01/primary_doc.xml
+
+[OCT29]: https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report
