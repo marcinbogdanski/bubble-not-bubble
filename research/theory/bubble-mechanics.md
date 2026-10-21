@@ -1,6 +1,6 @@
 # Bubble mechanics, operationalised for the AI boom
 
-*Last updated: 2026-10-17 · Author: Claude (Fable 5.1 subagent) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17*
+*Last updated: 2026-10-21 · Author: Claude (Fable 5.1 subagent) · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17 · Updated 2026-10-21 from signals/2026-10-21.md*
 
 ## Summary
 
@@ -32,10 +32,13 @@
   date (claims 18–22, 27–29, 51).
 - Financing risk varies by issuer. CoreWeave's cash flows show refinancing
   dependence, not demonstrated Ponzi finance; September disclosures show
-  continued market access and demand. Broad credit spreads and sentiment
-  give mixed evidence, while Fed minutes report hyperscaler credit repricing.
-  The original rubric sums to 20/26, but its composite assessment is withdrawn
-  pending consistent rules and calibration (claims 23–26, 42–43, 46–50).
+  completed financing and demand. October 19–20 quotes put its unsecured
+  yields near 15–16% and Oracle CDS at 315/322 bp; these are issuer stress
+  readings, not defaults or synchronized closes. S&P warns of opaque
+  liabilities without a new rating action; Elice’s weak debut and divergent
+  executive views qualify a uniform risk-appetite story. The original rubric
+  sums to 20/26, but its composite assessment remains withdrawn pending
+  consistent rules and calibration (claims 23–26, 42–43, 46–50, 59–64).
 - No current numerical Dalio aggregate reading was located in this research.
   The central unresolved tests are sustainable customer cash generation,
   contract quality, debt maturities and recoverable asset values. The May Fed
@@ -92,8 +95,8 @@
 | 44 | Shiller's published excess CAPE yield, distinct from TIPS proxy | +0.81980% September; +0.55724% partial October; October price and GS10 use October 2 observations, September/October CPI estimated | 2026-09/10 | [Shiller workbook, column Q and footnotes](https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/1449043e-a1ed-4e2e-8e9c-7b9a2a064493/ie_data.xls?ver=1791297298731) | primary | A |
 | 45 | September CAPE percentile and current-year counterexample to historical exclusivity | 98.86th percentile (share ≤ September value) of 1,750 months, Jan 1881–Oct 2026 including partial October; August 2026 CAPE 40.9874 | 2026-10 workbook | [Shiller workbook](https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/1449043e-a1ed-4e2e-8e9c-7b9a2a064493/ie_data.xls?ver=1791297298731) | primary | A August value / B sample and percentile |
 | 46 | September FOMC minutes: differentiated credit risk, earnings and policy assessments | Hyperscaler spreads elevated after earlier widening, with slight recent narrowing; equity gains attributed to actual/expected earnings as multiples declined; yields had multiple drivers; several participants saw policy as mildly restrictive or not restrictive | meeting 2026-09-15/16; released 2026-10-07 | [FOMC minutes](https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm?trk=article-ssr-frontend-pulse_little-text-block) | primary | A for recorded assessments |
-| 47 | CoreWeave convertible-note pricing announcement (not settlement confirmation) | $3.7 bn at 2.875%, due 2033; $500 m purchaser option; expected net proceeds $3.6445 bn before offering expenses; $498.8 m for capped calls | 2026-09-18 | [Company pricing announcement](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx) | primary | A announced terms/estimates |
-| 48 | CoreWeave convertible proceeds remaining after capped calls, before offering expenses, excluding option | $3.6445 bn − $0.4988 bn = $3.1457 bn intended for general corporate purposes | 2026-09-18 | computed from #47, [announcement](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx) | primary | B |
+| 47 | CoreWeave convertible-note pricing followed by completed settlement; older disclosure corrected | Sep 18: $3.7 bn at 2.875%, due 2033, plus $500 m option; expected net $3.6445 bn before expenses, $498.8 m capped calls. Sep 22: completed $4.2 bn including full option, net $4.1370 bn before offering expenses, capped calls $566.2 m | 2026-09-18 / 2026-09-22; re-fetched 2026-10-21 | [Pricing announcement](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx); [closing 8-K](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm) | primary | A |
+| 48 | CoreWeave convertible proceeds after capped calls, before offering expenses; not cash still on hand | Sep 18 base-offering estimate: $3.6445 bn − $0.4988 bn = $3.1457 bn. Sep 22 completed full-option offering: $4.1370 bn − $0.5662 bn = $3.5708 bn intended for general corporate purposes | 2026-09-18 / 2026-09-22 | computed from #47, [closing 8-K](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm) | primary inputs / arithmetic | B |
 | 49 | CoreWeave authorised ATM capacity, not completed equity sales | Up to 35 m shares; no obligation to sell | 2026-09-17 | [Company ATM announcement](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-At-the-Market-Offering-Program/default.aspx) | primary | A |
 | 50 | CoreWeave management demand/pricing update, not recognised revenue | Higher-priced short contracts; >$25 bn early-Q3 net new commitments excluded from June backlog | 2026-09-17 (commitments previously disclosed Aug 11) | [Company update](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx) | primary | A for management disclosures |
 | 51 | Q2 IPO concentration in SpaceX | $75 bn of $104.8 bn = 71.6%; $29.8 bn excluding SpaceX, still strong per publisher | 2026-Q2; review 2026-07-01 | [Renaissance Q2 review](https://www.renaissancecapital.com/review/2Q26USReview_Public.pdf) | primary | A inputs/assessment / B share and subtraction |
@@ -104,6 +107,12 @@
 | 56 | Conditional capex-growth / revenue-growth ratios; not financing-dollar gaps | 60/16.5 = 3.64x for 2025; 80/15.5 = 5.16x for the 2026 plan | inputs 2026-04-06; calculation 2026-10-17 | computed from #32, [Futuriom](https://www.futuriom.com/articles/news/ctp-is-hyperscaler-ai-spending-sustainable/2026/04) | secondary inputs / author calculation | B arithmetic / C underlying estimates |
 | 57 | Dalio's sustainability measure and timing limitation | Required earnings growth for equity returns above bonds; gauge does not precisely time tops or bottoms | 2021-02-02 | [Bridgewater original](https://www.bridgewater.com/research-and-insights/ray-dalio-stock-market-bubble) | primary | A for stated method/caveat |
 | 58 | Perez's accessible current-revolution framing | AI is a development within the existing ICT revolution; full article not independently verified | 2024-03-11 | [Project Syndicate introduction](https://www.project-syndicate.org/magazine/ai-is-part-of-larger-technological-revolution-by-carlota-perez-1-2024-03) | primary | A for accessible introduction |
+| 59 | CoreWeave credit stress, dated secondary-market snapshots | Oct 19: 9.625% 2032 YTM 14.9%, five-year CDS ~1,082 bp. Oct 20: 9.75% 2031 YTM 15.97%, CDS nearly 1,081 bp. Different bonds and quote times; not defaults or calibrated physical default probabilities | 2026-10-19/20 | [CNBC Oct 19](https://www.cnbc.com/amp/2026/10/19/coreweave-oracle-ai-credit-stress.html); [CNBC Oct 20](https://www.cnbc.com/amp/2026/10/20/coreweave-debt-janus-henderson-lloyd.html) | secondary market reporting | B attribution / C quoted marks |
+| 60 | Oracle five-year CDS: distinct observations, not synchronized closes | 315 bp (CNBC); 322 bp (FT), versus FT's 144 bp at start-2026. Both new quotes refer to Monday Oct 19; preserve both rather than average | 2026-10-19; FT published Oct 20 | [CNBC](https://www.cnbc.com/amp/2026/10/19/coreweave-oracle-ai-credit-stress.html); [FT via Financial Post](https://financialpost.com/financial-times/ai-debt-worries-spark-surge-in-default-insurance-trading) | secondary market reporting | B attribution / C quoted marks |
+| 61 | S&P opacity warning without rating action; forecast vintage distinguished | Oct 19 Reuters: Habib warns interconnected financing may conceal liabilities, gives no hidden-debt total and sees no rating change warranted now; six firms (Amazon, Microsoft, Alphabet, Oracle, Meta, SpaceX) projected to spend >$7 tn during 2025–30 with combined FCF negative at least through 2027. Earlier Aug 27 primary release already projected negative FOCF for all six in 2026–27, recovery in 2029; these remain agency scenarios, not actual cash deficits | commentary 2026-10-19; earlier forecast 2026-08-27 | [Reuters via Boursorama](https://www.boursorama.com/bourse/actualites/les-principaux-hyperscalers-pourraient-avoir-un-endettement-lie-a-l-ia-plus-important-qu-on-ne-le-pense-actuellement-met-en-garde-s-p-global-83db047e4cfe79ccfdc7bad05d42e61b); [S&P original forecast](https://press.spglobal.com/2026-08-27-AI-Infrastructure-Investment-To-Exceed-1-3-Trillion-By-2027,-S-P-Global-Ratings-Says) | secondary attributed commentary / primary agency forecast | B remarks / A primary publication / C projections |
+| 62 | Elice IPO: completed funding alongside weak aftermarket risk appetite | Raised 201.1 bn won ($151 m); 61,500 won debut close versus 90,500 won offer, reported 32% fall. One Korean AI-infrastructure listing does not establish CoreWeave-equivalent balance-sheet risk or a closed IPO market | 2026-10-20 | [The Next Web, citing Reuters/Bloomberg](https://thenextweb.com/news/elice-ipo-32-percent-debut-korea-ai-data-centre-neocloud) | secondary reporting of prices/filing figures | B |
+| 63 | Divergent finance-leader views on AI investment | Griffin's Oct 20 bubble warning contrasts with Sewing's Oct 21 rejection of an imminent burst (while allowing individual setbacks) and Fink's argument that faster datacenter supply lowers compute-cost inflation. Views, not measured returns, broad sentiment survey or verified future price effects | remarks 2026-10-20/21 | [Bloomberg via The Edge](https://theedgemalaysia.com/node/822715) | secondary attributed opinion | B attribution |
+| 64 | Yardeni's AI Bubble Meter, published model and historical backtest | Conditions 83/100; Triggers 34/100. In 54 high-conditions/low-trigger quarters since 1965, subsequent two-year S&P 500 bear-market incidence 9%, median real gain 18.3%. Work-in-progress analyst model; backtest not independently reproduced and not calibrated odds for this project's differently defined forecasts | 2026-10-21 | [Yardeni primary briefing archive](https://archive.yardeni.com/morning-briefing-2026/) | primary analyst model/opinion | A publication / C modeled inference |
 
 Type: primary / secondary / tertiary. Grade: A–D (see report/methodology.md).
 A grades for company guidance, consensus estimates and institutional assessments
@@ -153,11 +162,14 @@ views that policy remained only mildly restrictive or not restrictive
 show the transmission.
 
 CoreWeave's September financing and demand disclosures qualify the distress
-reading. The September 18 pricing announcement covers $3.7 bn of convertible
-notes at 2.875%, due 2033, with a $500 m option. Expected proceeds after capped
-calls were $3.1457 bn before offering expenses (claims 47–48). This shows
-market access and potential dilution, not cheap comparable straight debt or
-confirmation of settlement. Its September 17 ATM authorises up to 35 m
+reading. The September 18 base pricing of $3.7 bn plus a $500 m option was
+followed by a September 22 closing of the full $4.2 bn at 2.875%, due 2033.
+Net proceeds after capped calls were $3.5708 bn before offering expenses,
+versus the earlier base-offering estimate of $3.1457 bn (claims 47–48).
+This older closing, already recorded in the October 17 signal, corrects the
+note's settlement uncertainty; it is not new October funding. It shows
+market access and potential dilution, not cheap comparable straight debt. Its September 17 ATM
+authorises up to 35 m
 shares without establishing any completed sales (claim 49). The same day's
 pricing update reports higher-priced short contracts and >$25 bn of early-Q3
 net commitments outside June backlog (claim 50). Management's disclosures
@@ -174,8 +186,8 @@ The displacement, boom, euphoria, profit-taking and panic sequence (source
 | Displacement | New profit opportunity | Earnings and cloud-revenue growth support a real opportunity (claims 9, 33); profitability of all new capital is a separate question. |
 | Boom | Credit expands to finance the opportunity | Margin debt rose 31.4% y/y; the AI-debt issuance forecast is still grade C (claims 16, 37). Neither measures all AI credit growth relative to income. |
 | Euphoria | Resale speculation, new entrants, high valuations | High CAPE and issuance are consistent with froth, but direct new-buyer/resale data are missing; household allocation is grade D (claims 1, 28, 38). |
-| Profit-taking / distress | Insider selling, weaker marginal demand | Q3 IPO returns and postponements suggest a weaker window (claims 27, 29). Corporate equity issuance is not insider profit-taking; July's absolute-dollar margin decline was followed by rebuilding (claim 54). |
-| Panic | Forced selling, broad credit withdrawal | Broad OAS does not show panic (claims 23–24); sector credit repricing is already reported (claim 46). |
+| Profit-taking / distress | Insider selling, weaker marginal demand | Q3 IPO weakness and Elice’s Oct 20 debut decline show selective risk appetite (claims 27, 29, 62); Elice still raised capital. Issuer credit stress is explicit in claims 59–60. Corporate issuance is not insider profit-taking. |
+| Panic | Forced selling, broad credit withdrawal | Last verified broad OAS is Oct 15 (claims 23–24), not a current all-market test. Oct 19–20 CoreWeave/Oracle stress and S&P’s opacity warning establish issuer concerns, not broad withdrawal or a rating action (claims 59–61). |
 
 Renaissance's record Q2 proceeds were concentrated: SpaceX supplied 71.6%,
 leaving $29.8 bn, still strong by its assessment (claim 51). Q3 proceeds
@@ -282,9 +294,14 @@ negative-yield scoring interpretation; the measures cannot share an unlabeled
 threshold. The review did not establish an all-history real-yield novelty
 claim under a consistent real-rate definition, so none is asserted here.
 
-Shiller's narrative lens asks how stories spread. No quantitative AI
-narrative index was fetched; earnings-call mentions are a possible research
-measure, not an observed signal in this note.
+Shiller's narrative lens asks how stories spread. Griffin versus Fink/Sewing
+provides dated evidence of disagreement, not a broad sentiment measure
+(claim 63). Yardeni’s October 21 meter separately reports high bubble
+conditions and low triggers (claim 64). Its historical two-year bear-market
+frequency is a model backtest with a different event definition; it does not
+calibrate this note’s withdrawn rubric or supply a crash clock. No quantitative
+AI narrative index was fetched; earnings-call mentions remain a possible
+research measure.
 
 ### 6. Technology bubble vs asset-price bubble, and the role of debt
 
@@ -309,7 +326,10 @@ also describes moderate debt/funding vulnerabilities, declining aggregate
 debt/GDP and strong bank capital (claims 11–12, 52; source 4). This qualifies
 an economy-wide fragility inference and AI attribution. Broad HY and IG OAS
 cannot establish that AI risk is unpriced; the newer sector evidence in
-claim 46 changes that conclusion. The key test is whether customer cash
+claims 46 and 59–60 changes that conclusion. S&P’s new opacity warning
+reinforces the need for that map, while its decision not to change ratings
+qualifies an immediate-downgrade reading (claim 61). The key test is whether
+customer cash
 arrives before debt and investment commitments fall due, and what assets
 are recoverable if it does not.
 
@@ -335,7 +355,7 @@ revised numerical assessment.
 | 10 | Forward purchases | claims 30, 36, 41, 55 | RPO >10x annual revenue at top-five seller, or cash capex >80% OCF | Oracle 8.581x; CoreWeave 10.068x; four-company Q2 96.1% | 2 | Capex branch met; seller-rank and run-rate limitations remain. |
 | 11 | Monetary tightening | claims 18–22, 46 | hiking cycle under way and Treasury cycle high | one hike; 5.31% Treasury high | 2 | A first hike is not a demonstrated cycle or a dated bust trigger. |
 | 12 | Capex vs revenue growth (Perez proxy) | claims 32, 37 | >2x growth for two years; §4 also required marginal debt finance | ~60%/16.5% in 2025; ~80%/15.5% in 2026 plan | 2 | Two realised years and marginal debt funding unestablished; forecasts grade C. |
-| 13 | Credit stress (Kindleberger) | claims 23–24, 46 | HY OAS >6% | HY 3.23%, IG 0.84%; sector repricing reported | 0 | Broad threshold unmet; broad OAS cannot rule out issuer risk. |
+| 13 | Credit stress (Kindleberger) | claims 23–24, 46, 59–61 | HY OAS >6% | Oct 15 HY 3.23%, IG 0.84%; Oct 19–20 CoreWeave CDS ~1,081–1,082 bp, Oracle 315/322 bp; S&P no new action | 0 | Original assignment remains withdrawn. Historical broad threshold unmet; fresh issuer stress does not measure current broad OAS. |
 | | **Arithmetic total of original assignments** | | | **Withdrawn composite** | **20 / 26** | Not a calibrated bubble probability or stage. |
 
 The displayed assignments sum to 20/26, not 19/26. Overlapping valuation
@@ -422,6 +442,16 @@ is established here.
   absolute-dollar fall in the downloaded history, not the largest percentage
   decline. Forced deleveraging versus reporting/reclassification remains open;
   FINRA cautions that reporting-method changes can affect monthly balances.
+- **October credit discipline versus an imminent-crash reading.** New CoreWeave
+  and Oracle quotes make the earlier qualitative sector-repricing description
+  materially incomplete (claims 59–60), but S&P sees no current need to change
+  ratings despite its opacity warning (claim 61). Lloyd calls the CoreWeave
+  selloff excessive while owning its bonds (source 50); that interested view
+  does not invalidate prices. Elice raised capital despite a weak debut;
+  Griffin’s warning and Fink/Sewing’s competing views prevent a consensus
+  sentiment inference (claims 62–63). Yardeni’s low-trigger backtest is also
+  counterevidence to a mechanically imminent bust, not a validated probability
+  for this report (claim 64). Test funding access and cash conversion directly.
 
 ## Signals to watch
 
@@ -430,13 +460,15 @@ is established here.
 | CAPE and both excess-yield constructions | CAPE 40.58; published ECY +0.82%; TIPS proxy −0.32 pp | Sep CAPE/ECY; Oct 15 TIPS | claims 1, 7, 44 | Track valuation and definition sensitivity; October inputs are partial. |
 | FINRA margin debt | $1,480 bn; June record $1,502 bn; +31.4% y/y | 2026-09 | claims 15–16 | Declines may reveal deleveraging; no universal drawdown rule is established. |
 | Policy and Treasury yields | target 3.75–4.00%; 10-year 5.10%, high 5.31% | Sep 16 / Oct 15 | claims 18–22 | Test refinancing costs and policy transmission; not a bust clock. |
-| Broad and issuer credit spreads | HY 3.23%, IG 0.84%; sector repricing reported | Oct 15 / September meeting | claims 23–24, 46 | Obtain borrower-specific spread, collateral and maturity data. |
+| Broad and issuer credit spreads | Historical HY 3.23%, IG 0.84% (Oct 15); CoreWeave CDS ~1,082 bp/2032 YTM 14.9% (Oct 19), ~1,081 bp/2031 YTM 15.97% (Oct 20); Oracle 315/322 bp (Oct 19) | 2026-10-15/19/20 | claims 23–24, 59–60 | Preserve quote times/bond identity; watch funding access and broad contagion separately. Quotes are not defaults. |
 | Forward P/E and earnings revisions | 19.0x; CY2026 consensus +32.8% | 2026-10-16 | claims 8–10 | Match EPS periods; at fixed price, lower EPS raises P/E. |
 | Named-four cash capex/OCF | 86.1% Q1; 96.1% Q2 | CY2026-Q1/Q2 | claims 30, 41 | Track funding headroom and constituent dispersion, alongside debt service. |
 | Oracle backlog and investment FCF | $664 bn; −$5.396 bn | FY27-Q1 | claim 33 | Test backlog cash conversion and funding of committed investment. |
-| CoreWeave cash debt service and market access | H1 cash before operating interest $4.469 bn vs $6.201 bn debt service; September financing announcements | H1 / Sep 17–18 | claims 42–43, 47–50 | Track actual settlement, ATM sales, prepayments and maturities separately. |
-| IPO breadth and completed listings | Q2 $104.8 bn, 71.6% SpaceX; Q3 $32.8 bn, $6.2 bn ex SK hynix | Q2/Q3 2026 | claims 27–29, 51 | Separate dollar concentration, new entrants and forecast listings. |
-| AAII and FMS | bull-bear spread −2.9 pp; cash 3.9% | Oct 14 / Oct 13 | claims 25–26 | Compare sentiment with direct positioning; avoid unique stage inference. |
+| CoreWeave cash debt service and market access | H1 cash before operating interest $4.469 bn vs $6.201 bn debt service; Sep 22 completed $4.2 bn convertible; Oct 19–20 unsecured yields 14.9–15.97% on different bonds | H1 / 2026-09-22 / 2026-10-19/20 | claims 42–43, 47–50, 59 | Track new funding, ATM sales, prepayments and maturities; historical convertible access does not establish current straight-debt terms. |
+| IPO breadth and completed listings | Q2 $104.8 bn, 71.6% SpaceX; Q3 $32.8 bn, $6.2 bn ex SK hynix; Elice raised $151 m, debut −32% | Q2/Q3 / 2026-10-20 | claims 27–29, 51, 62 | Separate proceeds from aftermarket appetite; one debut does not establish universal financing withdrawal. |
+| AAII/FMS and narrative disagreement | Historical bull-bear spread −2.9 pp, cash 3.9%; Griffin’s bubble warning versus Fink/Sewing’s counterarguments | surveys Oct 14/13; remarks 2026-10-20/21 | claims 25–26, 63 | Executive remarks are not a survey update; compare with direct positioning and realized returns. |
+| Credit opacity and rating discipline | S&P warns of unquantified liabilities; no rating action; negative FCF thesis already published before this week | 2026-10-19; prior forecast Aug 27 | claim 61 | Seek disclosed guarantees, SPVs and cash recovery; commentary is not a downgrade. |
+| Bubble conditions versus triggers | Yardeni Conditions 83/100, Triggers 34/100; historical high/low mix: 9% two-year bear incidence, 18.3% median real gain | 2026-10-21 | claim 64 | Monitor the published inputs; historical model frequency does not calibrate this report’s forecasts. |
 | Primary index concentration and household allocation | proxy 38.39% securities / 39.89% companies; allocation unverified | 2026-10-17 / Q1 | claims 13, 38 | Replace grade-D proxies with originating index and Z.1 data. |
 
 ## Sources
@@ -490,5 +522,15 @@ is established here.
 46. FINRA, "Customer Margin Balances", historical workbook. https://www.finra.org/sites/default/files/2021-03/margin-statistics.xlsx (downloaded and parsed 2026-10-17)
 47. Oracle, Form 10-Q, quarter ended 31 Aug 2026. https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm (fetched 2026-10-17; exact cash-flow inputs)
 48. CoreWeave, "CoreWeave Reports Strong Second Quarter 2026 Results", 11 Aug 2026. https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/ (fetched 2026-10-17; distinguishes net interest expense from cash paid)
+
+49. CNBC, “CoreWeave bond yields stay near 15% as AI stocks rebound,” 19 Oct 2026, updated 20 Oct. https://www.cnbc.com/amp/2026/10/19/coreweave-oracle-ai-credit-stress.html (full AMP body re-fetched 2026-10-21; Monday quote dates explicit).
+50. CNBC, “This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it,” 20 Oct 2026. https://www.cnbc.com/amp/2026/10/20/coreweave-debt-janus-henderson-lloyd.html (full AMP body re-fetched 2026-10-21; quotes are secondary snapshots).
+51. Financial Times via Financial Post, “AI debt worries spark surge in default insurance trading,” 20 Oct 2026. https://financialpost.com/financial-times/ai-debt-worries-spark-surge-in-default-insurance-trading (full syndication re-fetched 2026-10-21; Oracle quote dated Monday Oct 19).
+52. Reuters via Boursorama, S&P/Mark Habib on AI liabilities, 19 Oct 2026. https://www.boursorama.com/bourse/actualites/les-principaux-hyperscalers-pourraient-avoir-un-endettement-lie-a-l-ia-plus-important-qu-on-ne-le-pense-actuellement-met-en-garde-s-p-global-83db047e4cfe79ccfdc7bad05d42e61b (full French syndication re-fetched 2026-10-21; secondary attribution, no primary transcript located in linked record).
+53. S&P Global Ratings, “AI Infrastructure Investment To Exceed $1.3 Trillion By 2027,” 27 Aug 2026. https://press.spglobal.com/2026-08-27-AI-Infrastructure-Investment-To-Exceed-1-3-Trillion-By-2027,-S-P-Global-Ratings-Says (primary release re-fetched 2026-10-21; older scenario already verified in the Oct 18 signal).
+54. The Next Web, “Korean AI data centre firm Elice sinks 32% in a record-worst IPO debut,” 20 Oct 2026. https://thenextweb.com/news/elice-ipo-32-percent-debut-korea-ai-data-centre-neocloud (full body re-fetched 2026-10-21; Reuters/Bloomberg reporting, not independently fetched exchange tape or prospectus).
+55. Bloomberg via The Edge, “Finance leaders spar over AI bubble after warning by Griffin,” 21 Oct 2026. https://theedgemalaysia.com/node/822715 (full syndication directly re-fetched 2026-10-21; attributed remarks, not primary event transcript).
+56. Yardeni Research, Morning Briefing, 21 Oct 2026, “AI I–III” bubble-meter sections. https://archive.yardeni.com/morning-briefing-2026/ (full primary archive directly re-fetched 2026-10-21; verifies publication of readings/backtest, not independent replication).
+57. CoreWeave, 8-K, 22 Sep 2026, completed convertible offering. https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm (re-fetched 2026-10-21 with generic research-bot User-Agent; older closing already in the Oct 17 signal).
 
 Review applied: [Independent Codex cross-check](../../reviews/bubble-mechanics-codex-xcheck.md), 2026-10-17. Its scope was selected claims and Analysis arithmetic, not independent verification of every original claim. New figures above were re-fetched from originating sources; original unverified inputs retain their stated limitations.
