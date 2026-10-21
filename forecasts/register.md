@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.9, 2026-10-18. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.9, 2026-10-18; last checked against signals 2026-10-21. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -186,6 +186,14 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Check 2026-10-21**: no probability changes and nothing resolved. The
+  week's verified facts (CoreWeave 2031 yield 15.97%, Oracle CDS 315-322bp,
+  OpenAI's reported $30B round talks, Anthropic's 5% public-benefit
+  commitment, SpaceX's AI-segment profit, S&P's opacity warning without
+  rating action) are stress or proposals, not qualifying events under the
+  rules. Scheduled: Meta Q3 21 Oct after close; Microsoft and Alphabet 28
+  Oct; Amazon 29 Oct; FOMC 27-28 Oct; CoreWeave unrestricted cure window
+  ends 28 Oct; Jupiter motions 26 Oct, permit hearing 7 Dec.
 - **Vintage 0.9 (2026-10-18)**: no probability changes; P1/P1b coverage
   rules tightened; final consistency sweep applied. Reconciliation: F5
   moved from 10/25/45 (vintage 0.1) to 10/20/35 in vintage 0.2 without its
