@@ -1,11 +1,14 @@
+import re
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.exception_handlers import http_exception_handler
 from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from markdown_it import MarkdownIt
 from markupsafe import Markup
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 import content
 import transcripts
@@ -18,6 +21,21 @@ templates = Jinja2Templates(directory=ROOT / "templates")
 
 # html=False escapes any raw HTML in transcripts; tables are enabled for readability.
 md = MarkdownIt("commonmark", {"html": False, "linkify": False}).enable("table")
+MD_LINK_RE = re.compile(r"^(?![a-z][a-z0-9+.-]*:|/raw/|/data/)([^?#]+)\.md([?#].*)?$", re.I)
+
+
+def _strip_md_links(state) -> None:
+    """Point links to sibling notes (`../stack/nvidia.md`) at the rendered page
+    (`../stack/nvidia`). The static site serves .md files as raw text, so the
+    rendered page must be linked without the extension."""
+    for token in state.tokens:
+        for child in token.children or []:
+            if child.type == "link_open":
+                href = child.attrGet("href") or ""
+                child.attrSet("href", MD_LINK_RE.sub(r"\1\2", href))
+
+
+md.core.ruler.push("strip_md_links", _strip_md_links)
 templates.env.filters["markdown"] = lambda text: Markup(md.render(text))
 templates.env.globals["sections"] = content.SECTIONS
 
@@ -27,6 +45,17 @@ async def noindex(request: Request, call_next):
     # Public, but kept out of search results. AI crawlers follow robots.txt instead.
     response = await call_next(request)
     response.headers["X-Robots-Tag"] = "noindex"
+    return response
+
+
+@app.exception_handler(StarletteHTTPException)
+async def not_found(request: Request, exc: StarletteHTTPException):
+    # HTML pages get a page with the sidebar; raw, data and JSON keep plain errors.
+    path = request.url.path
+    if exc.status_code != 404 or path.startswith(("/raw/", "/data/")) or path.endswith(".json"):
+        return await http_exception_handler(request, exc)
+    response = render(request, "not_found.html")
+    response.status_code = 404
     return response
 
 

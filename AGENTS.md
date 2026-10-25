@@ -8,9 +8,9 @@ infer the user's intent and use your judgement.
 
 - Deep research into the economics of AI ("is it a bubble or not?"),
   published as a live web report (FastAPI, `main.py`).
-- It is public at https://bubble.bogdanski.ai through a Cloudflare tunnel. The
-  dev server runs in tmux session `bubble` with auto-reload, so saved edits go
-  live straight away.
+- It is public at https://bubble.bogdanski.ai as a static site on Cloudflare
+  Pages. The user publishes manually (`npm run deploy`, see README), so edits
+  are not live until then. `npm run preview` serves the static build locally.
 - Source: https://github.com/marcinbogdanski/bubble-not-bubble
 - Claude chats for this repo are published on the site (`/claude`). Keep
   secrets out of conversations.

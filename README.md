@@ -40,7 +40,7 @@ Every markdown page is served rendered at its path and raw at
   (SEC filings, company releases, statistical agencies); Grok scans x.com for
   leads, which are traced to sources before use. Conclusions are red-teamed
   by a different vendor's model. See [AGENTS.md](AGENTS.md).
-- Served from a VM through a Cloudflare Tunnel. No inbound ports are open.
+- Published as a static site on Cloudflare Pages, built on the VM.
 - [AGENTS.md](AGENTS.md) holds the operating context for agents working on the
   repo.
 
@@ -53,25 +53,27 @@ uv run fastapi dev main.py    # auto-reload, http://127.0.0.1:8000
 
 Endpoints: `/` (report), `/claude` (chats), `/health`, `/docs` (API docs).
 
-On the VM the app runs this way in tmux session `bubble`, so saved edits go
-live straight away.
+The dev server is for local preview only. The public site is a static build.
 
-## Deployment: Cloudflare Tunnel
+## Publishing: Cloudflare Pages
 
-The tunnel is remotely managed. Hostnames are configured in the Cloudflare
-dashboard, and the VM only runs the `cloudflared` daemon with a token.
+`scripts/build_static.py` renders every page from the app into `site/`
+(ignored by git), and Wrangler, Cloudflare's CLI, uploads it to Cloudflare
+Pages. Run both on the VM, where the Claude chats live:
 
-1. Cloudflare dashboard → Zero Trust → Networks → Tunnels → **Create a
-   tunnel** (Cloudflared). Copy the token; keep it out of git.
-2. Add a published application route: `bubble.bogdanski.ai` →
-   `http://127.0.0.1:8000`. Cloudflare creates the DNS record.
-3. On the VM:
+```bash
+npm install             # once: installs Wrangler into the repo
+npx wrangler login      # once
+npm run build           # build site/ only
+npm run preview         # build, then serve locally like Pages (port 8788)
+npm run deploy          # build, then upload to Pages project "bubble"
+```
 
-   ```bash
-   brew install cloudflared
-   sudo cloudflared service install <TUNNEL_TOKEN>   # daemon, starts at boot
-   ```
+The build also writes `_headers` (`X-Robots-Tag: noindex` on every file) and
+`404.html`. The site is public by design: it stays out of search results, and
+`robots.txt` allows all crawlers, including AI bots.
 
-The site is public by design. Every response carries `X-Robots-Tag: noindex`
-to stay out of search results, and `robots.txt` allows all crawlers, including
-AI bots.
+One-time setup in Cloudflare: create the Pages project
+(`npx wrangler pages project create bubble --production-branch main`, or
+Workers & Pages → Create → Pages → Upload assets in the dashboard), then add
+`bubble.bogdanski.ai` under the project's **Custom domains**.

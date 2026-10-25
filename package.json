@@ -1,0 +1,13 @@
+{
+  "name": "bubble-not-bubble",
+  "private": true,
+  "description": "Static build and Cloudflare Pages deploy for bubble.bogdanski.ai",
+  "scripts": {
+    "build": "uv run python scripts/build_static.py",
+    "preview": "npm run build && wrangler pages dev site --port 8788",
+    "deploy": "npm run build && wrangler pages deploy site --project-name bubble --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "^4.152.0"
+  }
+}
