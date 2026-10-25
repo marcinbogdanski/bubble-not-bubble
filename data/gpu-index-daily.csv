@@ -13,3 +13,8 @@ date,series,value,source URL,accessed
 2026-10-20,OCPI-H100_USD_per_GPU-hour,3.12,https://data.ornn.com/markets/h100-sxm,2026-10-21
 2026-10-20,OCPI-H200_USD_per_GPU-hour,6.16,https://data.ornn.com/markets/h200,2026-10-21
 2026-10-21,PriceOfCompute_index_points_base100_2026-08-10,139.4,https://priceofcompute.com/,2026-10-21
+2026-10-24,OCPI-H100_USD_per_GPU-hour,3.02,https://data.ornn.com/api/public-index/gpu/H100%20SXM/index-history,2026-10-25
+2026-10-24,OCPI-H200_USD_per_GPU-hour,6.2,https://data.ornn.com/api/public-index/gpu/H200/index-history,2026-10-25
+2026-10-24,OCPI-B200_USD_per_GPU-hour,9.57,https://data.ornn.com/api/public-index/gpu/B200/index-history,2026-10-25
+2026-10-24,OCPI-A100_USD_per_GPU-hour,1.08,https://data.ornn.com/api/public-index/gpu/A100%20SXM4/index-history,2026-10-25
+2026-10-24,SDH100RT_USD_per_GPU-hour,2.88,https://www.silicondata.com/products/silicon-index/h100,2026-10-25

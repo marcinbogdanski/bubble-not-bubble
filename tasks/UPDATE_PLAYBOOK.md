@@ -37,8 +37,10 @@ call transcript, and to list which forecasts (C1-C4, D3, F2) it touches.
 - Append the Silicon Data SDH100RT H100 print and the OCPI H100 and B200
   prints to `data/gpu-index-daily.csv` (date, series, value, source URL,
   accessed). Neither publisher keeps a public history; OCPI's API holds a
-  rolling three months. `scripts/archive-gpu-prices.sh` is the place for
-  this once written.
+  rolling three months.
+- Run `zsh scripts/archive-gpu-prices.sh` daily to archive OCPI H100, H200,
+  B200 and A100 plus the Silicon Data H100 display; it preserves publisher
+  dates, skips existing rows and records inaccessible series as `unavailable`.
 
 ## Monthly
 
