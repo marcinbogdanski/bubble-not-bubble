@@ -70,3 +70,4 @@ Note 2026-10-17 21:35: the first fan-out of 16 Claude subagents hit the Anthropi
 | P3-12 | Claude Opus cross-checks of the remaining 11 Codex-written notes (meta, amazon, alphabet, tsmc, memory, gpu-pricing, power, public-markets, rates, china, labs-other), each applied by Codex | Claude Opus + Codex gpt-6.1-sol | done | reviews/*-claude-xcheck.md |
 | P3-13 | Final consistency sweep, report v0.9 | Codex gpt-6.1-sol, Claude (lead) | done |
 | P4-1 | Weekly update 2026-10-21: Grok scan, Codex verification, 21 notes updated, report v0.9.1 | Grok, Codex, Claude (lead) | done | signals/2026-10-21.md | reviews/2026-10-18-consistency-sweep-2.md |
+| P4-2 | Weekly update 2026-10-25: Grok scan, Codex verification, Opus forecast check and Meta/Lam reads, 20 notes updated, GPU archiver, report v0.9.2, register 0.9.1 (M1b +5) | Grok, Codex, Claude Opus, Claude (lead) | done | signals/2026-10-25.md, reviews/2026-10-25-forecast-check.md |
