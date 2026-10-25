@@ -20,8 +20,10 @@ overwritten. The 24-month numbers carry wide error bars.*
   is No. A later disclosure of an earlier event does not reopen a resolved
   question.
 - Price questions use official closing prices on the primary listing (US
-  listings for ADRs where named; local currency otherwise), split- and
-  spin-adjusted, price return. M1 and the layer thresholds are measured from
+  listings for ADRs where named; local currency otherwise), adjusted for
+  splits, stock dividends and spin-offs (Meta's one-for-one Class C
+  distribution effective about 19 January 2027 is treated as a two-for-one
+  split: the 16 October baseline is halved from that date), price return. M1 and the layer thresholds are measured from
   the 2026-10-16 close; M2 is an absolute level; M3 is measured from the
   highest 2026 close before the test day. Corporate actions: a cash
   acquisition fixes that constituent at the deal value from closing; a
@@ -186,6 +188,12 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Check 2026-10-23 closes (run 2026-10-25)**: nothing resolved. Index
+  levels M1 97.0, M1a 99.1, M1b 93.6 (100 at 16 October); NDX 7.3% below
+  its 6 October peak; closest single names to a 40% trigger need a further
+  31-32% (LRCX, KLAC, CRWV, CIFR, GEV). Meta narrowed 2026 capex guidance
+  to $135-145B (midpoint +1.8%), which does not count under C2 (a 10% cut)
+  and leaves C1 open. Stock-dividend rule added for Meta's Class C.
 - **Check 2026-10-21**: no probability changes and nothing resolved. The
   week's verified facts (CoreWeave 2031 yield 15.97%, Oracle CDS 315-322bp,
   OpenAI's reported $30B round talks, Anthropic's 5% public-benefit
