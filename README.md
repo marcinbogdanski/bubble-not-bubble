@@ -59,21 +59,21 @@ The dev server is for local preview only. The public site is a static build.
 
 `scripts/build_static.py` renders every page from the app into `site/`
 (ignored by git), and Wrangler, Cloudflare's CLI, uploads it to Cloudflare
-Pages. Run both on the VM, where the Claude chats live:
+Pages. Run both on the VM, where the Claude chats live. `npx` fetches the
+pinned Wrangler version into npm's cache, so the repo has no npm files.
 
 ```bash
-npm install             # once: installs Wrangler into the repo
-npx wrangler login      # once
-npm run build           # build site/ only
-npm run preview         # build, then serve locally like Pages (port 8788)
-npm run deploy          # build, then upload to Pages project "bubble"
+uv run python scripts/build_static.py                                   # build site/
+npx wrangler@4.152.0 pages deploy site --project-name bubble --branch main  # publish
+npx wrangler@4.152.0 pages dev site                                     # optional: preview locally like Pages
 ```
 
 The build also writes `_headers` (`X-Robots-Tag: noindex` on every file) and
 `404.html`. The site is public by design: it stays out of search results, and
 `robots.txt` allows all crawlers, including AI bots.
 
-One-time setup in Cloudflare: create the Pages project
-(`npx wrangler pages project create bubble --production-branch main`, or
+One-time setup in Cloudflare: log in with `npx wrangler@4.152.0 login`, then
+create the Pages project
+(`npx wrangler@4.152.0 pages project create bubble --production-branch main`, or
 Workers & Pages → Create → Pages → Upload assets in the dashboard), then add
 `bubble.bogdanski.ai` under the project's **Custom domains**.
