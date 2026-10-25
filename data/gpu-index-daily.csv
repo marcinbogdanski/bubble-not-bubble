@@ -13,8 +13,20 @@ date,series,value,source URL,accessed
 2026-10-20,OCPI-H100_USD_per_GPU-hour,3.12,https://data.ornn.com/markets/h100-sxm,2026-10-21
 2026-10-20,OCPI-H200_USD_per_GPU-hour,6.16,https://data.ornn.com/markets/h200,2026-10-21
 2026-10-21,PriceOfCompute_index_points_base100_2026-08-10,139.4,https://priceofcompute.com/,2026-10-21
-2026-10-24,OCPI-H100_USD_per_GPU-hour,3.02,https://data.ornn.com/api/public-index/gpu/H100%20SXM/index-history,2026-10-25
+# source: Ornn H100 and B200 dated settlement tables https://data.ornn.com/markets/h100-sxm https://data.ornn.com/markets/b200 ; Silicon Data H100 explicitly dated neocloud card and embedded chart https://www.silicondata.com/products/silicon-index/h100 ; Price of Compute dated composite https://priceofcompute.com/ ; accessed 2026-10-25. OCPI USD per GPU-hour daily 16:00 America/New_York; publisher history retrospectively retrieved. Silicon USD per GPU-hour SDH100RT chart history retrospectively retrieved with no independent contemporaneous capture or revision/freshness flags; 2026-10-24 is publisher-dated Saturday point not an inferred business-day fixing; undated FAQ 2.53 conflicts with dated card 2.88 and is not used. PriceOfCompute posted-price composite index points distinct from transaction-based OCPI. No carried-forward values or 2026-10-25 OCPI/Silicon settlement inferred. See signals/2026-10-25.md rows 42-45.
+2026-10-21,OCPI-H100_USD_per_GPU-hour,3.09,https://data.ornn.com/markets/h100-sxm,2026-10-25
+2026-10-21,OCPI-B200_USD_per_GPU-hour,9.40,https://data.ornn.com/markets/b200,2026-10-25
+2026-10-22,OCPI-H100_USD_per_GPU-hour,3.15,https://data.ornn.com/markets/h100-sxm,2026-10-25
+2026-10-22,OCPI-B200_USD_per_GPU-hour,9.32,https://data.ornn.com/markets/b200,2026-10-25
+2026-10-23,OCPI-H100_USD_per_GPU-hour,3.17,https://data.ornn.com/markets/h100-sxm,2026-10-25
+2026-10-23,OCPI-B200_USD_per_GPU-hour,9.58,https://data.ornn.com/markets/b200,2026-10-25
+2026-10-24,OCPI-H100_USD_per_GPU-hour,3.02,https://data.ornn.com/markets/h100-sxm,2026-10-25
+2026-10-24,OCPI-B200_USD_per_GPU-hour,9.57,https://data.ornn.com/markets/b200,2026-10-25
+2026-10-21,SDH100RT_neocloud_USD_per_GPU-hour,2.86,https://www.silicondata.com/products/silicon-index/h100,2026-10-25
+2026-10-22,SDH100RT_neocloud_USD_per_GPU-hour,2.88,https://www.silicondata.com/products/silicon-index/h100,2026-10-25
+2026-10-23,SDH100RT_neocloud_USD_per_GPU-hour,2.90,https://www.silicondata.com/products/silicon-index/h100,2026-10-25
+2026-10-24,SDH100RT_neocloud_USD_per_GPU-hour,2.88,https://www.silicondata.com/products/silicon-index/h100,2026-10-25
+2026-10-25,PriceOfCompute_index_points_base100_2026-08-10,135.9,https://priceofcompute.com/,2026-10-25
+# source: Additional 2026-10-24 H200/A100 publisher-dated settlements independently checked 2026-10-25 at https://data.ornn.com/markets/h200 and https://data.ornn.com/markets/a100-sxm4 ; USD per GPU-hour. API URLs in rows. Duplicate H100/B200 and alternate-name Silicon 2026-10-24 rows consolidated with the observations above.
 2026-10-24,OCPI-H200_USD_per_GPU-hour,6.2,https://data.ornn.com/api/public-index/gpu/H200/index-history,2026-10-25
-2026-10-24,OCPI-B200_USD_per_GPU-hour,9.57,https://data.ornn.com/api/public-index/gpu/B200/index-history,2026-10-25
 2026-10-24,OCPI-A100_USD_per_GPU-hour,1.08,https://data.ornn.com/api/public-index/gpu/A100%20SXM4/index-history,2026-10-25
-2026-10-24,SDH100RT_USD_per_GPU-hour,2.88,https://www.silicondata.com/products/silicon-index/h100,2026-10-25
