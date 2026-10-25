@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.9, 2026-10-18; last checked against signals 2026-10-21. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.9.1, 2026-10-25. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and the
@@ -82,7 +82,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | M1a | Sub-basket of the five chip names in M1 (NVDA, AVGO, TSM, AMD, MU), same construction, closes at or below 60 | 6% | 14% | 25% |
-| M1b | Sub-basket of the three financing-sensitive names in M1 (ORCL, CRWV, VRT), same construction, closes at or below 60 | 20% | 35% | 50% |
+| M1b | Sub-basket of the three financing-sensitive names in M1 (ORCL, CRWV, VRT), same construction, closes at or below 60 | 25% | 40% | 55% |
 | M1 | An equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT, indexed to 100 at the 2026-10-16 close with daily rebalancing, closes at or below 60 | 10% | 22% | 30% |
 | M2 | Nvidia's equity market value (closing price times shares outstanding per the latest 10-K or 10-Q as of that date, split-adjusted) is below $2T on any trading day | 3% | 8% | 18% |
 | M3 | The Nasdaq-100 price index (NDX) closes 30% or more below its highest 2026 close recorded before that day (as of 2026-10-16 it is 6.5% below) | 8% | 16% | 26% |
@@ -188,6 +188,16 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Vintage 0.9.1 (2026-10-25)**: M1b raised 20/35/50 to 25/40/55: the
+  sub-basket closed at 93.6 on 23 October, a 6.4% move toward the trigger
+  that re-marks the row by about 5 points (mark-to-market, no new
+  information about the names). All other rows held: Meta's negative Q3
+  free cash flow and cash-below-debt position lean the hyperscaler row up
+  by 2-3 points, below the revision threshold; Lam's results read as a
+  repricing rather than new demand information, so the equipment row holds
+  despite the 11-13% fall; CoreWeave and Oracle CDS tightened from their
+  15-19 October peaks. A combined revision follows the 28-29 October
+  results.
 - **Check 2026-10-23 closes (run 2026-10-25)**: nothing resolved. Index
   levels M1 97.0, M1a 99.1, M1b 93.6 (100 at 16 October); NDX 7.3% below
   its 6 October peak; closest single names to a 40% trigger need a further
