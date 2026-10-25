@@ -1,4 +1,4 @@
-# source: SEC EDGAR 10-K/10-Q/8-K filings and company earnings-call transcripts (URLs per row), accessed 2026-10-17, USD billions; period_end is the fiscal period end (Microsoft FY ends June, Oracle May, Nvidia late January)
+# source: SEC EDGAR 10-K/10-Q/8-K filings and company earnings-call transcripts (URLs per row), accessed 2026-10-17, USD billions; period_end is the fiscal period end (Microsoft FY ends June, Oracle May, Nvidia late January); 2026-10-25 update adds Meta Q3/9M actuals and Oct 21 guidance vintage, preserving July guidance history
 company,period,period_end,capex_usd_bn,basis,grade,source_url
 Amazon,FY2024,2024-12-31,83.0,Purchases of property and equipment (gross; net of proceeds and incentives 77.7),A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
 Amazon,FY2025,2025-12-31,131.8,Purchases of property and equipment (gross; net 128.3),A,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
@@ -15,15 +15,19 @@ Alphabet,FY2026 guidance,2026-12-31,200,Range 195-205 after Q2 2026 call (top en
 Meta,FY2024,2024-12-31,39.2,Purchases of PP&E 37.3 plus principal payments on finance leases 2.0,A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
 Meta,FY2025,2025-12-31,72.2,Purchases of PP&E 69.7 plus principal payments on finance leases 2.5,A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
 Meta,H1 2026,2026-06-30,50.9,Capex incl. principal payments on finance leases (Q2 31.1),A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
-Meta,FY2026 guidance,2026-12-31,137.5,Range 130-145 incl. finance-lease principal (narrowed from 125-145 on 29 Jul 2026),A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+Meta,FY2026 guidance (2026-07-29 vintage),2026-12-31,137.5,Range 130-145 incl. finance-lease principal (narrowed from 125-145 on 29 Jul 2026),A,https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 Oracle,FY2025,2025-05-31,21.2,Capital expenditures (cash flow statement),A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm
 Oracle,FY2026,2026-05-31,55.7,Capital expenditures; free cash flow -23.7,A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm
 Oracle,Q1 FY2027,2026-08-31,28.5,Capital expenditures for the quarter; FY27 guided only as "higher than fiscal 2026",A,https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm
 CoreWeave,FY2026 guidance,2026-12-31,37,Range 35-39 given on Q2 2026 call (secondary report); Q2 2026 capex 9.4,C,https://www.yieldtheory.app/research/hyperscaler-ai-capex-tracker-2026
 Big-4 total,FY2024,2024-12-31,230.9,Sum of Amazon gross; Microsoft FY24 incl. leases; Alphabet; Meta incl. leases; mixed fiscal periods (Microsoft June); not a calendar-year AI-only cohort,B,derived
 Big-4 total,FY2025,2025-12-31,380.5,Sum of Amazon gross; Microsoft FY25 incl. leases; Alphabet; Meta incl. leases; mixed fiscal periods (Microsoft June); not a calendar-year AI-only cohort,B,derived
-Big-4 total,FY2026 guidance,2026-12-31,732.5,Updated guidance midpoints: Amazon 220; Microsoft 175; Alphabet 200; Meta 137.5; range 720-745; keeping Microsoft April accounting basis gives 747.5; not AI-only,B,derived
+Big-4 total,FY2026 guidance (2026-07-30 vintage),2026-12-31,732.5,Updated guidance midpoints: Amazon 220; Microsoft 175; Alphabet 200; Meta 137.5; range 720-745; keeping Microsoft April accounting basis gives 747.5; not AI-only,B,derived
 Nvidia (cross-check),FY2024 data center revenue,2024-01-28,47.5,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 Nvidia (cross-check),FY2025 data center revenue,2025-01-26,115.2,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 Nvidia (cross-check),FY2026 data center revenue,2026-01-25,193.7,Supply-side cross-check: Nvidia Data Center segment revenue,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 Nvidia (cross-check),Q2 FY2027 data center revenue,2026-07-26,89.0,Quarterly; up 117% y/y,A,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm
+Meta,Q3 2026,2026-09-30,34.906,PPE purchases 33.942 plus finance-lease principal 0.964; OCF 32.786; FCF -2.120; released Oct 21; accessed Oct 25; exact capex derived from disclosed components,B,https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm
+Meta,9M 2026,2026-09-30,85.824,PPE purchases 83.055 plus finance-lease principal 2.769; FCF 11.049; released Oct 21; accessed Oct 25,B,https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm
+Meta,FY2026 guidance,2026-12-31,140,Oct 21 guidance 135-145 incl. finance-lease principal; previous July 130-145 midpoint 137.5 retained above; midpoint +1.818%; no quantified 2027 guide; midpoint derived; accessed Oct 25,B,https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm
+Big-4 total,FY2026 guidance,2026-12-31,735,Oct 21 Meta update: Amazon 220; Microsoft 175; Alphabet 200; Meta 140; range 725-745; earlier Microsoft April basis gives 750; not AI-only; July midpoint 732.5 retained above,B,derived

@@ -1,6 +1,6 @@
 # TSMC and the foundry layer
 
-*Last updated: 2026-10-18 · Author: Codex (OpenAI) · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18*
+*Last updated: 2026-10-25 · Author: Codex (OpenAI) · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18 · Updated 2026-10-25 from signals/2026-10-25.md*
 
 ## Summary
 
@@ -15,7 +15,7 @@
 
 ## Key claims
 
-Sources were originally accessed **2026-10-17**; [S2], [S4], [S6] and [S34] were re-fetched, and [E2] and [T1] first fetched, **2026-10-18**. TSMC periods are calendar periods; NT$ means New Taiwan dollars and US$ means US dollars. A grades on guidance establish what management said, not that the outcome will occur. Coverage limitations are marked not verified and are not graded as estimates; analytical judgments are distinguished from primary facts. Numerical observations in the accompanying CSV are individually sourced there.
+Sources were originally accessed **2026-10-17**; [S2], [S4], [S6] and [S34] were re-fetched, and [E2] and [T1] first fetched, **2026-10-18**. [S35], [S39] and [S40] were fetched **2026-10-25**; Moody's indexed headline confirms the action/date, but its research body was unavailable. TSMC periods are calendar periods; NT$ means New Taiwan dollars and US$ means US dollars. A grades on guidance establish what management said, not that the outcome will occur. Coverage limitations are marked not verified and are not graded as estimates; analytical judgments are distinguished from primary facts. Numerical observations in the accompanying CSV are individually sourced there.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -49,7 +49,7 @@ Sources were originally accessed **2026-10-17**; [S2], [S4], [S6] and [S34] were
 | 28 | Financial-crisis shock | Gross margin 31.3%; operating margin 18.6% | Q4 2008 | [Release][S23] | primary | A |
 | 29 | Subsequent financial-crisis trough | Gross margin 18.9%; operating margin 3.1%; utilization below 40% | Q1 2009 | [Release][S26], [call][S27] | primary | A |
 | 30 | Recent inventory downturn | FY2023 US$ revenue −8.7%; quarterly gross/operating margins Q1 56.3/45.5%, Q2 54.1/42.0%, Q3 54.3/41.7%, Q4 53.0/41.6%; both minima Q4 | 2023 | [Annual][S28], [Q1][S29], [Q2][S30], [Q3][S31], [Q4][S32] | primary | A figures; B minima |
-| 31 | Intel Foundry economics | Revenue US$5.765bn; operating loss US$2.089bn; external revenue US$293m | Q2 2026 | [10-Q][S24] | primary | A |
+| 31 | Intel Foundry economics and next release | Revenue US$5.765bn; operating loss US$2.089bn; external revenue US$293m. Q3 results remain scheduled for Oct 29 after market close, call 2pm PDT; no Q3 actual adopted | Q2 2026 actuals; schedule checked Oct 25, 2026 | [10-Q][S24]; [Intel notice][S35] | primary | A actuals and schedule |
 | 32 | Samsung Foundry economics | Earnings improved before incentive provisions; standalone revenue/profit not supplied in the inspected Q2 release; 2nm HPC engagements expanding | Q2 2026 | [Samsung results][S25] | primary | A statement; absence bounded to this release |
 | 33 | US public support | Up to US$6.6bn direct CHIPS funding awarded, milestone-dependent; not all cash received | Nov 15, 2024 award | [Commerce][S33] | primary | A |
 | 34 | Monthly rounding reconciliation | 2024 monthly sum NT$2,894,307m versus published total NT$2,894,308m: NT$1m difference; CSV has 33 reported months through Sep 2026 | Data retrieved Oct 17, 2026 | [S7]–[S9]; arithmetic | primary | B |
@@ -82,6 +82,7 @@ Sources were originally accessed **2026-10-17**; [S2], [S4], [S6] and [S34] were
 | 61 | Fixed-cost exposure and Taiwan concentration | Operating fab costs largely fixed and generally do not decline with demand/utilization; majority of net revenue derived from Taiwan operations | FY2025 Form 20-F, filed Apr 16, 2026 | [Form 20-F, Item 3][S34] | primary | A disclosed risk factors |
 | 62 | Power and financing in management's demand assessment | Asked about datacenter power and funding constraints, Wei said capacity planning considers CSP capex, datacenter construction, financing, power and other component supply | Oct 15, 2026 | [October call, p.6][S4] | primary | A management statement, not proof of downstream funding adequacy |
 | 63 | Sequential cash-flow improvement and lower capex | Presentation Q3 FCF NT$476.56bn versus Q2 NT$287.36bn; CFO NT$919.77bn versus NT$783.36bn; capex NT$443.21bn versus NT$496.00bn. Management attributes improvement to both higher CFO and lower capex | Q2 / Q3 2026 | [Management report, p.5][S2]; [6-K, presentation slide 7][E2] | primary | A reported figures and explanation |
+| 64 | Credit rating / financial strength | Moody's upgraded TSMC Aa3→Aa2, outlook positive→stable; action also covers TSMC-guaranteed senior unsecured debt of TSMC Arizona and TSMC Global. Agency growth/cash-flow projections are expectations, not realized results | Oct 21, 2026 action; reported Oct 22 | [Moody's indexed research headline; body unavailable][S39]; [Taipei Times][S40] | primary indexed headline; reputable secondary action details | B action/details; agency body restricted |
 
 ## Analysis
 
@@ -160,13 +161,14 @@ Samsung reports improving orders and expanding advanced-node engagements, which 
 | Margins | Gross 66.4%; operating 58.7% | Q3 2026 | [S1] | Separate loading deterioration from predictable ramp costs. |
 | Cash versus investment | Quarterly FCF NT$476.56bn | Q3 2026 | [S12] | Sustained deterioration would weaken the self-funding conclusion. |
 | Overseas cost absorption | About 2 points in 2026; 3–4 in the second part of the five-year period | Oct 15, 2026 guidance | [S4] | Tests whether diversification remains economically manageable; no automatic 2027 step to 3–4 points. |
-| Competitive profitability | Intel Foundry operating loss US$2.089bn; Samsung standalone profit absent from inspected release | Q2 2026 | [S24][S25] | Distinguishes alternative capacity from commercially sustainable competition. |
+| Competitive profitability | Intel Foundry operating loss US$2.089bn; Samsung standalone profit absent from inspected release. Intel Q3 due Oct 29 after close, call 2pm PDT; not yet released | Q2 2026 actuals; schedule checked Oct 25, 2026 | [S24][S25][S35] | Distinguishes alternative capacity from commercially sustainable competition; retain Q2 economics until new results. |
+| Credit / financial strength | Moody's Aa2 stable, upgraded from Aa3 positive on Oct 21; includes guaranteed subsidiary debt; B because agency body unavailable | Oct 21, 2026 action; checked Oct 25 | [S39][S40] | Supports low current funding stress; monitor ratings alongside cash generation, capex and Taiwan concentration. |
 | Long-term outlook revision | AI-accelerator CAGR mid-to-high-fifties percent; company approximately 25%, both 2024–29; October suggested higher AI growth | Jan 15 / Oct 15, 2026 | [S6][S4] | An upward revision supports the demand case; holding the company endpoint implies approximately 16% growth in 2027–29 against higher investment. |
 | Customer capacity deposits | NT$189.9bn, approximately −35% YoY | Dec 31, 2025 | [S34] | Higher deposits indicate more customer funding; falling balances leave more capacity exposure with TSMC, subject to settlement terms. |
 
 ## Sources
 
-Full URLs are the link targets below. Sources were originally accessed **2026-10-17**; **S2, S4, S6 and S34 re-fetched 2026-10-18; E2 and T1 first fetched 2026-10-18**. Other sources retain their original access date. E2 was fetched with the generic User-Agent `research-bot contact@example.com`. Company-hosted call transcripts are primary evidence of management statements. The [monthly CSV](/data/tsmc-monthly-revenue.csv) preserves reported rounded values and omits unreported future months.
+Full URLs are the link targets below. Sources were originally accessed **2026-10-17**; **S2, S4, S6 and S34 re-fetched 2026-10-18; E2 and T1 first fetched 2026-10-18; S35 re-fetched and S39/S40 first fetched 2026-10-25**. Other sources retain their original access date. E2 was fetched with the generic User-Agent `research-bot contact@example.com`. Company-hosted call transcripts are primary evidence of management statements. The [monthly CSV](/data/tsmc-monthly-revenue.csv) preserves reported rounded values and omits unreported future months.
 
 1. [S1 — TSMC, Q3 2026 earnings release][S1], published 2026-10-15.
 2. [S2 — TSMC, Q3 2026 management report][S2], published 2026-10-15.
@@ -208,6 +210,8 @@ Full URLs are the link targets below. Sources were originally accessed **2026-10
 38. [S38 — TSMC, Q4 2025 earnings presentation, SEC-hosted][S38], published 2026-01-15.
 39. [E2 — TSMC, Q3 2026 Form 6-K with earnings release and presentation exhibits, SEC mirror of S1/S12][E2], filed 2026-10-15; accessed 2026-10-18.
 40. [T1 — Anton Shilov, Tom's Hardware, reported TSMC 2027 chip-production price increases, citing Nikkei][T1], published 2026-07-21; accessed 2026-10-18; reported, unverified.
+41. [S39 — Moody's Ratings, research feed, indexed TSMC Aa2/stable upgrade headline][S39], action 2026-10-21; accessed 2026-10-25; research body unavailable, so action details retain B grade.
+42. [S40 — Crystal Hsu, Taipei Times, Moody's upgrades TSMC credit rating][S40], published 2026-10-22; accessed 2026-10-25.
 
 [S1]: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf
 [S2]: https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf
@@ -251,3 +255,5 @@ Full URLs are the link targets below. Sources were originally accessed **2026-10
 
 [E2]: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/0001046179-26-000726.txt
 [T1]: https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes
+[S39]: https://ratings.moodys.com/research
+[S40]: https://www.taipeitimes.com/News/biz/archives/2026/10/22/2003866384

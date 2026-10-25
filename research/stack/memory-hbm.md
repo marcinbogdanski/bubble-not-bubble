@@ -1,6 +1,6 @@
 # Memory and HBM: SK hynix, Samsung Memory and Micron
 
-*Last updated: 2026-10-18 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18*
+*Last updated: 2026-10-25 · Author: Codex / GPT-6 · Status: reviewed · Reviewers: Codex (gpt-6-astra) cross-check applied 2026-10-17; Claude (Opus 5.5) cross-check applied 2026-10-18 · Updated 2026-10-25 from signals/2026-10-25.md*
 
 ## Summary
 
@@ -14,7 +14,7 @@
 
 ## Key claims
 
-Original claims accessed **2026-10-17**; additions and re-fetches below accessed **2026-10-18**. Grades follow the methodology. A verifies a primary disclosure, including a management forecast, not its eventual outcome; hosted management speech remains B. Guidance describes plans. Currency is native unless specified.
+Original claims accessed **2026-10-17**; earlier additions and re-fetches accessed **2026-10-18**; claims 65–67 added from the verified 21–25 October log, with their primary sources re-fetched **2026-10-25**. Grades follow the methodology. A verifies a primary disclosure, including a management forecast, not its eventual outcome; hosted management speech remains B. Guidance describes plans. Currency is native unless specified.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -82,6 +82,9 @@ Original claims accessed **2026-10-17**; additions and re-fetches below accessed
 | 62 | Micron industry supply outlook | Calendar 2027–28 annual DRAM bit-shipment growth low-20s%, NAND mid-20s%, both supply-constrained; management cannot identify when supply/demand balance returns | September 30, 2026 | [Remarks][MR], p.5 | primary | A for management outlook |
 | 63 | Micron debt and shareholder returns | Debt ~$14.6bn at FY25 end to ~$5.2bn at FY26 end; intends higher capital returns from December 9, 2026 and, over time, return of 100% of excess cash to shareholders | September 30, 2026 | [Deck][MD], p.44; [remarks][MR], p.9 | primary | A for rounded debt disclosure and intentions |
 | 64 | Korean Q3 reporting calendar | SK hynix October 28, 2026 09:00 KST; Samsung October 29, 2026 10:00 KST, with division results to be checked when released | SK notice October 14; Samsung notice October 8 | [SK 6-K][HK7], [Samsung notice][SEV] | primary | A for scheduled calls |
+| 65 | Lam equipment demand and WFE outlook | September-quarter revenue $8.219418bn, +22% q/q; calendar-2026 WFE expected in the mid-$150bn range; preliminary 2027 WFE above $200bn, with percentage growth led by DRAM, then leading-edge foundry/logic and NAND; cleanroom/component constraints persist. Management forecasts, not accepted orders or qualified memory capacity | Quarter ended September 27; outlook October 21, 2026 | [Lam release][LR], [official call][LC], p.3 | primary actuals / management outlook | A for disclosed actuals and outlook attribution |
+| 66 | Lam NAND wafer-capacity sensitivity | Management estimates TLC-to-SLC conversion reduces bits per device roughly threefold; each percentage-point shift of NAND bits into SLC requires approximately 2% more installed wafer capacity for unchanged bit demand. Conditional mix sensitivity, not measured adoption or commissioned capacity | October 21, 2026 | [Official Lam call][LC], p.3 | primary management model | A for publication; C for realized capacity-demand implication |
+| 67 | Adjacent storage demand: WD, not memory prices | HDD supplier WD revenue $4.381bn, +55% y/y; GAAP gross margin 57.8%; OCF $1.60bn, FCF $1.38bn. Q2 revenue guide $5.1bn ± $100m. No HBM/DDR5 contract-price reading or P2 observation follows from HDD results | Quarter ended October 2; released October 22, 2026 | [WD release][WD] | primary actuals / management guidance | A for results and guidance attribution |
 
 ## Analysis
 
@@ -121,6 +124,8 @@ SK hynix's June 29 long-range strategy extends well past those milestones: rough
 
 ASML said on October 14 that planned equipment-capacity growth of 30% in 2027 and a further 30% aspiration in 2028 would still fall short of customer demand. Installed-base upgrades also raise customer output. Tool availability and upgrades must therefore accompany fab dates in a supply model; construction dates alone can overstate or understate supply growth. [AV]
 
+Lam's October 21 outlook adds equipment-supplier corroboration of continued demand and constrained supply. Its SLC sensitivity illustrates why NAND bit demand and wafer-capacity demand can diverge; neither is a new memory contract-price observation. [LC]
+
 Overlapping capacity ramps, yield improvements and weaker demand could reverse prices without every fab opening together. Investment returns require paid demand for each vintage and disciplined equipment installation. Construction schedules alone establish neither a glut nor its absence. [HN][MD]
 
 **Financing and loss bearers.** Micron's current operating cash generation covers gross physical investment before incentives; customer security and public subsidies add protection. SK hynix's H1 OCF was KRW91.7425tn against cash PP&E purchases of KRW18.3288tn, or 5.0×; OCF includes KRW13.9836tn of dividends received, so that ratio is not solely cash from memory sales. Two customers accounted for 13.35% and 13.03% of H1 revenue, versus one at 27.31% a year earlier. It also accessed public equity through the ADS offering. [HK6] Samsung's consolidated liquidity and OCF comfortably exceed disclosed cash PP&E spending, although neither is attributable entirely to Memory. Management capex and cash purchases have different recognition bases and must remain separate series. Micron reduced debt from about $14.6bn to $5.2bn over FY26 and intends higher shareholder returns from December 9, 2026, eventually returning 100% of excess cash. Inference: cash can go to shareholders as well as expansion; the policy is not a guarantee against overbuild. [M4][H2][CITI][S2][ST][MD][MR]
@@ -158,6 +163,8 @@ This note establishes current profitability and financing capacity, and records 
 |--------|---------------|-------|--------|----------------|
 | Fixed contract-price series | DDR5 8GB SO-DIMM $133, +2.31%; September print members-only; full-year peak unverified | August 31; checked October 18, 2026 | [TrendForce][PX] | P2 baseline; keep separate from spot. |
 | Broad contract-price direction | DRAM +10–15%, NAND +15–20% QoQ forecast | Q4 outlook | [TrendForce][TP] | Falling sequential forecasts precede revenue weakness. |
+| Equipment demand/outlook | Lam: 2026 WFE mid-$150bn; preliminary 2027 >$200bn, DRAM leads percentage growth; constraints remain | October 21, 2026; re-fetched October 25 | [Official call][LC] | Track realized spending and tool deliveries; forecast is not orders. |
+| NAND capacity and mix | Lam's conditional SLC model: each 1pp bit-mix shift requires ~2% extra wafer capacity | October 21, 2026 | [Official call][LC] | Check adoption and qualified output; HDD results do not measure HBM/DDR5 prices. |
 | HBM competitive share | SK/Samsung/Micron 50%/33%/18% revenue estimate | Q2 | [Counterpoint][CP] | Qualification and supply catch-up. |
 | HBM share of producer sales | SK ~11.85%, tentative; Micron/Samsung unavailable | Q2 / latest disclosures | [S&P][SP], [Micron][M4], [Samsung][ST] | Distinguish volume growth from conventional-memory inflation. |
 | Inventory days | Micron 129, up 9; comparable memory-only Korean days not verified | FYQ4 | [Remarks][MR] | Management cites node-end-of-life build-ahead and capitalized incentive compensation; monitor whether its expected DIO decline occurs. |
@@ -174,7 +181,7 @@ This note establishes current profitability and financing capacity, and records 
 
 ## Sources
 
-Original sources accessed **2026-10-17**. [MR], [MD], [CP], [PX] and [TP] re-fetched **2026-10-18**; new sources [HK6]–[XC] below accessed **2026-10-18**. SEC requests used the generic User-Agent `research-bot contact@example.com`. Transcripts reproduce management speech; recordings were not independently transcribed.
+Original sources accessed **2026-10-17**. [MR], [MD], [CP], [PX] and [TP] re-fetched **2026-10-18**; new sources [HK6]–[XC] below accessed **2026-10-18**. [LR], [LC] and [WD] re-fetched **2026-10-25**. SEC requests used the generic User-Agent `research-bot contact@example.com`. Transcripts reproduce management speech; recordings were not independently transcribed.
 
 1. [M4] Micron IR, *Record Fiscal Fourth-Quarter and Full-Year 2026 Results*, 2026-09-30. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx
 2. [M2] Micron IR, *Second Quarter Fiscal 2026 Results*, 2026-03-18; comparative quarterly data for CSV. https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Results-for-the-Second-Quarter-of-Fiscal-2026-03-18-2026/default.aspx
@@ -230,6 +237,9 @@ Original sources accessed **2026-10-17**. [MR], [MD], [CP], [PX] and [TP] re-fet
 49. [W247] David Moadel, 24/7 Wall St., *Memory Stocks Slide as China's CXMT Flags Denser Chip Design*, 2026-10-12, 10:41 ET; accessed 2026-10-18; secondary, reported claims unverified, C. https://247wallst.com/investing/2026/10/12/memory-stocks-slide-as-chinas-cxmt-flags-denser-chip-design-micron-and-sk-hynix-fall-4-western-digital-drops-2/
 50. [TOM] Luke James, Tom's Hardware, *Chinese memory maker CXMT posts blistering 466% leap in Shanghai IPO*, 2026-07-27; accessed 2026-10-18; secondary, reported prospectus figures unverified, C. https://www.tomshardware.com/tech-industry/cxmt-closes-up-466-percent-in-shanghai-debut-with-no-hbm-project-in-its-ipo-prospectus
 51. [XC] Claude (Opus 5.5), *Memory / HBM: Claude cross-check (second vendor)*, 2026-10-18; independent review and judgements applied here; accessed 2026-10-18. [Review](../../reviews/memory-hbm-claude-xcheck.md)
+52. [LR] Lam Research, *Financial Results for the Quarter Ended September 27, 2026*, 2026-10-21; accessed 2026-10-25. https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026
+53. [LC] Lam Research, *Q1 2027 earnings-call transcript*, 2026-10-21, official IR-hosted PDF, p.3; accessed 2026-10-25. https://investor.lamresearch.com/image/LRCX-USQ_Transcript_2026-10-21.pdf
+54. [WD] Western Digital, *Fiscal First Quarter 2027 Financial Results*, 2026-10-22; accessed 2026-10-25. https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results
 
 [M4]: https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx
 [MK]: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm
@@ -283,3 +293,6 @@ Original sources accessed **2026-10-17**. [MR], [MD], [CP], [PX] and [TP] re-fet
 [W247]: https://247wallst.com/investing/2026/10/12/memory-stocks-slide-as-chinas-cxmt-flags-denser-chip-design-micron-and-sk-hynix-fall-4-western-digital-drops-2/
 [TOM]: https://www.tomshardware.com/tech-industry/cxmt-closes-up-466-percent-in-shanghai-debut-with-no-hbm-project-in-its-ipo-prospectus
 [XC]: ../../reviews/memory-hbm-claude-xcheck.md
+[LR]: https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026
+[LC]: https://investor.lamresearch.com/image/LRCX-USQ_Transcript_2026-10-21.pdf
+[WD]: https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results

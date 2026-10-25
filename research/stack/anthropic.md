@@ -1,6 +1,6 @@
 # Anthropic
 
-*Last updated: 2026-10-21 · Author: Codex / GPT-6 · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17 · Updated 2026-10-21 from signals/2026-10-21.md*
+*Last updated: 2026-10-25 · Author: Codex / GPT-6 · Status: reviewed · Reviewer: Codex (gpt-6-astra) cross-check, applied 2026-10-17 · Updated 2026-10-21 from signals/2026-10-21.md · Updated 2026-10-25 from signals/2026-10-25.md*
 
 ## Summary
 
@@ -9,12 +9,12 @@
 - Company-confirmed run-rate rose from approximately $1bn at the start of 2025 to above $47bn in May 2026. Approximately $65bn at end-July 2026 is reported, unverified; approximately $74bn is an outside estimate relayed in October with an unclear measurement endpoint, not a new company disclosure. [S2][S4][S10][S6]
 - Funding comes from financial investors and suppliers that also sell Anthropic compute. The Amazon agreement announced April 20, 2026 puts its maximum investment at $33bn, including previous funding and possible future money, against an AWS spending commitment exceeding $100bn over ten years. [S16]
 - Reuters reported on September 29, 2026 at least $518bn of infrastructure commitments over a decade, about 80% rigid, against customers with more flexible contracts. Its October 1 reporting links lease acceleration to restricted facility access. October 20 reporting describes **~$450bn cloud agreements**, while **up to $750bn** potential compute spending includes talks; neither replaces the broader September **≥$518bn** infrastructure total on a matched basis. The proposed North Star package adds creditor exposure while retaining Anthropic’s obligations. [S8][S22][S25][S26][S45][S46]
-- Anthropic confirms a June 1, 2026 confidential S-1 submission. October 20 coverage concerns a **draft** prospectus; Reuters’ **mid-November** timing and October 21 analyst speculation about an **October 23** filing are expectations, with no official listing date or priced IPO established. Annual payment schedules and current unrestricted cash remain unknown. [S9][S45][S48][S49]
+- Anthropic confirms a June 1, 2026 confidential S-1 submission. October 20 coverage concerns a **draft** prospectus; October 22 Reuters reaffirms a mutable **mid-November** IPO plan, with marketing expected **week of November 9**. No official listing date or priced IPO is established. Annual payment schedules and current unrestricted cash remain unknown. [S9][S45][S51]
 - On **October 18, 2026**, Anthropic proposed a **5%** share allocation to its Public Benefit Fund, subject to stockholder approval. Board-discretionary increments and founder/employee pledges may expand the public-benefit stake; this is equity policy, not cash funding. [S50]
 
 ## Key claims
 
-Amounts are USD unless explicitly marked C$ (Canadian dollars). Primary company statements are not audits. Private-company leaks, estimates and their derived arithmetic are **reported, unverified**, grade C. Original sources accessed 2026-10-17; update sources re-fetched 2026-10-21, with publication vintages retained.
+Amounts are USD unless explicitly marked C$ (Canadian dollars). Primary company statements are not audits. Private-company leaks, estimates and their derived arithmetic are **reported, unverified**, grade C. Original sources accessed 2026-10-17; update sources re-fetched 2026-10-21 and 2026-10-25, with publication vintages retained.
 
 | # | Claim | Value | As of | Source | Type | Grade |
 |---|-------|-------|-------|--------|------|-------|
@@ -35,7 +35,7 @@ Amounts are USD unless explicitly marked C$ (Canadian dollars). Primary company 
 | 15 | Series G | $30bn raised; $380bn post-money; includes part of Microsoft/Nvidia investments | 2026-02-12 | [Anthropic][S3] | primary | A |
 | 16 | Series H | $65bn raised; $965bn post-money; known previously committed funding overlap detailed in claim 42 | 2026-05-28 | [Anthropic][S4] | primary | A |
 | 17 | Employee secondary | Tender at $350bn excluding new primary money; completed amount undisclosed, below up to $6bn buyer allocation | 2026-04-08 reporting | [Bloomberg syndication][S30] | secondary | C |
-| 18 | IPO status, expectations and draft reporting | June 1 confidential submission; share count/price unset. Oct 20 WSJ describes a new draft, not a public SEC S-1. Oct 19 Reuters expects mid-November; Oct 21 Fortune relays Kennedy’s speculation a filing could appear Friday Oct 23. No official filing/listing date, $100bn proceeds or priced $2tn offering established. Prior >$2tn ambition and $1.5tn investor discussion are expectations; $2tn ≈30× annualized Q3 sales remains illustrative equity value/sales | Submission 2026-06-01; reports Oct 19–21; cutoff 2026-10-21 | [Anthropic][S9]; [Reuters Q3][S5]; [WSJ][S45]; [Reuters Oct 19][S48]; [Fortune][S49] | primary submission / secondary reporting and speculation | A submission; C reported expectations/arithmetic; unestablished priced terms |
+| 18 | IPO status, expectations and draft reporting | June 1 confidential submission; share count/price unset. Oct 20 WSJ describes a new draft, not a public SEC S-1. Oct 19 Reuters expects mid-November; Oct 21 Fortune relays Kennedy’s speculation a filing could appear Friday Oct 23. No official filing/listing date, $100bn proceeds or priced $2tn offering established. Prior >$2tn ambition and $1.5tn investor discussion are expectations; $2tn ≈30× annualized Q3 sales remains illustrative equity value/sales. Oct 22 reaffirmation and expected marketing week of Nov 9 are recorded in claim 50 | Submission 2026-06-01; reports Oct 19–22; update cutoff 2026-10-25 | [Anthropic][S9]; [Reuters Q3][S5]; [WSJ][S45]; [Reuters Oct 19][S48]; [Fortune][S49]; [Reuters Oct 22][S51] | primary submission / secondary reporting and speculation | A submission; C reported expectations/arithmetic; unestablished priced terms |
 | 19 | Historical Google stake | Approximately 14%, reported in 2025; current diluted ownership unknown | 2025 reporting | [TIME][S31] | secondary | C |
 | 20 | New Google investment | $10bn cash commitment now at $350bn valuation; up to $30bn additional conditional on performance; up to $40bn total new investment | 2026-04-24 | [Reuters quoting Anthropic][S32] | secondary | B |
 | 21 | Amazon investment | Previous $8bn plus $5bn announced now = $13bn; up to $20bn future, hence $33bn maximum | 2026-04-20 | [Anthropic][S16] | primary | A stated; B arithmetic |
@@ -67,6 +67,7 @@ Amounts are USD unless explicitly marked C$ (Canadian dollars). Primary company 
 | 47 | H1 2026 draft-prospectus accounts, reported | Revenue $16.3bn versus ~$1.1bn H1 2025; net loss $80.7bn including ~$72bn noncash financing remeasurement; compute/infrastructure ~$9bn versus ~$7.3bn full-2025. Historical H1 loss is not cash burn; public primary accounts/cash-flow bridge unavailable | H1 2026; reported 2026-10-20 | [WSJ partial original][S45]; [Investing WSJ relay][S46]; [Reuters WSJ relay][S47] | secondary leaked private accounts | C reported, unverified |
 | 48 | Compute commitment scope/vintage reconciliation | Sep 29 Reuters ≥$518bn infrastructure/decade (claim 27) retained. Oct 20 relay: ~$450bn cloud agreements; Google ~$111bn/AWS ~$110bn/Microsoft ~$31bn broadly repeat September figures. WSJ up to $750bn potential compute includes deals in negotiation. >$600bn signed total not established; no common scope/date/payment bridge to replace or sum these figures | September 29 and October 20, 2026 disclosure vintages | [Reuters Sep][S22]; [WSJ partial original][S45]; [Investing relay][S46] | secondary leaked private commitments | C reported, unverified; >$600bn signed claim unestablished |
 | 49 | Public Benefit Fund proposed equity commitment | Stockholder approval required for 5% allocation to wholly owned LLC. Board may add 2% per 50% valuation gain above undisclosed baseline. With founder/employee pledges, ~20% of shares for public purposes; no lobbying/political use. Earlier $200m labor initiative is separate; 5% × May’s $965bn valuation ≈ $48bn is paper arithmetic, not cash donated | 2026-10-18 announcement | [Anthropic][S50]; [May valuation][S4] | primary proposed equity/governance policy | A proposal/terms; B paper-value distinction |
+| 50 | IPO timetable reaffirmed, reported | Reuters Oct 22: mid-November IPO ambition; public prospectus as early as late October; marketing expected week of Nov 9. Dates remain subject to change; Anthropic declined comment. Potential $1.5tn investor valuation is not a priced offering; no firm Oct 26 filing or $100bn proceeds established | 2026-10-22 reporting; fetched 2026-10-25 | [Reuters original reporting, syndicated][S51] | secondary private-company reporting | C reported, unverified |
 
 ## Analysis
 
@@ -112,6 +113,7 @@ The illustrative valuation multiple requires durable growth and cash conversion.
 
 ## Conflicts and open questions
 
+- **2026-10-25 update — timetable versus completed offering:** Reuters’ October 22 reaffirmation adds an expected marketing week, not an official listing or filing date. The earlier October 23 possibility remains dated analyst speculation; the cited sources do not establish a public S-1, priced valuation or proceeds (claims 18, 50). [S9][S49][S51]
 - **2026-10-21 update — loss and obligation bases:** H1’s reported $80.7bn net loss does not refute the later Q3 adjusted-profit claim: periods and accounting bases differ; ~$72bn is noncash financing remeasurement. The earlier “burn remains unmeasured” conclusion remains. October’s ~$450bn cloud agreements, September’s ≥$518bn infrastructure and up-to-$750bn including talks are different scopes/vintages, not a cancellation series or additive obligations; >$600bn signed is unestablished (claims 27–28, 47–48). [S22][S45][S46][S47]
 - **2026-10-21 update — public benefit and IPO evidence:** The Fund proposal adds equity policy to the note’s LTBT-only governance picture. Approval and governance details remain pending; no cash receipt or creditor protection follows. Draft-prospectus coverage and a possible October 23 filing remain distinct from a public S-1 or priced offering (claims 18, 40, 49). [S45][S49][S50]
 
@@ -131,15 +133,18 @@ The illustrative valuation multiple requires durable growth and cash conversion.
 | Company run-rate | Last located company disclosure >$47bn; later reported end-July approximately $65bn | May/July-2026 | [Company][S4]; [CNBC][S10] | Separate disclosure from extrapolation | Year-end 2026 analyst expectations; next company update unannounced |
 | Booked sales and cash conversion | Q3 $16.8bn/adjusted profit RU retained; H1 $16.3bn sales/$80.7bn net loss including ~$72bn noncash; compute ~$9bn | 2026-Q3 / H1, draft reported Oct 20 | [Reuters][S5]; [WSJ][S45]; [relay][S46] | Require cash-flow bridge; H1 accounting loss is not cash burn | Next comparable disclosure; date not announced |
 | Funding and valuation | Series H $65bn at $965bn includes $15bn previously committed hyperscaler money; other optional funding unresolved | 2026-05-28 | [Anthropic][S4] | Track proceeds and known overlap, not ceilings | Next comparable disclosure; date not announced |
-| Public S-1 | No public filing established by cited sources; Oct 20 draft reporting; June confidential submission confirmed | 2026-10-21 verification | [Anthropic][S9]; [WSJ][S45]; [Reuters][S48]; [Fortune][S49] | Public accounts must reconcile loss/cash, commitments and IPO terms | Oct 23 possible filing is analyst speculation; mid-November debut reported, no official date |
+| Public S-1 | June confidential submission/Oct 20 draft reporting retained; Oct 22 Reuters reaffirms mutable IPO plans. No public filing established by cited sources | Reports through 2026-10-22; verified 2026-10-25 | [Anthropic][S9]; [WSJ][S45]; [Reuters Oct 22][S51]; [Fortune][S49] | Public accounts must reconcile loss/cash, commitments and IPO terms | Late-October prospectus / week of Nov 9 marketing / mid-November IPO reported, subject to change; Oct 23 speculation retained in claim 18 |
 | Pricing and usage limits | Opus 5.5 $4/$20 per million input/output tokens; limits previously eased | October/May-2026 | [Pricing][S34]; [limits][S19] | Revenue per task and capacity scarcity | Next rate-card or limits change; date unannounced |
 | Customer concentration | 2025 nearly 25% from two; H1 2026 ~20% from two RU; identities/basis not matched | 2025 / H1 2026 reported Oct 20 | [Reuters][S8]; [WSJ relay][S46] | Track retention and matched-period concentration | Next comparable disclosure; date not announced |
 | North Star pricing/closing | Proposed $60bn; Blackstone offered 10% junior coupon, >10% yield including discounts/fees | 2026-10-16 | [FT relay][S26]; [Reuters][S27] | Measures marginal cost and availability of credit | Executed terms/closing; no verified date |
 | Supplier financing draws and access | Broadcom conditional $42bn notes: none issued at quarter-end; restricted cash and default-linked access limits reported later | 2026-08-02; reporting October-1 | [10-Q][S24]; [Reuters][S25] | Distinguish funded exposure from liquidity available under stress | Next comparable disclosure; date not announced |
 | Compute commitments / maturity schedule | ≥$518bn Sep infrastructure; ~$450bn Oct cloud; up to $750bn potential including talks; >$600bn signed unestablished | Sep 29 / Oct 20, 2026 | [Reuters][S22]; [WSJ][S45]; [relay][S46] | Reconcile scope, binding status, annual payments and cancellation rights | Public S-1 / executed amendments; no confirmed release date |
 | Public Benefit Fund approval / governance | Proposed 5% share allocation; stockholder approval pending; separate from LTBT | 2026-10-18 | [Anthropic][S50] | Track approval and governance details | Structure/governance promised in coming months; no approval date |
+| Supplier results / funding calendar | Microsoft/Alphabet/Amazon results and October Fed decision remain future events; no new supplier results or October decision inferred | 2026-10-25 calendar check | [Microsoft][S52]; [Alphabet][S53]; [Amazon][S54]; [Fed][S55] | Supplier compute economics and financing conditions bear on the lab’s funding access | FOMC Oct 27–28; Microsoft/Alphabet Oct 28; Amazon Oct 29 |
 
 ## Sources
+
+Update fetched **2026-10-25**: full Reuters October 22 original reporting via StreetInsider confirms the reported, changeable timetable; Anthropic’s June confidential-submission statement, primary supplier calendars and Fed calendar were re-fetched. Brew’s October 21 accounts recap was also fetched and adds no new revenue observation; claims 47–48 retain their prior vintages and definitions. This pass did not independently establish a public S-1 or inspect public IPO accounts.
 
 Update fetched **2026-10-21**: Anthropic’s primary October 18 Fund announcement; WSJ’s accessible draft-prospectus opening plus named secondary relays; Reuters October 19 and Fortune October 21 for expected timing. The draft itself was not publicly available; leaks remain C/RU. Provider figures and investor-day results that predate this window are identified as prior evidence.
 
@@ -195,6 +200,13 @@ Update fetched **2026-10-21**: Anthropic’s primary October 18 Fund announcemen
 49. Fortune, “Is Anthropic the IPO market’s last hope for 2026? The clock is ticking,” 2026-10-21; full body fetched same day. Friday-filing remark is Kennedy’s speculation. https://fortune.com/2026/10/21/is-anthropic-ipo-markets-last-hope-2026/
 50. Anthropic, “Investing in the public benefit,” 2026-10-18; primary announcement fetched 2026-10-21. https://www.anthropic.com/news/public-benefit-fund
 
+51. Reuters / Echo Wang, “Anthropic IPO stands alone as AI market jitters sideline others,” 2026-10-22; full syndication fetched 2026-10-25. https://www.streetinsider.com/Reuters/Analysis-Anthropic%2BIPO%2Bstands%2Balone%2Bas%2BAI%2Bmarket%2Bjitters%2Bsideline%2Bothers/27220169.html
+52. Microsoft, “Fiscal Year 2027 First Quarter Earnings Conference Call,” primary event page, publication date unspecified; fetched 2026-10-25. https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1
+53. Alphabet, “Announces Date of Third Quarter 2026 Financial Results Conference Call,” 2026-10-06; unedited company notice syndicated by Publicnow/MarketScreener, fetched 2026-10-25. https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d
+54. Amazon, “Amazon will share its Q3 2026 earnings on October 29,” primary notice, publication date unspecified; fetched 2026-10-25. https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report
+55. Federal Reserve, “Meeting calendars and information,” primary calendar, publication date unspecified; fetched 2026-10-25. https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+56. Brew Markets / Helena Cheng, “Anthropic’s monster bill,” 2026-10-21; recap fetched 2026-10-25, no new accounts observation added. https://www.brewmarkets.com/stories/anthropics-monster-bill
+
 [S1]: https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of
 [S2]: https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation
 [S3]: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
@@ -246,3 +258,9 @@ Update fetched **2026-10-21**: Anthropic’s primary October 18 Fund announcemen
 [S48]: https://www.marketscreener.com/news/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-ce785cdbdf8cf321
 [S49]: https://fortune.com/2026/10/21/is-anthropic-ipo-markets-last-hope-2026/
 [S50]: https://www.anthropic.com/news/public-benefit-fund
+
+[S51]: https://www.streetinsider.com/Reuters/Analysis-Anthropic%2BIPO%2Bstands%2Balone%2Bas%2BAI%2Bmarket%2Bjitters%2Bsideline%2Bothers/27220169.html
+[S52]: https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1
+[S53]: https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d
+[S54]: https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report
+[S55]: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
