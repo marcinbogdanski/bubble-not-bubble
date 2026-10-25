@@ -72,14 +72,6 @@
         {% endfor %}
       {% endif %}
     {% endfor %}
-    <h2><a href="/claude" style="padding:0;color:inherit">Claude chats</a></h2>
-    {% for s in sessions[:5] %}
-      <a href="/claude/{{ s.id }}" title="{{ s.title }}"
-         class="{{ 'active' if path == '/claude/' ~ s.id }}">{{ s.title }}</a>
-    {% else %}
-      <span class="muted" style="padding:0 0.5rem">No chats yet</span>
-    {% endfor %}
-    {% if sessions | length > 5 %}<a href="/claude" class="muted">all {{ sessions | length }} chats…</a>{% endif %}
     <h2>Project</h2>
     <a href="https://github.com/marcinbogdanski/bubble-not-bubble">Source on GitHub</a>
     <a href="/llms.txt">llms.txt (for agents)</a>

@@ -12,8 +12,8 @@ infer the user's intent and use your judgement.
   Pages. The user builds and publishes manually (see README), so edits are
   not live until then.
 - Source: https://github.com/marcinbogdanski/bubble-not-bubble
-- Claude chats for this repo are published on the site (`/claude`). Keep
-  secrets out of conversations.
+- Agent session logs (e.g. `~/.claude`) are private: never publish them or
+  copy them into the repo.
 
 ## Repo layout
 

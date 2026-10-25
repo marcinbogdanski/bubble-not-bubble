@@ -1,13 +1,12 @@
 """Build the whole site as static files in site/, for Cloudflare Pages.
 
 Every page is fetched from the FastAPI app in-process, so the static site is
-exactly what the dev server shows. Run on the VM, where the Claude chats live:
+exactly what the dev server shows:
 
     uv run python scripts/build_static.py
 
 URL -> file mapping (Cloudflare Pages serves /foo from foo.html):
     /                      index.html
-    /claude, /claude/<id>  claude.html, claude/<id>.html (+ <id>.json)
     /<section>/<rel>       <section>/<rel>.html
     /raw/<section>/<rel>.md, /data/*, robots.txt, llms.txt   copied as-is
 """
@@ -22,7 +21,6 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import content  # noqa: E402
-import transcripts  # noqa: E402
 from main import app  # noqa: E402
 
 OUT = ROOT / "site"
@@ -56,11 +54,6 @@ def main() -> None:
     save("/", "index.html")
     save("/robots.txt", "robots.txt")
     save("/llms.txt", "llms.txt")
-
-    save("/claude", "claude.html")
-    for session in transcripts.list_sessions():
-        save(f"/claude/{session.id}", f"claude/{session.id}.html")
-        save(f"/claude/{session.id}.json", f"claude/{session.id}.json")
 
     # Every .md is a page, including ones hidden from the sidebar (README, TEMPLATE).
     for section in content.SECTIONS:

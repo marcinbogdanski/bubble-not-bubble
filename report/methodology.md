@@ -77,5 +77,4 @@ Nothing from a social-media scan is cited as evidence on its own. The lead
 agent is an Anthropic model and assesses Anthropic by the same rules as every
 other lab; the Codex cross-check is the control for that blind spot.
 
-All agent conversations that built the report are published under
-[Claude chats](/claude).
+The agent sessions that built the report are not published.

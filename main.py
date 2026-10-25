@@ -11,7 +11,6 @@ from markupsafe import Markup
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 import content
-import transcripts
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://bubble.bogdanski.ai"
@@ -19,7 +18,7 @@ SITE = "https://bubble.bogdanski.ai"
 app = FastAPI(title="Bubble or Not Bubble")
 templates = Jinja2Templates(directory=ROOT / "templates")
 
-# html=False escapes any raw HTML in transcripts; tables are enabled for readability.
+# html=False escapes any raw HTML in the notes; tables are enabled for readability.
 md = MarkdownIt("commonmark", {"html": False, "linkify": False}).enable("table")
 MD_LINK_RE = re.compile(r"^(?![a-z][a-z0-9+.-]*:|/raw/|/data/)([^?#]+)\.md([?#].*)?$", re.I)
 
@@ -87,7 +86,6 @@ def llms_txt() -> str:
 
 def render(request: Request, name: str, **context) -> HTMLResponse:
     context["nav"] = content.nav()
-    context["sessions"] = transcripts.list_sessions()
     context["path"] = request.url.path
     return templates.TemplateResponse(request, name, context)
 
@@ -102,35 +100,6 @@ def home(request: Request):
     if not page:
         raise HTTPException(404, "report/index.md is missing")
     return render_page(request, page)
-
-
-@app.get("/claude", response_class=HTMLResponse)
-def claude_index(request: Request):
-    return render(request, "claude_index.html")
-
-
-@app.get("/claude/{session_id}.json")
-def claude_session_json(session_id: str) -> dict:
-    session = transcripts.get_session(session_id)
-    if not session:
-        raise HTTPException(404, "Session not found")
-    return {
-        "id": session.id,
-        "title": session.title,
-        "started": session.started,
-        "messages": [
-            {"role": m.role, "timestamp": m.timestamp, "text": m.text, "images": m.images}
-            for m in session.messages
-        ],
-    }
-
-
-@app.get("/claude/{session_id}", response_class=HTMLResponse)
-def claude_session(request: Request, session_id: str):
-    session = transcripts.get_session(session_id)
-    if not session:
-        raise HTTPException(404, "Session not found")
-    return render(request, "claude_session.html", session=session)
 
 
 @app.get("/health")

@@ -5,8 +5,6 @@ or not? The research and the site are built by AI agents (Claude Code, Codex,
 Grok), steered by a human.
 
 - **Live report:** https://bubble.bogdanski.ai
-- **Agent chats that built it:** https://bubble.bogdanski.ai/claude (each chat
-  is also available as JSON by adding `.json` to its URL)
 - **Source:** https://github.com/marcinbogdanski/bubble-not-bubble
 
 The report is at version 0.9: a three-part answer with explicit, resolvable
@@ -34,13 +32,11 @@ Every markdown page is served rendered at its path and raw at
 
 - FastAPI app (`main.py`) with Jinja2 templates (`templates/`);
   `content.py` turns the markdown folders into pages.
-- `transcripts.py` publishes this repo's Claude Code chats: user prompts and
-  Claude's replies only, without tool calls or subagents.
 - Research notes are written by Claude and Codex agents from primary sources
   (SEC filings, company releases, statistical agencies); Grok scans x.com for
   leads, which are traced to sources before use. Conclusions are red-teamed
   by a different vendor's model. See [AGENTS.md](AGENTS.md).
-- Published as a static site on Cloudflare Pages, built on the VM.
+- Published as a static site on Cloudflare Pages.
 - [AGENTS.md](AGENTS.md) holds the operating context for agents working on the
   repo.
 
@@ -51,7 +47,7 @@ uv sync
 uv run fastapi dev main.py    # auto-reload, http://127.0.0.1:8000
 ```
 
-Endpoints: `/` (report), `/claude` (chats), `/health`, `/docs` (API docs).
+Endpoints: `/` (report), `/<section>/<page>`, `/raw/...`, `/data/`, `/health`.
 
 The dev server is for local preview only. The public site is a static build.
 
@@ -59,7 +55,7 @@ The dev server is for local preview only. The public site is a static build.
 
 `scripts/build_static.py` renders every page from the app into `site/`
 (ignored by git), and Wrangler, Cloudflare's CLI, uploads it to Cloudflare
-Pages. Run both on the VM, where the Claude chats live. `npx` fetches the
+Pages. `npx` fetches the
 pinned Wrangler version into npm's cache, so the repo has no npm files.
 
 ```bash
