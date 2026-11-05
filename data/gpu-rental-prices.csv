@@ -53,3 +53,5 @@ date,gpu,provider_or_index,price_per_gpu_hour_usd,contract_type,source_url
 2026-10-17,H200,Vast.ai,3.95,posted live marketplace floor; pricing-mode mix not established; observed/accessed date; inventory untested,https://vast.ai/pricing
 2026-10-17,H200 SXM,Hyperstack,3.99,on-demand; observed/accessed date; inventory untested,https://www.hyperstack.cloud/gpu-pricing
 2026-10-17,H200 SXM,Hyperstack,2.79,reserved starting-from; term not specified; observed/accessed date; inventory untested,https://www.hyperstack.cloud/gpu-pricing
+2026-11-05,H100 SXM,Lambda,4.59,announced on-demand list; 8-GPU node; effective 2026-11-16 00:00 UTC; observed/accessed date; current price login-only; inventory untested,https://lambda.com/pricing
+2026-11-05,B200,Lambda,7.69,announced on-demand list; 8-GPU node; effective 2026-11-16 00:00 UTC; observed/accessed date; current price login-only; inventory untested,https://lambda.com/pricing
