@@ -3,8 +3,7 @@
 *Vintage 0.9.1, 2026-10-25. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
-estimates after the research notes and the
-[red-team review](/reviews/2026-10-17-codex-redteam-report) of vintage
+estimates after the research notes and a red-team review of vintage
 0.1, whose numbers are preserved in History. Revisions are appended, never
 overwritten. The 24-month numbers carry wide error bars.*
 

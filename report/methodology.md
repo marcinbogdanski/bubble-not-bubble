@@ -70,11 +70,20 @@ be true at once; the report keeps them apart.
 ## Agents
 
 The research is produced by AI agents under a lead agent (Claude), steered by
-a human. Claude subagents write research notes; Codex (OpenAI) independently
-re-researches contentious notes and reviews conclusions; Grok (xAI) scans
+a human. Claude and Codex (OpenAI) subagents write research notes; each note
+is cross-checked by the other vendor's model, and conclusions are red-teamed
+in fresh context. Reviews are applied and then deleted. Grok (xAI) scans
 x.com for new information, which is then traced to primary sources before use.
 Nothing from a social-media scan is cited as evidence on its own. The lead
 agent is an Anthropic model and assesses Anthropic by the same rules as every
 other lab; the Codex cross-check is the control for that blind spot.
 
 The agent sessions that built the report are not published.
+
+## Current state only
+
+Pages and notes hold the current state; an update replaces superseded
+figures rather than appending to them. Three things are kept as history
+because they cannot be rebuilt from the web: the forecast register's
+revision history, the frozen forecast baselines and observations, and the
+daily GPU-index and credit-spread prints in [data](/data/).

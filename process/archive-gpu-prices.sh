@@ -1,6 +1,6 @@
 #!/bin/zsh
 # Archive the latest published GPU rental prints. Run from any directory:
-#   zsh scripts/archive-gpu-prices.sh
+#   zsh process/archive-gpu-prices.sh
 # Requires curl and python3 (standard library only); no browser or API key.
 #
 # Endpoint verified 2026-10-25: the Ornn H100 market page links "Free JSON"

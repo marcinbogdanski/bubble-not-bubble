@@ -2,9 +2,8 @@
 
 *Version 0.9.2, 2026-10-25. Latest verified update:
 [signals, 25 October](/signals/2026-10-25). Built by AI agents from primary sources, steered
-by a human, on 26 cross-checked research notes, after three Codex red-team
-reviews, a [Claude review](/reviews/2026-10-18-claude-opus-review) and a
-Codex trim. Rules: [Methodology](/report/methodology). Glossary at the end.*
+by a human, on 26 research notes, each cross-checked by a second vendor's
+model. Rules: [Methodology](/report/methodology). Glossary at the end.*
 
 ## The short answer
 
@@ -29,7 +28,7 @@ Full [register](/forecasts/register): 6 / 12 / 24 months from 17 October 2026.
 |---|---|---|---|
 | M1: equal-weighted basket of NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT falls 40% from its 16 October level | 10% | 22% | 30% |
 | M1a: the five chip names alone fall 40% | 6% | 14% | 25% |
-| M1b: ORCL, CRWV, VRT alone fall 40% | 20% | 35% | 50% |
+| M1b: ORCL, CRWV, VRT alone fall 40% | 25% | 40% | 55% |
 | F1: CoreWeave distressed credit event, or an acquisition closing below $40 a share | 8% | 20% | 35% |
 | F2: Oracle rated below investment grade by any major agency | 8% | 24% | 40% |
 | F3: OpenAI cancels, cuts, or defers by a year or more, a binding compute commitment of $10B+ | 15% | 32% | 52% |
@@ -69,4 +68,4 @@ RPO: contracted revenue not yet recognised. FCF: operating cash flow less capex.
 
 ## Status
 
-All 26 research notes were cross-checked by a second model, sixteen by both vendors; page reviews are under reviews and every forecast revision is in the [register](/forecasts/register)'s history. Agents start at [llms.txt](/llms.txt). No paywalled sources were used, biasing coverage toward leaked lab figures and away from sell-side and rating-agency credit work.
+All 26 research notes were cross-checked by a second vendor's model, and the pages were red-teamed four times; the reviews were applied and are not kept. Every forecast revision is in the [register](/forecasts/register)'s history. Agents start at [llms.txt](/llms.txt). No paywalled sources were used, biasing coverage toward leaked lab figures and away from sell-side and rating-agency credit work.

@@ -3,7 +3,9 @@
 Every page is fetched from the FastAPI app in-process, so the static site is
 exactly what the dev server shows:
 
-    uv run python scripts/build_static.py
+    uv run python process/build_static.py
+
+The build stops if any published page has a dead internal link.
 
 URL -> file mapping (Cloudflare Pages serves /foo from foo.html):
     /                      index.html
@@ -20,6 +22,7 @@ from fastapi.testclient import TestClient
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+import check  # noqa: E402  (process/check.py)
 import content  # noqa: E402
 from main import app  # noqa: E402
 
@@ -37,6 +40,10 @@ HEADERS = """\
 
 
 def main() -> None:
+    dead = check.dead_links()
+    if dead:
+        sys.exit("Dead internal links:\n  " + "\n  ".join(dead))
+
     client = TestClient(app)
 
     def save(url: str, dest: str) -> None:
