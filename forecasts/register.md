@@ -21,7 +21,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 - Price questions use official closing prices on the primary listing (US
   listings for ADRs where named; local currency otherwise), adjusted for
   splits, stock dividends and spin-offs (Meta's one-for-one Class C
-  distribution effective about 19 January 2027 is treated as a two-for-one
+  distribution (charter change effective 19 January 2027; payment date not yet set) is treated as a two-for-one
   split: the 16 October baseline is halved from that date), price return. M1 and the layer thresholds are measured from
   the 2026-10-16 close; M2 is an absolute level; M3 is measured from the
   highest 2026 close before the test day. Corporate actions: a cash
@@ -45,7 +45,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
 | D1 | OpenAI's annualised revenue, as reported on its own accounting basis at two dated points, is lower at the later point. Corrections of basis (gross to net) and comparisons with targets do not count | 5% | 10% | 20% |
-| D2 | Reported annualised revenue of OpenAI plus Anthropic, each on its own basis (exit-month run-rate or latest quarter times four, whichever the company or its reporter states; recorded in the observation ledger), with the two observations dated within 45 days of each other, sums to $200B or more. Current readings: OpenAI ~$50B net (end-September exit); Anthropic >$65B gross (July exit) or $67.2B (Q3 sales x4). Projections and targets do not count | 20% | 55% | 72% |
+| D2 | Reported annualised revenue of OpenAI plus Anthropic, each on its own basis (exit-month run-rate or latest quarter times four, whichever the company or its reporter states; recorded in the observation ledger), with the two observations dated within 45 days of each other, sums to $200B or more. Current readings: OpenAI ~$50B net (end-September exit); Anthropic about $65B gross (July exit) or $67.2B (Q3 sales x4). Projections and targets do not count | 20% | 55% | 72% |
 | D3 | Azure, Google Cloud or AWS reports a year-on-year growth rate (reported currency, company's restated segment) at least 10 points below the rate reported the previous quarter | 30% | 50% | 68% |
 
 ## Capex and supply
@@ -61,7 +61,7 @@ overwritten. The 24-month numbers carry wide error bars.*
 
 | ID | Question | 6m | 12m | 24m |
 |---|---|---|---|---|
-| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 as of 2026-10-17, published each business day; both this series and OCPI must be archived daily in data/ because neither keeps a public history): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled business-day publications present as fresh prints (no carried-forward, interpolated or disruption-flagged values). If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, and today's 6.4-year-old A100 already prices at $1.53 on the same index in a market with no glut, so a Yes at 24 months is largely an age effect; read it together with P1b | 5% | 15% | 35% |
+| P1 | The Silicon Data H100 rental index (SDH100RT, neocloud reading; $2.82 as of 2026-10-17, published each business day; both this series and OCPI must be archived daily in data/ because Silicon Data keeps no public history and OCPI only a rolling three months): the equal-weighted mean of each complete calendar month's official daily publications is below $1.50/GPU-hour for three consecutive months wholly inside the horizon, with at least 80% of scheduled business-day publications present as fresh prints (no carried-forward, interpolated or disruption-flagged values). If a complete month is unavailable, the Ornn OCPI H100 series substitutes at $1.50 times the median OCPI/SDH100RT ratio over the preceding 90 overlapping days (at least 60 pairs), else void. Rule from the [GPU-pricing note](/research/macro/gpu-pricing-and-utilization). Caution: by October 2028 the H100 is about 5.5 years old, and today's 6.4-year-old A100 already prices at $1.53 on the same index, so a Yes at 24 months is largely an age effect; read it together with P1b | 5% | 15% | 35% |
 | P1b | The Ornn OCPI B200 monthly mean (September 2026: $7.245) is below $4.50 for three consecutive complete months inside the horizon, each month with at least 80% fresh calendar-day coverage (no carried-forward or interpolated prints); on 2027-10-17 the 24-month reference rolls to the newest Nvidia datacenter GPU with at least 180 days of OCPI history, its threshold reset to 62% of its 2027-Q3 monthly mean; Silicon Data's B200 index is the fallback, calibrated on at least 60 fresh overlapping days. P1 Yes with P1b No reads as ageing; both Yes reads as glut | 3% | 10% | 20% |
 | P2 | TrendForce's DDR5 8GB SO-DIMM contract-price session average ($133 on 2026-08-31), observed at the final assessment of each calendar month, is at or below 70% of its highest calendar-2026 monthly observation in any later month published by the horizon. A fixed-product proxy for conventional DRAM; it excludes HBM. Rule from the [memory note](/research/stack/memory-hbm) | 5% | 20% | 45% |
 
@@ -125,8 +125,8 @@ CoreWeave's landlords whose notes are repaid from its rent), which is why
 the two-or-more conditional is as high as it is.
 
 Conditional tree given M1 (zero / one / two-or-more distinct credit
-failures), rising with horizon because defaults lag equity falls (telecom's
-came one to two years after the March 2000 peak):
+failures), rising with horizon because defaults lag equity falls (WorldCom
+filed in July 2002, over two years after the March 2000 peak):
 
 | Horizon | P(M1) | zero | one | two+ | Credit-led unwind (M1 and two+) | Equity-led unwind (M1 and at most one) |
 |---|---|---|---|---|---|---|
@@ -136,14 +136,14 @@ came one to two years after the March 2000 peak):
 
 The equity-led row is the actual 2000 pattern (an equity bust with the
 credit failures arriving later or not at all); the credit-led row is the
-telecom 2001-02 pattern. Neither covers a slow disappointment without a
+telecom pattern that ended in the 2002 bankruptcies. Neither covers a slow disappointment without a
 basket crash, which is the most likely way the boom under-delivers.
 
 ## Reasoning, in brief
 
 - Supply-side disclosures still point to more capex in 2027 (ASML expects
   planned 2027-28 output below customer demand, with 2029-30 interest not
-  yet accepted orders; Broadcom supply "secured" for FY2027-28; Microsoft
+  yet accepted orders; Broadcom supply "secured" for FY2027 with revenue line of sight for FY2028; Microsoft
   and Amazon raising guidance), so C1 stays low.
 - Drift: M1, M1a, M1b and M3 sit above a zero-drift bootstrap at realised
   volatility (M1 3/10/16; M3 1/4/11) and near a 1.5x-volatility stress
@@ -169,8 +169,8 @@ basket crash, which is the most likely way the boom under-delivers.
   customer-supplied hardware (mid-December) falling short of the $20-25B of
   annual capex offsets the funding plan assumes; $5-6B a quarter is that
   annual figure's average, not a demonstrated minimum.
-- D2: the reported targets (OpenAI $70B+ by year-end; an outside
-  expectation of $100-110B for Anthropic) sum to roughly $170-180B, not
+- D2: the reported targets (OpenAI $70B+ by year-end; outside
+  expectations of just under $100B to $110B for Anthropic) sum to roughly $170-180B, not
   $200B, so a Yes needs growth beyond stated targets; at recent growth rates
   that is plausible within 12 months but not implied.
 - Market questions are driven as much by rates as by AI. The Fed hiked in
@@ -187,6 +187,11 @@ basket crash, which is the most likely way the boom under-delivers.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
+- **Wording check (2026-11-05)**: every figure on this page was traced to
+  the research notes after they were cut to current state. Eight wordings
+  were corrected to match the notes (Anthropic's July run-rate, Broadcom
+  supply years, the telecom default timing, the Meta distribution date, the
+  Anthropic year-end range, two P1 remarks). No probability changed.
 - **Vintage 0.9.1 (2026-10-25)**: M1b raised 20/35/50 to 25/40/55: the
   sub-basket closed at 93.6 on 23 October, a 6.4% move toward the trigger
   that re-marks the row by about 5 points (mark-to-market, no new

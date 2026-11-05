@@ -1,7 +1,7 @@
 [project]
 name = "bubble-not-bubble"
 version = "0.1.0"
-description = "Add your description here"
+description = "Research report on the economics of AI, published as a static site"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
