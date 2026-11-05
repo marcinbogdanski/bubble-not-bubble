@@ -1,5 +1,6 @@
-# source: Yahoo Finance chart API https://query1.finance.yahoo.com/v8/finance/chart/<TICKER>?range=2y&interval=1d (secondary, grade C) for shares and SOX; Nasdaq official EOD https://indexes.nasdaq.com/Index/HistoryData (POST id=NDX, primary, grade A) for ^NDX; accessed 2026-10-17 to 2026-10-25. Split-adjusted closing prices in local currency, dividends excluded.
-# tickers (role, currency): NVDA (basket, USD); AVGO (basket, USD); TSM (basket, USD); ORCL (basket, USD); CRWV (basket, USD); AMD (basket, USD); MU (basket, USD); VRT (basket, USD); ASML (basket, USD); 000660.KS (basket, KRW); ^NDX (comparator, USD); ^SOX (comparator, USD); CBRS (comparator, USD); FPS (comparator, USD). Returns, peaks and drawdowns are derived from these closes. The M1 basket is NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT; frozen baselines are in forecast-observations.csv.
+# source: Yahoo Finance chart API https://query1.finance.yahoo.com/v8/finance/chart/<TICKER>?range=2y&interval=1d (secondary, grade C) for shares and historical SOX; Nasdaq official EOD https://indexes.nasdaq.com/Index/HistoryData (POST id=NDX, primary, grade A) for ^NDX through 2026-11-04. Accessed through 2026-11-05. Split-adjusted local-currency closes; dividends excluded.
+# source: 2026-11-05 ^NDX/^SOX dated official displays https://indexes.nasdaqomx.com/Index/Overview/NDX and /SOX (A levels; historical rows pending; inconsistent point-change fields excluded); 2026-11-04 SOX previous close from that display. ^GSPC https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html (B); ^VIX https://finance.yahoo.com/quote/%5EVIX/ (C vendor cash close; Cboe daily row pending).
+# tickers (role, currency): NVDA (basket, USD); AVGO (basket, USD); TSM (basket, USD); ORCL (basket, USD); CRWV (basket, USD); AMD (basket, USD); MU (basket, USD); VRT (basket, USD); ASML (basket, USD); 000660.KS (basket, KRW); ^NDX (comparator, USD); ^SOX (comparator, USD); CBRS (comparator, USD); FPS (comparator, USD). Returns, peaks and drawdowns are derived from these closes. The M1 basket is NVDA, AVGO, TSM, ORCL, CRWV, AMD, MU, VRT; frozen baselines are in forecast-observations.csv. ^GSPC and ^VIX are market/volatility comparators added for 2026-11-05.
 date,ticker,close
 2024-12-30,NVDA,137.49
 2024-12-31,NVDA,134.29
@@ -5747,3 +5748,8 @@ date,ticker,close
 2026-11-02,^NDX,27989.8197
 2026-11-03,^NDX,28180.2629
 2026-11-04,^NDX,28437.1665
+2026-11-04,^SOX,10268.65
+2026-11-05,^NDX,26629.81
+2026-11-05,^SOX,9011.14
+2026-11-05,^GSPC,7353.73
+2026-11-05,^VIX,28.18
