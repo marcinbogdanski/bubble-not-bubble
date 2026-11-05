@@ -27,7 +27,7 @@ FILE_BUDGETS = {
     "process/briefs.md": 900,
 }
 FOLDER_FILE_BUDGETS = {"research": 3_500, "signals": 400}  # per file
-TOTAL_MARKDOWN_BUDGET = 150_000
+TOTAL_MARKDOWN_BUDGET = 110_000
 DATA_FILE_BYTES = 300_000
 DATA_TOTAL_BYTES = 1_500_000
 GONE = ["reviews", "tasks", "scripts"]  # folders that must not come back

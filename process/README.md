@@ -19,7 +19,7 @@ this folder, and it is meant to be read by a human in five minutes.
    lost fact can be re-researched, a bloated repo is slow to clean.
 2. **Size limits are hard** and `check.py` enforces them: a note 3,500 words
    (target 2,500, 30 claim rows), a signals entry 400, the front page 1,800,
-   all markdown 150,000, `data/` 1.5 MB. Over the limit means cut something.
+   all markdown 110,000, `data/` 1.5 MB. Over the limit means cut something.
 3. **One home per fact.** A company's figures live in its note; market-wide
    series live in the macro note. Other pages link to the home.
 4. **Working files go in `work/`** (ignored by git): scans, verification
