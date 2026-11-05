@@ -1,6 +1,6 @@
 # Historical precedents for the AI investment boom
 
-*Last updated: 2026-10-17 · Cross-checked by: Claude claude-fable-5-1, Codex gpt-6-astra · Data: [historical-precedents-drawdowns.csv](/data/historical-precedents-drawdowns.csv), [historical-precedents-ipo-counts.csv](/data/historical-precedents-ipo-counts.csv)*
+*Last updated: 2026-11-05 · Earlier cross-check: Claude claude-fable-5-1, Codex gpt-6-astra · Data: [historical-precedents-drawdowns.csv](/data/historical-precedents-drawdowns.csv), [historical-precedents-ipo-counts.csv](/data/historical-precedents-ipo-counts.csv)*
 
 ## Summary
 
@@ -38,9 +38,9 @@
 | 21 | Alternative telecom explanations | Technology/regulatory uncertainty and 2000-07 access-pricing ruling affected incumbent resilience; spare fiber can be rational when reopening trenches is costly | 2003 / 2004 | [Richmond Fed](https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/economic_quarterly/2003/fall/pdf/wolman.pdf), [Doms, FRBSF, p.34](https://www.frbsf.org/wp-content/uploads/er19-34bk.pdf) | primary | A (authors' stated explanations) |
 | 22 | Lucent guidance and rating deterioration | Revenue decline guided 2000-12; Moody’s A2→A3 and S&P A→BBB+ on 2000-12-21, about nine months after 2000-03-10 equity peak | 2000-12-21 | [Lucent FY2000 10-K, p.27](https://www.sec.gov/Archives/edgar/data/1006240/000095012300011855/y43690e10-k405.txt) | primary | A (events); B (interval) |
 | 23 | Nvidia contingent lease guarantees | Maximum $105B; first phase FY2029; effective at lease commencement subject to conditions, declining with performance | 2026-08 | [Nvidia note](/research/stack/nvidia) | primary | A |
-| 24 | Amazon cumulative OpenAI investment | $50B, including funding after quarter-end | 2026-06-30; subsequent funding disclosed in Q2 filing | [Amazon note](/research/stack/amazon) | primary | B sum |
+| 24 | Amazon cumulative OpenAI investment | $50B Series C preferred funded; commitment completed | 2026-09-30 | [Amazon note, claim 16](/research/stack/amazon) | primary | A |
 | 25 | Current Baa–Aaa spread | 0.44 pp | 2026-09 | [Debt-markets note](/research/macro/debt-markets) | primary | B subtraction |
-| 26 | Current high-yield OAS | 3.23 pp | 2026-10-15 | [Debt-markets note](/research/macro/debt-markets) | primary | A |
+| 26 | Current high-yield OAS | 3.32% (332bp); observation precedes the 5 November sell-off | 2026-11-04 | [Rates note, claim 29](/research/macro/rates-sovereign-geopolitics) | primary | A |
 | 27 | Fed account of financial conditions | Policy tightening and earlier hyperscaler spread widening; modest subsequent narrowing; earnings-supported equity gains with declining multiples | 2026-09-16 decision; minutes 2026-10-07 | [Rates note](/research/macro/rates-sovereign-geopolitics); [Fed, September minutes](https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf) | primary | A Fed account |
 | 28 | GDP-normalised buildout scenario | $10.3T US investment over 2025–32, averaging 3.63% of GDP versus 1.10% for telecom/fiber over 1996–2003; separates hardware from durable buildings/power | 2026-09-04 draft; conference 2026-09-24 to 2026-09-25 | [Van Nieuwerburgh, Brookings, Table 1 and Appendix B/C](https://www.brookings.edu/wp-content/uploads/2026/09/4c_Van-Nieuwerburgh.pdf) | primary | A (stated scenario/assumptions); C (projected outcome) |
 | 29 | Telecom employment decline | 1.59M (2001-03) to 1.30M (2003-07) implies ~−18.2%; paper prints inconsistent 22% | 2003-07 | [Richmond Fed 2003, pp.5–7, 19; BLS employment inputs](https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/economic_quarterly/2003/fall/pdf/wolman.pdf) | secondary | B endpoint arithmetic; D printed 22% |
@@ -60,7 +60,7 @@ Warning timing depends on the instrument and reference peak. Lucent’s guidance
 
 For AI, equipment makers invite scrutiny of cancellations, inventories and receivables. Incumbent carriers are a possible foundry comparison, but regulatory protection complicates the analogy. Utilities and established railways suggest examining hyperscalers’ committed projects. CLECs and wholesalers offer a neocloud stress scenario involving debt, customer concentration and renegotiation; their collapse is not an evidenced base case. WorldCom motivates counterparty analysis without implying equivalent fraud or proving that a customer connecting several vendors is historically unprecedented.
 
-Nvidia’s contingent guarantee, Amazon’s equity investment and [AMD’s purchase-linked warrant](/research/stack/amd-broadcom-custom-silicon) require separate exposure analysis (claims 23–24). Loans, warrants, guarantees and capacity backstops cannot be summed as financed GPU revenue. External finance supplements operating cash, but issuance alone cannot establish a contemporaneous cash deficit. Current sector repricing and tightening coexist with earnings-supported equity gains (claims 25–27).
+Nvidia’s contingent guarantee, Amazon’s equity investment and [AMD’s purchase-linked warrant](/research/stack/amd-broadcom-custom-silicon) require separate exposure analysis (claims 23–24). Loans, warrants, guarantees and capacity backstops cannot be summed as financed GPU revenue. External finance supplements operating cash, but issuance alone cannot establish a contemporaneous cash deficit. The broad spreads predate the 5 November sell-off; September Fed minutes describe earlier sector repricing alongside earnings-supported equity gains (claims 25–27).
 
 The Brookings scenario separates hardware from buildings and power, and cautions against assuming housing-style systemic risk (claim 28). No universal GPU economic life is established here. Adequate returns require demand, margins and financing terms to cover operating and replacement costs; ownership transfer and a lower purchase price are insufficient by themselves.
 
@@ -76,10 +76,10 @@ The Brookings scenario separates hardware from buildings and power, and cautions
 | Signal | Current value | As of | Why it matters |
 |--------|---------------|-------|----------------|
 | Vendor guarantee effectiveness | Nvidia maximum $105B; first phase FY2029 (claim 23) | 2026-08 | Track conditions, commencement and recoveries separately from drawn loans |
-| Customer equity funding | Amazon $50B cumulative OpenAI investment (claim 24) | 2026-06-30; subsequent funding disclosed in Q2 filing | Equity and guarantees allocate losses differently |
+| Customer equity funding | Amazon $50B OpenAI investment completed (claim 24) | 2026-09-30 | Equity and guarantees allocate losses differently |
 | IPO access | 90 IPOs; 29.3% first-day return (claim 16) | 2025; table updated 2026-07-13 | Historical annual context, not a current quarterly lead |
 | Contract reductions | SPAC completed-deal redemptions 60% (claim 17) | 2021-Q4 | Historical analogy for exits despite continued deal announcements |
 | Guidance and ratings | Lucent cuts followed its sector peak (claim 22); current survey unestablished | 2000-12-21; evidence cutoff 2026-10-17 | Watch cancellations and buyer funding together |
 | Broad rating spread | Baa–Aaa 0.44 pp (claim 25) | 2026-09 | Can conceal sector stress and common repricing versus government debt |
-| High-yield spread | OAS 3.23 pp (claim 26) | 2026-10-15 | Read alongside funding availability and sector spreads |
+| High-yield spread | OAS 3.32% (332bp; claim 26) | 2026-11-04 | Read alongside funding availability and sector spreads |
 | Policy and equity support | Tightening, sector repricing and earnings-supported gains (claim 27) | Minutes 2026-10-07 | Mixed signals do not identify a reliable cycle stage |

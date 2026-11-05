@@ -9,6 +9,7 @@ this folder, and it is meant to be read by a human in five minutes.
 | `briefs.md` | The prompts given to subagents |
 | `scan.sh` | Step 1: Grok lead scan, then Codex verification |
 | `archive-gpu-prices.sh` | Appends the day's GPU index prints to `data/gpu-index-daily.csv` |
+| `baseline.py` | No-view probabilities for the market forecasts, from current price levels |
 | `check.py` | Size limits, dead links, data files, front page against register |
 | `build_static.py` | Builds `site/` for Cloudflare Pages (see the root README) |
 
@@ -36,14 +37,18 @@ this folder, and it is meant to be read by a human in five minutes.
 
 1. **Scan.** `zsh process/scan.sh SINCE` gives `work/DATE-scan.md` (leads)
    and `work/DATE-verified.md` (checked facts and an Implications table).
-2. **Forecast check.** One agent, "Forecast check" brief.
+2. **Forecast check.** One agent, "Forecast check" brief. Then set the
+   current levels in `baseline.py` and run it; the market rows are judged
+   against its output.
 3. **Notes.** One agent per affected note, "Update a note" brief. In results
    season the agent reads the filing itself.
 4. **Pages.** The lead updates `report/index.md` (bump the version),
    `report/stack.md`, `report/theory.md` and `forecasts/register.md`.
 5. **Changelog.** The lead writes `signals/DATE.md`: what changed, effect on
    forecasts, scheduled next.
-6. **Review.** Other-vendor review of the changed pages; apply; delete.
+6. **Review.** Other-vendor review of the changed pages and of any note
+   about the lead's own vendor; apply; delete. Have the reviewer re-run
+   `baseline.py` and re-derive the arithmetic, not only read it.
 7. **Close.** `zsh process/archive-gpu-prices.sh`, then
    `uv run python process/check.py` must print OK. Empty `work/`. Commit.
    Tell the user: main inputs, changes, which forecasts moved and why.

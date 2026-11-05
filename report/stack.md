@@ -1,75 +1,122 @@
 # The stack, layer by layer
 
-*Version 0.9.3, 2026-11-05 (corrections only; research current to 25 October) · Synthesis of the research notes. Every figure
-is sourced and graded in the note it links to. All 26 notes have been
-cross-checked by a second vendor's model.*
+*Version 0.10, 2026-11-05 · Synthesis of the research notes. Every figure
+is sourced and graded in the note it links to. Each note was cross-checked by a second vendor's model when written; note headers show which later updates were checked.*
 
 ## One table
 
-"Impairment" is defined in the [forecast register](/forecasts/register):
-a further 40% equity decline from the 16 October close for any named
-constituent, or a distressed credit event.
+The [forecast register](/forecasts/register) defines impairment for each
+layer. Listed-equity tests use a 40% decline from the 16 October close,
+not from a peak; credit tests require a distressed event, not a falling
+bond price ([public-markets](/research/macro/public-markets)).
 
 | Layer | Profitable now? | How the build is financed | Where it is overextended | Who loses first | First signal |
 |---|---|---|---|---|---|
-| Equipment (ASML, AMAT, Lam, KLA, TEL) | Yes: ASML 44% operating margin, KLA ~61% gross; all generate FCF above capex | Customer prepayments and own cash; net cash at ASML, AMAT, Lam; modest net debt at KLA | Earnings and valuations depend on a 2027-28 order book placed by a few customers, and ASML expects planned 2027-28 output to fall short of demand; China is 20-34% of sales under a live export-control threat | Shareholders; solvency risk low given cash and prepayments | Contract liabilities, KLA/AMAT backlog, customer capex guides (ASML stopped reporting bookings) |
-| Foundry (TSMC) | Yes: 66% gross, 59% operating margin | Operating cash flow; capex $60-64B fully covered | New leading-edge and CoWoS capacity mainly serving 2028-29 supply, while customers generally do not place purchase orders far in advance and capacity deposits fell 35% in 2025; management forecasts AI accelerator revenue growing at a mid-to-high-50s% annual rate to 2029 but on 15 October called consumer segments "challenged" and said it is "prudent" on 2027; AI accelerators were high-teens % of revenue in FY2025 | Shareholders via utilisation of largely fixed-cost assets; Taiwan is a separate tail | Monthly revenue, capex revisions, utilisation commentary |
-| Memory and HBM | Yes, scarcity margins: Micron 87% gross / 81% operating; SK Hynix 76% operating (83% gross) at 100% utilisation | Cash generation (Micron FY2026 OCF $90B vs $31B of PP&E), public equity (SK Hynix ~$26B ADS offering), subsidies; Micron (only) has 26 take-or-pay agreements covering over 35% of revenue through 2030, three-quarters with pricing frameworks, mostly floor-and-ceiling bands, and expects supply much tighter in FY2027-28; SK Hynix's own filing says it has no long-term-contract backlog | Through-cycle returns after prices normalise; 2027-29 capacity milestones (SK Hynix's plan runs to 2033) could coincide with yield gains, customer retrenchment and CXMT (10% of DRAM revenue in Q2 2026, from 4%); shareholder losses already observed: SK Hynix Korean shares −56% from their June peak, the ADS below its offer | Shareholders; the layer has little debt | Fixed DDR5 contract series (P2; the 2026 peak is likely above the $133 August print), HBM share estimates, capex revisions, SK Hynix Q3 call on 28 October |
-| Accelerators (Nvidia, AMD, Broadcom) | Yes: Nvidia 75% gross margin (guided to 71-73%), $127B trailing FCF; Broadcom 46% FCF margin | Own cash, plus vendor financing: Nvidia's conditional guarantee capped at $105B on OpenAI leases (phased from 2028), $99B of equity stakes, receivables $63B with DSO at 60 days; AMD's warrants to OpenAI and Meta (160M shares each); Broadcom's disclosed ~$29B lease backstop and conditional customer-note facility of up to $42B | Management says labs backed by Nvidia's balance sheet will be "roughly a quarter" of FY2028 business; Broadcom has six custom-silicon customers and expects Anthropic to be the largest in 2027 and OpenAI second in 2028, with only OpenAI's first 1 GW explicitly binding at AMD; Broadcom's $179B RPO is company-wide, its allocation undisclosed; AVGO −32% from peak | Shareholders through multiple compression; vendors through guarantees and receivables if a lab fails, after collateral recoveries | DSO, supply commitments, customer concentration, guarantee readiness dates |
-| Hyperscalers (MSFT, GOOGL, AMZN, META) | Yes, in their core businesses | Operating cash flow plus, in 2026, bonds and equity: Microsoft cash capex 63% of OCF (79% including finance leases); Amazon trailing FCF −$7.6B; Meta Q3 FCF −$2.1B; Alphabet Q2 FCF −$5.9B (TTM +$53B), $49.6B of common and mandatory convertible preferred plus bonds including $25B more in August, capex guidance raised twice to $195-205B against $186B of trailing operating cash flow, equity gains of $99B in Q2 ($77B on private holdings, primarily one company reported to be Anthropic) supplying 69% of net income, Cloud backlog $514B within $519.5B of total RPO, just over half of which is expected within 24 months; Amazon raised $67B of long-term-debt proceeds in H1 2026, $25B in July and £4.25B in September, and about 62% of its Q2 pre-tax income was a preferred-stock repricing gain, primarily on its Anthropic stake (carried at $190B, about a third of book equity) | Future commitments: Microsoft $329B of signed leases not yet commenced (starting FY2027-33); Meta $356B of uncommenced leases at 30 September, with $121.4B of commitments due in 2027 (the lease part of the $68B maximum exposure to its Hyperion and El Paso ventures, about $18B, overlaps these; the ~$41B of residual-value guarantees does not); Alphabet's disclosed datacenter backstops of $43.8B; OpenAI ~41% of Microsoft RPO on the assumption its December balance is unchanged | Shareholders via earnings when depreciation and lease costs land; creditors are well covered by core cash flows and liquidity at 30 June (Microsoft $77B, Amazon $123B, Meta $90B, Alphabet $155B ex equity stakes) | Capex guidance, FCF, lease commitments, equity-method losses on labs |
-| Oracle | Software yes; the build no: FCF −$23.7B in FY2026, −$5.4B in Q1 FY2027 with $11.4B of customer advances inside operating cash flow | $125B of borrowings outstanding, a completed $20B equity sale within a ~$40B FY2027 financing plan, customer advances, $44B of lease liabilities and $288B of uncommenced leases; separately, ~$38B of Vantage project loans for Oracle-tenanted sites (reported, not Oracle debt) | RPO $664B, 13% due within 12 months; OpenAI has announced a >$300B partnership, Oracle does not disclose its share, and S&P estimated OpenAI at roughly half of May's $638B RPO; rated BBB− at S&P since 9 July 2026, stable outlook; S&P forecasts mid-4x leverage and nearly −$42B of FY2027 free operating cash flow, leaving limited headroom against its stated downgrade triggers (adjusted leverage above 4.5x, no path to positive FOCF by FY2029); Moody's Baa2 negative and Fitch BBB stable are two notches above junk; on the 10 September call management discussed delay contingencies at the New Mexico and Wisconsin sites while calling construction on track, and Jupiter's air permit is still pending (dismissal-motion hearing 26 October; the main hearing reportedly moved to 7 December, so no decision is due before then; reported, C); ORCL −48% from its 2026 peak | Shareholders, then unsecured bondholders; project lenders separately | CDS (288bp on 15 Oct, then near 300bp), rating outlooks, the customer-prepayment line each quarter, RPO revisions, FCF |
-| Neoclouds (CoreWeave and others) | No on a GAAP basis: CoreWeave's net interest was 25% of Q2 revenue; adjusted EBITDA 59% | a selected subtotal of ~$80.7B of listed-layer debt at June including CoreWeave ($35.6B principal, $35.1B carrying; $42.2B adding identified later borrowings before repayments), mixing dates and measures; private facilities (Nscale, Lambda, Crusoe) add to it but are not reconciled; against take-or-pay contracts in which Microsoft (Nscale up to $43.8B, Nebius $17.4-19.4B, IREN $9.7B), Meta, OpenAI and Anthropic recur | DDTL 5.5 lends five years against contracts averaging three; CoreWeave H1 operating cash $3.7B against $14.1B of equipment purchases and $5.2B of principal repayments, with the 30 June schedule listing $4.4B for July-December 2026, $6.2B for 2027 and $4.4B for 2028; DDTL 3.0 covenant relief in December 2025 (unlimited equity cures until 28 October 2026, limited cures after); CRWV −56% from peak, converts far out of the money | Equity first; beyond that, by borrower: most DDTLs carry parent guarantees, SPV lenders hold GPU collateral, ~$21B of unsecured notes and converts rank behind secured claims; Nvidia's $6.3B capacity purchase is conditional, not a debt guarantee | CDS (>1,000bp), bond quotes (2032 notes ~78-81c, 14.5-16% yield, dated 15 Oct, grade C-D), renewal pricing as initial contracts expire |
-| Frontier labs (OpenAI, Anthropic, xAI) | Not established: OpenAI's reported, unverified adjusted gross margin was 33% (2025) with $25B of 2026 cash burn forecast; Anthropic reports an unaudited 11% adjusted operating margin for Q3 2026 | Investor and supplier equity (Microsoft, Amazon $50B, SoftBank $64.6B cumulative into OpenAI with the final $10B funded by ~9.4% notes, Nvidia, Google, AMD up to $5B), now also debt: $13.3B of related-party Valor GPU financing inside SpaceX for xAI (Valor's founder sits on SpaceX's board); separately SpaceX discloses $28B of company-wide non-cancellable commitments, $22B due in 2027; Anthropic's proposed $60B North Star (reported >10% yield on the junior tranche, not closed) | Multi-year commitments far above revenue: OpenAI's aggregate is reported above $1T but overlaps and cannot be summed; its successive cash-flow forecasts for 2026-30 moved from +$14B (Q1 2025) to −$69B and −$179B (Feb 2026) (reported, C), with a disputed September plan at −$278B (D), and end-2025 cash plus the $122B round covers the February plan only into 2028 (C); Microsoft recognised $24.1B of FY2026 revenue from OpenAI including revenue sharing, about 114% of OpenAI's reconstructed $21.2B of sales for the same twelve months (C); Anthropic's reported $518B over a decade (grade C) against a July exit run-rate of about $65B (gross) or $67.2B annualising Q3 sales; ~80% of Anthropic's obligations reported non-cancellable while many of its large customers reportedly lack long contracts | Investors first; suppliers holding guarantees, RPO and receivables after recoveries | Run-rate reports, funding rounds, contract deferrals, S-1 filings |
-| Neolabs and applications | Mostly no | Venture and strategic equity at high multiples | $31B of selected 2025-26 rounds (59% of it financing for Jeff Bezos's Prometheus; not a low-revenue census); Cursor's $60B stock sale to SpaceX closed above its previous valuation and World Labs agreed an $8.2B stock sale (closing unestablished); one reported failed raise (Poolside) followed by a reported refinancing | Venture investors; new, uncommitted GPU orders are cut first | Down rounds, shutdowns, acqui-hires |
-| Power and datacenter real estate | Yes for equipment incumbents and established colocation (Vertiv 19.5% operating margin; GE Vernova Power segment 18.8% EBITDA margin with $5.1B of group quarterly FCF; Equinix 53% adjusted EBITDA margin, about 50.6% on an illustrative adjustment for one-off fees); unproven for financed campuses | Project bonds, private credit, REIT balance sheets, utility rate bases; three 2025 campus development announcements (Hyperion, Abilene, Frontier/Lighthouse) total at least $82B, not deployed capital; Meta's Hyperion residual-value guarantee threshold (~$28B, declining over time and payable only if Meta does not renew, the property falls short and other conditions are met) roughly covers the $27.3B of Hyperion bonds, so those bondholders depend mainly on Meta's credit | Unpowered shells, merchant campuses and conditional tenant obligations; grid connection is the local constraint (Dominion's queue ~75 GW with ~7-year waits; Jupiter's buildings still unpowered; Virginia moratorium bill filed 16 October), while PJM's July 2026 auction cleared at its price cap 6.8 GW short of the 2028/29 requirement with only 525 MW of new generation; single-tenant bonds reported from below 87 to about 94 cents across two FT versions (price type unstated); VRT −45% from peak | Developers and project bondholders first; guarantees can push losses back to tenants | Project-bond prices, pre-leasing, PJM capacity prices, turbine backlogs |
+| Equipment (ASML, AMAT, Lam, KLA, TEL) | Yes: ASML 44.4% operating margin; KLA 61.9% gross, $1.3B quarterly FCF ([equipment](/research/stack/semiconductor-equipment)) | Operating cash, customer advances and some borrowing; ASML, AMAT and Lam have cash cushions, KLA modest net debt | Concentrated customers and cancellable backlog; ASML expects planned 2027–28 output below demand. China exposure includes ASML's ~20% annual guide and Lam's 35% latest-quarter sales, with different denominators ([equipment](/research/stack/semiconductor-equipment)) | Shareholders through weaker orders and multiples; cash generation cushions creditors | Deposits, cancellations and capex guides; KLA guides December revenue to $4.7B ±$0.2B ([equipment](/research/stack/semiconductor-equipment)) |
+| Foundry (TSMC) | Yes: 66.4% gross, 58.7% operating margin ([foundry](/research/stack/tsmc-and-foundry)) | Operating cash covers investment and dividends; annual capex guide $60–64B ([foundry](/research/stack/tsmc-and-foundry)) | New spending mainly supplies 2028–29; capacity deposits fell 34.8% in 2025 and customers generally do not order far ahead. AI demand exceeds supply, but management remains prudent on consumer demand and 2027 ([foundry](/research/stack/tsmc-and-foundry)) | Shareholders through utilisation of fixed-cost factories; Taiwan remains a separate supply risk | Monthly revenue, capex revisions, loading and deposits |
+| Memory and HBM | Yes: Micron 86.8% gross / 80.7% operating; SK Hynix 80% operating; Samsung's broader DS segment 72%, not Memory alone ([memory](/research/stack/memory-hbm)) | Cash generation, equity and subsidies. Micron's 26 take-or-pay agreements cover >35% of estimated revenue through 2030; SK Hynix has >50% of 2027–28 capacity under price-band agreements; Samsung has signed 10 major accounts ([memory](/research/stack/memory-hbm)) | Scarcity supports earnings, but future capacity, yield gains and customer retrenchment threaten normalised returns. Korean shareholder-return plans compete with investment; contract protection differs by supplier | Shareholders first; contracted customers may lose deposits | Fixed DDR5 contract series, inventories, qualified output, cancellations and actual collections |
+| Accelerators (Nvidia, AMD, Broadcom) | Nvidia 75% gross margin, $126.9B trailing FCF ([Nvidia](/research/stack/nvidia)); AMD Q3 Data Center revenue $8.5B, group FCF $0.554B; Broadcom 46% FCF margin ([custom silicon](/research/stack/amd-broadcom-custom-silicon)) | Own cash and vendor support: Nvidia's conditional OpenAI lease guarantee capped at $105B; $99B equity holdings and $63.1B receivables ([Nvidia](/research/stack/nvidia)). Broadcom backs up to $43B of an Anthropic financing vehicle; its separate conditional note facility is up to $42B, with overlap unresolved ([custom silicon](/research/stack/amd-broadcom-custom-silicon)) | Concentrated buyers; procurement commitments and guarantees survive weaker demand. AMD's customer warrants produced a $1.2B noncash charge; $4.5B grant-date value remains to reduce qualifying revenue ([custom silicon](/research/stack/amd-broadcom-custom-silicon)) | Shareholders; vendors through receivables and guarantees after recoveries | Collections, margins and support draws; AMD guides Q4 revenue to $17B ±3% ([custom silicon](/research/stack/amd-broadcom-custom-silicon)) |
+| Hyperscalers (MSFT, GOOGL, AMZN, META) | Core businesses profitable; Azure +48%, Google Cloud +103% including TPU systems, AWS +39% ([Microsoft](/research/stack/microsoft), [Alphabet](/research/stack/alphabet), [Amazon](/research/stack/amazon)) | September-quarter Microsoft FCF $18.6B, down 27%; $25B bonds issued. Alphabet Q3 FCF −$9.1B; nine-month equity $61.9B and net debt proceeds $76.3B. Amazon trailing FCF −$42.4B; nine-month debt proceeds $115.1B and an up-to-$80B secured supplier facility drawable from 2027 ([Microsoft](/research/stack/microsoft), [Alphabet](/research/stack/alphabet), [Amazon](/research/stack/amazon)). Meta Q3 FCF −$2.1B; preferred, forward equity and notes supplement operations ([Meta](/research/stack/meta)) | Microsoft uncommenced leases $364.6B; OpenAI supplies $10.0B quarterly revenue, 10.8% of total ([Microsoft](/research/stack/microsoft)). Alphabet datacenter backstops $48.0B ([Alphabet](/research/stack/alphabet)); Amazon's Anthropic stake carries at $238.7B, 38.9% of book equity ([Amazon](/research/stack/amazon)) | Shareholders through dilution, depreciation and investment marks; diversified operating earnings cushion creditors | Cash conversion, lease commencements, customer collections and funding costs |
+| Oracle | Q1 FY2027 GAAP operating income $6.7B, software and GPU profit not separated; FY2026 FCF −$23.7B; Q1 FY2027 −$5.4B despite $11.4B customer advances in operating cash ([Oracle](/research/stack/oracle)) | Investor Day capped further market funding through FY2030 at $20B, excluding refinancing; fully raised as $10B equity plus $10B notes at 7.0–8.65% coupons. Borrowings $135.3B pro forma, plus $43.8B lease liabilities and $288B uncommenced leases ([Oracle](/research/stack/oracle)) | Roughly $220B remaining build depends on vendor financing, customer hardware, prepayments and operating cash; about $110B vendor/customer offsets inferred, grade C. S&P BBB− stable; $664B RPO is not cash ([Oracle](/research/stack/oracle)) | Shareholders, then unsecured parent creditors, who rank behind $107.2B of subsidiary liabilities; new notes priced wider than the BB index. Construction lenders separately bear delays | Quarterly offsets and leverage; latest verified CDS 274.4bp on 28 October, no verified 5 November mark; Jupiter dismissal denied, hearing 7 December ([Oracle](/research/stack/oracle)) |
+| Neoclouds (CoreWeave and others) | CoreWeave not GAAP-profitable: Q2 net interest 24.9% of revenue, adjusted EBITDA margin 59% ([CoreWeave](/research/stack/coreweave)); other operators mix profitable facilities with group losses | GPU-backed loans, unsecured notes, converts, equity and prepayments. CoreWeave June debt principal $35.6B; illustrative $42.2B with identified later borrowing, before repayments ([CoreWeave](/research/stack/coreweave)); no comparable current layer total ([other neoclouds](/research/stack/neoclouds-other)) | CoreWeave H1 operating cash $3.7B versus $14.1B equipment purchases and $5.2B principal repayments; DDTL 5.5 lends five years against contracts averaging three ([CoreWeave](/research/stack/coreweave)) | Equity first; secured lenders depend on collateral and borrower recourse, unsecured creditors rank behind them; Nvidia's capacity purchase is no debt guarantee | 5 November CoreWeave CDS 1,164.52bp intraday; 2032 bonds as low as 74.75 cents, Treasury spread touching 1,200bp (reported marks, C); shares $43.66 ([CoreWeave](/research/stack/coreweave)); CIFR is 2.9% and CRWV 15.6% from their 40% triggers ([observations](/data/forecast-observations.csv)) |
+| Frontier labs (OpenAI, Anthropic, xAI) | OpenAI profitability unestablished; 2026 burn forecast $25B, reported, unverified ([OpenAI](/research/stack/openai)). Anthropic Q3 GAAP operating loss $0.567B, adjusted profit $2.5B at 15% margin ([Anthropic](/research/stack/anthropic)). SpaceX SI operating profit $0.431B, including infrastructure and Cursor ([other labs](/research/stack/labs-other)) | Investor and supplier equity, conditional facilities and equipment finance. Anthropic has $131.8B cash/investments and $77B undrawn conditional partner facilities ([Anthropic](/research/stack/anthropic)). SpaceX related-party equipment finance $12.9B; conditional Apollo lease commitment ~$40B, not funded debt ([other labs](/research/stack/labs-other)) | Anthropic filed commitments $895.4B: $69.8B expected within twelve months after September, $447.5B before end-2030; $213.8B terminable or conditional ([Anthropic](/research/stack/anthropic)). OpenAI's four quantified cloud contracts total ~$710.4B, ~14× its reported run-rate (C), against Anthropic's ~13× annualised Q3 revenue; its February burn plan needs more funding during 2028 even if its $122B round is fully funded ([OpenAI](/research/stack/openai)) | Investors first; suppliers through receivables, idle capacity and contingent support | Filed cash flows, funding receipts, binding amendments and IPO pricing |
+| Neolabs and applications | Sustainable independent-lab profitability largely unestablished | Venture and strategic equity; some infrastructure debt | Selected rounds total $31B, 59% for Prometheus; not a low-revenue census. Cursor's $60B stock acquisition closed; World Labs' $8.2B sale remains an agreement ([other labs](/research/stack/labs-other)) | Venture investors; new, uncommitted capacity orders are cut first, an inference from limited cases | Down rounds, closures, acquisitions and paid renewals |
+| Power and datacenter real estate | Equipment and established colocation profitable: Vertiv 22.8% operating margin, GE Vernova Power 21.4% EBITDA margin, Equinix 51.4% adjusted EBITDA margin ([power](/research/macro/power-and-datacenters)) | Project bonds, private credit, REIT balance sheets and utility rate bases; Meta's conditional residual guarantees link campus creditors to tenant credit ([Meta](/research/stack/meta)) | Grid and permits constrain delivery. After the 3 November vote, Democrats were called winners of both chambers; 40 of 41 local contests opposed development, mixing binding and advisory votes. Incoming Texas governor proposes an approvals moratorium and tax-break removal; Ohio supports a conditional moratorium requiring operators to cover utility costs and use union labour; Georgia proposes a construction pause. None of these incoming statewide positions is law yet; Texas's existing administrative permit halt is separate ([power](/research/macro/power-and-datacenters)) | Marginal developers and construction lenders first if approvals delay rent; guarantees can transfer losses to tenants, while operating sites may gain scarcity value | Enacted rules, exemptions, energisation, rent commencement and project-credit terms |
 
 ## The shape of it
 
-The suppliers at the top of the stack are profitable and the intermediaries
-in the middle are leveraged; the labs at the bottom are growing fast with
-profitability not established. Equipment, foundry, memory and Nvidia earn
-high margins today (Micron 81% operating, TSMC 59%, ASML 44%, Nvidia 75%
-gross and guided lower) and collect much of their cash early through
-prepayments and short payment cycles, with the qualification that Nvidia's
-receivables, supply commitments and guarantee are all growing and Broadcom
-now carries a lease backstop and a conditional note facility of its own. The
-hyperscalers still fund most of their build from operations and hold large
-liquidity, but each crossed a line in 2026: Amazon's trailing free cash flow
-turned negative, Meta's turned negative in Q3, Alphabet sold equity,
-and Microsoft's stock of signed-but-uncommenced leases rose from $93B to
-$329B in a year. Oracle and the neoclouds are where the debt sits and where
-credit repriced in September and October.
+Profitable suppliers sell into a build increasingly funded by outside
+capital. Strong margins do not establish the buyers' returns. The
+hyperscalers retain large operating businesses, but negative cash flow,
+new borrowing and equity issuance make market access part of the build's
+funding model. Microsoft's delivery-related capex trim also shows that
+supplier execution can constrain spending despite strong demand
+([Microsoft](/research/stack/microsoft), [Alphabet](/research/stack/alphabet),
+[Amazon](/research/stack/amazon), [Meta](/research/stack/meta)).
 
-Below them, the labs are the demand the rest is built for. They are growing
-very fast on reported numbers, with no audited accounts, gross margins that
-do not fund frontier research on the one leaked figure, and multi-year
-commitments many times their revenue. OpenAI sits behind Nvidia's guarantee,
-AMD's warrants, Amazon's $50B investment, Microsoft's largest RPO line and
-an undisclosed share of Oracle's. Anthropic sits behind Broadcom's $29B
-lease backstop and conditional notes, Google's and Amazon's reported ~$110B
-commitments each, and is expected to be Broadcom's largest custom-silicon
-customer in 2027 (reported, C); its reported $518B of commitments are about
-80% non-cancellable. The
-[circular-financing note](/research/macro/circular-financing) maps the
-links (round-trip flows, contingent credit support and customer prepayments
-are different things; "circular" fits only the first) and is explicit that
-the map shows transmission channels, not proof that the demand is
-uneconomic. How much accelerator demand depends on that financing remains unquantified:
-the note's accounting-scale scenarios (a selected $44B Nvidia equity basket
-against its revenue gives 1.1-2.3%) explicitly do not measure it.
+The labs differ sharply in disclosure. Anthropic has audited annual
+accounts and unaudited interim accounts: revenue was $4.6B in 2025,
+$33.2B in nine months of 2026 and $17.0B in Q3. Annualising Q3 gives
+$67.8B, not reported ARR. Nine-month operating cash was $6.6B; much
+customer spending lacks long commitments, while infrastructure payments
+extend far ahead. OpenAI's roughly $50B net run-rate and proposed $20B
+raise remain reported, unverified; neither supplies a filed cash-flow
+bridge ([Anthropic](/research/stack/anthropic),
+[OpenAI](/research/stack/openai)).
+
+Supplier support links these funding risks. Broadcom's $63B Anthropic
+vehicle has committed financing, with deliveries expected from 2027;
+its backstop and conditional rent-financing notes may overlap and should not be added. Guarantees transfer covered losses;
+conditional facilities may become unavailable when customers weaken.
+The [circular-financing note](/research/macro/circular-financing) maps
+these channels without establishing how much demand would disappear
+without them. Gross supplier sales also cannot be added into
+[end-user demand](/research/macro/demand-side).
+
+Political constraints can bring losses forward for developers and
+construction lenders: permits delay revenue while interest and equipment
+costs continue. The election positions still require implementation,
+and local votes differ in legal effect. Existing powered sites could
+benefit from slower additions. CoreWeave management expects existing
+commitments and backlog to be unaffected; this is a counterargument,
+not assurance of timely delivery ([power](/research/macro/power-and-datacenters),
+[CoreWeave](/research/stack/coreweave)).
+
+The 5 November sell-off already imposed equity losses: Nasdaq-100
+26,629.81, down 6.36% that day; the AI basket 82.26 against 100 on
+16 October, down 12.00% that day. From their 2026 closing peaks,
+Oracle is down 53.59%, CoreWeave 68.36%, Vertiv 53.03% and Broadcom
+39.46%; from the 16 October origin they are down 10.2%, 28.9%, 14.4% and 11.3% ([observations](/data/forecast-observations.csv)). Peak losses do not resolve the frozen-origin forecasts
+([public-markets](/research/macro/public-markets)). No qualifying credit
+event is established in the notes. Construction and weaker GPU credit
+remain the likelier sources of first realised credit losses; completed
+corporate raises argue against a general funding shutdown. Broad credit
+spreads for the sell-off session remain unavailable
+([debt-markets](/research/macro/debt-markets)).
 
 ## Near-term cash risk, by name
 
-Concrete items from the notes that matter inside the forecast horizons,
-with the counter-evidence beside them.
+**[CoreWeave](/research/stack/coreweave):** June's schedule has $6.2B
+principal due in 2027. Restricted equity cures remain available; the
+first DDTL 3.0 debt-service test is in October 2027. Adjusted EBITDA
+covers net interest 2.36x, not principal. Management cites renewals and
+initial-term debt recovery, but cohort cash flows are undisclosed and
+June disclosure controls were ineffective. Q3 results are due
+10 November.
 
-| Name | Cash risk | Counter-evidence |
-|---|---|---|
-| CoreWeave | DDTL 3.0 covenant relief in December 2025 (DSCR test deferred to October 2027; unlimited equity cures until 28 October 2026, limited after); H1 principal repayments $5.2B vs operating cash $3.7B; 30 June schedule: $4.4B for July-December 2026, $6.2B for 2027, $4.4B for 2028; $35.5B of leases not yet commenced; converts struck at $97.85 vs $61 stock | Adjusted EBITDA covers net interest 2.4x (not principal); DDTL 4.0 rated A3 at SOFR+225; management reports initial-term debt recovery, A100/H200 renewals and September contracts at ~$40M/MW (company claims, and the company's disclosure controls were not effective at 30 June 2026 per its 10-Q); a 35M-share ATM in place |
-| Oracle | FCF −$23.7B (FY2026); customer advances of $11.4B inside Q1 operating cash; $44B lease liabilities, $288B uncommenced | $664B RPO; $20B equity raised; stable outlook at BBB−; legacy software cash flows |
-| Meta | $356B uncommenced leases, $455B non-cancellable commitments (categories overlap), $121B due in 2027, Hyperion and El Paso max exposure $68B; Q3 FCF −$2.1B; 2026 FCF −$15B to +$1B against ~$22B of dividends and withholding; $82B cash and securities below $84B of bonds; non-voting Class C for future equity raises; unpaid capex in payables $21.1B | $82B cash and securities, no financial covenants; Q3 revenue +26%, above guidance; ad-model uplifts of 1.6-5.8% per surface (company measurements); management says AI is already delivering substantial incremental ad revenue and that it has offers to resell compute at a premium |
-| Anthropic | ~80% of obligations non-cancellable (reported) vs customers without long commitments; North Star unclosed at >10% junior yield; KBRA one notch below IG | Reported $16.8B Q3 revenue and adjusted profit; $65B round; >1,000 customers above $1M |
-| Other neoclouds | IREN, Cipher, TeraWulf: $5-8B of debt each with negative or minimal EBITDA; Cipher $3.7B of $4.6B cash restricted; all four 2026 converts out of the money | Nebius 49.7% AI-cloud adjusted EBITDA margin (40.6% group) though operating cash less capex was −$3.4B; prepayments material; Hut 8 non-recourse IG project bonds |
+**[Oracle](/research/stack/oracle):** The completed raise covers FY2027
+under the note's central scenario. Management targets positive FCF in
+H2 FY2028 and at least $30B in FY2029. Delivering the vendor/customer
+offsets is the test; vendor-financed principal sits in financing cash
+flow, so positive reported FCF need not mean obligations have stopped
+growing.
+
+**[Meta](/research/stack/meta):** $355.7B uncommenced leases and $121.4B
+commitments due in 2027 limit flexibility; categories overlap. It raised
+$14.4B mandatory convertible preferred at 6.50%, sold $25B stock forward
+with no initial issuer proceeds, and priced $15B dollar notes for
+5 November settlement plus €9B notes for 12 November. Preferred and dollar
+notes imply pro forma cash/securities of $111.8B against $99.0B face debt,
+excluding euro notes, Q4 cash flow and forward proceeds. S&P affirmed
+AA− with a negative outlook; Hyperion and El Paso notes also have negative
+outlooks. Profitable advertising and reported AI-driven ad gains provide
+the operating cushion.
+
+**[Anthropic](/research/stack/anthropic):** Cash and positive operating
+cash flow provide a buffer, but management expects significant future
+cash use. Its $213.8B conditional or terminable commitments are not all
+freely cancellable; lease rent can start before usable compute. Q3
+included $5.0B of expensive short-term compute, evidence of a capacity
+gap. The filing also flags revenue quality: an estimated 5–7% of nine-month revenue came from customers later found in breach of policy, the top five supply about 25%, and management expects growth to slow. $161.2B of Broadcom lease rent is non-cancellable, cross-defaults link commercial and financing failure, and the D.C. Circuit upheld a supply-chain-risk designation. A $5B quarter-end liquidity floor applies from Q4. Broadcom rent-financing notes, none yet issued, carry 9% PIK interest and conversion at 90% of trailing 30-day VWAP; failed revenue conditions worsen those terms to 13% and 85%. Sustained growth, liquidity or lease-performance failures can end access; on liquidation or change of control, holders may elect cash equal to 150% of principal and accrued interest or conversion ([claims 11, 18](/research/stack/anthropic)). The IPO is filed and unpriced.
+
+**[Other neoclouds](/research/stack/neoclouds-other):** IREN has $9.9B
+carrying borrowings before finance leases and still targets $6B of
+market-dependent funding for its broader capex plan; its smaller
+contracted program includes conditional facilities and unreceived
+prepayments. Cipher has $2.2B restricted within $2.9B total cash and
+negative adjusted EBITDA. Closed IREN equipment refinancing and signed
+Google support for TeraWulf counter a blanket funding-freeze claim;
+support is not the same as funded debt.
 
 ## Layer notes
 
@@ -87,22 +134,16 @@ with the counter-evidence beside them.
   [anthropic](/research/stack/anthropic), [labs-other](/research/stack/labs-other).
 - **Memory**: [memory-hbm](/research/stack/memory-hbm).
 - **Compute market**: [gpu-pricing-and-utilization](/research/macro/gpu-pricing-and-utilization):
-  pricing is segmented by generation and product (OCPI transaction prices
-  as a share of CoreWeave list: B200 0.94, H100 0.45, A100 0.35); the
-  public indices measure different things and cannot be spliced.
-- **Cross-cutting**: [debt-markets](/research/macro/debt-markets) (about
-  $494B of corporate principal at five large issuers including legacy
-  non-AI debt, $572B with selected project securities, now on filed inputs
-  with about $46B also counted in the neocloud layer; selective stress
-  rather than a broad spread move), [circular-financing](/research/macro/circular-financing),
+  October OCPI averages were $2.94/H100-hour and $8.50/B200-hour;
+  prices do not measure utilisation, and public indices cannot be spliced.
+- **Cross-cutting**: [debt-markets](/research/macro/debt-markets) maps
+  $563.7B corporate principal at five issuers and $654.5B including
+  CoreWeave and selected project securities; mixed dates, legacy debt,
+  later issues excluded and overlap with the neocloud layer.
+  [Circular-financing](/research/macro/circular-financing),
   [demand-side](/research/macro/demand-side),
-  [public-markets](/research/macro/public-markets) (top ten at 20.9x
-  forward earnings, close to their own 20.8x average, against 17.9x for the rest; the
-  concentration is an earnings risk more than a multiple risk),
+  [public-markets](/research/macro/public-markets),
   [power-and-datacenters](/research/macro/power-and-datacenters),
-  [rates-sovereign-geopolitics](/research/macro/rates-sovereign-geopolitics),
-  [china](/research/macro/china) (a margin competitor, not a demand
-  substitute: Chinese labs took 69% of OpenRouter tokens in mid-September
-  while closed-weight models kept 73% of platform spend; MiniMax reported a
-  17.9% group gross margin in H1 2026; China's three groups spent about $19B of
-  June-quarter capex against $171B for the US four).
+  [rates-sovereign-geopolitics](/research/macro/rates-sovereign-geopolitics)
+  and [china](/research/macro/china) cover financing links, end-user
+  returns, market prices, deployment constraints and competition.

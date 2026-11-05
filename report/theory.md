@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.9, 2026-10-18 · Synthesis of
+*Version 0.10, 2026-11-05 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics).*
@@ -8,174 +8,188 @@
 ## The mechanism
 
 Four frameworks describe one machine. Minsky: stability breeds fragility as
-borrowers drift from hedge finance (cash flow covers debt service) to
-speculative (covers interest only) to Ponzi (needs new money to pay
+borrowers drift from hedge finance (cash flow covers interest and principal)
+to speculative (principal needs refinancing) to Ponzi (new money pays
 interest). Kindleberger: displacement, boom, euphoria, profit-taking, panic,
 with credit as the fuel. Perez: technological revolutions have an
-installation phase that can end in a frenzy and crash, after which the
-infrastructure is cheap enough for a deployment phase; the fetched Perez
-material places AI inside the ICT cycle rather than diagnosing a current
-frenzy. Dalio: a bubble is a price level that discounts unsustainable
-conditions, and it is pricked by rising rates and a flood of new issuance.
+installation phase that can end in a frenzy and crash, followed by deployment;
+her accessible account places AI inside the existing ICT revolution.
+Dalio: unsustainable conditions can be embedded in prices, with rising rates
+and new issuance as potential pins. These are lenses, not independent
+confirmations of a bubble ([mechanics](/research/theory/bubble-mechanics)).
 
-The distinction that matters: a technology can be real and the capital that
-builds it can still be lost. In the precedents where the thesis can be
-judged, it was right, and build-phase investors still took large losses
-(about a third of capital in the railway case, most of it in telecom).
-Overbuilt assets were used later by owners who bought them cheaply.
+A technology can be useful while the capital that builds it is lost.
+Railway investors lost an estimated third (single source, C) of invested capital; telecom shares
+suffered much larger drawdowns. Continued use of infrastructure does not
+establish profitable reuse, or restore its original owners' capital
+([precedents, claims 1–6](/research/theory/historical-precedents)).
 
-## The checklist, October 2026
+## The checklist, November 2026
 
-Dalio's questions, operationalised in the mechanics note with current
-readings. Scores 0 absent, 1 partial, 2 present. This is a resemblance test:
-it records whether the conditions past bubbles had are present. It is not a
-probability model and does not test whether the investment will earn its
-return.
+Dalio's questions, operationalised by this report using the
+[mechanics note](/research/theory/bubble-mechanics). Scores remain 0 absent,
+1 partial, 2 present. This is a resemblance test, not a probability model
+or a test of investment returns. Dates matter: the valuation and survey
+snapshots below predate the latest sell-off.
 
 | Indicator | Reading | Score |
 |---|---|---|
-| Prices high relative to traditional measures | Shiller CAPE 40.6 (September 2026 monthly) against a 1999 peak of 44.2 and a mean of 17.8; Fed: equity premium "well below its historical average" | 2 |
-| Prices discounting rapid future appreciation | Forward P/E of 19 looks normal only because consensus has 2026 EPS growing 33%; AI-linked guidance assumes 2027-28 deployments that require labs to raise capital at an undemonstrated scale | 2 |
-| Broad bullish sentiment | AAII bears outnumber bulls; fund managers' top tail risk is bond yields. The one soft reading | 1 |
-| Purchases financed by leverage | FINRA margin debt $1.48T in September (record $1.50T in June); hyperscalers issuing bonds and equity; ~$81B of listed neocloud debt; Oracle $125B of borrowings | 2 |
-| Forward purchases | Oracle RPO $664B, Microsoft $678B, CoreWeave $104B, Broadcom $179B (company-wide); Nvidia supply commitments $279B; ASML expects planned 2027-28 output below customer demand and reports interest in 2029-30 orders, not accepted orders | 2 |
-| New buyers entering | Record Q2 2026 IPO proceeds ($104.8B) then a weak Q3; sovereigns, private credit and insurers entering GPU finance; household equity allocation reported at a record (grade D, derivation unverified) | 1 |
-| Tightening policy | Fed hiked in September 2026, first since 2023, and its minutes say AI-related investment is "contributing to inflation pressures" alongside energy (Brent averaged $114 in September); 10-year touched 5.31% on 5 October (highest close since May 2002), then 5.09% by 16 October; CPI 3.7%. Partly a response to the boom, partly an oil confounder | 2 |
+| Prices high relative to traditional measures | September CAPE 40.6 against December 1999's 44.2 and a mean of 17.8; the Fed's spring assessment put the equity premium well below its historical average. No post-sell-off CAPE is established ([mechanics, claims 1, 18](/research/theory/bubble-mechanics)) | 2 |
+| Prices discounting rapid future appreciation | Forward P/E 19.0x on 16 October, against a ten-year mean of 19.1x, rests on consensus 2026 EPS growth of 32.8% ([mechanics, claims 2–3](/research/theory/bubble-mechanics)); Nasdaq-100 and SOX forward multiples sat below their own averages ([markets, claim 4](/research/macro/public-markets)). Dated, pre-sell-off estimates | 1 |
+| Broad bullish sentiment | Latest verified AAII survey, 14 October: bulls 38.7%, bears 41.6%; fund managers name bond yields as their top tail risk ([mechanics, claims 16–17](/research/theory/bubble-mechanics)). VIX closed near 28 on 5 November, a vendor-reported mark awaiting official confirmation; this is market stress, not a fresh sentiment survey ([markets, claim 27](/research/macro/public-markets)) | 1 |
+| Purchases financed by leverage | September margin debt $1.48T against June's $1.50T record ([mechanics, claim 4](/research/theory/bubble-mechanics)). AI-related investment-grade bond issuance was $330B in H1 2026; Morgan Stanley's differently scoped global AI-related debt series reached $466B year to date on 20 October. These are issuer totals, not AI-only use of proceeds ([debt markets, claims 1, 3](/research/macro/debt-markets)) | 2 |
+| Forward purchases | RPO: Oracle $664B ([claim 1](/research/stack/oracle)), Microsoft commercial $677B ([claim 17](/research/stack/microsoft)), CoreWeave $103.7B ([claim 8](/research/stack/coreweave)), Broadcom $179B company-wide ([claim 14](/research/stack/amd-broadcom-custom-silicon)). Nvidia supply commitments $279B ([claim 11](/research/stack/nvidia)). Anthropic's filed commitments total $895.4B, including $213.8B terminable or conditional; overlapping supplier orders cannot be added to them ([claims 12–14](/research/stack/anthropic)) | 2 |
+| New buyers entering | Q2 IPO proceeds $104.8B, concentrated in SpaceX; Q3 $32.8B, only $6.2B excluding SK Hynix ([mechanics, claim 7](/research/theory/bubble-mechanics)). Anthropic's S-1/A is filed, but price, shares and proceeds remain blank. A debut in the week of 16 November is reported, unverified. It is a pending new-issue test, not demonstrated broad participation ([Anthropic, claim 26](/research/stack/anthropic)) | 1 |
+| Tightening policy | Fed held at 3.75–4.00% on 28 October; Cook and Hammack dissented for a 25bp hike. September headline/core PCE inflation was 3.6%/3.1%. Policy is on hold with two votes for a hike and inflation above target ([rates, claims 1, 7](/research/macro/rates-sovereign-geopolitics)) | 1 |
 
-Twelve points of fourteen across seven indicators, with sentiment and
-new-buyer entry the two partial readings. The main objection to this table
-is the forward multiple: S&P technology at about 21x earnings against 70x in
-2000. The reply is Druckenmiller's "earnings bubble": GPU buyers' capex is
-suppliers' revenue, so the E can be the bubble while the P/E looks ordinary.
-Which side is right is the payback question below. This scoring is the
-report's own operationalisation; the mechanics note, after its cross-check, withdrew its
-13-row composite (which summed to 20 of 26) pending consistent rules and
-calibration, and records that the four hyperscalers spent 86% of operating
-cash flow on cash capex in Q1 2026 and 96% in Q2. In Kindleberger's sequence, soft sentiment with the financing
-indicators lit is consistent with the late-euphoria / early profit-taking
-boundary. It is also consistent with
-a rational response to a productive technology; the checklist cannot tell
-those apart, which is why the arithmetic below and the stack page matter
-more than this table.
+The score is **10/14**. Trailing valuation is extreme, but the forward multiple sits at its ten-year average, so appreciation-discounting is partial. Tightening is partial: policy is on hold with two votes for a hike and inflation above target. Sentiment and new-buyer entry are partial. This is the report's own seven-indicator heuristic, not a calibrated stage or crash probability; the mechanics note's composite is withdrawn.
+
+Issuance makes the funding shift concrete. Meta sold $14.4B of mandatory
+convertible preferred and arranged a $25B common-stock forward, with no
+initial proceeds to Meta; it expects about $24.9B on settlement
+([Meta, claims 21–22](/research/stack/meta)). Alphabet received $61.9B from
+equity in nine months, including $19.1B of mandatory preferred and $12.4B
+net from its Q3 common-stock programme
+([Alphabet, claim 8](/research/stack/alphabet)). Oracle completed $10B each
+of common equity and notes ([claims 22–23](/research/stack/oracle)).
+Equity dilutes owners but supports creditors; it is not itself leverage.
+
+Cash PP&E purchases at the four hyperscalers consumed 115.06% of Q3
+operating cash flow, leaving a $26.4B gap before lease principal or
+shareholder distributions. This is consolidated spending, not an AI-only
+debt-service test ([mechanics, claim 8](/research/theory/bubble-mechanics)).
+The valuation objection also stands: Timmer puts technology at about 21x
+earnings against 70x in 2000. Supplier earnings could nevertheless depend
+on buyers' continued investment. Neither interpretation establishes the
+buyers' returns ([markets, claim 24](/research/macro/public-markets)).
 
 ## What the precedents say
 
+The figures below come from the [historical note, claims 2–15](/research/theory/historical-precedents).
+Recoveries are nominal price recoveries, excluding dividends and inflation;
+they do not restore failed companies' equity.
+
 | Precedent | Financing | Drawdown | Recovery | Thesis right? |
 |---|---|---|---|---|
-| Railways 1845-50 | Retail equity, partly paid shares | Examples: −55% (major line), −83% (weaker line); no aggregate index | Not measured | Yes |
-| Electrification / 1929 | Margin, holding-company debt | Dow −89% over ~34 months; utilities −55% Sept-Nov 1929 | 25 years | Yes |
-| Telecom / fiber 1997-2002 | Bonds, vendor credit and guarantees, loan trusts | Nasdaq telecom ~−89% (Mar 2000 to May 2003) | Not established for the sector | Yes |
-| Dot-com 1995-2002 | IPO equity, venture | Nasdaq −78% over 31 months | 15 years | Yes |
-| Japan 1986-90 | Bank credit against land | Nikkei −82% | 34 years | No technology thesis |
-| Housing 2003-09 | Securitised mortgages | House prices −27% over 67 months; S&P 500 −57% | House prices 10.5 years | No technology thesis |
-| Crypto / SPAC 2020-22 | Tokens, retail equity | Bitcoin −77% over ~12 months | 2 years | Not demonstrated |
+| Railways | Retail equity, partly paid shares | Examples: −55% major line, −83% weaker line; no aggregate index | Not measured | Yes |
+| Electrification / 1929 | Margin, holding-company debt | Dow −89% over ~34 months; utilities −55% Sept–Nov 1929 | 25 years | Yes |
+| Telecom / fiber | Bonds, vendor credit and guarantees, loan trusts | Nasdaq telecom ~−89%, March 2000–May 2003 | Not established for the sector | Yes |
+| Dot-com | IPO equity, venture | Nasdaq −78% over 31 months | 15 years | Yes |
+| Japan | Bank credit against land | Nikkei −82% | 34 years | No technology thesis |
+| Housing | Securitised mortgages | House prices −27% over 67 months; S&P 500 −57% | House prices 10.5 years | No technology thesis |
+| Crypto / SPAC | Tokens, retail equity | Bitcoin −77% over ~12 months | 2.3 years | Not demonstrated |
 
-What the cases support, with their limits. Financing structure shapes how
-losses propagate: leverage, maturity mismatch, collateral and guarantees
-carried losses beyond equity holders in 1929, telecom, Japan and 2008, while
-the equity-funded cases did not produce fast recoveries either (15 years for
-the Nasdaq). The cases do not establish a universal recovery order, nor that
-equity-led booms cannot coincide with banking stress (the railway mania
-had concurrent financial stress). The closest analog to today's circular
-deals is telecom vendor financing: at September 2000 Lucent disclosed $5.4B
-of undrawn and $1.3B of drawn customer credit; Cisco's FY2001 allowance
-expense was $2.8B. These were observed after the March 2000 equity peak.
-Nvidia's OpenAI guarantee is a cap of $105B on conditional residual-value
-support phased from 2028, a different instrument and an order of magnitude
-larger; AMD's warrants and Amazon's $50B investment are different again.
-Broad credit spreads gave mixed timing evidence: Baa-Aaa was 1.32 points in
-September 1929 and 0.82 in October 2007, but mortgage and funding-market
-stress preceded the 2007 equity peak, so the broad spread alone (0.44 points
-in September 2026, high-yield OAS 3.2%) is not a sufficient warning either
-way. Seven selected busts give no denominator of booms that did not bust.
+Financing shapes how losses spread: leverage, collateral, maturity mismatch
+and guarantees can transmit losses beyond shareholders. Equity-led booms
+can also coincide with banking stress. These selected busts give no
+denominator of booms that avoided a crash and no universal recovery order.
 
-Which layer matches which precedent: equipment resembles the railway
-contractors (sharp, short, little balance-sheet damage); foundry the
-incumbent carriers; GPU vendors Lucent, Nortel and Cisco; hyperscalers the
-1920s utilities and established railways; neoclouds the CLECs and long-haul
-wholesalers; the labs the largest single customer in a chain, with the
-qualification that WorldCom's fraud has no analog here and that one customer
-tying several vendors' balance sheets together is new.
+Telecom offers the closest vendor-finance mechanism. Lucent disclosed
+$5.4B undrawn and $1.3B drawn customer credit in September 2000; Cisco's
+FY2001 inventory allowance expense was $2.8B. Both observations followed
+the equity peak. Nvidia's conditional $105B lease guarantee, first phased
+in FY2029, and Amazon's $50B OpenAI investment allocate losses differently
+([precedents, claims 7–8](/research/theory/historical-precedents); [Nvidia, claim 13](/research/stack/nvidia); [Amazon, claim 16](/research/stack/amazon)).
+Guarantees, loans and equity cannot be summed as incremental spending.
+
+Broad spreads give mixed warning signals: mortgage and funding-market
+stress preceded the housing-era equity peak even when broad rating spreads
+looked less alarming. Current high-yield OAS was 3.32% on 4 November;
+that observation cannot establish contagion during the next day's sell-off
+([rates, claim 29](/research/macro/rates-sovereign-geopolitics)).
+
+The useful layer comparisons remain equipment with railway contractors,
+foundries with incumbent carriers, GPU vendors with telecom suppliers,
+hyperscalers with utilities, and neoclouds with leveraged wholesalers.
+The labs concentrate customer risk across suppliers. These comparisons
+identify exposures to test, not a common fate or an analogy to WorldCom's
+fraud ([precedents](/research/theory/historical-precedents)).
 
 ## The arithmetic
 
-The four largest hyperscalers spent about $231B in 2024 and $381B in 2025 on
-each company's own definition and period (Microsoft's fiscal years end in
-June, so its figures are offset six months from the others), and 2026
-guidance sums to $720-745B on a mixed basis (Amazon raised to ~$220B;
-Microsoft's reported figure fell to ~$175B after a lease reclassification
-with plans unchanged). Oracle's FY2026 capex was $55.7B and CoreWeave guides
-$35-39B for 2026. These totals include ordinary cloud, CPUs and logistics,
-not only AI.
+The four largest hyperscalers spent about $231B in 2024 and $381B in 2025,
+on company-specific definitions and fiscal calendars. Calendar-2026
+guidance sums to $720–740B, midpoint $730B; it includes non-AI investment
+([unit economics, claims 1–2](/research/theory/ai-unit-economics)). Microsoft
+now guides to about $170B because third-party deliveries slipped;
+planned spending accelerates in the second half of FY2027
+([Microsoft, claim 6](/research/stack/microsoft)).
 
-The unit-economics note's model is a scenario, not a measurement: an assumed
-$750B cohort, two-thirds short-lived compute at life L and one-third
-buildings and power at a 15-year life, must repay itself pre-tax at a chosen
-return out of owner-level EBITDA. At a six-year GPU life, 50% margin and 10%
-cost of capital the cohort needs about $295B of incremental annual revenue;
-at a three-year life, $468B.
+The [unit-economics model, claim 3](/research/theory/ai-unit-economics) is
+an illustrative fresh cohort, not measured returns: $750B, two-thirds
+short-lived compute and one-third buildings and power with a 15-year life.
+At a 10% discount rate and 50% owner EBITDA margin, pre-tax annual capital
+recovery requires:
 
-| GPU life | Required annual revenue, $750B cohort (10%, 50% margin) |
+| GPU life | Required annual owner revenue, $750B cohort |
 |---|---|
 | 3 years | $468B |
 | 4 years | $381B |
 | 5 years | $330B |
 | 6 years | $295B |
 
-Against that, the demand-side note's deduplicated estimate of end-user AI
-product revenue is about $55B for 2025 and $170B for 2026 (range
-$130-210B; an independent rebuild by payer gave $165B), with scenarios of
-$210B, $480B and $800B for 2028. About half of the 2026 figure is the two
-labs' reported revenue (C); the allocated remainder is D. It is a working
-model, not a measured denominator, and the year exits at a run-rate near
-$250B, so the bear path for 2027 is a contraction, not slow growth. Three outside estimates bracket the question: Gartner's
-cumulative view (≥$8.5T of revenue needed through 2030 against ≤$3.6T
-attributable to owners), IoT Analytics' modelled returns (above a 15%
-hurdle now, below it in 2028, negative by 2031, an absorbable write-down),
-and SemiAnalysis' operator path ($600-700B of combined OpenAI and Anthropic
-revenue by December 2027, $50M of revenue per megawatt against $10-15M of
-cost). They disagree by an order of magnitude because they measure different
-things: cumulative versus annual, fleet versus inference megawatts, owner
-capture versus end-user spend. The comparison is also not like for like: capex includes non-AI
-assets, 2026 spending earns over later years, advertising gains and internal
-savings pay for compute without a labelled AI dollar, and infrastructure
-owners keep less than 100% of end-user spend wherever a lab sits between
-them. What survives these caveats: the inputs that decide the answer are
-cohort-level and undisclosed: GPU economic life (worth 1.6x on required
-revenue), the owner's margin on AI revenue (1.7x between 50% and 30%),
-utilisation, commissioning timing, residual values and the share of customer
-spending that reaches the infrastructure owner. Market evidence on GPU life
-cuts both ways: A100s from 2020 still rent (a listing median of $1.84/hr
-mixing 40GB and 80GB variants; the OCPI transaction index is $0.94) and
-one-year H100 contract rates rose through early 2026 while the composite
-spot stayed flat near $2.80, and on one published benchmark (MiniMax M2.7
-at 91 tokens per second per user, using hyperscaler ownership cost rather
-than rents) a GB200 serves tokens at $0.19 per million against $0.42 on an
-H100; at rental rates the gap narrows or reverses depending on which
-rates are used ($0.99 vs $1.07 on OCPI and CoreWeave list, $2.22 vs $1.07 on
-CoreWeave list for both). Lab margins are one leaked
-figure (OpenAI 33% adjusted gross, 2025, unverified) and one unaudited
-"adjusted profit" (Anthropic, Q3 2026).
+[Claim 31](/research/theory/ai-unit-economics) scales the six-year case to
+an assumed 60–100% AI share of Goldman's $3.4T capex forecast for 2026–28.
+Those $2.0–3.4T cohorts need $0.8–1.3T annual owner revenue once operating.
+At an assumed 50% owner capture, that means $1.6–2.7T in annual end-user
+spending. From $160B in 2026, reaching $1.6T by 2030 requires about **78% a
+year**; reaching $2.7T by 2029 requires about **157%**. A three-year equipment
+life raises the requirements by about 59%. Arithmetic is grade B; inputs
+and sector application are D.
+
+The [demand-side model, claims 1, 3, 30–32](/research/macro/demand-side)
+estimates $55B of end-user AI revenue in 2025 and $160B in 2026, with a
+$125–200B judgment range. Filed Anthropic revenue supports $33.2B, or 21%,
+of the headline; the remainder relies on reported figures and assumptions.
+Its 2028 scenarios are $210B, $480B and $800B. The base path grows 87.5%
+in 2027 and 60% in 2028; the assumed 2026 exit pace is about $250B.
+These are conditional paths, not measured demand or probabilities.
+
+Outside estimates address different questions. Gartner requires $8.5T
+cumulative owner revenue through 2030 against at most $3.6T attributable
+to owners. IoT Analytics models returns above a 15% hurdle now, below it
+from 2028 and negative by 2031. SemiAnalysis projects $600–700B combined
+lab revenue by December 2027. Cumulative owner receipts, infrastructure
+returns and annual lab sales are not interchangeable
+([unit economics, claims 10–14](/research/theory/ai-unit-economics)).
+
+The hurdle omits replacement capex, commissioning delays, taxes, working
+capital and residual values. Advertising gains and internal savings can
+pay for compute without labelled AI-product revenue. Owner capture,
+utilisation, margin and economic life remain unmeasured. Anthropic now
+provides filed Q3 revenue of $17.0B, a GAAP operating loss of $567M and
+adjusted operating income of $2.5B; its interim accounts are unaudited
+([claims 1, 7](/research/stack/anthropic)). These improve visibility without
+establishing cohort payback.
 
 ## Where we are
 
-By the historical checklist the boom is in the financing-escalation stage:
-capex has moved from cash flow to bonds, equity, SPVs and vendor credit. The
-repricing of the weakest credits began in September (Oracle-tenanted Project
-Jupiter loans were reported stressed on 18-19 September) and widened in the
-week of 10-17 October (CoreWeave CDS above 1,000bp, project bonds reported from below 88 to about
-94 cents, quote versions unresolved). The indicator-reversal stage (IPO window closing, vendor guidance
-cuts, forward purchases renegotiated, sector index diverging from
-incumbents) has begun in two places: policy (the Fed's September hike, whose
-minutes link it partly to AI investment and partly to energy), and the
-sector split in which neocloud equity and single-tenant project bonds fell
-far more than the hyperscalers while hyperscaler bond spreads widened
-earlier in 2026. Rates and oil set the backdrop (the 10-year reached 5.31% on 5 October, its
-highest close since May 2002; Brent averaged $114 in September), but during
-the week of 9-16 October itself the 10-year fell 15bp, real yields fell and physical Brent fell, while the AI basket dropped 12.7%,
-high-yield spreads widened and the financing-sensitive names (Oracle,
-CoreWeave, Vertiv) fell 16.5% against 10.5% for the chip names. That week's
-repricing was AI-specific and ran through the credit channel. Whether a Blackwell-era
-supply glut arrives in 2027 is a scenario, not an observation; the H100
-monthly averages are flat, newer chips firmer, A100s softer, with a sharp
-two-day H100 drop on 14-16 October inside a flat month.
+Financing dependence is visible, and funding has become dearer without freezing. Corporate issues have completed, but Oracle's notes priced 240–335bp over Treasuries, between the BB (206bp) and single-B (363bp) index spreads despite a BBB− rating; durations and spread conventions differ ([Oracle, claim 24](/research/stack/oracle)). OpenAI's reported round target fell to about $20B with a smaller first close (reported, unverified; [OpenAI, claim 15](/research/stack/openai)); supplier guarantees and facilities link asset
+recoveries to customer payments. Broadcom's backstop is contingent and
+Amazon's facility is borrowing capacity, not cash already drawn. The
+Anthropic IPO is filed and unpriced; a weak market does not establish
+its postponement ([mechanics, claims 20, 30](/research/theory/bubble-mechanics);
+[Anthropic, claim 26](/research/stack/anthropic)).
+
+On 5 November the Nasdaq-100 fell 6.4%, this report's AI basket 12%, and
+VIX closed near 28 (vendor-reported, C). Chips fell 13.0%, against 10.3%
+for the financing-sensitive basket: the repricing extends across suppliers
+([markets, claims 17, 20, 27](/research/macro/public-markets)). Reporting
+attributes the trigger chiefly to election-driven deployment uncertainty, with crowded-position unwinding a second reported explanation:
+incoming governors in Texas, Ohio and Georgia favour restrictions, and
+40 of 41 local contests went against development. The tally mixes advisory
+and binding votes; proposed statewide moratoria are not enacted bans
+([rates, claims 10, 31](/research/macro/rates-sovereign-geopolitics);
+[markets, claim 28](/research/macro/public-markets)).
+
+Treasury yields fell during the rout. CoreWeave's CDS reached about
+1,165bp and its 2032 notes traded as low as 74.75 cents, reported intraday
+marks, grade C; no qualifying credit event is established
+([markets, claims 13–16](/research/macro/public-markets)). This is equity
+repricing with acute issuer stress, not demonstrated systemwide credit
+contraction. Nor is a GPU glut established: archived October H100 and B200
+rental means rose 3.8% and 17.3%, with revision and freshness limitations
+([GPU pricing, claims 6–8](/research/macro/gpu-pricing-and-utilization)).
+The decisive tests are funding receipts, binding contract amendments,
+actual commissioning and cash returns. The checklist cannot yet distinguish
+an orderly slowdown from a financing-driven unwind.
