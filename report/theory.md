@@ -1,6 +1,6 @@
 # How bubbles work, and where this one is
 
-*Version 0.10, 2026-11-05 · Synthesis of
+*Version 0.10.1, 2026-11-06 · Synthesis of
 [bubble-mechanics](/research/theory/bubble-mechanics),
 [historical-precedents](/research/theory/historical-precedents) and
 [ai-unit-economics](/research/theory/ai-unit-economics).*
@@ -44,14 +44,15 @@ snapshots below predate the latest sell-off.
 
 The score is **10/14**. Trailing valuation is extreme, but the forward multiple sits at its ten-year average, so appreciation-discounting is partial. Tightening is partial: policy is on hold with two votes for a hike and inflation above target. Sentiment and new-buyer entry are partial. This is the report's own seven-indicator heuristic, not a calibrated stage or crash probability; the mechanics note's composite is withdrawn.
 
-Issuance makes the funding shift concrete. Meta sold $14.4B of mandatory
-convertible preferred and arranged a $25B common-stock forward, with no
-initial proceeds to Meta; it expects about $24.9B on settlement
+Issuance makes the funding shift concrete. Meta sold $14.4B gross of mandatory
+convertible preferred, yielding about $14.32B net, and arranged a $25B
+common-stock forward with no initial issuer proceeds from that forward;
+it expects about $24.9B on settlement
 ([Meta, claims 21–22](/research/stack/meta)). Alphabet received $61.9B from
 equity in nine months, including $19.1B of mandatory preferred and $12.4B
 net from its Q3 common-stock programme
 ([Alphabet, claim 8](/research/stack/alphabet)). Oracle completed $10B each
-of common equity and notes ([claims 22–23](/research/stack/oracle)).
+of gross common equity and note principal ([claims 22–23](/research/stack/oracle)).
 Equity dilutes owners but supports creditors; it is not itself leverage.
 
 Cash PP&E purchases at the four hyperscalers consumed 115.06% of Q3
@@ -132,26 +133,34 @@ recovery requires:
 an assumed 60–100% AI share of Goldman's $3.4T capex forecast for 2026–28.
 Those $2.0–3.4T cohorts need $0.8–1.3T annual owner revenue once operating.
 At an assumed 50% owner capture, that means $1.6–2.7T in annual end-user
-spending. From $160B in 2026, reaching $1.6T by 2030 requires about **78% a
-year**; reaching $2.7T by 2029 requires about **157%**. A three-year equipment
+spending. From an illustrative $160B in 2026, reaching $1.6T by 2030
+requires about **78% a year**; reaching $2.7T by 2029 requires about **157%**. A three-year equipment
 life raises the requirements by about 59%. Arithmetic is grade B; inputs
 and sector application are D.
 
-The [demand-side model, claims 1, 3, 30–32](/research/macro/demand-side)
-estimates $55B of end-user AI revenue in 2025 and $160B in 2026, with a
-$125–200B judgment range. Filed Anthropic revenue supports $33.2B, or 21%,
-of the headline; the remainder relies on reported figures and assumptions.
-Its 2028 scenarios are $210B, $480B and $800B. The base path grows 87.5%
-in 2027 and 60% in 2028; the assumed 2026 exit pace is about $250B.
-These are conditional paths, not measured demand or probabilities.
+The [demand-side model, claims 1–3, 9, 30–32](/research/macro/demand-side)
+gives an illustrative $160B of 2026 end-user AI revenue, with a $125–200B judgment
+range, conditional on its overlap assumptions. Its $5B marketplace-fee
+deduction assumes those fees are included in the cloud allocations;
+deduplication is unverified. If cloud allocations include all Anthropic
+marketplace sales gross and the 44% channel share persists through Q4,
+the central total is about $141B, a conditional accounting stress. The $160B
+estimate is 2.91× an assumed $55B 2025 base whose balancing remainder is
+not independently measured. Filed Anthropic revenue supplies $33.2B, or
+21%, of the headline's inputs; the rest relies on reports and assumptions.
+Chosen 2028 scenarios are $210B, $480B and $800B. Base annual growth is
+87.5% in 2027 and 60% in 2028. The separate conditional December 2026 exit
+pace is about $250B: a $70B OpenAI reported target, $85B Anthropic assumption
+and $95B assumed net remainder without a component bridge. These are
+conditional paths, not measured demand or probabilities.
 
-Outside estimates address different questions. Gartner requires $8.5T
-cumulative owner revenue through 2030 against at most $3.6T attributable
-to owners. IoT Analytics models returns above a 15% hurdle now, below it
+Outside estimates address different questions. Gartner's scenario requires
+$8.5T cumulative owner revenue through 2030 against at most $3.6T
+attributable to AI data centres. IoT Analytics models returns above a 15% hurdle now, below it
 from 2028 and negative by 2031. SemiAnalysis projects $600–700B combined
-lab revenue by December 2027. Cumulative owner receipts, infrastructure
-returns and annual lab sales are not interchangeable
-([unit economics, claims 10–14](/research/theory/ai-unit-economics)).
+lab annualised revenue by December 2027. Cumulative owner receipts,
+infrastructure returns and exit run-rates are not interchangeable
+([demand-side, claims 35–39](/research/macro/demand-side)).
 
 The hurdle omits replacement capex, commissioning delays, taxes, working
 capital and residual values. Advertising gains and internal savings can
@@ -182,13 +191,14 @@ and binding votes; proposed statewide moratoria are not enacted bans
 ([rates, claims 10, 31](/research/macro/rates-sovereign-geopolitics);
 [markets, claim 28](/research/macro/public-markets)).
 
-Treasury yields fell during the rout. CoreWeave's CDS reached about
-1,165bp and its 2032 notes traded as low as 74.75 cents, reported intraday
-marks, grade C; no qualifying credit event is established
-([markets, claims 13–16](/research/macro/public-markets)). This is equity
-repricing with acute issuer stress, not demonstrated systemwide credit
-contraction. Nor is a GPU glut established: archived October H100 and B200
-rental means rose 3.8% and 17.3%, with revision and freshness limitations
+Treasury yields fell during the rout. Credit took part: CoreWeave's CDS
+was reported as high as 1,268bp and its 2032 notes as low as 74.75 cents;
+broad corporate risk gauges reportedly had their worst day in nearly
+eight months (grade C). Index spread prints for 5 November are not yet
+published, and no qualifying credit event is established
+([register](/forecasts/register)). A GPU glut is also unestablished:
+archived October H100 and B200 rental means rose 3.8% and 17.3%, with
+revision and freshness limitations
 ([GPU pricing, claims 6–8](/research/macro/gpu-pricing-and-utilization)).
 The decisive tests are funding receipts, binding contract amendments,
 actual commissioning and cash returns. The checklist cannot yet distinguish

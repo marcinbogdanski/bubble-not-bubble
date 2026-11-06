@@ -1,6 +1,6 @@
 # Forecast register
 
-*Vintage 0.10, 2026-11-05. Horizons: 6 months (2027-04-17), 12 months
+*Vintage 0.10.1, 2026-11-06. Horizons: 6 months (2027-04-17), 12 months
 (2027-10-17), 24 months (2028-10-17). Rules in
 [Methodology](/report/methodology). Probabilities are the lead agent's
 estimates after the research notes and a red-team review of vintage
@@ -99,22 +99,25 @@ at any named constituent or on project debt tied to the layer. Already
 observed 2026-peak drawdowns are listed for context and do not count.
 Caution: "any one constituent" rows in layers with several volatile names
 are largely volatility measures: at the origin a no-view bootstrap (realised
-volatility, no trend; [public-markets](/research/macro/public-markets))
-now gives CRWV alone 79/86/90, MU alone 61/72/81 and any of the three
-accelerator names 58/74/85. Several names sit within 3-22% of their
-triggers, so the equity rows mostly measure distance to trigger. The
-equipment, hyperscaler and neocloud rows are judgements: their full
-constituent sets are not in the simulation.
+volatility; `process/baseline.py`, method in
+[public-markets](/research/macro/public-markets)),
+run for every constituent, now gives the equity side of each row. With no
+drift and with +10% a year, any-name probabilities are: equipment 70/81/89
+and 67/78/85; foundry 13/29/45 and 11/22/34; memory 63/76/86 and 60/73/81;
+accelerators 58/74/85 and 54/69/79; hyperscalers 27/53/74 and 21/42/60;
+Oracle 30/48/62 and 26/42/55; neoclouds 98/99/100 on both; power 43/63/77
+and 37/55/69. The rows sit between the two runs, so they mostly measure
+distance to trigger.
 
 | Layer | Constituents | Closest name on 11-05: fall since 10-16, further fall to trigger | 6m | 12m | 24m |
 |---|---|---|---|---|---|
-| Equipment | ASML, AMAT, LRCX, KLAC, TEL (8035.T) | LRCX −29.8%, −14.5% | 55% | 68% | 76% |
+| Equipment | ASML, AMAT, LRCX, KLAC, TEL (8035.T) | LRCX −29.8%, −14.5% | 68% | 79% | 86% |
 | Foundry | TSM (Taiwan risk included) | TSM −14.4%, −29.9% | 12% | 25% | 38% |
 | Memory | MU, 000660.KS, 005930.KS | MU −25.3%, −19.7% | 60% | 71% | 79% |
 | Accelerators | NVDA, AMD, AVGO | AMD −23.5%, −21.6% | 55% | 71% | 81% |
-| Hyperscalers | MSFT, GOOGL, AMZN, META | GOOGL −17.0%, −27.7% | 13% | 24% | 35% |
+| Hyperscalers | MSFT, GOOGL, AMZN, META | GOOGL −17.0%, −27.7% | 22% | 43% | 60% |
 | Oracle | ORCL equity; Oracle corporate or Oracle-tenanted project debt | ORCL −10.2%, −33.2% | 32% | 48% | 60% |
-| Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CIFR −38.2%, −2.9% | 90% | 94% | 96% |
+| Neoclouds | CRWV, NBIS, IREN, CIFR, WULF, APLD, CORZ, HUT; their debt | CIFR −38.2%, −2.9% | 97% | 99% | 99% |
 | Frontier labs | OpenAI, Anthropic, xAI/SpaceX: a down round (F5 definition) or a reported markdown of 40%+ | n/a | 15% | 30% | 43% |
 | Neolabs and applications | SSI, Thinking Machines, Reflection, Periodic, Mistral, Perplexity, Harvey, Glean, Sierra (Cursor removed: acquired by SpaceX on 2026-08-14, before the origin): any down round, shutdown, or sale at a price below the last priced round | n/a | 15% | 35% | 55% |
 | Power and datacenter | VRT, GEV, EQIX, DLR equity; any datacenter project bond or loan of $1B+ whose tenant is an AI compute buyer (the F4 universe; this credit side overlaps the Oracle and neocloud rows, since a Jupiter-type loan or a CoreWeave landlord counts in both) | GEV −16.4%, −28.3% | 38% | 54% | 66% |
@@ -166,8 +169,8 @@ change a driver and re-judge the row.
 |---|---|---|---|
 | M1 24/37/47 | No drift 26/40/52; +10% drift 23/34/44 | Existing restrictions and new proposals against data-centre building: a Texas permit halt since September, moratorium positions of three governors-elect, 40 of 41 local contests ([power](/research/macro/power-and-datacenters)). Funding costs more: Oracle's notes carry 7.0-8.65% coupons, Meta sold preferred and forward equity ([debt-markets](/research/macro/debt-markets)). Payback needs revenue growth of 78-157% a year ([unit economics](/research/theory/ai-unit-economics)) | Demand accelerated: Azure +48%, Google Cloud +103%, AWS +39% ([Microsoft](/research/stack/microsoft), [Alphabet](/research/stack/alphabet), [Amazon](/research/stack/amazon)). Anthropic's filed Q3 revenue was $17.0B ([Anthropic](/research/stack/anthropic)). OCPI B200 rents averaged $8.50 in October against $7.25 in September ([GPU pricing](/research/macro/gpu-pricing-and-utilization)). The 10-year yield fell to 4.84% ([rates](/research/macro/rates-sovereign-geopolitics)) |
 | M1a 21/34/46 | No drift 23/38/52; +10% drift 20/32/42 | AMD and Micron are already 23-25% down; about 600,000 H200s reportedly await import approval in Hong Kong (C, [Nvidia](/research/stack/nvidia)) | SK Hynix has over half of 2027-28 capacity under long-term agreements and earned an 80% operating margin in Q3 ([memory](/research/stack/memory-hbm)); AMD guides Q4 revenue to $17B ([AMD](/research/stack/amd-broadcom-custom-silicon)) |
-| M1b 40/53/63 | No drift 40/54/64; +10% drift 37/49/58 | CoreWeave's reported CDS at 1,165bp, its 2032 notes as low as 74.75 cents, its shares at $43.66 ([CoreWeave](/research/stack/coreweave)) | Oracle raised its full $20B ([Oracle](/research/stack/oracle)); Vertiv's organic orders grew more than 100% ([power](/research/macro/power-and-datacenters)) |
-| F1 10/22/35 | At 1,165bp, flat hazard and 40% recovery: about 9/18/32% risk-neutral, which overstates real-world risk | The 2032 notes' spread touched 1,200bp; a weaker share price makes equity funding more dilutive; June's schedule put $4.4B of principal in H2 2026 and $6.2B in 2027; disclosure controls were ineffective at 30 June ([CoreWeave](/research/stack/coreweave)) | No qualifying event; the first debt-service test on DDTL 3.0 is 31 October 2027; management expects backlog to withstand policy changes; Microsoft did not say which suppliers delivered late. F1 also counts an acquisition below $40, which CDS does not |
+| M1b 40/53/63 | No drift 40/54/64; +10% drift 37/49/58 | CoreWeave's reported CDS as high as 1,268bp, its 2032 notes as low as 74.75 cents, its shares at $43.66 ([CoreWeave](/research/stack/coreweave)) | Oracle raised its full $20B ([Oracle](/research/stack/oracle)); Vertiv's organic orders grew more than 100% ([power](/research/macro/power-and-datacenters)) |
+| F1 10/22/35 | At the late 5 November snapshot of 1,268bp (C), flat hazard and 40% recovery: about 10/19/34% risk-neutral, which overstates real-world risk | The 2032 notes' spread touched 1,200bp and a bond yield above 17% was reported; a weaker share price makes equity funding more dilutive; June's schedule put $4.4B of principal in H2 2026 and $6.2B in 2027; disclosure controls were ineffective at 30 June ([CoreWeave](/research/stack/coreweave)) | No qualifying event; the first debt-service test on DDTL 3.0 is 31 October 2027; management expects backlog to withstand policy changes; Microsoft did not say which suppliers delivered late. F1 also counts an acquisition below $40, which CDS does not |
 | F2 8/24/40 | None | New notes priced 240-335bp over Treasuries, between the BB (206bp) and single-B (363bp) index spreads, though durations and conventions differ; the plan needs about $110B from vendors and customers (inferred, C); FY2026 free cash flow −$23.7B ([Oracle](/research/stack/oracle)) | $10B of new equity, which Moody's reportedly called key to keeping Baa2 (C); the note's liquidity scenario covers FY2027; all three agencies rated the new notes investment grade |
 | F3 17/37/57 | None | Funding target reportedly cut from $30B to $20B at a desired $1.25T, first close expected below $20B (C); Microsoft's receivable from OpenAI rose to $7.2B; the February plan needs more funding during 2028 ([OpenAI](/research/stack/openai)) | Amazon completed its $50B investment; net annualised revenue is reportedly about $50B (C); take-or-pay terms are hard to amend |
 | F3b 12/30/48 | None | Filed commitments of $895.4B, about 13 times annualised Q3 revenue; $69.8B expected within twelve months of 30 September; $213.8B has termination rights or commencement conditions; enforcement against policy-breaching customers can cut revenue; some rent starts before capacity is usable ([Anthropic](/research/stack/anthropic)) | $131.8B of cash and investments; nine-month operating cash flow of $6.6B, though management expects significant cash use ahead; the $63B structure finances leased equipment, not lab cash; $5.0B of extra short-term compute in Q3 shows a capacity gap then |
@@ -213,9 +216,12 @@ almost all distance: the baskets now need 27% instead of 40%.
 **Why credit did not rise as much as equity.** Reporting links the sell-off
 mainly to policy uncertainty, and Oracle, Meta, Microsoft and Alphabet
 arranged financing in the window. That shows selective access, not a
-freeze; it does not show that credit was calm on 5 November, for which no
-broad spread print exists yet. CoreWeave's marks show stress, and IREN's
-after-close results add execution and funding risk.
+freeze. Credit did take part on 5 November: CoreWeave's CDS was reported
+about 100bp wider and Bloomberg called it the worst day for broad
+corporate risk gauges in nearly eight months (C). The index spread prints
+for that day were still unpublished on 6 November, so the conditional tree
+is held, not confirmed. IREN's after-close results add execution and
+funding risk.
 
 **What would move the rows next.** CoreWeave's Q3 report on 10 November
 (principal paid from operations, any covenant amendment); Nvidia on 17
@@ -232,16 +238,9 @@ state action on data centres; the calendar-2027 capex guides.
   10/25/50, accelerators 10/25/40, hyperscalers 5/12/25, Oracle 25/40/55,
   neoclouds 35/50/65, labs 15/30/50, neolabs 25/45/65, power 15/30/45;
   headline (M1 plus two of F1-F5) 15/30/45.
-- **Vintage 0.9.1 (2026-10-25)**: M1b raised 20/35/50 to 25/40/55: the
-  sub-basket closed at 93.6 on 23 October, a 6.4% move toward the trigger
-  that re-marks the row by about 5 points (mark-to-market, no new
-  information about the names). All other rows held: Meta's negative Q3
-  free cash flow and cash-below-debt position lean the hyperscaler row up
-  by 2-3 points, below the revision threshold; Lam's results read as a
-  repricing rather than new demand information, so the equipment row holds
-  despite the 11-13% fall; CoreWeave and Oracle CDS tightened from their
-  15-19 October peaks. A combined revision follows the 28-29 October
-  results.
+- **Vintage 0.9.1 (2026-10-25)**: M1b raised 20/35/50 to 25/40/55 after the
+  sub-basket closed at 93.6 on 23 October (mark-to-market). All other rows
+  held; a combined revision was deferred to the 28-29 October results.
 - **Check 2026-10-23 closes (run 2026-10-25)**: nothing resolved. M1 97.0,
   M1a 99.1, M1b 93.6; NDX 7.3% below its 6 October peak. Meta's narrowed
   capex guide does not count under C2. Stock-dividend rule added for Meta's
@@ -347,8 +346,7 @@ state action on data centres; the calendar-2027 capex guides.
     20/37/52 to 55/71/81, hyperscalers 8/18/30 to 13/24/35, Oracle 22/38/52
     to 32/48/60, neoclouds 65/78/85 to 90/94/96 (CIFR 2.9% from its
     trigger), power 20/38/52 to 38/54/66. Frontier labs 10/25/40 to
-    15/30/43. Equipment, hyperscalers and neoclouds are provisional: their
-    constituent sets are not simulated.
+    15/30/43.
   - F1 8/20/35 to 10/22/35: reported credit marks and a weaker share price;
     kept near the CDS-implied path.
   - F3 15/32/52 to 17/37/57: smaller reported funding target, offset by
@@ -366,3 +364,13 @@ state action on data centres; the calendar-2027 capex guides.
   - D2 rule revision: this register may annualise a disclosed quarter for
     either lab. Held: D1, D2, D3, C1-C4, P1, P1b, P2, F2, M2, neolabs.
   - "Reasoning, in brief" replaced by the drivers table.
+- **Check 2026-11-06 (vintage 0.10.1)**: the simulation now covers every
+  layer constituent. Three rows were below both reference runs and are
+  reset: equipment 55/68/76 to 68/79/86, hyperscalers 13/24/35 to 22/43/60,
+  neoclouds 90/94/96 to 97/99/99. Memory and power were within five points
+  and are held. Other-vendor cross-checks of the Microsoft, Alphabet,
+  Amazon, Meta, Oracle and demand-side notes added qualifications and
+  omitted obligations (among them a $25B New Mexico penalty on Meta and
+  $27.7B of further promised Alphabet backstops); no probability moved on
+  them. The 5 November index credit spreads were still unpublished; the
+  conditional tree is held.
